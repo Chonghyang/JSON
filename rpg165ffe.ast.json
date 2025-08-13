@@ -1,0 +1,326 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DFile",
+    "name" : "perslf1",
+    "lib" : null,
+    "device" : "DISK",
+    "usage" : [ "INPUT" ],
+    "keyed" : false,
+    "recordFormat" : "e",
+    "extDesc" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 3,
+      "col" : 6
+    }
+  }, {
+    "kind" : "DFile",
+    "name" : "afdlf1",
+    "lib" : null,
+    "device" : "<MISSINGFS_DEVICE>",
+    "usage" : [ "INPUT" ],
+    "keyed" : false,
+    "recordFormat" : "e",
+    "extDesc" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 4,
+      "col" : 6
+    }
+  }, {
+    "kind" : "DFile",
+    "name" : "rpglst3",
+    "lib" : null,
+    "device" : "PRINTER",
+    "usage" : [ "OUTPUT" ],
+    "keyed" : false,
+    "recordFormat" : "e",
+    "extDesc" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 5,
+      "col" : 6
+    }
+  }, {
+    "kind" : "DRecord",
+    "name" : "i_datum",
+    "fields" : [ ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 13,
+      "col" : 6
+    }
+  }, {
+    "kind" : "DRecord",
+    "name" : "u_datum",
+    "fields" : [ ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 21,
+      "col" : 6
+    }
+  }, {
+    "kind" : "DRecord",
+    "name" : "Program_status",
+    "fields" : [ ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 29,
+      "col" : 6
+    }
+  } ],
+  "main" : {
+    "kind" : "SSeq",
+    "left" : {
+      "kind" : "SSeq",
+      "left" : {
+        "kind" : "SSeq",
+        "left" : {
+          "kind" : "SSeq",
+          "left" : {
+            "kind" : "SRead",
+            "file" : "rec_pers",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+              "line" : 43,
+              "col" : 8
+            }
+          },
+          "right" : {
+            "kind" : "SWhile",
+            "cond" : {
+              "kind" : "EBin",
+              "op" : "=",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "*in90",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                  "line" : 45,
+                  "col" : 12
+                }
+              },
+              "right" : {
+                "kind" : "EVar",
+                "name" : "*off",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                  "line" : 45,
+                  "col" : 20
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                "line" : 45,
+                "col" : 12
+              }
+            },
+            "body" : {
+              "kind" : "SSeq",
+              "left" : {
+                "kind" : "SIf",
+                "cond" : {
+                  "kind" : "EVar",
+                  "name" : "overflow",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                    "line" : 47,
+                    "col" : 13
+                  }
+                },
+                "thenBranch" : {
+                  "kind" : "SSkip",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                    "line" : 47,
+                    "col" : 10
+                  }
+                },
+                "elseBranch" : null,
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                  "line" : 47,
+                  "col" : 10
+                }
+              },
+              "right" : {
+                "kind" : "SRead",
+                "file" : "rec_pers",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                  "line" : 62,
+                  "col" : 10
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                "line" : 45,
+                "col" : 8
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+              "line" : 45,
+              "col" : 8
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+            "line" : 1,
+            "col" : 6
+          }
+        },
+        "right" : {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "codemv",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                "line" : 69,
+                "col" : 13
+              }
+            },
+            "right" : {
+              "kind" : "EConst",
+              "value" : "'2'",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+                "line" : 69,
+                "col" : 22
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+              "line" : 69,
+              "col" : 13
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SSkip",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+              "line" : 69,
+              "col" : 10
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+            "line" : 69,
+            "col" : 10
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+          "line" : 1,
+          "col" : 6
+        }
+      },
+      "right" : {
+        "kind" : "SChain",
+        "file" : "afdrec",
+        "key" : {
+          "kind" : "EVar",
+          "name" : "afdnum",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+            "line" : 77,
+            "col" : 16
+          }
+        },
+        "intoDs" : null,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+          "line" : 77,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+        "line" : 1,
+        "col" : 6
+      }
+    },
+    "right" : {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "ENot",
+        "inner" : {
+          "kind" : "EFound",
+          "file" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+            "line" : 78,
+            "col" : 17
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+          "line" : 78,
+          "col" : 13
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SSkip",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+          "line" : 78,
+          "col" : 10
+        }
+      },
+      "elseBranch" : null,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+        "line" : 78,
+        "col" : 10
+      }
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+      "line" : 1,
+      "col" : 6
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
+    "line" : 1,
+    "col" : 6
+  }
+}
