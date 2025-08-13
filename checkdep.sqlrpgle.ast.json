@@ -1,0 +1,19 @@
+{
+  "kind" : "Program",
+  "decls" : [ ],
+  "main" : {
+    "kind" : "SSkip",
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_library\\qrpglesrc\\checkdep.sqlrpgle",
+      "line" : 1,
+      "col" : 1
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_library\\qrpglesrc\\checkdep.sqlrpgle",
+    "line" : 1,
+    "col" : 1
+  }
+}
