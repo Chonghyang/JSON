@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "perslf1",
-    "lib" : nul,
+    "lib" : "null",
     "device" : "DISK",
     "usage" : [ "INPUT" ],
     "keyed" : false,
     "recordFormat" : "e",
-    "extDesc" : nul,
+    "extDesc" : "null",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -18,12 +18,12 @@
   }, {
     "kind" : "DFile",
     "name" : "afdlf1",
-    "lib" : nul,
+    "lib" : "null",
     "device" : "<MISSINGFS_DEVICE>",
     "usage" : [ "INPUT" ],
     "keyed" : false,
     "recordFormat" : "e",
-    "extDesc" : nul,
+    "extDesc" : "null",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -33,12 +33,12 @@
   }, {
     "kind" : "DFile",
     "name" : "rpglst3",
-    "lib" : nul,
+    "lib" : "null",
     "device" : "PRINTER",
     "usage" : [ "OUTPUT" ],
     "keyed" : false,
     "recordFormat" : "e",
-    "extDesc" : nul,
+    "extDesc" : "null",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -149,7 +149,7 @@
                     "col" : 10
                   }
                 },
-                "elseBranch" : nul,
+                "elseBranch" : "null",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -229,7 +229,7 @@
               "col" : 10
             }
           },
-          "elseBranch" : nul,
+          "elseBranch" : "null",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -257,7 +257,7 @@
             "col" : 16
           }
         },
-        "intoDs" : nul,
+        "intoDs" : "null",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -278,7 +278,7 @@
         "kind" : "ENot",
         "inner" : {
           "kind" : "EFound",
-          "file" : nul,
+          "file" : "null",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -302,7 +302,7 @@
           "col" : 10
         }
       },
-      "elseBranch" : nul,
+      "elseBranch" : "null",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg165ffe.rpgle",
@@ -325,3 +325,4 @@
   }
 
 }
+
