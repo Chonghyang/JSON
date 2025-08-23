@@ -1,0 +1,258 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DDataStructure",
+    "name" : "Main",
+    "fields" : [ {
+      "name" : "CurrScrn",
+      "type" : {
+        "kind" : "TTypeName",
+        "name" : "char(6)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 6,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 6,
+        "col" : 10
+      }
+    }, {
+      "name" : "Dep",
+      "type" : {
+        "kind" : "TTypeName",
+        "name" : "varchar(20)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 7,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 7,
+        "col" : 10
+      }
+    }, {
+      "name" : "Scheme",
+      "type" : {
+        "kind" : "TTypeName",
+        "name" : "varchar(15)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 8,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 8,
+        "col" : 10
+      }
+    }, {
+      "name" : "SelDate",
+      "type" : {
+        "kind" : "TTypeName",
+        "name" : "date(*iso)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 9,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 9,
+        "col" : 10
+      }
+    }, {
+      "name" : "PrsNum",
+      "type" : {
+        "kind" : "TTypeName",
+        "name" : "packed(6)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 10,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 10,
+        "col" : 10
+      }
+    }, {
+      "name" : "PatNum",
+      "type" : {
+        "kind" : "TTypeName",
+        "name" : "packed(6)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 11,
+          "col" : 10
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 11,
+        "col" : 10
+      }
+    } ],
+    "qualified" : true,
+    "template" : false,
+    "like" : null,
+    "based" : null,
+    "dim" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+      "line" : 5,
+      "col" : 8
+    }
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SCallProc",
+      "name" : "dftactgrp",
+      "args" : [ {
+        "kind" : "EVar",
+        "name" : "*no",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 3,
+          "col" : 26
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 3,
+        "col" : 16
+      }
+    }, {
+      "kind" : "SCallProc",
+      "name" : "",
+      "args" : [ {
+        "kind" : "EVar",
+        "name" : "*new",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 3,
+          "col" : 38
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 3,
+        "col" : 31
+      }
+    }, {
+      "kind" : "SCallProc",
+      "name" : "bnddir",
+      "args" : [ {
+        "kind" : "EConst",
+        "value" : "'WORKSTN'",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 3,
+          "col" : 51
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 3,
+        "col" : 44
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "Main",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 21,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "ERaw",
+        "text" : "DspPrsPlng(Main)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 21,
+          "col" : 15
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 21,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*inlr",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 23,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "line" : 23,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "line" : 23,
+        "col" : 8
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+      "line" : 1,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DFile",
+    "name" : "datwdw",
+    "lib" : null,
+    "device" : "WORKSTN",
+    "usage" : [ ],
+    "keyed" : false,
+    "recordFormat" : null,
+    "extDesc" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+      "line" : 5,
+      "col" : 8
+    }
+  }, {
+    "kind" : "DProc",
+    "name" : "DateWdw",
+    "extProc" : null,
+    "exported" : true,
+    "params" : [ {
+      "name" : "InputValue",
+      "typeText" : "DATE(*iso)",
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+        "line" : 9,
+        "col" : 12
+      }
+    } ],
+    "returns" : "date(*iso)",
+    "body" : {
+      "kind" : "SBlock",
+      "stmts" : [ {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "DADATUM",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+            "line" : 14,
+            "col" : 10
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "InputValue",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+            "line" : 14,
+            "col" : 20
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 14,
+          "col" : 10
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "returnvalue",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+            "line" : 18,
+            "col" : 10
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "DADATUM",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+            "line" : 18,
+            "col" : 24
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 18,
+          "col" : 10
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "*inlr",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+            "line" : 20,
+            "col" : 10
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "*on",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+            "line" : 20,
+            "col" : 16
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 20,
+          "col" : 10
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+        "line" : 22,
+        "col" : 8
+      }
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+      "line" : 7,
+      "col" : 8
+    }
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "DADATUM",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 14,
+          "col" : 10
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "InputValue",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 14,
+          "col" : 20
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+        "line" : 14,
+        "col" : 10
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "returnvalue",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 18,
+          "col" : 10
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "DADATUM",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 18,
+          "col" : 24
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+        "line" : 18,
+        "col" : 10
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*inlr",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 20,
+          "col" : 10
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+          "line" : 20,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+        "line" : 20,
+        "col" : 10
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+      "line" : 22,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}

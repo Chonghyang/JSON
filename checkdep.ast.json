@@ -1,0 +1,618 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DProc",
+    "name" : "CheckDep",
+    "extProc" : null,
+    "exported" : true,
+    "params" : [ {
+      "name" : "InputValue",
+      "typeText" : "char(20)",
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 11,
+        "col" : 12
+      }
+    } ],
+    "returns" : "char(20)",
+    "body" : {
+      "kind" : "SBlock",
+      "stmts" : [ {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "N",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 15,
+            "col" : 12
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "ERaw",
+          "text" : "%dec(InputValue:2:0)",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 15,
+            "col" : 16
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 15,
+          "col" : 12
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "Number",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 16,
+            "col" : 12
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "*on",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 16,
+            "col" : 21
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 16,
+          "col" : 12
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "S",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 18,
+            "col" : 12
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "InputValue",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 18,
+            "col" : 16
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 18,
+          "col" : 12
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "Number",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 19,
+            "col" : 12
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "*off",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 19,
+            "col" : 21
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 19,
+          "col" : 12
+        }
+      }, {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EVar",
+          "name" : "Number",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 22,
+            "col" : 13
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SSkip",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 22,
+            "col" : 10
+          }
+        },
+        "elseBranch" : null,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 22,
+          "col" : 10
+        }
+      }, {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "<>",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "SQLSTATE",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 34,
+              "col" : 15
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : "'00000'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 34,
+              "col" : 25
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 34,
+            "col" : 15
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "returnval",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 35,
+              "col" : 14
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "''",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 35,
+              "col" : 26
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 35,
+            "col" : 14
+          }
+        },
+        "elseBranch" : null,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 34,
+          "col" : 12
+        }
+      }, {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "<>",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "SQLSTATE",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 40,
+              "col" : 15
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : "'00000'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 40,
+              "col" : 25
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 40,
+            "col" : 15
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "returnval",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 41,
+              "col" : 14
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "''",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+              "line" : 41,
+              "col" : 26
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 41,
+            "col" : 14
+          }
+        },
+        "elseBranch" : null,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 40,
+          "col" : 12
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 44,
+        "col" : 8
+      }
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+      "line" : 9,
+      "col" : 8
+    }
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "N",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 15,
+          "col" : 12
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "ERaw",
+        "text" : "%dec(InputValue:2:0)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 15,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 15,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "Number",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 16,
+          "col" : 12
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 16,
+          "col" : 21
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 16,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "S",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 18,
+          "col" : 12
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "InputValue",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 18,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 18,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "Number",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 19,
+          "col" : 12
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*off",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 19,
+          "col" : 21
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 19,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "EVar",
+        "name" : "Number",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 22,
+          "col" : 13
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SSkip",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 22,
+          "col" : 10
+        }
+      },
+      "elseBranch" : null,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 22,
+        "col" : 10
+      }
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "<>",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "SQLSTATE",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 34,
+            "col" : 15
+          }
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : "'00000'",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 34,
+            "col" : 25
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 34,
+          "col" : 15
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "returnval",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 35,
+            "col" : 14
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EConst",
+          "value" : "''",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 35,
+            "col" : 26
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 35,
+          "col" : 14
+        }
+      },
+      "elseBranch" : null,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 34,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "<>",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "SQLSTATE",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 40,
+            "col" : 15
+          }
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : "'00000'",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 40,
+            "col" : 25
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 40,
+          "col" : 15
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "returnval",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 41,
+            "col" : 14
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EConst",
+          "value" : "''",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+            "line" : 41,
+            "col" : 26
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+          "line" : 41,
+          "col" : 14
+        }
+      },
+      "elseBranch" : null,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+        "line" : 40,
+        "col" : 12
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+      "line" : 44,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkdep.sqlrpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DFile",
+    "name" : "schemawdw",
+    "lib" : null,
+    "device" : "WORKSTN",
+    "usage" : [ ],
+    "keyed" : false,
+    "recordFormat" : null,
+    "extDesc" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+      "line" : 4,
+      "col" : 8
+    }
+  }, {
+    "kind" : "DProc",
+    "name" : "SchmaWdw",
+    "extProc" : null,
+    "exported" : true,
+    "params" : [ ],
+    "returns" : "char(15)",
+    "body" : {
+      "kind" : "SBlock",
+      "stmts" : [ {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "*inlr",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 22,
+            "col" : 12
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "*on",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 22,
+            "col" : 18
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 22,
+          "col" : 12
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "*in40",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 29,
+            "col" : 16
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "*off",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 29,
+            "col" : 24
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 29,
+          "col" : 16
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "*in40",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 31,
+            "col" : 16
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "*on",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 31,
+            "col" : 22
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 31,
+          "col" : 16
+        }
+      }, {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "RRN#",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 32,
+            "col" : 16
+          }
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EConst",
+          "value" : 0,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 32,
+            "col" : 23
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 32,
+          "col" : 16
+        }
+      }, {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "=",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "SQLSTATE",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 46,
+              "col" : 27
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : "'00000'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 46,
+              "col" : 38
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 46,
+            "col" : 27
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SWhile",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "SQLSTATE",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 42,
+                "col" : 24
+              }
+            },
+            "right" : {
+              "kind" : "EConst",
+              "value" : "'00000'",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 42,
+                "col" : 35
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 42,
+              "col" : 24
+            }
+          },
+          "body" : {
+            "kind" : "SBlock",
+            "stmts" : [ {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "RRN#",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 43,
+                  "col" : 24
+                }
+              },
+              "op" : "+=",
+              "rhs" : {
+                "kind" : "EConst",
+                "value" : 1,
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 43,
+                  "col" : 32
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 43,
+                "col" : 24
+              }
+            }, {
+              "kind" : "SIf",
+              "cond" : {
+                "kind" : "EBin",
+                "op" : "=",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "RRN#",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "line" : 48,
+                    "col" : 31
+                  }
+                },
+                "right" : {
+                  "kind" : "EConst",
+                  "value" : 1,
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "line" : 48,
+                    "col" : 38
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 48,
+                  "col" : 31
+                }
+              },
+              "thenBranch" : {
+                "kind" : "SAssign",
+                "lhs" : {
+                  "kind" : "EVar",
+                  "name" : "SASCHEMA",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "line" : 49,
+                    "col" : 28
+                  }
+                },
+                "op" : "=",
+                "rhs" : {
+                  "kind" : "EConst",
+                  "value" : "'Afdelingen N/A'",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "line" : 49,
+                    "col" : 39
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 49,
+                  "col" : 28
+                }
+              },
+              "elseBranch" : null,
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 48,
+                "col" : 24
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 42,
+              "col" : 20
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 42,
+            "col" : 20
+          }
+        },
+        "elseBranch" : {
+          "kind" : "SBlock",
+          "stmts" : [ {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "SASCHEMA",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 55,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "'Afdelingen N/A'",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 55,
+                "col" : 31
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 55,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "RRN#",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 56,
+                "col" : 20
+              }
+            },
+            "op" : "+=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : 1,
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 56,
+                "col" : 28
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 56,
+              "col" : 20
+            }
+          } ],
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 46,
+            "col" : 24
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 46,
+          "col" : 24
+        }
+      }, {
+        "kind" : "SReadC",
+        "file" : "SCHEMASFL",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 66,
+          "col" : 16
+        }
+      }, {
+        "kind" : "SWhile",
+        "cond" : {
+          "kind" : "ENot",
+          "inner" : {
+            "kind" : "EEof",
+            "file" : "schemawdw",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 67,
+              "col" : 24
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 67,
+            "col" : 20
+          }
+        },
+        "body" : {
+          "kind" : "SBlock",
+          "stmts" : [ {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "ReturnValue",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 68,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "SASCHEMA",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 68,
+                "col" : 34
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 68,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SReadC",
+            "file" : "SCHEMASFL",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 69,
+              "col" : 20
+            }
+          } ],
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 67,
+            "col" : 16
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 67,
+          "col" : 16
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 72,
+        "col" : 8
+      }
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+      "line" : 9,
+      "col" : 8
+    }
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*inlr",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 22,
+          "col" : 12
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 22,
+          "col" : 18
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 22,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in40",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 29,
+          "col" : 16
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*off",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 29,
+          "col" : 24
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 29,
+        "col" : 16
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in40",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 31,
+          "col" : 16
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 31,
+          "col" : 22
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 31,
+        "col" : 16
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "RRN#",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 32,
+          "col" : 16
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EConst",
+        "value" : 0,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 32,
+          "col" : 23
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 32,
+        "col" : 16
+      }
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "=",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "SQLSTATE",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 46,
+            "col" : 27
+          }
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : "'00000'",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 46,
+            "col" : 38
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 46,
+          "col" : 27
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SWhile",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "=",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "SQLSTATE",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 42,
+              "col" : 24
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : "'00000'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 42,
+              "col" : 35
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 42,
+            "col" : 24
+          }
+        },
+        "body" : {
+          "kind" : "SBlock",
+          "stmts" : [ {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "RRN#",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 43,
+                "col" : 24
+              }
+            },
+            "op" : "+=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : 1,
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 43,
+                "col" : 32
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 43,
+              "col" : 24
+            }
+          }, {
+            "kind" : "SIf",
+            "cond" : {
+              "kind" : "EBin",
+              "op" : "=",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "RRN#",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 48,
+                  "col" : 31
+                }
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : 1,
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 48,
+                  "col" : 38
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 48,
+                "col" : 31
+              }
+            },
+            "thenBranch" : {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "SASCHEMA",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 49,
+                  "col" : 28
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EConst",
+                "value" : "'Afdelingen N/A'",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "line" : 49,
+                  "col" : 39
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "line" : 49,
+                "col" : 28
+              }
+            },
+            "elseBranch" : null,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 48,
+              "col" : 24
+            }
+          } ],
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 42,
+            "col" : 20
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 42,
+          "col" : 20
+        }
+      },
+      "elseBranch" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "SASCHEMA",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 55,
+              "col" : 20
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "'Afdelingen N/A'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 55,
+              "col" : 31
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 55,
+            "col" : 20
+          }
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "RRN#",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 56,
+              "col" : 20
+            }
+          },
+          "op" : "+=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : 1,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 56,
+              "col" : 28
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 56,
+            "col" : 20
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 46,
+          "col" : 24
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 46,
+        "col" : 24
+      }
+    }, {
+      "kind" : "SReadC",
+      "file" : "SCHEMASFL",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 66,
+        "col" : 16
+      }
+    }, {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "ENot",
+        "inner" : {
+          "kind" : "EEof",
+          "file" : "schemawdw",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 67,
+            "col" : 24
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 67,
+          "col" : 20
+        }
+      },
+      "body" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "ReturnValue",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 68,
+              "col" : 20
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "SASCHEMA",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "line" : 68,
+              "col" : 34
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 68,
+            "col" : 20
+          }
+        }, {
+          "kind" : "SReadC",
+          "file" : "SCHEMASFL",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "line" : 69,
+            "col" : 20
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "line" : 67,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "line" : 67,
+        "col" : 16
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+      "line" : 72,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}

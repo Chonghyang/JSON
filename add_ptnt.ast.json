@@ -1,0 +1,924 @@
+{
+  "kind" : "Program",
+  "decls" : [ ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "ENot",
+        "inner" : {
+          "kind" : "EVar",
+          "name" : "exitProgram",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 9,
+            "col" : 16
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+          "line" : 9,
+          "col" : 12
+        }
+      },
+      "body" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "invalidInput",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 11,
+              "col" : 12
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "*off",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 11,
+              "col" : 27
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 11,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "recordExists",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 12,
+              "col" : 12
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "*off",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 12,
+              "col" : 27
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 12,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "*in12",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 16,
+                "col" : 15
+              }
+            },
+            "right" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 16,
+                "col" : 23
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 16,
+              "col" : 15
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "exitProgram",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 17,
+                "col" : 16
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 17,
+                "col" : 30
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 17,
+              "col" : 16
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 16,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "OR",
+            "left" : {
+              "kind" : "EBin",
+              "op" : "OR",
+              "left" : {
+                "kind" : "EBin",
+                "op" : "OR",
+                "left" : {
+                  "kind" : "EBin",
+                  "op" : "=",
+                  "left" : {
+                    "kind" : "EVar",
+                    "name" : "RNAMEIN",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                      "line" : 22,
+                      "col" : 15
+                    }
+                  },
+                  "right" : {
+                    "kind" : "EVar",
+                    "name" : "*blanks",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                      "line" : 22,
+                      "col" : 25
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 22,
+                    "col" : 15
+                  }
+                },
+                "right" : {
+                  "kind" : "EBin",
+                  "op" : "=",
+                  "left" : {
+                    "kind" : "EVar",
+                    "name" : "LNAMEIN",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                      "line" : 22,
+                      "col" : 36
+                    }
+                  },
+                  "right" : {
+                    "kind" : "EVar",
+                    "name" : "*blanks",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                      "line" : 22,
+                      "col" : 46
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 22,
+                    "col" : 36
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 22,
+                  "col" : 15
+                }
+              },
+              "right" : {
+                "kind" : "EBin",
+                "op" : "=",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "GESLACHT",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 23,
+                    "col" : 15
+                  }
+                },
+                "right" : {
+                  "kind" : "EVar",
+                  "name" : "*blanks",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 23,
+                    "col" : 26
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 23,
+                  "col" : 15
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 22,
+                "col" : 15
+              }
+            },
+            "right" : {
+              "kind" : "EBin",
+              "op" : "=",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "AFDELING",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 23,
+                  "col" : 37
+                }
+              },
+              "right" : {
+                "kind" : "EVar",
+                "name" : "*blanks",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 23,
+                  "col" : 48
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 23,
+                "col" : 37
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 22,
+              "col" : 15
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SBlock",
+            "stmts" : [ {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "MSGTEXT",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 24,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EConst",
+                "value" : "'Toevoegen mislukt. Controleer de invoer.'",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 24,
+                  "col" : 26
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 24,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in99",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 25,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 25,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 25,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "invalidInput",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 26,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 26,
+                  "col" : 31
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 26,
+                "col" : 16
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 22,
+              "col" : 12
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 22,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "ENot",
+            "inner" : {
+              "kind" : "EVar",
+              "name" : "invalidInput",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 31,
+                "col" : 19
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 31,
+              "col" : 15
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SIf",
+            "cond" : {
+              "kind" : "EBin",
+              "op" : ">",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "matches",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 38,
+                  "col" : 19
+                }
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : 0,
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 38,
+                  "col" : 29
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 38,
+                "col" : 19
+              }
+            },
+            "thenBranch" : {
+              "kind" : "SBlock",
+              "stmts" : [ {
+                "kind" : "SAssign",
+                "lhs" : {
+                  "kind" : "EVar",
+                  "name" : "MSGTEXT",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 39,
+                    "col" : 20
+                  }
+                },
+                "op" : "=",
+                "rhs" : {
+                  "kind" : "EConst",
+                  "value" : "'Persoon bestaat al in het systeem.'",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 39,
+                    "col" : 30
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 39,
+                  "col" : 20
+                }
+              }, {
+                "kind" : "SAssign",
+                "lhs" : {
+                  "kind" : "EVar",
+                  "name" : "*in99",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 40,
+                    "col" : 20
+                  }
+                },
+                "op" : "=",
+                "rhs" : {
+                  "kind" : "EVar",
+                  "name" : "*on",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 40,
+                    "col" : 28
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 40,
+                  "col" : 20
+                }
+              }, {
+                "kind" : "SAssign",
+                "lhs" : {
+                  "kind" : "EVar",
+                  "name" : "recordExists",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 41,
+                    "col" : 20
+                  }
+                },
+                "op" : "=",
+                "rhs" : {
+                  "kind" : "EVar",
+                  "name" : "*on",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 41,
+                    "col" : 35
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 41,
+                  "col" : 20
+                }
+              } ],
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 38,
+                "col" : 16
+              }
+            },
+            "elseBranch" : null,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 38,
+              "col" : 16
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 31,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "AND",
+            "left" : {
+              "kind" : "ENot",
+              "inner" : {
+                "kind" : "EVar",
+                "name" : "invalidInput",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 46,
+                  "col" : 19
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 46,
+                "col" : 15
+              }
+            },
+            "right" : {
+              "kind" : "ENot",
+              "inner" : {
+                "kind" : "EVar",
+                "name" : "recordExists",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 46,
+                  "col" : 40
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 46,
+                "col" : 36
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 46,
+              "col" : 15
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SBlock",
+            "stmts" : [ {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "MSGTEXT",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 51,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EBin",
+                "op" : "+",
+                "left" : {
+                  "kind" : "ERaw",
+                  "text" : "%TRIM(RNAMEIN)",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 51,
+                    "col" : 26
+                  }
+                },
+                "right" : {
+                  "kind" : "EConst",
+                  "value" : "' is succesvol toegevoegd.'",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                    "line" : 51,
+                    "col" : 43
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 51,
+                  "col" : 26
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 51,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in99",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 52,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*off",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 52,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 52,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in98",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 53,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 53,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 53,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "RNAMEIN",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 56,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*blanks",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 56,
+                  "col" : 26
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 56,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "LNAMEIN",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 57,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*blanks",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 57,
+                  "col" : 26
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 57,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "GESLACHT",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 58,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*blanks",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 58,
+                  "col" : 27
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 58,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "AFDELING",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 59,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*blanks",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                  "line" : 59,
+                  "col" : 27
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+                "line" : 59,
+                "col" : 16
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+              "line" : 46,
+              "col" : 12
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+            "line" : 46,
+            "col" : 12
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+          "line" : 9,
+          "col" : 8
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+        "line" : 9,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*inlr",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+          "line" : 63,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+          "line" : 63,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+        "line" : 63,
+        "col" : 8
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+      "line" : 1,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\add_ptnt.sqlrpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}

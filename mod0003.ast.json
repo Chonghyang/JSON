@@ -1,0 +1,495 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DProc",
+    "name" : "ExecSQL",
+    "extProc" : null,
+    "exported" : true,
+    "params" : [ {
+      "name" : "",
+      "typeText" : null,
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 6,
+        "col" : 12
+      }
+    }, {
+      "name" : "queryName",
+      "typeText" : null,
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 6,
+        "col" : 12
+      }
+    } ],
+    "returns" : null,
+    "body" : {
+      "kind" : "SBlock",
+      "stmts" : [ {
+        "kind" : "SCallProc",
+        "name" : "varchar(200)dim",
+        "args" : [ {
+          "kind" : "EConst",
+          "value" : 10,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 7,
+            "col" : 39
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 7,
+          "col" : 22
+        }
+      }, {
+        "kind" : "SCallProc",
+        "name" : "int(5)inz",
+        "args" : [ {
+          "kind" : "ERaw",
+          "text" : "%len(paramList)",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 8,
+            "col" : 34
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 8,
+          "col" : 23
+        }
+      }, {
+        "kind" : "SCallProc",
+        "name" : "varchar",
+        "args" : [ {
+          "kind" : "EConst",
+          "value" : 1000,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 11,
+            "col" : 29
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 11,
+          "col" : 21
+        }
+      }, {
+        "kind" : "SWhile",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "=",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "sqlcode",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 44,
+              "col" : 14
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : 0,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 44,
+              "col" : 24
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 44,
+            "col" : 14
+          }
+        },
+        "body" : {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "sqlcode",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "line" : 48,
+                "col" : 16
+              }
+            },
+            "right" : {
+              "kind" : "EConst",
+              "value" : 0,
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "line" : 48,
+                "col" : 26
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 48,
+              "col" : 16
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SCallProc",
+            "name" : "dsply",
+            "args" : [ {
+              "kind" : "EBin",
+              "op" : "+",
+              "left" : {
+                "kind" : "EBin",
+                "op" : "+",
+                "left" : {
+                  "kind" : "EBin",
+                  "op" : "+",
+                  "left" : {
+                    "kind" : "EConst",
+                    "value" : "'Row: '",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                      "line" : 49,
+                      "col" : 21
+                    }
+                  },
+                  "right" : {
+                    "kind" : "ERaw",
+                    "text" : "%trim(out1)",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                      "line" : 49,
+                      "col" : 31
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                    "line" : 49,
+                    "col" : 21
+                  }
+                },
+                "right" : {
+                  "kind" : "EConst",
+                  "value" : "' '",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                    "line" : 49,
+                    "col" : 45
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                  "line" : 49,
+                  "col" : 21
+                }
+              },
+              "right" : {
+                "kind" : "ERaw",
+                "text" : "%char(out2)",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                  "line" : 49,
+                  "col" : 51
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "line" : 49,
+                "col" : 21
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 49,
+              "col" : 14
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 48,
+            "col" : 12
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 44,
+          "col" : 10
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 57,
+        "col" : 8
+      }
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+      "line" : 4,
+      "col" : 8
+    }
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SCallProc",
+      "name" : "varchar(200)dim",
+      "args" : [ {
+        "kind" : "EConst",
+        "value" : 10,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 7,
+          "col" : 39
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 7,
+        "col" : 22
+      }
+    }, {
+      "kind" : "SCallProc",
+      "name" : "int(5)inz",
+      "args" : [ {
+        "kind" : "ERaw",
+        "text" : "%len(paramList)",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 8,
+          "col" : 34
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 8,
+        "col" : 23
+      }
+    }, {
+      "kind" : "SCallProc",
+      "name" : "varchar",
+      "args" : [ {
+        "kind" : "EConst",
+        "value" : 1000,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 11,
+          "col" : 29
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 11,
+        "col" : 21
+      }
+    }, {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "=",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "sqlcode",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 44,
+            "col" : 14
+          }
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : 0,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 44,
+            "col" : 24
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 44,
+          "col" : 14
+        }
+      },
+      "body" : {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "=",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "sqlcode",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 48,
+              "col" : 16
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : 0,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 48,
+              "col" : 26
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 48,
+            "col" : 16
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SCallProc",
+          "name" : "dsply",
+          "args" : [ {
+            "kind" : "EBin",
+            "op" : "+",
+            "left" : {
+              "kind" : "EBin",
+              "op" : "+",
+              "left" : {
+                "kind" : "EBin",
+                "op" : "+",
+                "left" : {
+                  "kind" : "EConst",
+                  "value" : "'Row: '",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                    "line" : 49,
+                    "col" : 21
+                  }
+                },
+                "right" : {
+                  "kind" : "ERaw",
+                  "text" : "%trim(out1)",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                    "line" : 49,
+                    "col" : 31
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                  "line" : 49,
+                  "col" : 21
+                }
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : "' '",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                  "line" : 49,
+                  "col" : 45
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "line" : 49,
+                "col" : 21
+              }
+            },
+            "right" : {
+              "kind" : "ERaw",
+              "text" : "%char(out2)",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "line" : 49,
+                "col" : 51
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "line" : 49,
+              "col" : 21
+            }
+          } ],
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "line" : 49,
+            "col" : 14
+          }
+        },
+        "elseBranch" : null,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "line" : 48,
+          "col" : 12
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "line" : 44,
+        "col" : 10
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+      "line" : 57,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}

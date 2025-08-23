@@ -1,0 +1,1604 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DFile",
+    "name" : "med_plnng",
+    "lib" : null,
+    "device" : "WORKSTN",
+    "usage" : [ ],
+    "keyed" : false,
+    "recordFormat" : null,
+    "extDesc" : null,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+      "line" : 4,
+      "col" : 8
+    }
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SCallProc",
+      "name" : "dftactgrp",
+      "args" : [ {
+        "kind" : "EVar",
+        "name" : "*no",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 2,
+          "col" : 26
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 2,
+        "col" : 16
+      }
+    }, {
+      "kind" : "SCallProc",
+      "name" : "",
+      "args" : [ {
+        "kind" : "EVar",
+        "name" : "*new",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 2,
+          "col" : 38
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 2,
+        "col" : 31
+      }
+    }, {
+      "kind" : "SCallProc",
+      "name" : "bnddir",
+      "args" : [ {
+        "kind" : "EConst",
+        "value" : "'WINDOWS'",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 2,
+          "col" : 51
+        }
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 2,
+        "col" : 44
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "DATUM",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 28,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "ERaw",
+        "text" : "%date()",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 28,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 28,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "ENot",
+        "inner" : {
+          "kind" : "EVar",
+          "name" : "*in03",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 35,
+            "col" : 17
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 35,
+          "col" : 13
+        }
+      },
+      "body" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EVar",
+            "name" : "*in03",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 39,
+              "col" : 15
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "*inlr",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 40,
+                "col" : 16
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 40,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 40,
+              "col" : 16
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 39,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "*in04",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 45,
+                "col" : 16
+              }
+            },
+            "right" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 45,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 45,
+              "col" : 16
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SBlock",
+            "stmts" : [ {
+              "kind" : "SSelect",
+              "whens" : [ {
+                "cond" : {
+                  "kind" : "EBin",
+                  "op" : "=",
+                  "left" : {
+                    "kind" : "EVar",
+                    "name" : "FLD",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 47,
+                      "col" : 21
+                    }
+                  },
+                  "right" : {
+                    "kind" : "EConst",
+                    "value" : "'PTN_NR'",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 47,
+                      "col" : 27
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 47,
+                    "col" : 21
+                  }
+                },
+                "body" : {
+                  "kind" : "SAssign",
+                  "lhs" : {
+                    "kind" : "EVar",
+                    "name" : "PTN_NR",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 48,
+                      "col" : 20
+                    }
+                  },
+                  "op" : "=",
+                  "rhs" : {
+                    "kind" : "ERaw",
+                    "text" : "PatWdw(PTN_NR)",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 48,
+                      "col" : 29
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 48,
+                    "col" : 20
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 47,
+                  "col" : 16
+                }
+              }, {
+                "cond" : {
+                  "kind" : "EBin",
+                  "op" : "=",
+                  "left" : {
+                    "kind" : "EVar",
+                    "name" : "FLD",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 49,
+                      "col" : 21
+                    }
+                  },
+                  "right" : {
+                    "kind" : "EConst",
+                    "value" : "'DATUM'",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 49,
+                      "col" : 27
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 49,
+                    "col" : 21
+                  }
+                },
+                "body" : {
+                  "kind" : "SAssign",
+                  "lhs" : {
+                    "kind" : "EVar",
+                    "name" : "DATUM",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 50,
+                      "col" : 20
+                    }
+                  },
+                  "op" : "=",
+                  "rhs" : {
+                    "kind" : "ERaw",
+                    "text" : "DatWdw(DATUM)",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "line" : 50,
+                      "col" : 28
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 50,
+                    "col" : 20
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 49,
+                  "col" : 16
+                }
+              } ],
+              "other" : {
+                "kind" : "SSkip",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 46,
+                  "col" : 16
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 46,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in99",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 52,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 52,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 52,
+                "col" : 16
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 45,
+              "col" : 12
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 45,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "*in07",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 55,
+                "col" : 16
+              }
+            },
+            "right" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 55,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 55,
+              "col" : 16
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SBlock",
+            "stmts" : [ {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "DATUM",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 56,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EBin",
+                "op" : "-",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "DATUM",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 56,
+                    "col" : 24
+                  }
+                },
+                "right" : {
+                  "kind" : "ERaw",
+                  "text" : "%days(1)",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 56,
+                    "col" : 32
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 56,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 56,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in45",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 57,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*off",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 57,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 57,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in99",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 58,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 58,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 58,
+                "col" : 16
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 55,
+              "col" : 12
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 55,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "*in08",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 61,
+                "col" : 16
+              }
+            },
+            "right" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 61,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 61,
+              "col" : 16
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SBlock",
+            "stmts" : [ {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "DATUM",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 62,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EBin",
+                "op" : "+",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "DATUM",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 62,
+                    "col" : 24
+                  }
+                },
+                "right" : {
+                  "kind" : "ERaw",
+                  "text" : "%days(1)",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "line" : 62,
+                    "col" : 32
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 62,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 62,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in45",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 63,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*off",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 63,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 63,
+                "col" : 16
+              }
+            }, {
+              "kind" : "SAssign",
+              "lhs" : {
+                "kind" : "EVar",
+                "name" : "*in99",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 64,
+                  "col" : 16
+                }
+              },
+              "op" : "=",
+              "rhs" : {
+                "kind" : "EVar",
+                "name" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "line" : 64,
+                  "col" : 24
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 64,
+                "col" : 16
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 61,
+              "col" : 12
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 61,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "*in12",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 67,
+                "col" : 16
+              }
+            },
+            "right" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 67,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 67,
+              "col" : 16
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "*inlr",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 68,
+                "col" : 16
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 68,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 68,
+              "col" : 16
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 67,
+            "col" : 12
+          }
+        }, {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EBin",
+            "op" : "=",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "*in99",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 72,
+                "col" : 16
+              }
+            },
+            "right" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 72,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 72,
+              "col" : 16
+            }
+          },
+          "thenBranch" : {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "*in99",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 77,
+                "col" : 16
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "*off",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 77,
+                "col" : 24
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 77,
+              "col" : 16
+            }
+          },
+          "elseBranch" : null,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 72,
+            "col" : 12
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 35,
+          "col" : 8
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 35,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*inlr",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 84,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 84,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 84,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in45",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 94,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*off",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 94,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 94,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in40",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 95,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*off",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 95,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 95,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in41",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 96,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*off",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 96,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 96,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in42",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 97,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 97,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 97,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in40",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 99,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 99,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 99,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in41",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 100,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 100,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 100,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*in42",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 101,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*off",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 101,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 101,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "RRN#",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 103,
+          "col" : 8
+        }
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EConst",
+        "value" : 0,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 103,
+          "col" : 15
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 103,
+        "col" : 8
+      }
+    }, {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "=",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "sqlcode",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 131,
+            "col" : 16
+          }
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : 0,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 131,
+            "col" : 26
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 131,
+          "col" : 16
+        }
+      },
+      "body" : {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "=",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "RRN#",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 141,
+              "col" : 23
+            }
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : 0,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 141,
+              "col" : 30
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 141,
+            "col" : 23
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SBlock",
+          "stmts" : [ {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "RRN#",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 142,
+                "col" : 20
+              }
+            },
+            "op" : "+=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : 1,
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 142,
+                "col" : 28
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 142,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_HVL",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 143,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "''",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 143,
+                "col" : 30
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 143,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_TIJD",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 144,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "''",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 144,
+                "col" : 31
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 144,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_EENH",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 145,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "''",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 145,
+                "col" : 30
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 145,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_VORM",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 146,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "''",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 146,
+                "col" : 31
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 146,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_MED1",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 147,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "'Geen medicatie'",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 147,
+                "col" : 31
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 147,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_MED2",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 148,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "''",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 148,
+                "col" : 31
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 148,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "COL_MED3",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 149,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EConst",
+              "value" : "''",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 149,
+                "col" : 31
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 149,
+              "col" : 20
+            }
+          }, {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "*in45",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 150,
+                "col" : 20
+              }
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "*on",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "line" : 150,
+                "col" : 28
+              }
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 150,
+              "col" : 20
+            }
+          } ],
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 141,
+            "col" : 16
+          }
+        },
+        "elseBranch" : null,
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 141,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 131,
+        "col" : 12
+      }
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "<>",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "sqlstate",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 164,
+            "col" : 15
+          }
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : "'00000'",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 164,
+            "col" : 27
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 164,
+          "col" : 15
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "LNAME",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 165,
+              "col" : 16
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "''",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 165,
+              "col" : 24
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 165,
+            "col" : 16
+          }
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "RNAME_KRT",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 166,
+              "col" : 16
+            }
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "''",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "line" : 166,
+              "col" : 28
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "line" : 166,
+            "col" : 16
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "line" : 164,
+          "col" : 12
+        }
+      },
+      "elseBranch" : null,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "line" : 164,
+        "col" : 12
+      }
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+      "line" : 1,
+      "col" : 8
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+    "line" : 1,
+    "col" : 8
+  }
+}
