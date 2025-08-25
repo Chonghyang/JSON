@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "med_plnng",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -129,9 +129,9 @@
     } ],
     "qualified" : false,
     "template" : true,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -144,9 +144,9 @@
     "fields" : [ ],
     "qualified" : false,
     "template" : false,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -156,11 +156,11 @@
   }, {
     "kind" : "DProc",
     "name" : "MedPlnng",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -171,7 +171,7 @@
       }
     }, {
       "name" : "Inputarray",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -181,7 +181,7 @@
         "col" : 12
       }
     } ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -336,7 +336,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -566,7 +566,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -722,7 +722,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -878,7 +878,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -947,7 +947,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -1016,7 +1016,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",
@@ -1604,7 +1604,7 @@
               "col" : 20
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng2.sqlrpgle",

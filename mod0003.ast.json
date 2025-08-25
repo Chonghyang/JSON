@@ -3,11 +3,11 @@
   "decls" : [ {
     "kind" : "DProc",
     "name" : "ExecSQL",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -18,7 +18,7 @@
       }
     }, {
       "name" : "queryName",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -28,7 +28,7 @@
         "col" : 12
       }
     } ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -232,7 +232,7 @@
               "col" : 14
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
@@ -464,7 +464,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",

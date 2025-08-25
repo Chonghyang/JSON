@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "AFD_PLNG_D",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -75,9 +75,9 @@
     } ],
     "qualified" : true,
     "template" : true,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -198,9 +198,9 @@
     } ],
     "qualified" : true,
     "template" : false,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -210,11 +210,11 @@
   }, {
     "kind" : "DProc",
     "name" : "DSP_AFD",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -225,7 +225,7 @@
       }
     }, {
       "name" : "ds",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -235,7 +235,7 @@
         "col" : 12
       }
     } ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -586,7 +586,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -684,7 +684,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -782,7 +782,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -967,7 +967,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1152,7 +1152,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1240,7 +1240,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1288,7 +1288,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1386,7 +1386,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1517,7 +1517,7 @@
                     "col" : 14
                   }
                 },
-                "elseBranch" : "<null>",
+                "elseBranch" : "placeholder",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1532,7 +1532,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1845,10 +1845,10 @@
   }, {
     "kind" : "DProc",
     "name" : "Initialize",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : false,
     "params" : [ ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -1888,10 +1888,10 @@
   }, {
     "kind" : "DProc",
     "name" : "clearSFL",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : false,
     "params" : [ ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -1998,10 +1998,10 @@
   }, {
     "kind" : "DProc",
     "name" : "exitProc",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : false,
     "params" : [ ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -2166,10 +2166,10 @@
   }, {
     "kind" : "DProc",
     "name" : "loadSFL",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : false,
     "params" : [ ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -2302,7 +2302,7 @@
             "col" : 10
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -2443,7 +2443,7 @@
               "col" : 14
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -2519,7 +2519,7 @@
             "col" : 12
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -2753,7 +2753,7 @@
             "col" : 10
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -2777,10 +2777,10 @@
   }, {
     "kind" : "DProc",
     "name" : "countTotalRecords",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : false,
     "params" : [ ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SAssign",
       "lhs" : {

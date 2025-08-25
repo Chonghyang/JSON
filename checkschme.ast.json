@@ -3,7 +3,7 @@
   "decls" : [ {
     "kind" : "DProc",
     "name" : "CheckSchme",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "InputValue",
@@ -157,7 +157,7 @@
             "col" : 10
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
@@ -226,7 +226,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
@@ -295,7 +295,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
@@ -456,7 +456,7 @@
           "col" : 10
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
@@ -525,7 +525,7 @@
           "col" : 14
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
@@ -594,7 +594,7 @@
           "col" : 14
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",

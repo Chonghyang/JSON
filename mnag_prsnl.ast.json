@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "MNG_PRSNL2",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -39,7 +39,7 @@
           "col" : 12
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -344,7 +344,7 @@
                   "col" : 28
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -403,7 +403,7 @@
           "col" : 16
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -613,7 +613,7 @@
                 "col" : 24
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -825,7 +825,7 @@
                     "col" : 20
                   }
                 },
-                "elseBranch" : "<null>",
+                "elseBranch" : "placeholder",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -885,7 +885,7 @@
                       "col" : 24
                     }
                   },
-                  "elseBranch" : "<null>",
+                  "elseBranch" : "placeholder",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -1116,7 +1116,7 @@
                     "col" : 16
                   }
                 },
-                "elseBranch" : "<null>",
+                "elseBranch" : "placeholder",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -1144,7 +1144,7 @@
                     "col" : 12
                   }
                 },
-                "elseBranch" : "<null>",
+                "elseBranch" : "placeholder",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",
@@ -1277,7 +1277,7 @@
                 "col" : 8
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mnag_prsnl.rpgle",

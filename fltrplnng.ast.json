@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "plng_hsptl",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\fltrplnng.sqlrpgle",
@@ -129,9 +129,9 @@
     } ],
     "qualified" : false,
     "template" : true,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\fltrplnng.sqlrpgle",
@@ -181,8 +181,8 @@
     "qualified" : false,
     "template" : false,
     "like" : "likeds(RtnArray_t)",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\fltrplnng.sqlrpgle",
@@ -192,11 +192,11 @@
   }, {
     "kind" : "DProc",
     "name" : "FltrPlnng",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -207,7 +207,7 @@
       }
     }, {
       "name" : "InputArray",
-      "typeText" : "<null>",
+      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -217,7 +217,7 @@
         "col" : 12
       }
     } ],
-    "returns" : "<null>",
+    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -653,7 +653,7 @@
               "col" : 14
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\fltrplnng.sqlrpgle",
@@ -1210,7 +1210,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\fltrplnng.sqlrpgle",

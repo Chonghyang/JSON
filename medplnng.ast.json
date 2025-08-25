@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "med_plnng",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -169,7 +169,7 @@
               "col" : 16
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -399,7 +399,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -555,7 +555,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -711,7 +711,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -780,7 +780,7 @@
               "col" : 16
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -849,7 +849,7 @@
               "col" : 16
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -1466,7 +1466,7 @@
             "col" : 16
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
@@ -1580,7 +1580,7 @@
           "col" : 12
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",

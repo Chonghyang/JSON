@@ -114,9 +114,9 @@
     } ],
     "qualified" : true,
     "template" : false,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\hsptl_main.sqlrpgle",
@@ -628,7 +628,7 @@
           "col" : 10
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\hsptl_main.sqlrpgle",

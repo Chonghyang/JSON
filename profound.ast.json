@@ -114,9 +114,9 @@
     } ],
     "qualified" : true,
     "template" : false,
-    "like" : "<null>",
-    "based" : "<null>",
-    "dim" : "<null>",
+    "like" : "placeholder",
+    "based" : "placeholder",
+    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",

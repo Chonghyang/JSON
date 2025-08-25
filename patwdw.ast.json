@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "patwdw",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\patwdw.sqlrpgle",
@@ -18,7 +18,7 @@
   }, {
     "kind" : "DProc",
     "name" : "PatNumWdw",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "Input",
@@ -128,7 +128,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\patwdw.sqlrpgle",
@@ -176,7 +176,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\patwdw.sqlrpgle",
@@ -577,7 +577,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\patwdw.sqlrpgle",
@@ -897,7 +897,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\patwdw.sqlrpgle",
@@ -1286,7 +1286,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\patwdw.sqlrpgle",

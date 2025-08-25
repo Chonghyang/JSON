@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "prswindow",
-    "lib" : "<null>",
+    "lib" : "placeholder",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "<null>",
-    "extDesc" : "<null>",
+    "recordFormat" : "placeholder",
+    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -18,7 +18,7 @@
   }, {
     "kind" : "DProc",
     "name" : "PrsWdw",
-    "extProc" : "<null>",
+    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "Input",
@@ -126,7 +126,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : "<null>",
+          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -549,7 +549,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -571,7 +571,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -813,7 +813,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -835,7 +835,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1146,7 +1146,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : "<null>",
+              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1168,7 +1168,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1283,7 +1283,7 @@
             "col" : 12
           }
         },
-        "elseBranch" : "<null>",
+        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1706,7 +1706,7 @@
                 "col" : 16
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1728,7 +1728,7 @@
           "col" : 14
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1970,7 +1970,7 @@
                 "col" : 16
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -1992,7 +1992,7 @@
           "col" : 14
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -2303,7 +2303,7 @@
                 "col" : 16
               }
             },
-            "elseBranch" : "<null>",
+            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
@@ -2325,7 +2325,7 @@
           "col" : 14
         }
       },
-      "elseBranch" : "<null>",
+      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prswdw.sqlrpgle",
