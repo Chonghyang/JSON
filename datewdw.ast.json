@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "datwdw",
-    "lib" : null,
+    "lib" : "<null>",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : null,
-    "extDesc" : null,
+    "recordFormat" : "<null>",
+    "extDesc" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\datewdw.rpgle",
@@ -18,7 +18,7 @@
   }, {
     "kind" : "DProc",
     "name" : "DateWdw",
-    "extProc" : null,
+    "extProc" : "<null>",
     "exported" : true,
     "params" : [ {
       "name" : "InputValue",

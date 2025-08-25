@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "schemawdw",
-    "lib" : null,
+    "lib" : "<null>",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : null,
-    "extDesc" : null,
+    "recordFormat" : "<null>",
+    "extDesc" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
@@ -18,7 +18,7 @@
   }, {
     "kind" : "DProc",
     "name" : "SchmaWdw",
-    "extProc" : null,
+    "extProc" : "<null>",
     "exported" : true,
     "params" : [ ],
     "returns" : "char(15)",
@@ -297,7 +297,7 @@
                   "col" : 28
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
@@ -767,7 +767,7 @@
                 "col" : 28
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",

@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "afdwdw",
-    "lib" : null,
+    "lib" : "<null>",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : null,
-    "extDesc" : null,
+    "recordFormat" : "<null>",
+    "extDesc" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afdwdw.sqlrpgle",
@@ -39,8 +39,8 @@
     } ],
     "qualified" : true,
     "template" : true,
-    "like" : null,
-    "based" : null,
+    "like" : "<null>",
+    "based" : "<null>",
     "dim" : 9999,
     "pos" : {
       "kind" : "SrcPos",
@@ -109,7 +109,7 @@
     "qualified" : false,
     "template" : false,
     "like" : "likeds(AfdDS)",
-    "based" : null,
+    "based" : "<null>",
     "dim" : 9999,
     "pos" : {
       "kind" : "SrcPos",
@@ -120,7 +120,7 @@
   }, {
     "kind" : "DProc",
     "name" : "AfdelingWdw",
-    "extProc" : null,
+    "extProc" : "<null>",
     "exported" : true,
     "params" : [ ],
     "returns" : "char(20)",
@@ -167,7 +167,7 @@
             "col" : 16
           }
         },
-        "elseBranch" : null,
+        "elseBranch" : "<null>",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afdwdw.sqlrpgle",
@@ -442,7 +442,7 @@
     "qualified" : false,
     "template" : false,
     "like" : "likeds(AfdDS)",
-    "based" : null,
+    "based" : "<null>",
     "dim" : 9999,
     "pos" : {
       "kind" : "SrcPos",
@@ -453,10 +453,10 @@
   }, {
     "kind" : "DProc",
     "name" : "FetchAfds",
-    "extProc" : null,
+    "extProc" : "<null>",
     "exported" : false,
     "params" : [ ],
-    "returns" : null,
+    "returns" : "<null>",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -553,7 +553,7 @@
                 "col" : 20
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afdwdw.sqlrpgle",
@@ -720,7 +720,7 @@
           "col" : 16
         }
       },
-      "elseBranch" : null,
+      "elseBranch" : "<null>",
       "pos" : {
         "kind" : "SrcPos",
         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afdwdw.sqlrpgle",

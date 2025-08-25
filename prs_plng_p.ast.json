@@ -3,12 +3,12 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "PRS_PLNG_P",
-    "lib" : null,
+    "lib" : "<null>",
     "device" : "WORKSTN",
     "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : null,
-    "extDesc" : null,
+    "recordFormat" : "<null>",
+    "extDesc" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -93,9 +93,9 @@
     } ],
     "qualified" : true,
     "template" : true,
-    "like" : null,
-    "based" : null,
-    "dim" : null,
+    "like" : "<null>",
+    "based" : "<null>",
+    "dim" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -216,9 +216,9 @@
     } ],
     "qualified" : true,
     "template" : false,
-    "like" : null,
-    "based" : null,
-    "dim" : null,
+    "like" : "<null>",
+    "based" : "<null>",
+    "dim" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -303,9 +303,9 @@
     } ],
     "qualified" : false,
     "template" : false,
-    "like" : null,
-    "based" : null,
-    "dim" : null,
+    "like" : "<null>",
+    "based" : "<null>",
+    "dim" : "<null>",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -315,11 +315,11 @@
   }, {
     "kind" : "DProc",
     "name" : "DSPPRSPLNG",
-    "extProc" : null,
+    "extProc" : "<null>",
     "exported" : false,
     "params" : [ {
       "name" : "",
-      "typeText" : null,
+      "typeText" : "<null>",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -330,7 +330,7 @@
       }
     }, {
       "name" : "ds",
-      "typeText" : null,
+      "typeText" : "<null>",
       "byRef" : true,
       "varying" : false,
       "pos" : {
@@ -340,7 +340,7 @@
         "col" : 12
       }
     } ],
-    "returns" : null,
+    "returns" : "<null>",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
@@ -729,7 +729,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -798,7 +798,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -867,7 +867,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1052,7 +1052,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1237,7 +1237,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1306,7 +1306,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1354,7 +1354,7 @@
                 "col" : 12
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1423,7 +1423,7 @@
                 "col" : 14
               }
             },
-            "elseBranch" : null,
+            "elseBranch" : "<null>",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1829,7 +1829,7 @@
             "col" : 12
           }
         },
-        "elseBranch" : null,
+        "elseBranch" : "<null>",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -1970,7 +1970,7 @@
               "col" : 16
             }
           },
-          "elseBranch" : null,
+          "elseBranch" : "<null>",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -2046,7 +2046,7 @@
             "col" : 14
           }
         },
-        "elseBranch" : null,
+        "elseBranch" : "<null>",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",
@@ -2309,7 +2309,7 @@
             "col" : 12
           }
         },
-        "elseBranch" : null,
+        "elseBranch" : "<null>",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\prs_plng_p.sqlrpgle",

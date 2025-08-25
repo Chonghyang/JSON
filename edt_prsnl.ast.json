@@ -146,7 +146,7 @@
               "col" : 16
             }
           },
-          "elseBranch" : null,
+          "elseBranch" : "<null>",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -371,7 +371,7 @@
               "col" : 16
             }
           },
-          "elseBranch" : null,
+          "elseBranch" : "<null>",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -541,7 +541,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -631,7 +631,7 @@
                     "col" : 24
                   }
                 },
-                "elseBranch" : null,
+                "elseBranch" : "<null>",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -639,7 +639,7 @@
                   "col" : 20
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -789,7 +789,7 @@
                       "col" : 24
                     }
                   },
-                  "elseBranch" : null,
+                  "elseBranch" : "<null>",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1045,7 +1045,7 @@
                       "col" : 20
                     }
                   },
-                  "elseBranch" : null,
+                  "elseBranch" : "<null>",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1277,7 +1277,7 @@
                       "col" : 24
                     }
                   },
-                  "elseBranch" : null,
+                  "elseBranch" : "<null>",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1292,7 +1292,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1307,7 +1307,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : null,
+          "elseBranch" : "<null>",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1355,7 +1355,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : null,
+          "elseBranch" : "<null>",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1525,7 +1525,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1615,7 +1615,7 @@
                     "col" : 28
                   }
                 },
-                "elseBranch" : null,
+                "elseBranch" : "<null>",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1623,7 +1623,7 @@
                   "col" : 24
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1773,7 +1773,7 @@
                       "col" : 24
                     }
                   },
-                  "elseBranch" : null,
+                  "elseBranch" : "<null>",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1788,7 +1788,7 @@
                   "col" : 16
                 }
               },
-              "elseBranch" : null,
+              "elseBranch" : "<null>",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
@@ -1803,7 +1803,7 @@
               "col" : 12
             }
           },
-          "elseBranch" : null,
+          "elseBranch" : "<null>",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\edt_prsnl.sqlrpgle",
