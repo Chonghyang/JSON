@@ -1,6 +1,6 @@
 {
   "kind" : "Program",
-  "decls" : [ ],
+  "decls" : ["empty" ],
   "main" : {
     "kind" : "SBlock",
     "stmts" : [ {

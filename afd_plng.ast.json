@@ -5,7 +5,7 @@
     "name" : "AFD_PLNG_D",
     "lib" : "placeholder",
     "device" : "WORKSTN",
-    "usage" : [ ],
+    "usage" : ["empty" ],
     "keyed" : false,
     "recordFormat" : "placeholder",
     "extDesc" : "placeholder",
@@ -415,7 +415,7 @@
       }, {
         "kind" : "SCallProc",
         "name" : "Initialize",
-        "args" : [ ],
+        "args" : ["empty" ],
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -448,7 +448,7 @@
           "stmts" : [ {
             "kind" : "SCallProc",
             "name" : "countTotalRecords",
-            "args" : [ ],
+            "args" : ["empty" ],
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -659,7 +659,7 @@
               }, {
                 "kind" : "SCallProc",
                 "name" : "clearSFL",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -669,7 +669,7 @@
               }, {
                 "kind" : "SCallProc",
                 "name" : "loadSFL",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -757,7 +757,7 @@
               }, {
                 "kind" : "SCallProc",
                 "name" : "clearSFL",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -767,7 +767,7 @@
               }, {
                 "kind" : "SCallProc",
                 "name" : "loadSFL",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1196,7 +1196,7 @@
               "stmts" : [ {
                 "kind" : "SCallProc",
                 "name" : "exitProc",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1332,7 +1332,7 @@
               "stmts" : [ {
                 "kind" : "SCallProc",
                 "name" : "clearSFL",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1342,7 +1342,7 @@
               }, {
                 "kind" : "SCallProc",
                 "name" : "loadSFL",
-                "args" : [ ],
+                "args" : ["empty" ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1502,7 +1502,7 @@
                   }, {
                     "kind" : "SCallProc",
                     "name" : "Initialize",
-                    "args" : [ ],
+                    "args" : ["empty" ],
                     "pos" : {
                       "kind" : "SrcPos",
                       "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1725,7 +1725,7 @@
                     }, {
                       "kind" : "SCallProc",
                       "name" : "exitProc",
-                      "args" : [ ],
+                      "args" : ["empty" ],
                       "pos" : {
                         "kind" : "SrcPos",
                         "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1821,7 +1821,7 @@
       }, {
         "kind" : "SCallProc",
         "name" : "exitProc",
-        "args" : [ ],
+        "args" : ["empty" ],
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1847,14 +1847,14 @@
     "name" : "Initialize",
     "extProc" : "placeholder",
     "exported" : false,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
         "kind" : "SCallProc",
         "name" : "clearSFL",
-        "args" : [ ],
+        "args" : ["empty" ],
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1864,7 +1864,7 @@
       }, {
         "kind" : "SCallProc",
         "name" : "loadSFL",
-        "args" : [ ],
+        "args" : ["empty" ],
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\afd_plng.sqlrpgle",
@@ -1890,7 +1890,7 @@
     "name" : "clearSFL",
     "extProc" : "placeholder",
     "exported" : false,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
@@ -2000,7 +2000,7 @@
     "name" : "exitProc",
     "extProc" : "placeholder",
     "exported" : false,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
@@ -2168,7 +2168,7 @@
     "name" : "loadSFL",
     "extProc" : "placeholder",
     "exported" : false,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
@@ -2779,7 +2779,7 @@
     "name" : "countTotalRecords",
     "extProc" : "placeholder",
     "exported" : false,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "placeholder",
     "body" : {
       "kind" : "SAssign",

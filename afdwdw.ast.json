@@ -5,7 +5,7 @@
     "name" : "afdwdw",
     "lib" : "placeholder",
     "device" : "WORKSTN",
-    "usage" : [ ],
+    "usage" : ["empty" ],
     "keyed" : false,
     "recordFormat" : "placeholder",
     "extDesc" : "placeholder",
@@ -122,7 +122,7 @@
     "name" : "AfdelingWdw",
     "extProc" : "placeholder",
     "exported" : true,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "char(20)",
     "body" : {
       "kind" : "SBlock",
@@ -455,7 +455,7 @@
     "name" : "FetchAfds",
     "extProc" : "placeholder",
     "exported" : false,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",

@@ -5,7 +5,7 @@
     "name" : "schemawdw",
     "lib" : "placeholder",
     "device" : "WORKSTN",
-    "usage" : [ ],
+    "usage" : ["empty" ],
     "keyed" : false,
     "recordFormat" : "placeholder",
     "extDesc" : "placeholder",
@@ -20,7 +20,7 @@
     "name" : "SchmaWdw",
     "extProc" : "placeholder",
     "exported" : true,
-    "params" : [ ],
+    "params" : ["empty" ],
     "returns" : "char(15)",
     "body" : {
       "kind" : "SBlock",

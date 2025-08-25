@@ -5,7 +5,7 @@
     "name" : "AFD_PLNNG",
     "lib" : "placeholder",
     "device" : "WORKSTN",
-    "usage" : [ ],
+    "usage" : ["empty" ],
     "keyed" : false,
     "recordFormat" : "placeholder",
     "extDesc" : "placeholder",
