@@ -3,91 +3,123 @@
   "decls" : [ {
     "kind" : "DProc",
     "name" : "ExecSQL",
-    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "",
-      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
         "line" : 6,
         "col" : 12
       }
     }, {
       "name" : "queryName",
-      "typeText" : "placeholder",
       "byRef" : true,
       "varying" : false,
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
         "line" : 6,
         "col" : 12
       }
     } ],
-    "returns" : "placeholder",
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
-        "kind" : "SCallProc",
-        "name" : "varchar(200)dim",
-        "args" : [ {
-          "kind" : "EConst",
-          "value" : 10,
+        "kind" : "SExpr",
+        "expr" : {
+          "kind" : "ECall",
+          "name" : "varchar(200)dim",
+          "args" : [ {
+            "kind" : "EConst",
+            "value" : 10,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+              "line" : 7,
+              "col" : 39
+            }
+          } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
             "line" : 7,
-            "col" : 39
-          }
-        } ],
+            "col" : 22
+          },
+          "arity" : 1,
+          "nameUpper" : "VARCHAR(200)DIM"
+        },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
           "line" : 7,
           "col" : 22
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#7:22"
       }, {
-        "kind" : "SCallProc",
-        "name" : "int(5)inz",
-        "args" : [ {
-          "kind" : "ERaw",
-          "text" : "%len(paramList)",
+        "kind" : "SExpr",
+        "expr" : {
+          "kind" : "ECall",
+          "name" : "int(5)inz",
+          "args" : [ {
+            "kind" : "ERaw",
+            "text" : "%len(paramList)",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+              "line" : 8,
+              "col" : 34
+            }
+          } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
             "line" : 8,
-            "col" : 34
-          }
-        } ],
+            "col" : 23
+          },
+          "arity" : 1,
+          "nameUpper" : "INT(5)INZ"
+        },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
           "line" : 8,
           "col" : 23
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#8:23"
       }, {
-        "kind" : "SCallProc",
-        "name" : "varchar",
-        "args" : [ {
-          "kind" : "EConst",
-          "value" : 1000,
+        "kind" : "SExpr",
+        "expr" : {
+          "kind" : "ECall",
+          "name" : "varchar",
+          "args" : [ {
+            "kind" : "EConst",
+            "value" : 1000,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+              "line" : 11,
+              "col" : 29
+            }
+          } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
             "line" : 11,
-            "col" : 29
-          }
-        } ],
+            "col" : 21
+          },
+          "arity" : 1,
+          "nameUpper" : "VARCHAR"
+        },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
           "line" : 11,
           "col" : 21
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#11:21"
       }, {
         "kind" : "SWhile",
         "cond" : {
@@ -98,24 +130,25 @@
             "name" : "sqlcode",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
               "line" : 44,
               "col" : 14
-            }
+            },
+            "nameUpper" : "SQLCODE"
           },
           "right" : {
             "kind" : "EConst",
             "value" : 0,
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
               "line" : 44,
               "col" : 24
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
             "line" : 44,
             "col" : 14
           }
@@ -130,30 +163,319 @@
               "name" : "sqlcode",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                 "line" : 48,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "SQLCODE"
             },
             "right" : {
               "kind" : "EConst",
               "value" : 0,
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                 "line" : 48,
                 "col" : 26
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
               "line" : 48,
               "col" : 16
             }
           },
           "thenBranch" : {
-            "kind" : "SCallProc",
+            "kind" : "SExpr",
+            "expr" : {
+              "kind" : "ECall",
+              "name" : "dsply",
+              "args" : [ {
+                "kind" : "EBin",
+                "op" : "+",
+                "left" : {
+                  "kind" : "EBin",
+                  "op" : "+",
+                  "left" : {
+                    "kind" : "EBin",
+                    "op" : "+",
+                    "left" : {
+                      "kind" : "EConst",
+                      "value" : "'Row: '",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                        "line" : 49,
+                        "col" : 21
+                      }
+                    },
+                    "right" : {
+                      "kind" : "ERaw",
+                      "text" : "%trim(out1)",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                        "line" : 49,
+                        "col" : 31
+                      }
+                    },
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                      "line" : 49,
+                      "col" : 21
+                    }
+                  },
+                  "right" : {
+                    "kind" : "EConst",
+                    "value" : "' '",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                      "line" : 49,
+                      "col" : 45
+                    }
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                    "line" : 49,
+                    "col" : 21
+                  }
+                },
+                "right" : {
+                  "kind" : "ERaw",
+                  "text" : "%char(out2)",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                    "line" : 49,
+                    "col" : 51
+                  }
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                  "line" : 49,
+                  "col" : 21
+                }
+              } ],
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+                "line" : 49,
+                "col" : 14
+              },
+              "arity" : 1,
+              "nameUpper" : "DSPLY"
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+              "line" : 49,
+              "col" : 14
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#49:14"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 48,
+            "col" : 12
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#48:12"
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+          "line" : 44,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#44:10"
+      } ],
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+        "line" : 57,
+        "col" : 8
+      },
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#7:22", "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#8:23", "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#11:21", "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#44:10" ],
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#57:8"
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+      "line" : 4,
+      "col" : 8
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#4:8"
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SExpr",
+      "expr" : {
+        "kind" : "ECall",
+        "name" : "varchar(200)dim",
+        "args" : [ {
+          "kind" : "EConst",
+          "value" : 10,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 7,
+            "col" : 39
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+          "line" : 7,
+          "col" : 22
+        },
+        "arity" : 1,
+        "nameUpper" : "VARCHAR(200)DIM"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+        "line" : 7,
+        "col" : 22
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#7:22"
+    }, {
+      "kind" : "SExpr",
+      "expr" : {
+        "kind" : "ECall",
+        "name" : "int(5)inz",
+        "args" : [ {
+          "kind" : "ERaw",
+          "text" : "%len(paramList)",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 8,
+            "col" : 34
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+          "line" : 8,
+          "col" : 23
+        },
+        "arity" : 1,
+        "nameUpper" : "INT(5)INZ"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+        "line" : 8,
+        "col" : 23
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#8:23"
+    }, {
+      "kind" : "SExpr",
+      "expr" : {
+        "kind" : "ECall",
+        "name" : "varchar",
+        "args" : [ {
+          "kind" : "EConst",
+          "value" : 1000,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 11,
+            "col" : 29
+          }
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+          "line" : 11,
+          "col" : 21
+        },
+        "arity" : 1,
+        "nameUpper" : "VARCHAR"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+        "line" : 11,
+        "col" : 21
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#11:21"
+    }, {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "=",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "sqlcode",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 44,
+            "col" : 14
+          },
+          "nameUpper" : "SQLCODE"
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : 0,
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 44,
+            "col" : 24
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+          "line" : 44,
+          "col" : 14
+        }
+      },
+      "body" : {
+        "kind" : "SIf",
+        "cond" : {
+          "kind" : "EBin",
+          "op" : "=",
+          "left" : {
+            "kind" : "EVar",
+            "name" : "sqlcode",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+              "line" : 48,
+              "col" : 16
+            },
+            "nameUpper" : "SQLCODE"
+          },
+          "right" : {
+            "kind" : "EConst",
+            "value" : 0,
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+              "line" : 48,
+              "col" : 26
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
+            "line" : 48,
+            "col" : 16
+          }
+        },
+        "thenBranch" : {
+          "kind" : "SExpr",
+          "expr" : {
+            "kind" : "ECall",
             "name" : "dsply",
             "args" : [ {
               "kind" : "EBin",
@@ -169,7 +491,7 @@
                     "value" : "'Row: '",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                       "line" : 49,
                       "col" : 21
                     }
@@ -179,14 +501,14 @@
                     "text" : "%trim(out1)",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                       "line" : 49,
                       "col" : 31
                     }
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                     "line" : 49,
                     "col" : 21
                   }
@@ -196,14 +518,14 @@
                   "value" : "' '",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                     "line" : 49,
                     "col" : 45
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                   "line" : 49,
                   "col" : 21
                 }
@@ -213,282 +535,63 @@
                 "text" : "%char(out2)",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                   "line" : 49,
                   "col" : 51
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
                 "line" : 49,
                 "col" : 21
               }
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
               "line" : 49,
               "col" : 14
-            }
-          },
-          "elseBranch" : "placeholder",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-            "line" : 48,
-            "col" : 12
-          }
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-          "line" : 44,
-          "col" : 10
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-        "line" : 57,
-        "col" : 8
-      }
-    },
-    "pos" : {
-      "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-      "line" : 4,
-      "col" : 8
-    }
-  } ],
-  "main" : {
-    "kind" : "SBlock",
-    "stmts" : [ {
-      "kind" : "SCallProc",
-      "name" : "varchar(200)dim",
-      "args" : [ {
-        "kind" : "EConst",
-        "value" : 10,
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-          "line" : 7,
-          "col" : 39
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-        "line" : 7,
-        "col" : 22
-      }
-    }, {
-      "kind" : "SCallProc",
-      "name" : "int(5)inz",
-      "args" : [ {
-        "kind" : "ERaw",
-        "text" : "%len(paramList)",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-          "line" : 8,
-          "col" : 34
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-        "line" : 8,
-        "col" : 23
-      }
-    }, {
-      "kind" : "SCallProc",
-      "name" : "varchar",
-      "args" : [ {
-        "kind" : "EConst",
-        "value" : 1000,
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-          "line" : 11,
-          "col" : 29
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-        "line" : 11,
-        "col" : 21
-      }
-    }, {
-      "kind" : "SWhile",
-      "cond" : {
-        "kind" : "EBin",
-        "op" : "=",
-        "left" : {
-          "kind" : "EVar",
-          "name" : "sqlcode",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-            "line" : 44,
-            "col" : 14
-          }
-        },
-        "right" : {
-          "kind" : "EConst",
-          "value" : 0,
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-            "line" : 44,
-            "col" : 24
-          }
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-          "line" : 44,
-          "col" : 14
-        }
-      },
-      "body" : {
-        "kind" : "SIf",
-        "cond" : {
-          "kind" : "EBin",
-          "op" : "=",
-          "left" : {
-            "kind" : "EVar",
-            "name" : "sqlcode",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-              "line" : 48,
-              "col" : 16
-            }
-          },
-          "right" : {
-            "kind" : "EConst",
-            "value" : 0,
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-              "line" : 48,
-              "col" : 26
-            }
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-            "line" : 48,
-            "col" : 16
-          }
-        },
-        "thenBranch" : {
-          "kind" : "SCallProc",
-          "name" : "dsply",
-          "args" : [ {
-            "kind" : "EBin",
-            "op" : "+",
-            "left" : {
-              "kind" : "EBin",
-              "op" : "+",
-              "left" : {
-                "kind" : "EBin",
-                "op" : "+",
-                "left" : {
-                  "kind" : "EConst",
-                  "value" : "'Row: '",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-                    "line" : 49,
-                    "col" : 21
-                  }
-                },
-                "right" : {
-                  "kind" : "ERaw",
-                  "text" : "%trim(out1)",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-                    "line" : 49,
-                    "col" : 31
-                  }
-                },
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-                  "line" : 49,
-                  "col" : 21
-                }
-              },
-              "right" : {
-                "kind" : "EConst",
-                "value" : "' '",
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-                  "line" : 49,
-                  "col" : 45
-                }
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-                "line" : 49,
-                "col" : 21
-              }
             },
-            "right" : {
-              "kind" : "ERaw",
-              "text" : "%char(out2)",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-                "line" : 49,
-                "col" : 51
-              }
-            },
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
-              "line" : 49,
-              "col" : 21
-            }
-          } ],
+            "arity" : 1,
+            "nameUpper" : "DSPLY"
+          },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
             "line" : 49,
             "col" : 14
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#49:14"
         },
-        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
           "line" : 48,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#48:12"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
         "line" : 44,
         "col" : 10
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#44:10"
     } ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
       "line" : 57,
       "col" : 8
-    }
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#7:22", "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#8:23", "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#11:21", "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#44:10" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle#57:8"
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\mod0003.sqlrpgle",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mod0003.sqlrpgle",
     "line" : 1,
     "col" : 8
   }

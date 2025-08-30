@@ -10,14 +10,14 @@
         "name" : "char(6)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 6,
           "col" : 10
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 6,
         "col" : 10
       }
@@ -28,14 +28,14 @@
         "name" : "varchar(20)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 7,
           "col" : 10
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 7,
         "col" : 10
       }
@@ -46,14 +46,14 @@
         "name" : "varchar(15)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 8,
           "col" : 10
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 8,
         "col" : 10
       }
@@ -64,14 +64,14 @@
         "name" : "date(*iso)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 9,
           "col" : 10
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 9,
         "col" : 10
       }
@@ -82,14 +82,14 @@
         "name" : "packed(6)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 10,
           "col" : 10
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 10,
         "col" : 10
       }
@@ -100,89 +100,98 @@
         "name" : "packed(6)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 11,
           "col" : 10
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 11,
         "col" : 10
       }
     } ],
     "qualified" : true,
     "template" : false,
-    "like" : "placeholder",
-    "based" : "placeholder",
-    "dim" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
       "line" : 5,
       "col" : 8
-    }
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#5:8"
+  }, {
+    "kind" : "DProto",
+    "name" : "DspPrsPlng",
+    "params" : [ {
+      "name" : "",
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
+        "line" : 18,
+        "col" : 10
+      }
+    }, {
+      "name" : "InputArray",
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
+        "line" : 18,
+        "col" : 10
+      }
+    } ],
+    "ext" : "'DSPPRSPLNG'",
+    "exported" : false,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
+      "line" : 17,
+      "col" : 8
+    },
+    "arity" : 2,
+    "nameUpper" : "DSPPRSPLNG",
+    "extName" : "DSPPRSPLNG",
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#17:8"
   } ],
   "main" : {
     "kind" : "SBlock",
     "stmts" : [ {
-      "kind" : "SCallProc",
-      "name" : "dftactgrp",
-      "args" : [ {
-        "kind" : "EVar",
-        "name" : "*no",
+      "kind" : "SExpr",
+      "expr" : {
+        "kind" : "ECall",
+        "name" : "",
+        "args" : [ {
+          "kind" : "EVar",
+          "name" : "*new",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
+            "line" : 3,
+            "col" : 38
+          },
+          "nameUpper" : "*NEW"
+        } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 3,
-          "col" : 26
-        }
-      } ],
+          "col" : 31
+        },
+        "arity" : 1,
+        "nameUpper" : ""
+      },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
-        "line" : 3,
-        "col" : 16
-      }
-    }, {
-      "kind" : "SCallProc",
-      "name" : "",
-      "args" : [ {
-        "kind" : "EVar",
-        "name" : "*new",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
-          "line" : 3,
-          "col" : 38
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 3,
         "col" : 31
-      }
-    }, {
-      "kind" : "SCallProc",
-      "name" : "bnddir",
-      "args" : [ {
-        "kind" : "EConst",
-        "value" : "'WORKSTN'",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
-          "line" : 3,
-          "col" : 51
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
-        "line" : 3,
-        "col" : 44
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#3:31"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -190,28 +199,43 @@
         "name" : "Main",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 21,
           "col" : 8
-        }
+        },
+        "nameUpper" : "MAIN"
       },
       "op" : "=",
       "rhs" : {
-        "kind" : "ERaw",
-        "text" : "DspPrsPlng(Main)",
+        "kind" : "ECall",
+        "name" : "DspPrsPlng",
+        "args" : [ {
+          "kind" : "EVar",
+          "name" : "Main",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
+            "line" : 21,
+            "col" : 26
+          },
+          "nameUpper" : "MAIN"
+        } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 21,
           "col" : 15
-        }
+        },
+        "arity" : 1,
+        "nameUpper" : "DSPPRSPLNG"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 21,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#21:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -219,10 +243,11 @@
         "name" : "*inlr",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 23,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*INLR"
       },
       "op" : "=",
       "rhs" : {
@@ -230,28 +255,32 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
           "line" : 23,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
         "line" : 23,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#23:8"
     } ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
       "line" : 1,
       "col" : 8
-    }
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#3:31", "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#21:8", "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#23:8" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle#1:8"
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\profound.rpgle",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\profound.rpgle",
     "line" : 1,
     "col" : 8
   }

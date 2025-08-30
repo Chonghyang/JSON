@@ -3,24 +3,21 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "schemawdw",
-    "lib" : "placeholder",
     "device" : "WORKSTN",
-    "usage" : ["empty" ],
+    "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "placeholder",
-    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
       "line" : 4,
       "col" : 8
-    }
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#4:8"
   }, {
     "kind" : "DProc",
     "name" : "SchmaWdw",
-    "extProc" : "placeholder",
     "exported" : true,
-    "params" : ["empty" ],
+    "params" : [ ],
     "returns" : "char(15)",
     "body" : {
       "kind" : "SBlock",
@@ -31,10 +28,11 @@
           "name" : "*inlr",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 22,
             "col" : 12
-          }
+          },
+          "nameUpper" : "*INLR"
         },
         "op" : "=",
         "rhs" : {
@@ -42,17 +40,19 @@
           "name" : "*on",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 22,
             "col" : 18
-          }
+          },
+          "nameUpper" : "*ON"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 22,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#22:12"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -60,10 +60,11 @@
           "name" : "*in40",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 29,
             "col" : 16
-          }
+          },
+          "nameUpper" : "*IN40"
         },
         "op" : "=",
         "rhs" : {
@@ -71,17 +72,19 @@
           "name" : "*off",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 29,
             "col" : 24
-          }
+          },
+          "nameUpper" : "*OFF"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 29,
           "col" : 16
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#29:16"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -89,10 +92,11 @@
           "name" : "*in40",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 31,
             "col" : 16
-          }
+          },
+          "nameUpper" : "*IN40"
         },
         "op" : "=",
         "rhs" : {
@@ -100,17 +104,19 @@
           "name" : "*on",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 31,
             "col" : 22
-          }
+          },
+          "nameUpper" : "*ON"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 31,
           "col" : 16
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#31:16"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -118,10 +124,11 @@
           "name" : "RRN#",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 32,
             "col" : 16
-          }
+          },
+          "nameUpper" : "RRN#"
         },
         "op" : "=",
         "rhs" : {
@@ -129,17 +136,18 @@
           "value" : 0,
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 32,
             "col" : 23
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 32,
           "col" : 16
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#32:16"
       }, {
         "kind" : "SIf",
         "cond" : {
@@ -150,24 +158,25 @@
             "name" : "SQLSTATE",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 46,
               "col" : 27
-            }
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
             "kind" : "EConst",
             "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 46,
               "col" : 38
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 46,
             "col" : 27
           }
@@ -182,24 +191,25 @@
               "name" : "SQLSTATE",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 42,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "SQLSTATE"
             },
             "right" : {
               "kind" : "EConst",
               "value" : "'00000'",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 42,
                 "col" : 35
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 42,
               "col" : 24
             }
@@ -213,10 +223,11 @@
                 "name" : "RRN#",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 43,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "RRN#"
               },
               "op" : "+=",
               "rhs" : {
@@ -224,17 +235,18 @@
                 "value" : 1,
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 43,
                   "col" : 32
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 43,
                 "col" : 24
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#43:24"
             }, {
               "kind" : "SIf",
               "cond" : {
@@ -245,24 +257,25 @@
                   "name" : "RRN#",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                     "line" : 48,
                     "col" : 31
-                  }
+                  },
+                  "nameUpper" : "RRN#"
                 },
                 "right" : {
                   "kind" : "EConst",
                   "value" : 1,
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                     "line" : 48,
                     "col" : 38
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 48,
                   "col" : 31
                 }
@@ -274,10 +287,11 @@
                   "name" : "SASCHEMA",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                     "line" : 49,
                     "col" : 28
-                  }
+                  },
+                  "nameUpper" : "SASCHEMA"
                 },
                 "op" : "=",
                 "rhs" : {
@@ -285,39 +299,43 @@
                   "value" : "'Afdelingen N/A'",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                     "line" : 49,
                     "col" : 39
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 49,
                   "col" : 28
-                }
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#49:28"
               },
-              "elseBranch" : "placeholder",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 48,
                 "col" : 24
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#48:24"
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 42,
               "col" : 20
-            }
+            },
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#43:24", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#48:24" ],
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#42:20"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 42,
             "col" : 20
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#42:20"
         },
         "elseBranch" : {
           "kind" : "SBlock",
@@ -328,10 +346,11 @@
               "name" : "SASCHEMA",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 55,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "SASCHEMA"
             },
             "op" : "=",
             "rhs" : {
@@ -339,17 +358,18 @@
               "value" : "'Afdelingen N/A'",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 55,
                 "col" : 31
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 55,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#55:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -357,10 +377,11 @@
               "name" : "RRN#",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 56,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "RRN#"
             },
             "op" : "+=",
             "rhs" : {
@@ -368,40 +389,45 @@
               "value" : 1,
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 56,
                 "col" : 28
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 56,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#56:20"
           } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 46,
             "col" : 24
-          }
+          },
+          "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#55:20", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#56:20" ],
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#46:24"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 46,
           "col" : 24
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#46:24"
       }, {
         "kind" : "SReadC",
         "file" : "SCHEMASFL",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 66,
           "col" : 16
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#66:16"
       }, {
         "kind" : "SWhile",
         "cond" : {
@@ -411,14 +437,14 @@
             "file" : "schemawdw",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 67,
               "col" : 24
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 67,
             "col" : 20
           }
@@ -432,10 +458,11 @@
               "name" : "ReturnValue",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 68,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "RETURNVALUE"
             },
             "op" : "=",
             "rhs" : {
@@ -443,54 +470,63 @@
               "name" : "SASCHEMA",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 68,
                 "col" : 34
-              }
+              },
+              "nameUpper" : "SASCHEMA"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 68,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#68:20"
           }, {
             "kind" : "SReadC",
             "file" : "SCHEMASFL",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 69,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#69:20"
           } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 67,
             "col" : 16
-          }
+          },
+          "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#68:20", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#69:20" ],
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#67:16"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 67,
           "col" : 16
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#67:16"
       } ],
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 72,
         "col" : 8
-      }
+      },
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#22:12", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#29:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#31:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#32:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#46:24", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#66:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#67:16" ],
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#72:8"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
       "line" : 9,
       "col" : 8
-    }
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#9:8"
   } ],
   "main" : {
     "kind" : "SBlock",
@@ -501,10 +537,11 @@
         "name" : "*inlr",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 22,
           "col" : 12
-        }
+        },
+        "nameUpper" : "*INLR"
       },
       "op" : "=",
       "rhs" : {
@@ -512,17 +549,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 22,
           "col" : 18
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 22,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#22:12"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -530,10 +569,11 @@
         "name" : "*in40",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 29,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*IN40"
       },
       "op" : "=",
       "rhs" : {
@@ -541,17 +581,19 @@
         "name" : "*off",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 29,
           "col" : 24
-        }
+        },
+        "nameUpper" : "*OFF"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 29,
         "col" : 16
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#29:16"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -559,10 +601,11 @@
         "name" : "*in40",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 31,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*IN40"
       },
       "op" : "=",
       "rhs" : {
@@ -570,17 +613,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 31,
           "col" : 22
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 31,
         "col" : 16
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#31:16"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -588,10 +633,11 @@
         "name" : "RRN#",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 32,
           "col" : 16
-        }
+        },
+        "nameUpper" : "RRN#"
       },
       "op" : "=",
       "rhs" : {
@@ -599,17 +645,18 @@
         "value" : 0,
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 32,
           "col" : 23
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 32,
         "col" : 16
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#32:16"
     }, {
       "kind" : "SIf",
       "cond" : {
@@ -620,24 +667,25 @@
           "name" : "SQLSTATE",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 46,
             "col" : 27
-          }
+          },
+          "nameUpper" : "SQLSTATE"
         },
         "right" : {
           "kind" : "EConst",
           "value" : "'00000'",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 46,
             "col" : 38
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 46,
           "col" : 27
         }
@@ -652,24 +700,25 @@
             "name" : "SQLSTATE",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 42,
               "col" : 24
-            }
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
             "kind" : "EConst",
             "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 42,
               "col" : 35
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 42,
             "col" : 24
           }
@@ -683,10 +732,11 @@
               "name" : "RRN#",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 43,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "RRN#"
             },
             "op" : "+=",
             "rhs" : {
@@ -694,17 +744,18 @@
               "value" : 1,
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 43,
                 "col" : 32
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 43,
               "col" : 24
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#43:24"
           }, {
             "kind" : "SIf",
             "cond" : {
@@ -715,24 +766,25 @@
                 "name" : "RRN#",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 48,
                   "col" : 31
-                }
+                },
+                "nameUpper" : "RRN#"
               },
               "right" : {
                 "kind" : "EConst",
                 "value" : 1,
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 48,
                   "col" : 38
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 48,
                 "col" : 31
               }
@@ -744,10 +796,11 @@
                 "name" : "SASCHEMA",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 49,
                   "col" : 28
-                }
+                },
+                "nameUpper" : "SASCHEMA"
               },
               "op" : "=",
               "rhs" : {
@@ -755,39 +808,43 @@
                 "value" : "'Afdelingen N/A'",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                   "line" : 49,
                   "col" : 39
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
                 "line" : 49,
                 "col" : 28
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#49:28"
             },
-            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 48,
               "col" : 24
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#48:24"
           } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 42,
             "col" : 20
-          }
+          },
+          "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#43:24", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#48:24" ],
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#42:20"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 42,
           "col" : 20
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#42:20"
       },
       "elseBranch" : {
         "kind" : "SBlock",
@@ -798,10 +855,11 @@
             "name" : "SASCHEMA",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 55,
               "col" : 20
-            }
+            },
+            "nameUpper" : "SASCHEMA"
           },
           "op" : "=",
           "rhs" : {
@@ -809,17 +867,18 @@
             "value" : "'Afdelingen N/A'",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 55,
               "col" : 31
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 55,
             "col" : 20
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#55:20"
         }, {
           "kind" : "SAssign",
           "lhs" : {
@@ -827,10 +886,11 @@
             "name" : "RRN#",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 56,
               "col" : 20
-            }
+            },
+            "nameUpper" : "RRN#"
           },
           "op" : "+=",
           "rhs" : {
@@ -838,40 +898,45 @@
             "value" : 1,
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 56,
               "col" : 28
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 56,
             "col" : 20
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#56:20"
         } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 46,
           "col" : 24
-        }
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#55:20", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#56:20" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#46:24"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 46,
         "col" : 24
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#46:24"
     }, {
       "kind" : "SReadC",
       "file" : "SCHEMASFL",
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 66,
         "col" : 16
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#66:16"
     }, {
       "kind" : "SWhile",
       "cond" : {
@@ -881,14 +946,14 @@
           "file" : "schemawdw",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 67,
             "col" : 24
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 67,
           "col" : 20
         }
@@ -902,10 +967,11 @@
             "name" : "ReturnValue",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 68,
               "col" : 20
-            }
+            },
+            "nameUpper" : "RETURNVALUE"
           },
           "op" : "=",
           "rhs" : {
@@ -913,51 +979,59 @@
             "name" : "SASCHEMA",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
               "line" : 68,
               "col" : 34
-            }
+            },
+            "nameUpper" : "SASCHEMA"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 68,
             "col" : 20
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#68:20"
         }, {
           "kind" : "SReadC",
           "file" : "SCHEMASFL",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
             "line" : 69,
             "col" : 20
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#69:20"
         } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
           "line" : 67,
           "col" : 16
-        }
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#68:20", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#69:20" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#67:16"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
         "line" : 67,
         "col" : 16
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#67:16"
     } ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
       "line" : 72,
       "col" : 8
-    }
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#22:12", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#29:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#31:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#32:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#46:24", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#66:16", "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#67:16" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#72:8"
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\schemawdw.sqlrpgle",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle",
     "line" : 1,
     "col" : 8
   }

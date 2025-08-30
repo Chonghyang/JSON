@@ -3,7 +3,6 @@
   "decls" : [ {
     "kind" : "DProc",
     "name" : "CheckSchme",
-    "extProc" : "placeholder",
     "exported" : true,
     "params" : [ {
       "name" : "InputValue",
@@ -12,7 +11,7 @@
       "varying" : false,
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 12,
         "col" : 12
       }
@@ -27,10 +26,11 @@
           "name" : "N",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 16,
             "col" : 12
-          }
+          },
+          "nameUpper" : "N"
         },
         "op" : "=",
         "rhs" : {
@@ -38,17 +38,18 @@
           "text" : "%dec(InputValue:1:0)",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 16,
             "col" : 16
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 16,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#16:12"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -56,10 +57,11 @@
           "name" : "Number",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 17,
             "col" : 12
-          }
+          },
+          "nameUpper" : "NUMBER"
         },
         "op" : "=",
         "rhs" : {
@@ -67,17 +69,19 @@
           "name" : "*on",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 17,
             "col" : 21
-          }
+          },
+          "nameUpper" : "*ON"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 17,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#17:12"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -85,10 +89,11 @@
           "name" : "S",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 19,
             "col" : 12
-          }
+          },
+          "nameUpper" : "S"
         },
         "op" : "=",
         "rhs" : {
@@ -96,17 +101,19 @@
           "name" : "InputValue",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 19,
             "col" : 16
-          }
+          },
+          "nameUpper" : "INPUTVALUE"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 19,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#19:12"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -114,10 +121,11 @@
           "name" : "Number",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 20,
             "col" : 12
-          }
+          },
+          "nameUpper" : "NUMBER"
         },
         "op" : "=",
         "rhs" : {
@@ -125,17 +133,19 @@
           "name" : "*off",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 20,
             "col" : 21
-          }
+          },
+          "nameUpper" : "*OFF"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 20,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#20:12"
       }, {
         "kind" : "SIf",
         "cond" : {
@@ -143,27 +153,29 @@
           "name" : "Number",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 23,
             "col" : 13
-          }
+          },
+          "nameUpper" : "NUMBER"
         },
         "thenBranch" : {
           "kind" : "SSkip",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 23,
             "col" : 10
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10"
         },
-        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 23,
           "col" : 10
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10"
       }, {
         "kind" : "SIf",
         "cond" : {
@@ -174,24 +186,25 @@
             "name" : "SQLSTATE",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 35,
               "col" : 15
-            }
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
             "kind" : "EConst",
             "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 35,
               "col" : 25
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 35,
             "col" : 15
           }
@@ -203,10 +216,11 @@
             "name" : "returnval",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 36,
               "col" : 14
-            }
+            },
+            "nameUpper" : "RETURNVAL"
           },
           "op" : "=",
           "rhs" : {
@@ -214,25 +228,26 @@
             "value" : "''",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 36,
               "col" : 26
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 36,
             "col" : 14
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#36:14"
         },
-        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 35,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#35:12"
       }, {
         "kind" : "SIf",
         "cond" : {
@@ -243,24 +258,25 @@
             "name" : "SQLSTATE",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 41,
               "col" : 15
-            }
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
             "kind" : "EConst",
             "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 41,
               "col" : 25
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 41,
             "col" : 15
           }
@@ -272,10 +288,11 @@
             "name" : "returnval",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 42,
               "col" : 14
-            }
+            },
+            "nameUpper" : "RETURNVAL"
           },
           "op" : "=",
           "rhs" : {
@@ -283,39 +300,43 @@
             "value" : "''",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
               "line" : 42,
               "col" : 26
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 42,
             "col" : 14
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#42:14"
         },
-        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 41,
           "col" : 12
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#41:12"
       } ],
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 46,
         "col" : 8
-      }
+      },
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#16:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#17:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#19:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#20:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#35:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#41:12" ],
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#46:8"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
       "line" : 10,
       "col" : 8
-    }
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#10:8"
   } ],
   "main" : {
     "kind" : "SBlock",
@@ -326,10 +347,11 @@
         "name" : "N",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 16,
           "col" : 12
-        }
+        },
+        "nameUpper" : "N"
       },
       "op" : "=",
       "rhs" : {
@@ -337,17 +359,18 @@
         "text" : "%dec(InputValue:1:0)",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 16,
           "col" : 16
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 16,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#16:12"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -355,10 +378,11 @@
         "name" : "Number",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 17,
           "col" : 12
-        }
+        },
+        "nameUpper" : "NUMBER"
       },
       "op" : "=",
       "rhs" : {
@@ -366,17 +390,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 17,
           "col" : 21
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 17,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#17:12"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -384,10 +410,11 @@
         "name" : "S",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 19,
           "col" : 12
-        }
+        },
+        "nameUpper" : "S"
       },
       "op" : "=",
       "rhs" : {
@@ -395,17 +422,19 @@
         "name" : "InputValue",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 19,
           "col" : 16
-        }
+        },
+        "nameUpper" : "INPUTVALUE"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 19,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#19:12"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -413,10 +442,11 @@
         "name" : "Number",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 20,
           "col" : 12
-        }
+        },
+        "nameUpper" : "NUMBER"
       },
       "op" : "=",
       "rhs" : {
@@ -424,17 +454,19 @@
         "name" : "*off",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 20,
           "col" : 21
-        }
+        },
+        "nameUpper" : "*OFF"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 20,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#20:12"
     }, {
       "kind" : "SIf",
       "cond" : {
@@ -442,27 +474,29 @@
         "name" : "Number",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 23,
           "col" : 13
-        }
+        },
+        "nameUpper" : "NUMBER"
       },
       "thenBranch" : {
         "kind" : "SSkip",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 23,
           "col" : 10
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10"
       },
-      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 23,
         "col" : 10
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10"
     }, {
       "kind" : "SIf",
       "cond" : {
@@ -473,24 +507,25 @@
           "name" : "SQLSTATE",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 35,
             "col" : 15
-          }
+          },
+          "nameUpper" : "SQLSTATE"
         },
         "right" : {
           "kind" : "EConst",
           "value" : "'00000'",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 35,
             "col" : 25
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 35,
           "col" : 15
         }
@@ -502,10 +537,11 @@
           "name" : "returnval",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 36,
             "col" : 14
-          }
+          },
+          "nameUpper" : "RETURNVAL"
         },
         "op" : "=",
         "rhs" : {
@@ -513,25 +549,26 @@
           "value" : "''",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 36,
             "col" : 26
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 36,
           "col" : 14
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#36:14"
       },
-      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 35,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#35:12"
     }, {
       "kind" : "SIf",
       "cond" : {
@@ -542,24 +579,25 @@
           "name" : "SQLSTATE",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 41,
             "col" : 15
-          }
+          },
+          "nameUpper" : "SQLSTATE"
         },
         "right" : {
           "kind" : "EConst",
           "value" : "'00000'",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 41,
             "col" : 25
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 41,
           "col" : 15
         }
@@ -571,10 +609,11 @@
           "name" : "returnval",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 42,
             "col" : 14
-          }
+          },
+          "nameUpper" : "RETURNVAL"
         },
         "op" : "=",
         "rhs" : {
@@ -582,36 +621,39 @@
           "value" : "''",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
             "line" : 42,
             "col" : 26
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
           "line" : 42,
           "col" : 14
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#42:14"
       },
-      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
         "line" : 41,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#41:12"
     } ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
       "line" : 46,
       "col" : 8
-    }
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#16:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#17:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#19:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#20:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#35:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#41:12" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#46:8"
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\checkschme.sqlrpgle",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
     "line" : 1,
     "col" : 8
   }

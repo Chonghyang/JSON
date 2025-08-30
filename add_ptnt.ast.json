@@ -1,6 +1,6 @@
 {
   "kind" : "Program",
-  "decls" : ["empty" ],
+  "decls" : [ ],
   "main" : {
     "kind" : "SBlock",
     "stmts" : [ {
@@ -12,15 +12,16 @@
           "name" : "exitProgram",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 10,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 9,
             "col" : 16
-          }
+          },
+          "nameUpper" : "EXITPROGRAM"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-          "line" : 10,
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+          "line" : 9,
           "col" : 12
         }
       },
@@ -33,10 +34,11 @@
             "name" : "invalidInput",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 12,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 11,
               "col" : 12
-            }
+            },
+            "nameUpper" : "INVALIDINPUT"
           },
           "op" : "=",
           "rhs" : {
@@ -44,17 +46,19 @@
             "name" : "*off",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 12,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 11,
               "col" : 27
-            }
+            },
+            "nameUpper" : "*OFF"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 12,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 11,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#11:12"
         }, {
           "kind" : "SAssign",
           "lhs" : {
@@ -62,10 +66,11 @@
             "name" : "recordExists",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 13,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 12,
               "col" : 12
-            }
+            },
+            "nameUpper" : "RECORDEXISTS"
           },
           "op" : "=",
           "rhs" : {
@@ -73,17 +78,19 @@
             "name" : "*off",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 13,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 12,
               "col" : 27
-            }
+            },
+            "nameUpper" : "*OFF"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 13,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 12,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#12:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -94,25 +101,27 @@
               "name" : "*in12",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 17,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 16,
                 "col" : 15
-              }
+              },
+              "nameUpper" : "*IN12"
             },
             "right" : {
               "kind" : "EVar",
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 17,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 16,
                 "col" : 23
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 17,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 16,
               "col" : 15
             }
           },
@@ -123,10 +132,11 @@
               "name" : "exitProgram",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 18,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 17,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "EXITPROGRAM"
             },
             "op" : "=",
             "rhs" : {
@@ -134,25 +144,27 @@
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 18,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 17,
                 "col" : 30
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 18,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 17,
               "col" : 16
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#17:16"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 17,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 16,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#16:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -172,25 +184,27 @@
                     "name" : "RNAMEIN",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                      "line" : 23,
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                      "line" : 22,
                       "col" : 15
-                    }
+                    },
+                    "nameUpper" : "RNAMEIN"
                   },
                   "right" : {
                     "kind" : "EVar",
                     "name" : "*blanks",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                      "line" : 23,
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                      "line" : 22,
                       "col" : 25
-                    }
+                    },
+                    "nameUpper" : "*BLANKS"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 23,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 22,
                     "col" : 15
                   }
                 },
@@ -202,32 +216,34 @@
                     "name" : "LNAMEIN",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                      "line" : 23,
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                      "line" : 22,
                       "col" : 36
-                    }
+                    },
+                    "nameUpper" : "LNAMEIN"
                   },
                   "right" : {
                     "kind" : "EVar",
                     "name" : "*blanks",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                      "line" : 23,
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                      "line" : 22,
                       "col" : 46
-                    }
+                    },
+                    "nameUpper" : "*BLANKS"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 23,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 22,
                     "col" : 36
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 23,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 22,
                   "col" : 15
                 }
               },
@@ -239,32 +255,34 @@
                   "name" : "GESLACHT",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 24,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 23,
                     "col" : 15
-                  }
+                  },
+                  "nameUpper" : "GESLACHT"
                 },
                 "right" : {
                   "kind" : "EVar",
                   "name" : "*blanks",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 24,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 23,
                     "col" : 26
-                  }
+                  },
+                  "nameUpper" : "*BLANKS"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 24,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 23,
                   "col" : 15
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 23,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 22,
                 "col" : 15
               }
             },
@@ -276,32 +294,34 @@
                 "name" : "AFDELING",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 24,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 23,
                   "col" : 37
-                }
+                },
+                "nameUpper" : "AFDELING"
               },
               "right" : {
                 "kind" : "EVar",
                 "name" : "*blanks",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 24,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 23,
                   "col" : 48
-                }
+                },
+                "nameUpper" : "*BLANKS"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 24,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 23,
                 "col" : 37
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 23,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 22,
               "col" : 15
             }
           },
@@ -314,10 +334,11 @@
                 "name" : "MSGTEXT",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 25,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 24,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "MSGTEXT"
               },
               "op" : "=",
               "rhs" : {
@@ -325,17 +346,18 @@
                 "value" : "'Toevoegen mislukt. Controleer de invoer.'",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 25,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 24,
                   "col" : 26
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 25,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 24,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#24:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -343,10 +365,11 @@
                 "name" : "*in99",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 26,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 25,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN99"
               },
               "op" : "=",
               "rhs" : {
@@ -354,17 +377,19 @@
                 "name" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 26,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 25,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*ON"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 26,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 25,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#25:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -372,10 +397,11 @@
                 "name" : "invalidInput",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 27,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 26,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "INVALIDINPUT"
               },
               "op" : "=",
               "rhs" : {
@@ -383,32 +409,36 @@
                 "name" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 27,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 26,
                   "col" : 31
-                }
+                },
+                "nameUpper" : "*ON"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 27,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 26,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#26:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 23,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 22,
               "col" : 12
-            }
+            },
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#24:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#25:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#26:16" ],
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#22:12"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 23,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 22,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#22:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -418,15 +448,16 @@
               "name" : "invalidInput",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 32,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 31,
                 "col" : 19
-              }
+              },
+              "nameUpper" : "INVALIDINPUT"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 32,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 31,
               "col" : 15
             }
           },
@@ -440,25 +471,26 @@
                 "name" : "matches",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 39,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 38,
                   "col" : 19
-                }
+                },
+                "nameUpper" : "MATCHES"
               },
               "right" : {
                 "kind" : "EConst",
                 "value" : 0,
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 39,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 38,
                   "col" : 29
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 39,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 38,
                 "col" : 19
               }
             },
@@ -471,10 +503,11 @@
                   "name" : "MSGTEXT",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 40,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 39,
                     "col" : 20
-                  }
+                  },
+                  "nameUpper" : "MSGTEXT"
                 },
                 "op" : "=",
                 "rhs" : {
@@ -482,17 +515,18 @@
                   "value" : "'Persoon bestaat al in het systeem.'",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 40,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 39,
                     "col" : 30
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 40,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 39,
                   "col" : 20
-                }
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#39:20"
               }, {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -500,10 +534,11 @@
                   "name" : "*in99",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 41,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 40,
                     "col" : 20
-                  }
+                  },
+                  "nameUpper" : "*IN99"
                 },
                 "op" : "=",
                 "rhs" : {
@@ -511,17 +546,19 @@
                   "name" : "*on",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 41,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 40,
                     "col" : 28
-                  }
+                  },
+                  "nameUpper" : "*ON"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 41,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 40,
                   "col" : 20
-                }
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#40:20"
               }, {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -529,10 +566,11 @@
                   "name" : "recordExists",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 42,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 41,
                     "col" : 20
-                  }
+                  },
+                  "nameUpper" : "RECORDEXISTS"
                 },
                 "op" : "=",
                 "rhs" : {
@@ -540,40 +578,44 @@
                   "name" : "*on",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 42,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 41,
                     "col" : 35
-                  }
+                  },
+                  "nameUpper" : "*ON"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 42,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 41,
                   "col" : 20
-                }
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#41:20"
               } ],
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 39,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 38,
                 "col" : 16
-              }
+              },
+              "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#39:20", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#40:20", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#41:20" ],
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#38:16"
             },
-            "elseBranch" : "placeholder",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 39,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 38,
               "col" : 16
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#38:16"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 32,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 31,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#31:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -586,15 +628,16 @@
                 "name" : "invalidInput",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 47,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 46,
                   "col" : 19
-                }
+                },
+                "nameUpper" : "INVALIDINPUT"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 47,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 46,
                 "col" : 15
               }
             },
@@ -605,22 +648,23 @@
                 "name" : "recordExists",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 47,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 46,
                   "col" : 40
-                }
+                },
+                "nameUpper" : "RECORDEXISTS"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 47,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 46,
                 "col" : 36
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 47,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 46,
               "col" : 15
             }
           },
@@ -633,10 +677,11 @@
                 "name" : "MSGTEXT",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 52,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 51,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "MSGTEXT"
               },
               "op" : "=",
               "rhs" : {
@@ -647,8 +692,8 @@
                   "text" : "%TRIM(RNAMEIN)",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 52,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 51,
                     "col" : 26
                   }
                 },
@@ -657,24 +702,25 @@
                   "value" : "' is succesvol toegevoegd.'",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                    "line" : 52,
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                    "line" : 51,
                     "col" : 43
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 52,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 51,
                   "col" : 26
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 52,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 51,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#51:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -682,10 +728,11 @@
                 "name" : "*in99",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 53,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 52,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN99"
               },
               "op" : "=",
               "rhs" : {
@@ -693,17 +740,19 @@
                 "name" : "*off",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 53,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 52,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*OFF"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 53,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 52,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#52:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -711,10 +760,11 @@
                 "name" : "*in98",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 54,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 53,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN98"
               },
               "op" : "=",
               "rhs" : {
@@ -722,17 +772,19 @@
                 "name" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 54,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 53,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*ON"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 54,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 53,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#53:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -740,10 +792,11 @@
                 "name" : "RNAMEIN",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 57,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 56,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "RNAMEIN"
               },
               "op" : "=",
               "rhs" : {
@@ -751,17 +804,19 @@
                 "name" : "*blanks",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 57,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 56,
                   "col" : 26
-                }
+                },
+                "nameUpper" : "*BLANKS"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 57,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 56,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#56:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -769,10 +824,11 @@
                 "name" : "LNAMEIN",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 58,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 57,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "LNAMEIN"
               },
               "op" : "=",
               "rhs" : {
@@ -780,17 +836,19 @@
                 "name" : "*blanks",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 58,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 57,
                   "col" : 26
-                }
+                },
+                "nameUpper" : "*BLANKS"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 58,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 57,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#57:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -798,10 +856,11 @@
                 "name" : "GESLACHT",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 59,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 58,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "GESLACHT"
               },
               "op" : "=",
               "rhs" : {
@@ -809,17 +868,19 @@
                 "name" : "*blanks",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 59,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 58,
                   "col" : 27
-                }
+                },
+                "nameUpper" : "*BLANKS"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 59,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 58,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#58:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -827,10 +888,11 @@
                 "name" : "AFDELING",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 60,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 59,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "AFDELING"
               },
               "op" : "=",
               "rhs" : {
@@ -838,46 +900,53 @@
                 "name" : "*blanks",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                  "line" : 60,
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                  "line" : 59,
                   "col" : 27
-                }
+                },
+                "nameUpper" : "*BLANKS"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-                "line" : 60,
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+                "line" : 59,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#59:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-              "line" : 47,
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+              "line" : 46,
               "col" : 12
-            }
+            },
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#51:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#52:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#53:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#56:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#57:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#58:16", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#59:16" ],
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#46:12"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-            "line" : 47,
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+            "line" : 46,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#46:12"
         } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-          "line" : 10,
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+          "line" : 9,
           "col" : 8
-        }
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#11:12", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#12:12", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#16:12", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#22:12", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#31:12", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#46:12" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#9:8"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-        "line" : 10,
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+        "line" : 9,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#9:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -885,10 +954,11 @@
         "name" : "*inlr",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-          "line" : 64,
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+          "line" : 63,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*INLR"
       },
       "op" : "=",
       "rhs" : {
@@ -896,28 +966,32 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-          "line" : 64,
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+          "line" : 63,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
-        "line" : 64,
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
+        "line" : 63,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#63:8"
     } ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
       "line" : 1,
       "col" : 8
-    }
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#9:8", "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#63:8" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle#1:8"
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\ANTLR4\\rpg4parser\\add_ptnt.sqlrpgle",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\add_ptnt.sqlrpgle",
     "line" : 1,
     "col" : 8
   }

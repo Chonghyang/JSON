@@ -3,78 +3,107 @@
   "decls" : [ {
     "kind" : "DFile",
     "name" : "med_plnng",
-    "lib" : "placeholder",
     "device" : "WORKSTN",
-    "usage" : ["empty" ],
+    "usage" : [ ],
     "keyed" : false,
-    "recordFormat" : "placeholder",
-    "extDesc" : "placeholder",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
       "line" : 4,
       "col" : 8
-    }
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#4:8"
+  }, {
+    "kind" : "DProto",
+    "name" : "DatWdw",
+    "returns" : "date(*iso)",
+    "params" : [ {
+      "name" : "InputValue",
+      "typeText" : "date(*iso)",
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+        "line" : 8,
+        "col" : 10
+      }
+    } ],
+    "ext" : "'DATEWDW'",
+    "exported" : false,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+      "line" : 7,
+      "col" : 8
+    },
+    "arity" : 1,
+    "nameUpper" : "DATWDW",
+    "extName" : "DATEWDW",
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#7:8"
+  }, {
+    "kind" : "DProto",
+    "name" : "PatWdw",
+    "returns" : "packed(6)",
+    "params" : [ {
+      "name" : "InputValue",
+      "typeText" : "packed(6)",
+      "byRef" : true,
+      "varying" : false,
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+        "line" : 11,
+        "col" : 10
+      }
+    } ],
+    "ext" : "'PATNUMWDW'",
+    "exported" : false,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+      "line" : 10,
+      "col" : 8
+    },
+    "arity" : 1,
+    "nameUpper" : "PATWDW",
+    "extName" : "PATNUMWDW",
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#10:8"
   } ],
   "main" : {
     "kind" : "SBlock",
     "stmts" : [ {
-      "kind" : "SCallProc",
-      "name" : "dftactgrp",
-      "args" : [ {
-        "kind" : "EVar",
-        "name" : "*no",
+      "kind" : "SExpr",
+      "expr" : {
+        "kind" : "ECall",
+        "name" : "",
+        "args" : [ {
+          "kind" : "EVar",
+          "name" : "*new",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+            "line" : 2,
+            "col" : 38
+          },
+          "nameUpper" : "*NEW"
+        } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 2,
-          "col" : 26
-        }
-      } ],
+          "col" : 31
+        },
+        "arity" : 1,
+        "nameUpper" : ""
+      },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
-        "line" : 2,
-        "col" : 16
-      }
-    }, {
-      "kind" : "SCallProc",
-      "name" : "",
-      "args" : [ {
-        "kind" : "EVar",
-        "name" : "*new",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
-          "line" : 2,
-          "col" : 38
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 2,
         "col" : 31
-      }
-    }, {
-      "kind" : "SCallProc",
-      "name" : "bnddir",
-      "args" : [ {
-        "kind" : "EConst",
-        "value" : "'WINDOWS'",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
-          "line" : 2,
-          "col" : 51
-        }
-      } ],
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
-        "line" : 2,
-        "col" : 44
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#2:31"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -82,10 +111,11 @@
         "name" : "DATUM",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 28,
           "col" : 8
-        }
+        },
+        "nameUpper" : "DATUM"
       },
       "op" : "=",
       "rhs" : {
@@ -93,17 +123,18 @@
         "text" : "%date()",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 28,
           "col" : 16
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 28,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#28:8"
     }, {
       "kind" : "SWhile",
       "cond" : {
@@ -113,14 +144,15 @@
           "name" : "*in03",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 35,
             "col" : 17
-          }
+          },
+          "nameUpper" : "*IN03"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 35,
           "col" : 13
         }
@@ -134,10 +166,11 @@
             "name" : "*in03",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 39,
               "col" : 15
-            }
+            },
+            "nameUpper" : "*IN03"
           },
           "thenBranch" : {
             "kind" : "SAssign",
@@ -146,10 +179,11 @@
               "name" : "*inlr",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 40,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*INLR"
             },
             "op" : "=",
             "rhs" : {
@@ -157,25 +191,27 @@
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 40,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 40,
               "col" : 16
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#40:16"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 39,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#39:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -186,24 +222,26 @@
               "name" : "*in04",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 45,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*IN04"
             },
             "right" : {
               "kind" : "EVar",
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 45,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 45,
               "col" : 16
             }
@@ -221,24 +259,25 @@
                     "name" : "FLD",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 47,
                       "col" : 21
-                    }
+                    },
+                    "nameUpper" : "FLD"
                   },
                   "right" : {
                     "kind" : "EConst",
                     "value" : "'PTN_NR'",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 47,
                       "col" : 27
                     }
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 47,
                     "col" : 21
                   }
@@ -250,32 +289,47 @@
                     "name" : "PTN_NR",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 48,
                       "col" : 20
-                    }
+                    },
+                    "nameUpper" : "PTN_NR"
                   },
                   "op" : "=",
                   "rhs" : {
-                    "kind" : "ERaw",
-                    "text" : "PatWdw(PTN_NR)",
+                    "kind" : "ECall",
+                    "name" : "PatWdw",
+                    "args" : [ {
+                      "kind" : "EVar",
+                      "name" : "PTN_NR",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+                        "line" : 48,
+                        "col" : 36
+                      },
+                      "nameUpper" : "PTN_NR"
+                    } ],
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 48,
                       "col" : 29
-                    }
+                    },
+                    "arity" : 1,
+                    "nameUpper" : "PATWDW"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 48,
                     "col" : 20
-                  }
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#48:20"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 47,
                   "col" : 16
                 }
@@ -288,24 +342,25 @@
                     "name" : "FLD",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 49,
                       "col" : 21
-                    }
+                    },
+                    "nameUpper" : "FLD"
                   },
                   "right" : {
                     "kind" : "EConst",
                     "value" : "'DATUM'",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 49,
                       "col" : 27
                     }
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 49,
                     "col" : 21
                   }
@@ -317,32 +372,47 @@
                     "name" : "DATUM",
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 50,
                       "col" : 20
-                    }
+                    },
+                    "nameUpper" : "DATUM"
                   },
                   "op" : "=",
                   "rhs" : {
-                    "kind" : "ERaw",
-                    "text" : "DatWdw(DATUM)",
+                    "kind" : "ECall",
+                    "name" : "DatWdw",
+                    "args" : [ {
+                      "kind" : "EVar",
+                      "name" : "DATUM",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
+                        "line" : 50,
+                        "col" : 35
+                      },
+                      "nameUpper" : "DATUM"
+                    } ],
                     "pos" : {
                       "kind" : "SrcPos",
-                      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                       "line" : 50,
                       "col" : 28
-                    }
+                    },
+                    "arity" : 1,
+                    "nameUpper" : "DATWDW"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 50,
                     "col" : 20
-                  }
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#50:20"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 49,
                   "col" : 16
                 }
@@ -351,17 +421,19 @@
                 "kind" : "SSkip",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 46,
                   "col" : 16
-                }
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#46:16"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 46,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#46:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -369,10 +441,11 @@
                 "name" : "*in99",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 52,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN99"
               },
               "op" : "=",
               "rhs" : {
@@ -380,32 +453,36 @@
                 "name" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 52,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*ON"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 52,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#52:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 45,
               "col" : 12
-            }
+            },
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#46:16", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#52:16" ],
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#45:12"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 45,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#45:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -416,24 +493,26 @@
               "name" : "*in07",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 55,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*IN07"
             },
             "right" : {
               "kind" : "EVar",
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 55,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 55,
               "col" : 16
             }
@@ -447,10 +526,11 @@
                 "name" : "DATUM",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 56,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "DATUM"
               },
               "op" : "=",
               "rhs" : {
@@ -461,34 +541,36 @@
                   "name" : "DATUM",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 56,
                     "col" : 24
-                  }
+                  },
+                  "nameUpper" : "DATUM"
                 },
                 "right" : {
                   "kind" : "ERaw",
                   "text" : "%days(1)",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 56,
                     "col" : 32
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 56,
                   "col" : 24
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 56,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#56:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -496,10 +578,11 @@
                 "name" : "*in45",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 57,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN45"
               },
               "op" : "=",
               "rhs" : {
@@ -507,17 +590,19 @@
                 "name" : "*off",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 57,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*OFF"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 57,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#57:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -525,10 +610,11 @@
                 "name" : "*in99",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 58,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN99"
               },
               "op" : "=",
               "rhs" : {
@@ -536,32 +622,36 @@
                 "name" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 58,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*ON"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 58,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#58:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 55,
               "col" : 12
-            }
+            },
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#56:16", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#57:16", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#58:16" ],
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#55:12"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 55,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#55:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -572,24 +662,26 @@
               "name" : "*in08",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 61,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*IN08"
             },
             "right" : {
               "kind" : "EVar",
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 61,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 61,
               "col" : 16
             }
@@ -603,10 +695,11 @@
                 "name" : "DATUM",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 62,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "DATUM"
               },
               "op" : "=",
               "rhs" : {
@@ -617,34 +710,36 @@
                   "name" : "DATUM",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 62,
                     "col" : 24
-                  }
+                  },
+                  "nameUpper" : "DATUM"
                 },
                 "right" : {
                   "kind" : "ERaw",
                   "text" : "%days(1)",
                   "pos" : {
                     "kind" : "SrcPos",
-                    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                     "line" : 62,
                     "col" : 32
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 62,
                   "col" : 24
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 62,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#62:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -652,10 +747,11 @@
                 "name" : "*in45",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 63,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN45"
               },
               "op" : "=",
               "rhs" : {
@@ -663,17 +759,19 @@
                 "name" : "*off",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 63,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*OFF"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 63,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#63:16"
             }, {
               "kind" : "SAssign",
               "lhs" : {
@@ -681,10 +779,11 @@
                 "name" : "*in99",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 64,
                   "col" : 16
-                }
+                },
+                "nameUpper" : "*IN99"
               },
               "op" : "=",
               "rhs" : {
@@ -692,32 +791,36 @@
                 "name" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                   "line" : 64,
                   "col" : 24
-                }
+                },
+                "nameUpper" : "*ON"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 64,
                 "col" : 16
-              }
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#64:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 61,
               "col" : 12
-            }
+            },
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#62:16", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#63:16", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#64:16" ],
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#61:12"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 61,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#61:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -728,24 +831,26 @@
               "name" : "*in12",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 67,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*IN12"
             },
             "right" : {
               "kind" : "EVar",
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 67,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 67,
               "col" : 16
             }
@@ -757,10 +862,11 @@
               "name" : "*inlr",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 68,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*INLR"
             },
             "op" : "=",
             "rhs" : {
@@ -768,25 +874,27 @@
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 68,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 68,
               "col" : 16
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#68:16"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 67,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#67:12"
         }, {
           "kind" : "SIf",
           "cond" : {
@@ -797,24 +905,26 @@
               "name" : "*in99",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 72,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*IN99"
             },
             "right" : {
               "kind" : "EVar",
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 72,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 72,
               "col" : 16
             }
@@ -826,10 +936,11 @@
               "name" : "*in99",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 77,
                 "col" : 16
-              }
+              },
+              "nameUpper" : "*IN99"
             },
             "op" : "=",
             "rhs" : {
@@ -837,39 +948,44 @@
               "name" : "*off",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 77,
                 "col" : 24
-              }
+              },
+              "nameUpper" : "*OFF"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 77,
               "col" : 16
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#77:16"
           },
-          "elseBranch" : "placeholder",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 72,
             "col" : 12
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#72:12"
         } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 35,
           "col" : 8
-        }
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#39:12", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#45:12", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#55:12", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#61:12", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#67:12", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#72:12" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#35:8"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 35,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#35:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -877,10 +993,11 @@
         "name" : "*inlr",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 84,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*INLR"
       },
       "op" : "=",
       "rhs" : {
@@ -888,17 +1005,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 84,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 84,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#84:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -906,10 +1025,11 @@
         "name" : "*in45",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 94,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN45"
       },
       "op" : "=",
       "rhs" : {
@@ -917,17 +1037,19 @@
         "name" : "*off",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 94,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*OFF"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 94,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#94:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -935,10 +1057,11 @@
         "name" : "*in40",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 95,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN40"
       },
       "op" : "=",
       "rhs" : {
@@ -946,17 +1069,19 @@
         "name" : "*off",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 95,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*OFF"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 95,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#95:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -964,10 +1089,11 @@
         "name" : "*in41",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 96,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN41"
       },
       "op" : "=",
       "rhs" : {
@@ -975,17 +1101,19 @@
         "name" : "*off",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 96,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*OFF"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 96,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#96:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -993,10 +1121,11 @@
         "name" : "*in42",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 97,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN42"
       },
       "op" : "=",
       "rhs" : {
@@ -1004,17 +1133,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 97,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 97,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#97:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -1022,10 +1153,11 @@
         "name" : "*in40",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 99,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN40"
       },
       "op" : "=",
       "rhs" : {
@@ -1033,17 +1165,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 99,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 99,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#99:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -1051,10 +1185,11 @@
         "name" : "*in41",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 100,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN41"
       },
       "op" : "=",
       "rhs" : {
@@ -1062,17 +1197,19 @@
         "name" : "*on",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 100,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*ON"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 100,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#100:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -1080,10 +1217,11 @@
         "name" : "*in42",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 101,
           "col" : 8
-        }
+        },
+        "nameUpper" : "*IN42"
       },
       "op" : "=",
       "rhs" : {
@@ -1091,17 +1229,19 @@
         "name" : "*off",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 101,
           "col" : 16
-        }
+        },
+        "nameUpper" : "*OFF"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 101,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#101:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -1109,10 +1249,11 @@
         "name" : "RRN#",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 103,
           "col" : 8
-        }
+        },
+        "nameUpper" : "RRN#"
       },
       "op" : "=",
       "rhs" : {
@@ -1120,17 +1261,18 @@
         "value" : 0,
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 103,
           "col" : 15
         }
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 103,
         "col" : 8
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#103:8"
     }, {
       "kind" : "SWhile",
       "cond" : {
@@ -1141,24 +1283,25 @@
           "name" : "sqlcode",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 131,
             "col" : 16
-          }
+          },
+          "nameUpper" : "SQLCODE"
         },
         "right" : {
           "kind" : "EConst",
           "value" : 0,
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 131,
             "col" : 26
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 131,
           "col" : 16
         }
@@ -1173,24 +1316,25 @@
             "name" : "RRN#",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 141,
               "col" : 23
-            }
+            },
+            "nameUpper" : "RRN#"
           },
           "right" : {
             "kind" : "EConst",
             "value" : 0,
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 141,
               "col" : 30
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 141,
             "col" : 23
           }
@@ -1204,10 +1348,11 @@
               "name" : "RRN#",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 142,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "RRN#"
             },
             "op" : "+=",
             "rhs" : {
@@ -1215,17 +1360,18 @@
               "value" : 1,
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 142,
                 "col" : 28
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 142,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#142:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1233,10 +1379,11 @@
               "name" : "COL_HVL",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 143,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_HVL"
             },
             "op" : "=",
             "rhs" : {
@@ -1244,17 +1391,18 @@
               "value" : "''",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 143,
                 "col" : 30
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 143,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#143:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1262,10 +1410,11 @@
               "name" : "COL_TIJD",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 144,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_TIJD"
             },
             "op" : "=",
             "rhs" : {
@@ -1273,17 +1422,18 @@
               "value" : "''",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 144,
                 "col" : 31
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 144,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#144:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1291,10 +1441,11 @@
               "name" : "COL_EENH",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 145,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_EENH"
             },
             "op" : "=",
             "rhs" : {
@@ -1302,17 +1453,18 @@
               "value" : "''",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 145,
                 "col" : 30
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 145,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#145:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1320,10 +1472,11 @@
               "name" : "COL_VORM",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 146,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_VORM"
             },
             "op" : "=",
             "rhs" : {
@@ -1331,17 +1484,18 @@
               "value" : "''",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 146,
                 "col" : 31
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 146,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#146:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1349,10 +1503,11 @@
               "name" : "COL_MED1",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 147,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_MED1"
             },
             "op" : "=",
             "rhs" : {
@@ -1360,17 +1515,18 @@
               "value" : "'Geen medicatie'",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 147,
                 "col" : 31
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 147,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#147:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1378,10 +1534,11 @@
               "name" : "COL_MED2",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 148,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_MED2"
             },
             "op" : "=",
             "rhs" : {
@@ -1389,17 +1546,18 @@
               "value" : "''",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 148,
                 "col" : 31
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 148,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#148:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1407,10 +1565,11 @@
               "name" : "COL_MED3",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 149,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "COL_MED3"
             },
             "op" : "=",
             "rhs" : {
@@ -1418,17 +1577,18 @@
               "value" : "''",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 149,
                 "col" : 31
               }
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 149,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#149:20"
           }, {
             "kind" : "SAssign",
             "lhs" : {
@@ -1436,10 +1596,11 @@
               "name" : "*in45",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 150,
                 "col" : 20
-              }
+              },
+              "nameUpper" : "*IN45"
             },
             "op" : "=",
             "rhs" : {
@@ -1447,39 +1608,44 @@
               "name" : "*on",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
                 "line" : 150,
                 "col" : 28
-              }
+              },
+              "nameUpper" : "*ON"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 150,
               "col" : 20
-            }
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#150:20"
           } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 141,
             "col" : 16
-          }
+          },
+          "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#142:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#143:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#144:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#145:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#146:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#147:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#148:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#149:20", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#150:20" ],
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#141:16"
         },
-        "elseBranch" : "placeholder",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 141,
           "col" : 16
-        }
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#141:16"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 131,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#131:12"
     }, {
       "kind" : "SIf",
       "cond" : {
@@ -1490,24 +1656,25 @@
           "name" : "sqlstate",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 164,
             "col" : 15
-          }
+          },
+          "nameUpper" : "SQLSTATE"
         },
         "right" : {
           "kind" : "EConst",
           "value" : "'00000'",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 164,
             "col" : 27
           }
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 164,
           "col" : 15
         }
@@ -1521,10 +1688,11 @@
             "name" : "LNAME",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 165,
               "col" : 16
-            }
+            },
+            "nameUpper" : "LNAME"
           },
           "op" : "=",
           "rhs" : {
@@ -1532,17 +1700,18 @@
             "value" : "''",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 165,
               "col" : 24
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 165,
             "col" : 16
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#165:16"
         }, {
           "kind" : "SAssign",
           "lhs" : {
@@ -1550,10 +1719,11 @@
             "name" : "RNAME_KRT",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 166,
               "col" : 16
-            }
+            },
+            "nameUpper" : "RNAME_KRT"
           },
           "op" : "=",
           "rhs" : {
@@ -1561,43 +1731,48 @@
             "value" : "''",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
               "line" : 166,
               "col" : 28
             }
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
             "line" : 166,
             "col" : 16
-          }
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#166:16"
         } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
           "line" : 164,
           "col" : 12
-        }
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#165:16", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#166:16" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#164:12"
       },
-      "elseBranch" : "placeholder",
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
         "line" : 164,
         "col" : 12
-      }
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#164:12"
     } ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
       "line" : 1,
       "col" : 8
-    }
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#2:31", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#28:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#35:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#84:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#94:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#95:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#96:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#97:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#99:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#100:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#101:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#103:8", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#131:12", "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#164:12" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle#1:8"
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\Users\\bbo\\RGB_Library\\qrpglesrc\\medplnng.sqlrpgle",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng.sqlrpgle",
     "line" : 1,
     "col" : 8
   }
