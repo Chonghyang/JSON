@@ -1,0 +1,836 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DFile",
+    "name" : "perslf1",
+    "device" : "DISK",
+    "usage" : [ "INPUT" ],
+    "keyed" : false,
+    "recordFormat" : "e",
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "line" : 3,
+      "col" : 6
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#3:6"
+  }, {
+    "kind" : "DFile",
+    "name" : "afdlf1",
+    "device" : "PRINTER",
+    "usage" : [ "INPUT" ],
+    "keyed" : false,
+    "recordFormat" : "e",
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "line" : 4,
+      "col" : 6
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#4:6"
+  }, {
+    "kind" : "DDataStructure",
+    "name" : "<ds@13>",
+    "fields" : [ ],
+    "qualified" : false,
+    "template" : false,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "line" : 13,
+      "col" : 6
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#13:6"
+  }, {
+    "kind" : "DDataStructure",
+    "name" : "<ds@21>",
+    "fields" : [ ],
+    "qualified" : false,
+    "template" : false,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "line" : 21,
+      "col" : 6
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#21:6"
+  }, {
+    "kind" : "DDataStructure",
+    "name" : "<ds@29>",
+    "fields" : [ ],
+    "qualified" : false,
+    "template" : false,
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "line" : 29,
+      "col" : 6
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#29:6"
+  } ],
+  "main" : {
+    "kind" : "SBlock",
+    "stmts" : [ {
+      "kind" : "SExpr",
+      "expr" : {
+        "kind" : "ECall",
+        "name" : "oflind",
+        "args" : [ {
+          "kind" : "EVar",
+          "name" : "overflow",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 5,
+            "col" : 51
+          },
+          "nameUpper" : "OVERFLOW"
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 5,
+          "col" : 44
+        },
+        "arity" : 1,
+        "nameUpper" : "OFLIND"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 5,
+        "col" : 44
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#5:44"
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "prognm",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 40,
+          "col" : 8
+        },
+        "nameUpper" : "PROGNM"
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "prog_naam",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 40,
+          "col" : 17
+        },
+        "nameUpper" : "PROG_NAAM"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 40,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#40:8"
+    }, {
+      "kind" : "SRead",
+      "file" : "rec_pers",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 43,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#43:8"
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*IN90",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 44,
+          "col" : 8
+        },
+        "nameUpper" : "*IN90"
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EEof",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 44,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 44,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:8"
+    }, {
+      "kind" : "SWhile",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "=",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "*in90",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 45,
+            "col" : 12
+          },
+          "nameUpper" : "*IN90"
+        },
+        "right" : {
+          "kind" : "EVar",
+          "name" : "*off",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 45,
+            "col" : 20
+          },
+          "nameUpper" : "*OFF"
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 45,
+          "col" : 12
+        }
+      },
+      "body" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SIf",
+          "cond" : {
+            "kind" : "EVar",
+            "name" : "overflow",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 47,
+              "col" : 13
+            },
+            "nameUpper" : "OVERFLOW"
+          },
+          "thenBranch" : {
+            "kind" : "SAssign",
+            "lhs" : {
+              "kind" : "EVar",
+              "name" : "overflow",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+                "line" : 49,
+                "col" : 12
+              },
+              "nameUpper" : "OVERFLOW"
+            },
+            "op" : "=",
+            "rhs" : {
+              "kind" : "EVar",
+              "name" : "*off",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+                "line" : 49,
+                "col" : 23
+              },
+              "nameUpper" : "*OFF"
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 49,
+              "col" : 12
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#49:12"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 47,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "i_hldat",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 56,
+              "col" : 10
+            },
+            "nameUpper" : "I_HLDAT"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "astdat",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 56,
+              "col" : 20
+            },
+            "nameUpper" : "ASTDAT"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 56,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#56:10"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "u_dag",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 57,
+              "col" : 10
+            },
+            "nameUpper" : "U_DAG"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "i_dag",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 57,
+              "col" : 18
+            },
+            "nameUpper" : "I_DAG"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 57,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#57:10"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "u_maand",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 58,
+              "col" : 10
+            },
+            "nameUpper" : "U_MAAND"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "i_maand",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 58,
+              "col" : 20
+            },
+            "nameUpper" : "I_MAAND"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 58,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#58:10"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "u_eeja",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 59,
+              "col" : 10
+            },
+            "nameUpper" : "U_EEJA"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "i_eeja",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 59,
+              "col" : 19
+            },
+            "nameUpper" : "I_EEJA"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 59,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#59:10"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "astdat",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 60,
+              "col" : 10
+            },
+            "nameUpper" : "ASTDAT"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "u_hldat",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 60,
+              "col" : 19
+            },
+            "nameUpper" : "U_HLDAT"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 60,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#60:10"
+        }, {
+          "kind" : "SRead",
+          "file" : "rec_pers",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 62,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#62:10"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "*IN90",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 63,
+              "col" : 10
+            },
+            "nameUpper" : "*IN90"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EEof",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 63,
+              "col" : 18
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 63,
+            "col" : 10
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:10"
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 45,
+          "col" : 8
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#56:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#57:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#58:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#59:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#60:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#62:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:10" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 45,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8"
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "*inlr",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 66,
+          "col" : 8
+        },
+        "nameUpper" : "*INLR"
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*on",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 66,
+          "col" : 14
+        },
+        "nameUpper" : "*ON"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 66,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:8"
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "EBin",
+        "op" : "=",
+        "left" : {
+          "kind" : "EVar",
+          "name" : "codemv",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 69,
+            "col" : 13
+          },
+          "nameUpper" : "CODEMV"
+        },
+        "right" : {
+          "kind" : "EConst",
+          "value" : "'2'",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 69,
+            "col" : 22
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 69,
+          "col" : 13
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "omsmvr",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 70,
+            "col" : 12
+          },
+          "nameUpper" : "OMSMVR"
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "Man",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 70,
+            "col" : 21
+          },
+          "nameUpper" : "MAN"
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 70,
+          "col" : 12
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#70:12"
+      },
+      "elseBranch" : {
+        "kind" : "SAssign",
+        "lhs" : {
+          "kind" : "EVar",
+          "name" : "omsmvr",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 72,
+            "col" : 12
+          },
+          "nameUpper" : "OMSMVR"
+        },
+        "op" : "=",
+        "rhs" : {
+          "kind" : "EVar",
+          "name" : "Vrouw",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 72,
+            "col" : 21
+          },
+          "nameUpper" : "VROUW"
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 72,
+          "col" : 12
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#72:12"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 69,
+        "col" : 10
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#69:10"
+    }, {
+      "kind" : "SChain",
+      "file" : "afdrec",
+      "key" : {
+        "kind" : "EVar",
+        "name" : "afdnum",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 77,
+          "col" : 16
+        },
+        "nameUpper" : "AFDNUM"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 77,
+        "col" : 10
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#77:10"
+    }, {
+      "kind" : "SIf",
+      "cond" : {
+        "kind" : "ENot",
+        "inner" : {
+          "kind" : "EFound",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 78,
+            "col" : 17
+          }
+        },
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 78,
+          "col" : 13
+        }
+      },
+      "thenBranch" : {
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "afdnum",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 79,
+              "col" : 12
+            },
+            "nameUpper" : "AFDNUM"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EVar",
+            "name" : "*blanks",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 79,
+              "col" : 21
+            },
+            "nameUpper" : "*BLANKS"
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 79,
+            "col" : 12
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#79:12"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "afdnum",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 80,
+              "col" : 12
+            },
+            "nameUpper" : "AFDNUM"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "'Onbekend'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "line" : 80,
+              "col" : 21
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 80,
+            "col" : 12
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#80:12"
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 78,
+          "col" : 10
+        },
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#79:12", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#80:12" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#78:10"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 78,
+        "col" : 10
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#78:10"
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "omsbst",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 85,
+          "col" : 10
+        },
+        "nameUpper" : "OMSBST"
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "EVar",
+        "name" : "*blanks",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 85,
+          "col" : 19
+        },
+        "nameUpper" : "*BLANKS"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 85,
+        "col" : 10
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#85:10"
+    }, {
+      "kind" : "SAssign",
+      "lhs" : {
+        "kind" : "EVar",
+        "name" : "omsbst",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 86,
+          "col" : 10
+        },
+        "nameUpper" : "OMSBST"
+      },
+      "op" : "=",
+      "rhs" : {
+        "kind" : "ECall",
+        "name" : "sts",
+        "args" : [ {
+          "kind" : "EVar",
+          "name" : "codebs",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "line" : 86,
+            "col" : 23
+          },
+          "nameUpper" : "CODEBS"
+        } ],
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "line" : 86,
+          "col" : 19
+        },
+        "arity" : 1,
+        "nameUpper" : "STS"
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "line" : 86,
+        "col" : 10
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#86:10"
+    } ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "line" : 1,
+      "col" : 6
+    },
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#5:44", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#40:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#43:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#69:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#77:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#78:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#85:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#86:10" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#1:6"
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+    "line" : 1,
+    "col" : 6
+  }
+}
