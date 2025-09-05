@@ -1,0 +1,394 @@
+{
+  "schema": "rpg-ast/1.0",
+  "generatedAt": "2025-09-05T12:39:10.428036Z",
+  "program": {
+    "name": "AFD_PLNG",
+    "format": "free",
+    "options": {
+      "bnddir": [
+        "WORKSTN"
+      ]
+    },
+    "files": [
+      {
+        "kind": "WORKSTN",
+        "name": "AFD_PLNG_D",
+        "recordFormats": [
+          {
+            "name": "AFD_HDR"
+          },
+          {
+            "name": "AFD_SFL"
+          }
+        ],
+        "hasSubfile": true
+      }
+    ],
+    "dataStructures": [
+      {
+        "name": "params",
+        "qualified": true,
+        "sds": false,
+        "fields": [
+          {
+            "name": "CAEXIT",
+            "type": "ind"
+          }
+        ],
+        "overlays": []
+      },
+      {
+        "name": "return_ds",
+        "qualified": true,
+        "sds": false,
+        "fields": [
+          {
+            "name": "xaScrnAction",
+            "type": "char(6)",
+            "inz": "ISO"
+          },
+          {
+            "name": "PRSNUM",
+            "type": "packed(6,0)",
+            "inz": 0
+          },
+          {
+            "name": "PatNum",
+            "type": "packed(6,0)",
+            "inz": 0
+          }
+        ],
+        "overlays": []
+      }
+    ],
+    "variables": [],
+    "prototypes": [],
+    "procedures": [
+      {
+        "name": "DSP_AFD",
+        "export": true,
+        "params": [
+          {
+            "name": "inout",
+            "likeDs": "return_ds"
+          }
+        ],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [],
+        "body": [
+          {
+            "kind": "SExsr",
+            "name": "Initialize"
+          },
+          {
+            "kind": "SExfmt",
+            "file": "AFD_PLNG_D",
+            "format": "AFD_HDR"
+          },
+          {
+            "kind": "SWhile",
+            "cond": {
+              "kind": "ENot",
+              "expr": {
+                "kind": "EEof",
+                "file": "AFD_PLNG_D"
+              }
+            },
+            "body": [
+              {
+                "kind": "SReadC",
+                "file": "AFD_PLNG_D",
+                "format": "AFD_SFL"
+              },
+              {
+                "kind": "SSelect",
+                "cases": [
+                  {
+                    "cond": {
+                      "kind": "EBinary",
+                      "op": "=",
+                      "left": {
+                        "kind": "EVar",
+                        "name": "SAOPTION"
+                      },
+                      "right": {
+                        "kind": "ELit",
+                        "type": "ind",
+                        "value": "12"
+                      }
+                    },
+                    "body": [
+                      {
+                        "kind": "SExsr",
+                        "name": "exitProc"
+                      }
+                    ]
+                  },
+                  {
+                    "cond": {
+                      "kind": "EBinary",
+                      "op": "=",
+                      "left": {
+                        "kind": "EVar",
+                        "name": "SAOPTION"
+                      },
+                      "right": {
+                        "kind": "ELit",
+                        "type": "string",
+                        "value": "2"
+                      }
+                    },
+                    "body": [
+                      {
+                        "kind": "SExsr",
+                        "name": "clearSFL"
+                      },
+                      {
+                        "kind": "SExsr",
+                        "name": "loadSFL"
+                      }
+                    ]
+                  }
+                ],
+                "otherwise": [
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EField",
+                      "ds": "return_ds",
+                      "field": "xaScrnAction"
+                    },
+                    "expr": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "SELECT"
+                    }
+                  },
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EField",
+                      "ds": "return_ds",
+                      "field": "PRSNUM"
+                    },
+                    "expr": {
+                      "kind": "EVar",
+                      "name": "PRSNUM"
+                    }
+                  },
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EField",
+                      "ds": "return_ds",
+                      "field": "PatNum"
+                    },
+                    "expr": {
+                      "kind": "EVar",
+                      "name": "PatNum"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "SReturn",
+            "expr": {
+              "kind": "EVar",
+              "name": "return_ds"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Initialize",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [],
+        "body": [
+          {
+            "kind": "SExsr",
+            "name": "clearSFL"
+          },
+          {
+            "kind": "SExsr",
+            "name": "loadSFL"
+          }
+        ]
+      },
+      {
+        "name": "clearSFL",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [],
+        "body": [
+          {
+            "kind": "SSubfileClear",
+            "file": "AFD_PLNG_D",
+            "format": "AFD_SFL"
+          }
+        ]
+      },
+      {
+        "name": "exitProc",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [],
+        "body": [
+          {
+            "kind": "SAssign",
+            "target": {
+              "kind": "EField",
+              "ds": "return_ds",
+              "field": "xaScrnAction"
+            },
+            "expr": {
+              "kind": "ELit",
+              "type": "string",
+              "value": "EXIT"
+            }
+          }
+        ]
+      },
+      {
+        "name": "loadSFL",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [],
+        "body": [
+          {
+            "kind": "SSql",
+            "sqlKind": "DECLARE",
+            "text": "DECLARE c1 CURSOR FOR SELECT PRSNUM, PATNUM FROM AFD_PLANNING WHERE date >= :params.FromDate AND date <= :params.ToDate",
+            "cursor": null,
+            "into": [],
+            "using": []
+          },
+          {
+            "kind": "SSql",
+            "sqlKind": "OPEN",
+            "text": "OPEN c1",
+            "cursor": null,
+            "into": [],
+            "using": []
+          },
+          {
+            "kind": "SSubfileLoadBegin",
+            "file": "AFD_PLNG_D",
+            "format": "AFD_SFL"
+          },
+          {
+            "kind": "SSql",
+            "sqlKind": "FETCH-LOOP",
+            "text": "FETCH c1 INTO :PRSNUM, :PatNum",
+            "cursor": null,
+            "into": [
+              "PRSNUM",
+              "PatNum"
+            ],
+            "using": []
+          },
+          {
+            "kind": "SSubfileWriteCurrent",
+            "file": "AFD_PLNG_D",
+            "format": "AFD_SFL",
+            "fields": {
+              "PRSNUM": "PRSNUM",
+              "PATNUM": "PatNum"
+            }
+          },
+          {
+            "kind": "SRepeatIf",
+            "cond": {
+              "kind": "ECall",
+              "name": "SqlStateNot",
+              "args": [
+                {
+                  "kind": "ELit",
+                  "type": "string",
+                  "value": "02000"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "SSubfileLoadEnd",
+            "file": "AFD_PLNG_D",
+            "format": "AFD_SFL"
+          },
+          {
+            "kind": "SSql",
+            "sqlKind": "CLOSE",
+            "text": "CLOSE c1",
+            "cursor": null,
+            "into": [],
+            "using": []
+          }
+        ]
+      },
+      {
+        "name": "countTotalRecords",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [],
+        "body": [
+          {
+            "kind": "SSql",
+            "sqlKind": "SELECT-INTO",
+            "text": "SELECT COUNT(*) INTO :params.Total FROM AFD_PLANNING",
+            "cursor": null,
+            "into": [],
+            "using": []
+          }
+        ]
+      }
+    ],
+    "main": {
+      "body": []
+    },
+    "callGraph": {
+      "calls": [
+        {
+          "from": "DSP_AFD",
+          "to": "Initialize"
+        },
+        {
+          "from": "DSP_AFD",
+          "to": "exitProc"
+        },
+        {
+          "from": "DSP_AFD",
+          "to": "clearSFL"
+        },
+        {
+          "from": "DSP_AFD",
+          "to": "loadSFL"
+        }
+      ]
+    }
+  }
+}

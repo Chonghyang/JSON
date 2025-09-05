@@ -1,0 +1,572 @@
+{
+  "schema": "rpg-ast/1.0",
+  "generatedAt": "2025-09-05T12:39:10.428617Z",
+  "program": {
+    "name": "HSPTL_MAIN",
+    "format": "free",
+    "options": {
+      "dftactgrp": "*NO",
+      "actgrp": "*NEW",
+      "bnddir": [
+        "WORKSTN"
+      ]
+    },
+    "files": [],
+    "dataStructures": [
+      {
+        "name": "Main",
+        "qualified": true,
+        "sds": false,
+        "fields": [
+          {
+            "name": "CurrScrn",
+            "type": "char(6)",
+            "inz": "AfdPlg"
+          },
+          {
+            "name": "Dep",
+            "type": "varchar(20)",
+            "inz": ""
+          },
+          {
+            "name": "Scheme",
+            "type": "varchar(15)",
+            "inz": ""
+          },
+          {
+            "name": "SelDate",
+            "type": "date(*iso)",
+            "inz": "*sys"
+          },
+          {
+            "name": "PrsNum",
+            "type": "packed(6,0)",
+            "inz": 0
+          },
+          {
+            "name": "PatNum",
+            "type": "packed(6,0)",
+            "inz": 0
+          }
+        ],
+        "overlays": []
+      }
+    ],
+    "variables": [
+      {
+        "name": "User",
+        "type": "char(10)",
+        "inz": "*USER",
+        "attributes": {}
+      }
+    ],
+    "prototypes": [
+      {
+        "name": "FltrPlnng",
+        "return": null,
+        "extproc": "FLTRPLNNG",
+        "likeDs": "Main"
+      },
+      {
+        "name": "DspAfdPlng",
+        "return": null,
+        "extproc": "DSP_AFD",
+        "likeDs": "Main"
+      },
+      {
+        "name": "DspPrsPlng",
+        "return": null,
+        "extproc": "DSP_PRS",
+        "likeDs": "Main"
+      },
+      {
+        "name": "DspMedPlng",
+        "return": null,
+        "extproc": "DSP_MED",
+        "likeDs": "Main"
+      }
+    ],
+    "procedures": [
+      {
+        "name": "MAIN",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [
+          {
+            "name": "Initialize",
+            "body": [
+              {
+                "kind": "SSql",
+                "sqlKind": "DECLARE",
+                "text": "DECLARE cDep CURSOR FOR SELECT Dept, Scheme FROM UserDefaults WHERE User = :User",
+                "cursor": null,
+                "into": [],
+                "using": []
+              },
+              {
+                "kind": "SSql",
+                "sqlKind": "OPEN",
+                "text": "OPEN cDep",
+                "cursor": null,
+                "into": [],
+                "using": []
+              },
+              {
+                "kind": "SSql",
+                "sqlKind": "FETCH",
+                "text": "FETCH cDep INTO :Main.Dep, :Main.Scheme",
+                "cursor": null,
+                "into": [
+                  "Main.Dep",
+                  "Main.Scheme"
+                ],
+                "using": []
+              },
+              {
+                "kind": "SSql",
+                "sqlKind": "CLOSE",
+                "text": "CLOSE cDep",
+                "cursor": null,
+                "into": [],
+                "using": []
+              }
+            ]
+          },
+          {
+            "name": "UpdateUserSettings",
+            "body": [
+              {
+                "kind": "SSql",
+                "sqlKind": "UPDATE",
+                "text": "UPDATE UserDefaults SET Dept=:Main.Dep, Scheme=:Main.Scheme WHERE User=:User",
+                "cursor": null,
+                "into": [],
+                "using": []
+              }
+            ]
+          }
+        ],
+        "body": [
+          {
+            "kind": "SExsr",
+            "name": "Initialize"
+          },
+          {
+            "kind": "SWhile",
+            "cond": {
+              "kind": "EBinary",
+              "op": "<>",
+              "left": {
+                "kind": "EField",
+                "ds": "Main",
+                "field": "CurrScrn"
+              },
+              "right": {
+                "kind": "ELit",
+                "type": "string",
+                "value": "EXIT"
+              }
+            },
+            "body": [
+              {
+                "kind": "SSelect",
+                "cases": [
+                  {
+                    "cond": {
+                      "kind": "EBinary",
+                      "op": "=",
+                      "left": {
+                        "kind": "EField",
+                        "ds": "Main",
+                        "field": "CurrScrn"
+                      },
+                      "right": {
+                        "kind": "ELit",
+                        "type": "string",
+                        "value": "filter"
+                      }
+                    },
+                    "body": [
+                      {
+                        "kind": "SAssign",
+                        "target": {
+                          "kind": "EVar",
+                          "name": "Main"
+                        },
+                        "expr": {
+                          "kind": "ECall",
+                          "name": "FltrPlnng",
+                          "args": [
+                            {
+                              "kind": "EVar",
+                              "name": "Main"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "cond": {
+                      "kind": "EBinary",
+                      "op": "=",
+                      "left": {
+                        "kind": "EField",
+                        "ds": "Main",
+                        "field": "CurrScrn"
+                      },
+                      "right": {
+                        "kind": "ELit",
+                        "type": "string",
+                        "value": "AfdPlg"
+                      }
+                    },
+                    "body": [
+                      {
+                        "kind": "SAssign",
+                        "target": {
+                          "kind": "EVar",
+                          "name": "Main"
+                        },
+                        "expr": {
+                          "kind": "ECall",
+                          "name": "DspAfdPlng",
+                          "args": [
+                            {
+                              "kind": "EVar",
+                              "name": "Main"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "cond": {
+                      "kind": "EBinary",
+                      "op": "=",
+                      "left": {
+                        "kind": "EField",
+                        "ds": "Main",
+                        "field": "CurrScrn"
+                      },
+                      "right": {
+                        "kind": "ELit",
+                        "type": "string",
+                        "value": "PrsPlg"
+                      }
+                    },
+                    "body": [
+                      {
+                        "kind": "SAssign",
+                        "target": {
+                          "kind": "EVar",
+                          "name": "Main"
+                        },
+                        "expr": {
+                          "kind": "ECall",
+                          "name": "DspPrsPlng",
+                          "args": [
+                            {
+                              "kind": "EVar",
+                              "name": "Main"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "cond": {
+                      "kind": "EBinary",
+                      "op": "=",
+                      "left": {
+                        "kind": "EField",
+                        "ds": "Main",
+                        "field": "CurrScrn"
+                      },
+                      "right": {
+                        "kind": "ELit",
+                        "type": "string",
+                        "value": "MedPlg"
+                      }
+                    },
+                    "body": [
+                      {
+                        "kind": "SAssign",
+                        "target": {
+                          "kind": "EVar",
+                          "name": "Main"
+                        },
+                        "expr": {
+                          "kind": "ECall",
+                          "name": "DspMedPlng",
+                          "args": [
+                            {
+                              "kind": "EVar",
+                              "name": "Main"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "otherwise": [
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EField",
+                      "ds": "Main",
+                      "field": "CurrScrn"
+                    },
+                    "expr": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "EXIT"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "SExsr",
+            "name": "UpdateUserSettings"
+          },
+          {
+            "kind": "SSetLR",
+            "value": true
+          },
+          {
+            "kind": "SReturn",
+            "expr": null
+          }
+        ]
+      }
+    ],
+    "main": {
+      "body": [
+        {
+          "kind": "SExsr",
+          "name": "Initialize"
+        },
+        {
+          "kind": "SWhile",
+          "cond": {
+            "kind": "EBinary",
+            "op": "<>",
+            "left": {
+              "kind": "EField",
+              "ds": "Main",
+              "field": "CurrScrn"
+            },
+            "right": {
+              "kind": "ELit",
+              "type": "string",
+              "value": "EXIT"
+            }
+          },
+          "body": [
+            {
+              "kind": "SSelect",
+              "cases": [
+                {
+                  "cond": {
+                    "kind": "EBinary",
+                    "op": "=",
+                    "left": {
+                      "kind": "EField",
+                      "ds": "Main",
+                      "field": "CurrScrn"
+                    },
+                    "right": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "filter"
+                    }
+                  },
+                  "body": [
+                    {
+                      "kind": "SAssign",
+                      "target": {
+                        "kind": "EVar",
+                        "name": "Main"
+                      },
+                      "expr": {
+                        "kind": "ECall",
+                        "name": "FltrPlnng",
+                        "args": [
+                          {
+                            "kind": "EVar",
+                            "name": "Main"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "cond": {
+                    "kind": "EBinary",
+                    "op": "=",
+                    "left": {
+                      "kind": "EField",
+                      "ds": "Main",
+                      "field": "CurrScrn"
+                    },
+                    "right": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "AfdPlg"
+                    }
+                  },
+                  "body": [
+                    {
+                      "kind": "SAssign",
+                      "target": {
+                        "kind": "EVar",
+                        "name": "Main"
+                      },
+                      "expr": {
+                        "kind": "ECall",
+                        "name": "DspAfdPlng",
+                        "args": [
+                          {
+                            "kind": "EVar",
+                            "name": "Main"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "cond": {
+                    "kind": "EBinary",
+                    "op": "=",
+                    "left": {
+                      "kind": "EField",
+                      "ds": "Main",
+                      "field": "CurrScrn"
+                    },
+                    "right": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "PrsPlg"
+                    }
+                  },
+                  "body": [
+                    {
+                      "kind": "SAssign",
+                      "target": {
+                        "kind": "EVar",
+                        "name": "Main"
+                      },
+                      "expr": {
+                        "kind": "ECall",
+                        "name": "DspPrsPlng",
+                        "args": [
+                          {
+                            "kind": "EVar",
+                            "name": "Main"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "cond": {
+                    "kind": "EBinary",
+                    "op": "=",
+                    "left": {
+                      "kind": "EField",
+                      "ds": "Main",
+                      "field": "CurrScrn"
+                    },
+                    "right": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "MedPlg"
+                    }
+                  },
+                  "body": [
+                    {
+                      "kind": "SAssign",
+                      "target": {
+                        "kind": "EVar",
+                        "name": "Main"
+                      },
+                      "expr": {
+                        "kind": "ECall",
+                        "name": "DspMedPlng",
+                        "args": [
+                          {
+                            "kind": "EVar",
+                            "name": "Main"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "otherwise": [
+                {
+                  "kind": "SAssign",
+                  "target": {
+                    "kind": "EField",
+                    "ds": "Main",
+                    "field": "CurrScrn"
+                  },
+                  "expr": {
+                    "kind": "ELit",
+                    "type": "string",
+                    "value": "EXIT"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "SExsr",
+          "name": "UpdateUserSettings"
+        },
+        {
+          "kind": "SSetLR",
+          "value": true
+        },
+        {
+          "kind": "SReturn",
+          "expr": null
+        }
+      ]
+    },
+    "callGraph": {
+      "calls": [
+        {
+          "from": "MAIN",
+          "to": "FltrPlnng"
+        },
+        {
+          "from": "MAIN",
+          "to": "DspAfdPlng"
+        },
+        {
+          "from": "MAIN",
+          "to": "DspPrsPlng"
+        },
+        {
+          "from": "MAIN",
+          "to": "DspMedPlng"
+        }
+      ]
+    }
+  }
+}

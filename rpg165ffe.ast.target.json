@@ -1,0 +1,324 @@
+{
+  "schema": "rpg-ast/1.0",
+  "generatedAt": "2025-09-05T12:39:10.427658Z",
+  "program": {
+    "name": "RPG165FFE",
+    "format": "fixed",
+    "options": {
+      "decedit": "0,",
+      "datedit": "*DMY"
+    },
+    "files": [
+      {
+        "kind": "DISK",
+        "name": "PERSLF1",
+        "recordFormats": [
+          {
+            "name": "REC_PERS",
+            "alias": "PERSREC"
+          }
+        ],
+        "keyed": true
+      },
+      {
+        "kind": "PRINTER",
+        "name": "AFDLF1",
+        "recordFormats": [
+          {
+            "name": "HEADER"
+          }
+        ]
+      }
+    ],
+    "dataStructures": [
+      {
+        "name": "I_DATUM",
+        "qualified": false,
+        "sds": false,
+        "fields": [
+          {
+            "name": "I_HLDAT",
+            "type": "packed(8,0)"
+          },
+          {
+            "name": "I_EEJA",
+            "type": "packed(4,0)",
+            "overlay": "I_DATUM"
+          },
+          {
+            "name": "I_EEUW",
+            "type": "packed(2,0)",
+            "overlay": "I_EEJA",
+            "overlayPos": 1
+          },
+          {
+            "name": "I_JAAR",
+            "type": "packed(2,0)",
+            "overlay": "I_DATUM",
+            "overlayPos": 3
+          },
+          {
+            "name": "I_MAAND",
+            "type": "packed(2,0)",
+            "overlay": "I_DATUM",
+            "overlayPos": 5
+          },
+          {
+            "name": "I_DAG",
+            "type": "packed(2,0)",
+            "overlay": "I_DATUM",
+            "overlayPos": 7
+          }
+        ],
+        "overlays": []
+      }
+    ],
+    "variables": [
+      {
+        "name": "Overflow",
+        "type": "ind",
+        "inz": false,
+        "attributes": {}
+      }
+    ],
+    "prototypes": [],
+    "procedures": [
+      {
+        "name": "MAIN",
+        "export": false,
+        "params": [],
+        "locals": {
+          "variables": [],
+          "dataStructures": []
+        },
+        "subroutines": [
+          {
+            "name": "CodeManVrouw",
+            "body": [
+              {
+                "kind": "SIf",
+                "cond": {
+                  "kind": "EBinary",
+                  "op": "=",
+                  "left": {
+                    "kind": "EVar",
+                    "name": "PERSREC.Gender"
+                  },
+                  "right": {
+                    "kind": "ELit",
+                    "type": "string",
+                    "value": "M"
+                  }
+                },
+                "then": [
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EVar",
+                      "name": "PERSREC.GenderCode"
+                    },
+                    "expr": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "Man"
+                    }
+                  }
+                ],
+                "else": [
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EVar",
+                      "name": "PERSREC.GenderCode"
+                    },
+                    "expr": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "Vrouw"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AfdOmschrijv",
+            "body": [
+              {
+                "kind": "SChain",
+                "file": "AFDLF1",
+                "key": {
+                  "kind": "EVar",
+                  "name": "PERSREC.DeptId"
+                },
+                "into": {
+                  "kind": "EVar",
+                  "name": "Dept"
+                }
+              },
+              {
+                "kind": "SIf",
+                "cond": {
+                  "kind": "ENot",
+                  "expr": {
+                    "kind": "EFound",
+                    "file": "AFDLF1"
+                  }
+                },
+                "then": [
+                  {
+                    "kind": "SAssign",
+                    "target": {
+                      "kind": "EVar",
+                      "name": "Dept.Name"
+                    },
+                    "expr": {
+                      "kind": "ELit",
+                      "type": "string",
+                      "value": "<unknown>"
+                    }
+                  }
+                ],
+                "else": []
+              }
+            ]
+          },
+          {
+            "name": "CodeBrugStaat",
+            "body": [
+              {
+                "kind": "SAssign",
+                "target": {
+                  "kind": "EVar",
+                  "name": "PERSREC.State"
+                },
+                "expr": {
+                  "kind": "ELit",
+                  "type": "string",
+                  "value": "ACTIVE"
+                }
+              }
+            ]
+          }
+        ],
+        "body": [
+          {
+            "kind": "SWrite",
+            "file": "AFDLF1",
+            "format": "HEADER",
+            "from": null
+          },
+          {
+            "kind": "SAssign",
+            "target": {
+              "kind": "EVar",
+              "name": "*IN90"
+            },
+            "expr": {
+              "kind": "EEof",
+              "file": "PERSLF1"
+            }
+          },
+          {
+            "kind": "SWhile",
+            "cond": {
+              "kind": "ENot",
+              "expr": {
+                "kind": "EEof",
+                "file": "PERSLF1"
+              }
+            },
+            "body": [
+              {
+                "kind": "SExsr",
+                "name": "CodeManVrouw"
+              },
+              {
+                "kind": "SExsr",
+                "name": "AfdOmschrijv"
+              },
+              {
+                "kind": "SRead",
+                "file": "PERSLF1",
+                "format": "REC_PERS",
+                "into": null
+              },
+              {
+                "kind": "SAssign",
+                "target": {
+                  "kind": "EVar",
+                  "name": "*IN90"
+                },
+                "expr": {
+                  "kind": "EEof",
+                  "file": "PERSLF1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "main": {
+      "body": [
+        {
+          "kind": "SWrite",
+          "file": "AFDLF1",
+          "format": "HEADER",
+          "from": null
+        },
+        {
+          "kind": "SAssign",
+          "target": {
+            "kind": "EVar",
+            "name": "*IN90"
+          },
+          "expr": {
+            "kind": "EEof",
+            "file": "PERSLF1"
+          }
+        },
+        {
+          "kind": "SWhile",
+          "cond": {
+            "kind": "ENot",
+            "expr": {
+              "kind": "EEof",
+              "file": "PERSLF1"
+            }
+          },
+          "body": [
+            {
+              "kind": "SExsr",
+              "name": "CodeManVrouw"
+            },
+            {
+              "kind": "SExsr",
+              "name": "AfdOmschrijv"
+            },
+            {
+              "kind": "SRead",
+              "file": "PERSLF1",
+              "format": "REC_PERS",
+              "into": null
+            },
+            {
+              "kind": "SAssign",
+              "target": {
+                "kind": "EVar",
+                "name": "*IN90"
+              },
+              "expr": {
+                "kind": "EEof",
+                "file": "PERSLF1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "callGraph": {
+      "calls": []
+    }
+  }
+}
