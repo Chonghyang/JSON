@@ -1,0 +1,30 @@
+{
+  "kind" : "Program",
+  "decls" : [ ],
+  "main" : {
+    "kind" : "SSetLL",
+    "file" : "",
+    "key" : {
+      "kind" : "EVar",
+      "name" : "perslf1\r\n",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg173le.rpgle",
+        "line" : 48,
+        "col" : 36
+      }
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg173le.rpgle",
+      "line" : 48,
+      "col" : 26
+    }
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "C:\\Users\\bbo\\Legacy_doc\\rpg173le.rpgle",
+    "line" : 1,
+    "col" : 6
+  }
+}
