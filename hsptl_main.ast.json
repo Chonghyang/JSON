@@ -6,8 +6,8 @@
     "fields" : [ {
       "name" : "CurrScrn",
       "type" : {
-        "kind" : "TTypeName",
-        "name" : "char(6)",
+        "kind" : "TChar",
+        "n" : 255,
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
@@ -24,8 +24,8 @@
     }, {
       "name" : "Dep",
       "type" : {
-        "kind" : "TTypeName",
-        "name" : "varchar(20)",
+        "kind" : "TChar",
+        "n" : 255,
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
@@ -42,8 +42,8 @@
     }, {
       "name" : "Scheme",
       "type" : {
-        "kind" : "TTypeName",
-        "name" : "varchar(15)",
+        "kind" : "TChar",
+        "n" : 255,
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
@@ -122,8 +122,41 @@
     },
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#5:8"
   }, {
-    "kind" : "DProto",
+    "kind" : "DStandaloneField",
+    "name" : "User",
+    "datatype" : "char(10)",
+    "keywords" : [ "inz(*user)" ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+      "line" : 13,
+      "col" : 8
+    },
+    "static" : false,
+    "initValue" : "*user",
+    "const" : false,
+    "template" : false,
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#13:8"
+  }, {
+    "kind" : "DStandaloneField",
+    "name" : "naam",
+    "datatype" : "char(10)",
+    "keywords" : [ ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+      "line" : 14,
+      "col" : 8
+    },
+    "static" : false,
+    "const" : false,
+    "template" : false,
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#14:8"
+  }, {
+    "kind" : "DProc",
     "name" : "FltrPlnng",
+    "extProc" : "FLTRPLNNG",
+    "exported" : false,
     "params" : [ {
       "name" : "",
       "byRef" : true,
@@ -145,21 +178,28 @@
         "col" : 10
       }
     } ],
-    "ext" : "'FLTRPLNNG'",
-    "exported" : false,
+    "body" : {
+      "kind" : "SSkip",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 20,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#20:8"
+    },
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
       "line" : 20,
       "col" : 8
     },
-    "arity" : 2,
-    "nameUpper" : "FLTRPLNNG",
-    "extName" : "FLTRPLNNG",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#20:8"
   }, {
-    "kind" : "DProto",
+    "kind" : "DProc",
     "name" : "DspAfdPlng",
+    "extProc" : "DSP_AFD",
+    "exported" : false,
     "params" : [ {
       "name" : "",
       "byRef" : true,
@@ -181,21 +221,28 @@
         "col" : 10
       }
     } ],
-    "ext" : "'DSP_AFD'",
-    "exported" : false,
+    "body" : {
+      "kind" : "SSkip",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 23,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#23:8"
+    },
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
       "line" : 23,
       "col" : 8
     },
-    "arity" : 2,
-    "nameUpper" : "DSPAFDPLNG",
-    "extName" : "DSP_AFD",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#23:8"
   }, {
-    "kind" : "DProto",
+    "kind" : "DProc",
     "name" : "DspPrsPlng",
+    "extProc" : "DSPPRSPLNG",
+    "exported" : false,
     "params" : [ {
       "name" : "",
       "byRef" : true,
@@ -217,21 +264,28 @@
         "col" : 10
       }
     } ],
-    "ext" : "'DSPPRSPLNG'",
-    "exported" : false,
+    "body" : {
+      "kind" : "SSkip",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 26,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#26:8"
+    },
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
       "line" : 26,
       "col" : 8
     },
-    "arity" : 2,
-    "nameUpper" : "DSPPRSPLNG",
-    "extName" : "DSPPRSPLNG",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#26:8"
   }, {
-    "kind" : "DProto",
+    "kind" : "DProc",
     "name" : "DspMedPlng",
+    "extProc" : "MEDPLNNG",
+    "exported" : false,
     "params" : [ {
       "name" : "",
       "byRef" : true,
@@ -253,17 +307,22 @@
         "col" : 10
       }
     } ],
-    "ext" : "'MEDPLNNG'",
-    "exported" : false,
+    "body" : {
+      "kind" : "SSkip",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 29,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#29:8"
+    },
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
       "line" : 29,
       "col" : 8
     },
-    "arity" : 2,
-    "nameUpper" : "DSPMEDPLNG",
-    "extName" : "MEDPLNNG",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#29:8"
   } ],
   "main" : {
@@ -290,8 +349,8 @@
           "line" : 3,
           "col" : 31
         },
-        "arity" : 1,
-        "nameUpper" : ""
+        "nameUpper" : "",
+        "arity" : 1
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -300,6 +359,17 @@
         "col" : 31
       },
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#3:31"
+    }, {
+      "kind" : "SExsr",
+      "subroutineName" : "Initialize",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 35,
+        "col" : 8
+      },
+      "subroutineUpper" : "INITIALIZE",
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#35:8"
     }, {
       "kind" : "SWhile",
       "cond" : {
@@ -343,423 +413,431 @@
         }
       },
       "body" : {
-        "kind" : "SSelect",
-        "whens" : [ {
-          "cond" : {
-            "kind" : "EBin",
-            "op" : "=",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "Main.CurrScrn",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 38,
-                "col" : 18
-              },
-              "nameUpper" : "MAIN.CURRSCRN"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : "'filter'",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 38,
-                "col" : 34
-              }
-            },
+        "kind" : "SBlock",
+        "stmts" : [ {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "Main",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-              "line" : 38,
-              "col" : 18
-            }
+              "line" : 39,
+              "col" : 14
+            },
+            "nameUpper" : "MAIN"
           },
-          "body" : {
-            "kind" : "SBlock",
-            "stmts" : [ {
-              "kind" : "SAssign",
-              "lhs" : {
-                "kind" : "EVar",
-                "name" : "Main",
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 39,
-                  "col" : 14
-                },
-                "nameUpper" : "MAIN"
-              },
-              "op" : "=",
-              "rhs" : {
-                "kind" : "ECall",
-                "name" : "FltrPlnng",
-                "args" : [ {
-                  "kind" : "EVar",
-                  "name" : "Main",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 39,
-                    "col" : 31
-                  },
-                  "nameUpper" : "MAIN"
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 39,
-                  "col" : 21
-                },
-                "arity" : 1,
-                "nameUpper" : "FLTRPLNNG"
-              },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "ECall",
+            "name" : "FltrPlnng",
+            "args" : [ {
+              "kind" : "EVar",
+              "name" : "Main",
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
                 "line" : 39,
-                "col" : 14
+                "col" : 31
               },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#39:14"
-            }, {
-              "kind" : "SExpr",
-              "expr" : {
-                "kind" : "ECall",
-                "name" : "when",
-                "args" : [ {
-                  "kind" : "EBin",
-                  "op" : "=",
-                  "left" : {
-                    "kind" : "EVar",
-                    "name" : "Main.CurrScrn",
-                    "pos" : {
-                      "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                      "line" : 40,
-                      "col" : 18
-                    },
-                    "nameUpper" : "MAIN.CURRSCRN"
-                  },
-                  "right" : {
-                    "kind" : "EConst",
-                    "value" : "'AfdPlg'",
-                    "pos" : {
-                      "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                      "line" : 40,
-                      "col" : 34
-                    }
-                  },
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 40,
-                    "col" : 18
-                  }
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 40,
-                  "col" : 12
-                },
-                "arity" : 1,
-                "nameUpper" : "WHEN"
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 40,
-                "col" : 12
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#40:12"
-            }, {
-              "kind" : "SAssign",
-              "lhs" : {
-                "kind" : "EVar",
-                "name" : "Main",
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 41,
-                  "col" : 14
-                },
-                "nameUpper" : "MAIN"
-              },
+              "nameUpper" : "MAIN"
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 39,
+              "col" : 21
+            },
+            "nameUpper" : "FLTRPLNNG",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 39,
+            "col" : 14
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#39:14"
+        }, {
+          "kind" : "SExpr",
+          "expr" : {
+            "kind" : "ECall",
+            "name" : "when",
+            "args" : [ {
+              "kind" : "EBin",
               "op" : "=",
-              "rhs" : {
-                "kind" : "ECall",
-                "name" : "DspAfdPlng",
-                "args" : [ {
-                  "kind" : "EVar",
-                  "name" : "Main",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 41,
-                    "col" : 32
-                  },
-                  "nameUpper" : "MAIN"
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 41,
-                  "col" : 21
-                },
-                "arity" : 1,
-                "nameUpper" : "DSPAFDPLNG"
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 41,
-                "col" : 14
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#41:14"
-            }, {
-              "kind" : "SExpr",
-              "expr" : {
-                "kind" : "ECall",
-                "name" : "when",
-                "args" : [ {
-                  "kind" : "EBin",
-                  "op" : "=",
-                  "left" : {
-                    "kind" : "EVar",
-                    "name" : "Main.CurrScrn",
-                    "pos" : {
-                      "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                      "line" : 42,
-                      "col" : 18
-                    },
-                    "nameUpper" : "MAIN.CURRSCRN"
-                  },
-                  "right" : {
-                    "kind" : "EConst",
-                    "value" : "'PrsPlg'",
-                    "pos" : {
-                      "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                      "line" : 42,
-                      "col" : 34
-                    }
-                  },
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 42,
-                    "col" : 18
-                  }
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 42,
-                  "col" : 12
-                },
-                "arity" : 1,
-                "nameUpper" : "WHEN"
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 42,
-                "col" : 12
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#42:12"
-            }, {
-              "kind" : "SAssign",
-              "lhs" : {
-                "kind" : "EVar",
-                "name" : "Main",
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 43,
-                  "col" : 14
-                },
-                "nameUpper" : "MAIN"
-              },
-              "op" : "=",
-              "rhs" : {
-                "kind" : "ECall",
-                "name" : "DspPrsPlng",
-                "args" : [ {
-                  "kind" : "EVar",
-                  "name" : "Main",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 43,
-                    "col" : 32
-                  },
-                  "nameUpper" : "MAIN"
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 43,
-                  "col" : 21
-                },
-                "arity" : 1,
-                "nameUpper" : "DSPPRSPLNG"
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 43,
-                "col" : 14
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#43:14"
-            }, {
-              "kind" : "SExpr",
-              "expr" : {
-                "kind" : "ECall",
-                "name" : "when",
-                "args" : [ {
-                  "kind" : "EBin",
-                  "op" : "=",
-                  "left" : {
-                    "kind" : "EVar",
-                    "name" : "Main.CurrScrn",
-                    "pos" : {
-                      "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                      "line" : 44,
-                      "col" : 18
-                    },
-                    "nameUpper" : "MAIN.CURRSCRN"
-                  },
-                  "right" : {
-                    "kind" : "EConst",
-                    "value" : "'MedPlg'",
-                    "pos" : {
-                      "kind" : "SrcPos",
-                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                      "line" : 44,
-                      "col" : 34
-                    }
-                  },
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 44,
-                    "col" : 18
-                  }
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 44,
-                  "col" : 12
-                },
-                "arity" : 1,
-                "nameUpper" : "WHEN"
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 44,
-                "col" : 12
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#44:12"
-            }, {
-              "kind" : "SAssign",
-              "lhs" : {
-                "kind" : "EVar",
-                "name" : "main",
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 45,
-                  "col" : 14
-                },
-                "nameUpper" : "MAIN"
-              },
-              "op" : "=",
-              "rhs" : {
-                "kind" : "ECall",
-                "name" : "DspMedPlng",
-                "args" : [ {
-                  "kind" : "EVar",
-                  "name" : "Main",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                    "line" : 45,
-                    "col" : 32
-                  },
-                  "nameUpper" : "MAIN"
-                } ],
-                "pos" : {
-                  "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 45,
-                  "col" : 21
-                },
-                "arity" : 1,
-                "nameUpper" : "DSPMEDPLNG"
-              },
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 45,
-                "col" : 14
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#45:14"
-            }, {
-              "kind" : "SAssign",
-              "lhs" : {
+              "left" : {
                 "kind" : "EVar",
                 "name" : "Main.CurrScrn",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 47,
-                  "col" : 14
+                  "line" : 40,
+                  "col" : 18
                 },
                 "nameUpper" : "MAIN.CURRSCRN"
               },
-              "op" : "=",
-              "rhs" : {
+              "right" : {
                 "kind" : "EConst",
-                "value" : "'EXIT'",
+                "value" : "'AfdPlg'",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                  "line" : 47,
-                  "col" : 30
+                  "line" : 40,
+                  "col" : 34
                 }
               },
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-                "line" : 47,
-                "col" : 14
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#47:14"
+                "line" : 40,
+                "col" : 18
+              }
             } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 40,
+              "col" : 12
+            },
+            "nameUpper" : "WHEN",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 40,
+            "col" : 12
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#40:12"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "Main",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 41,
+              "col" : 14
+            },
+            "nameUpper" : "MAIN"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "ECall",
+            "name" : "DspAfdPlng",
+            "args" : [ {
+              "kind" : "EVar",
+              "name" : "Main",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 41,
+                "col" : 32
+              },
+              "nameUpper" : "MAIN"
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 41,
+              "col" : 21
+            },
+            "nameUpper" : "DSPAFDPLNG",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 41,
+            "col" : 14
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#41:14"
+        }, {
+          "kind" : "SExpr",
+          "expr" : {
+            "kind" : "ECall",
+            "name" : "when",
+            "args" : [ {
+              "kind" : "EBin",
+              "op" : "=",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "Main.CurrScrn",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                  "line" : 42,
+                  "col" : 18
+                },
+                "nameUpper" : "MAIN.CURRSCRN"
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : "'PrsPlg'",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                  "line" : 42,
+                  "col" : 34
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 42,
+                "col" : 18
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 42,
+              "col" : 12
+            },
+            "nameUpper" : "WHEN",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 42,
+            "col" : 12
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#42:12"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "Main",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 43,
+              "col" : 14
+            },
+            "nameUpper" : "MAIN"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "ECall",
+            "name" : "DspPrsPlng",
+            "args" : [ {
+              "kind" : "EVar",
+              "name" : "Main",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 43,
+                "col" : 32
+              },
+              "nameUpper" : "MAIN"
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 43,
+              "col" : 21
+            },
+            "nameUpper" : "DSPPRSPLNG",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 43,
+            "col" : 14
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#43:14"
+        }, {
+          "kind" : "SExpr",
+          "expr" : {
+            "kind" : "ECall",
+            "name" : "when",
+            "args" : [ {
+              "kind" : "EBin",
+              "op" : "=",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "Main.CurrScrn",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                  "line" : 44,
+                  "col" : 18
+                },
+                "nameUpper" : "MAIN.CURRSCRN"
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : "'MedPlg'",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                  "line" : 44,
+                  "col" : 34
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 44,
+                "col" : 18
+              }
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 44,
+              "col" : 12
+            },
+            "nameUpper" : "WHEN",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 44,
+            "col" : 12
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#44:12"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "main",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 45,
+              "col" : 14
+            },
+            "nameUpper" : "MAIN"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "ECall",
+            "name" : "DspMedPlng",
+            "args" : [ {
+              "kind" : "EVar",
+              "name" : "Main",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 45,
+                "col" : 32
+              },
+              "nameUpper" : "MAIN"
+            } ],
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 45,
+              "col" : 21
+            },
+            "nameUpper" : "DSPMEDPLNG",
+            "arity" : 1
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 45,
+            "col" : 14
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#45:14"
+        }, {
+          "kind" : "SAssign",
+          "lhs" : {
+            "kind" : "EVar",
+            "name" : "Main.CurrScrn",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 47,
+              "col" : 14
+            },
+            "nameUpper" : "MAIN.CURRSCRN"
+          },
+          "op" : "=",
+          "rhs" : {
+            "kind" : "EConst",
+            "value" : "'EXIT'",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 47,
+              "col" : 30
+            }
+          },
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+            "line" : 47,
+            "col" : 14
+          },
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#47:14"
+        }, {
+          "kind" : "SSelect",
+          "whens" : [ {
+            "cond" : {
+              "kind" : "EBin",
+              "op" : "=",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "Main.CurrScrn",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                  "line" : 38,
+                  "col" : 18
+                },
+                "nameUpper" : "MAIN.CURRSCRN"
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : "'filter'",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                  "line" : 38,
+                  "col" : 34
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 38,
+                "col" : 18
+              }
+            },
+            "body" : {
+              "kind" : "SSkip",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+                "line" : 38,
+                "col" : 12
+              },
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#38:12"
+            },
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
               "line" : 38,
               "col" : 12
+            }
+          } ],
+          "other" : {
+            "kind" : "SSkip",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+              "line" : 37,
+              "col" : 10
             },
-            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#39:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#40:12", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#41:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#42:12", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#43:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#44:12", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#45:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#47:14" ],
-            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#38:12"
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#37:10"
           },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-            "line" : 38,
-            "col" : 12
-          }
-        } ],
-        "other" : {
-          "kind" : "SSkip",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
@@ -767,14 +845,15 @@
             "col" : 10
           },
           "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#37:10"
-        },
+        } ],
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-          "line" : 37,
-          "col" : 10
+          "line" : 36,
+          "col" : 8
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#37:10"
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#39:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#40:12", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#41:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#42:12", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#43:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#44:12", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#45:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#47:14", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#37:10" ],
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#36:8"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -783,6 +862,17 @@
         "col" : 8
       },
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#36:8"
+    }, {
+      "kind" : "SExsr",
+      "subroutineName" : "UpdateUserSettings",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 50,
+        "col" : 8
+      },
+      "subroutineUpper" : "UPDATEUSERSETTINGS",
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#50:8"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -815,6 +905,17 @@
         "col" : 8
       },
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#56:8"
+    }, {
+      "kind" : "SBegsr",
+      "subroutineName" : "Initialize",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 60,
+        "col" : 8
+      },
+      "subroutineUpper" : "INITIALIZE",
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#60:8"
     }, {
       "kind" : "SIf",
       "cond" : {
@@ -865,20 +966,52 @@
         "col" : 10
       },
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#78:10"
+    }, {
+      "kind" : "SEndsr",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 85,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#85:8"
+    }, {
+      "kind" : "SBegsr",
+      "subroutineName" : "UpdateUserSettings",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 87,
+        "col" : 8
+      },
+      "subroutineUpper" : "UPDATEUSERSETTINGS",
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#87:8"
+    }, {
+      "kind" : "SEndsr",
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
+        "line" : 110,
+        "col" : 8
+      },
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#110:8"
     } ],
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
-      "line" : 1,
-      "col" : 8
+      "line" : 0,
+      "col" : 0
     },
-    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#3:31", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#36:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#56:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#78:10" ],
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#1:8"
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#3:31", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#35:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#36:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#50:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#56:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#60:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#78:10", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#85:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#87:8", "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#110:8" ],
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#0:0"
+  },
+  "callGraph" : {
+    "_TOP_" : [ "Initialize", "UpdateUserSettings" ]
   },
   "pos" : {
     "kind" : "SrcPos",
     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle",
     "line" : 1,
-    "col" : 8
+    "col" : 1
   }
 }
