@@ -14,6 +14,53 @@
     },
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#4:8"
   }, {
+    "kind" : "DStandaloneField",
+    "name" : "RRN#",
+    "datatype" : "int(10)",
+    "keywords" : [ "inz(0)" ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+      "line" : 6,
+      "col" : 8
+    },
+    "static" : false,
+    "initValue" : "0",
+    "template" : false,
+    "const" : false,
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#6:8"
+  }, {
+    "kind" : "DStandaloneField",
+    "name" : "RtValue",
+    "datatype" : "packed(6)",
+    "keywords" : [ "inz(0)" ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+      "line" : 7,
+      "col" : 8
+    },
+    "static" : false,
+    "initValue" : "0",
+    "template" : false,
+    "const" : false,
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#7:8"
+  }, {
+    "kind" : "DStandaloneField",
+    "name" : "SearchPattern",
+    "datatype" : "char(33)",
+    "keywords" : [ ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+      "line" : 8,
+      "col" : 8
+    },
+    "static" : false,
+    "template" : false,
+    "const" : false,
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#8:8"
+  }, {
     "kind" : "DProc",
     "name" : "PrsWdw",
     "exported" : true,
@@ -65,6 +112,48 @@
         },
         "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#15:10"
       }, {
+        "kind" : "SExsr",
+        "subroutineName" : "ClearSfl",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 16,
+          "col" : 10
+        },
+        "subroutineUpper" : "CLEARSFL",
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#16:10"
+      }, {
+        "kind" : "SExsr",
+        "subroutineName" : "LoadSfl",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 17,
+          "col" : 10
+        },
+        "subroutineUpper" : "LOADSFL",
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#17:10"
+      }, {
+        "kind" : "SWrite",
+        "fileName" : "BASEFMT",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 18,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#18:10"
+      }, {
+        "kind" : "SWrite",
+        "fileName" : "FOOTER",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 19,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#19:10"
+      }, {
         "kind" : "SWhile",
         "cond" : {
           "kind" : "ENot",
@@ -87,56 +176,186 @@
           }
         },
         "body" : {
-          "kind" : "SIf",
-          "cond" : {
-            "kind" : "EBin",
-            "op" : "<>",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "ZOEKPRSNAA",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 28,
-                "col" : 19
-              },
-              "nameUpper" : "ZOEKPRSNAA"
-            },
-            "right" : {
-              "kind" : "EVar",
-              "name" : "*blanks",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 28,
-                "col" : 33
-              },
-              "nameUpper" : "*BLANKS"
-            },
+          "kind" : "SBlock",
+          "stmts" : [ {
+            "kind" : "SExfmt",
+            "recordFormat" : "PRSWDWCTL",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 28,
-              "col" : 19
-            }
-          },
-          "thenBranch" : {
-            "kind" : "SSkip",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 28,
+              "line" : 21,
               "col" : 12
             },
-            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#28:12"
-          },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#21:12"
+          }, {
+            "kind" : "SIf",
+            "cond" : {
+              "kind" : "EBin",
+              "op" : "<>",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "OUTPRSNUM",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 22,
+                  "col" : 15
+                },
+                "nameUpper" : "OUTPRSNUM"
+              },
+              "right" : {
+                "kind" : "EConst",
+                "value" : 0,
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 22,
+                  "col" : 28
+                }
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                "line" : 22,
+                "col" : 15
+              }
+            },
+            "thenBranch" : {
+              "kind" : "SBlock",
+              "stmts" : [ {
+                "kind" : "SAssign",
+                "lhs" : {
+                  "kind" : "EVar",
+                  "name" : "RtValue",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 23,
+                    "col" : 14
+                  },
+                  "nameUpper" : "RTVALUE"
+                },
+                "op" : "=",
+                "rhs" : {
+                  "kind" : "EVar",
+                  "name" : "OUTPRSNUM",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 23,
+                    "col" : 24
+                  },
+                  "nameUpper" : "OUTPRSNUM"
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 23,
+                  "col" : 14
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#23:14"
+              }, {
+                "kind" : "SAssign",
+                "lhs" : {
+                  "kind" : "EVar",
+                  "name" : "*in12",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 24,
+                    "col" : 14
+                  },
+                  "nameUpper" : "*IN12"
+                },
+                "op" : "=",
+                "rhs" : {
+                  "kind" : "EVar",
+                  "name" : "*on",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 24,
+                    "col" : 22
+                  },
+                  "nameUpper" : "*ON"
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 24,
+                  "col" : 14
+                },
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#24:14"
+              }, {
+                "kind" : "SExsr",
+                "subroutineName" : "ClearSfl",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 26,
+                  "col" : 14
+                },
+                "subroutineUpper" : "CLEARSFL",
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#26:14"
+              }, {
+                "kind" : "SExsr",
+                "subroutineName" : "FilterNum",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 27,
+                  "col" : 14
+                },
+                "subroutineUpper" : "FILTERNUM",
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#27:14"
+              }, {
+                "kind" : "SExsr",
+                "subroutineName" : "ClearSfl",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 29,
+                  "col" : 14
+                },
+                "subroutineUpper" : "CLEARSFL",
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#29:14"
+              }, {
+                "kind" : "SExsr",
+                "subroutineName" : "FilterNaam",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                  "line" : 30,
+                  "col" : 14
+                },
+                "subroutineUpper" : "FILTERNAAM",
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#30:14"
+              } ],
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                "line" : 22,
+                "col" : 12
+              },
+              "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#23:14", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#24:14", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#26:14", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#27:14", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#29:14", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#30:14" ],
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#22:12"
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+              "line" : 22,
+              "col" : 12
+            },
+            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#22:12"
+          } ],
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-            "line" : 28,
-            "col" : 12
+            "line" : 20,
+            "col" : 10
           },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#28:12"
+          "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#21:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#22:12" ],
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#20:10"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -210,6 +429,16 @@
         },
         "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#35:10"
       }, {
+        "kind" : "SBegsrMarker",
+        "subroutineName" : "ClearSfl",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 41,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#41:10"
+      }, {
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
@@ -274,6 +503,16 @@
         },
         "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#43:12"
       }, {
+        "kind" : "SWrite",
+        "fileName" : "PRSWDWCTL",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 44,
+          "col" : 12
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#44:12"
+      }, {
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
@@ -337,77 +576,55 @@
         },
         "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#46:12"
       }, {
+        "kind" : "SEndsrMarker",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 47,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#47:10"
+      }, {
+        "kind" : "SBegsrMarker",
+        "subroutineName" : "LoadSfl",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 49,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#49:10"
+      }, {
         "kind" : "SIf",
         "cond" : {
           "kind" : "EBin",
-          "op" : "AND",
+          "op" : "=",
           "left" : {
-            "kind" : "EBin",
-            "op" : "=",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "sqlstate",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 64,
-                "col" : 23
-              },
-              "nameUpper" : "SQLSTATE"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : "'02000'",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 64,
-                "col" : 33
-              }
-            },
+            "kind" : "EVar",
+            "name" : "sqlstate",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 64,
-              "col" : 23
-            }
+              "line" : 57,
+              "col" : 15
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
-            "kind" : "EBin",
-            "op" : "<>",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "RRN#",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 64,
-                "col" : 45
-              },
-              "nameUpper" : "RRN#"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : 1,
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 64,
-                "col" : 53
-              }
-            },
+            "kind" : "EConst",
+            "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 64,
-              "col" : 45
+              "line" : 57,
+              "col" : 26
             }
           },
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-            "line" : 64,
-            "col" : 23
+            "line" : 57,
+            "col" : 15
           }
         },
         "thenBranch" : {
@@ -483,35 +700,77 @@
                 "op" : "=",
                 "left" : {
                   "kind" : "EVar",
-                  "name" : "RRN#",
+                  "name" : "sqlstate",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                    "line" : 66,
-                    "col" : 23
+                    "line" : 62,
+                    "col" : 19
                   },
-                  "nameUpper" : "RRN#"
+                  "nameUpper" : "SQLSTATE"
                 },
                 "right" : {
                   "kind" : "EConst",
-                  "value" : 1,
+                  "value" : "'00000'",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                    "line" : 66,
+                    "line" : 62,
                     "col" : 30
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                  "line" : 66,
-                  "col" : 23
+                  "line" : 62,
+                  "col" : 19
                 }
               },
               "thenBranch" : {
                 "kind" : "SBlock",
                 "stmts" : [ {
+                  "kind" : "SWrite",
+                  "fileName" : "PRSWDWSFL",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 63,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#63:18"
+                }, {
+                  "kind" : "SAssign",
+                  "lhs" : {
+                    "kind" : "EVar",
+                    "name" : "*in51",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                      "line" : 65,
+                      "col" : 18
+                    },
+                    "nameUpper" : "*IN51"
+                  },
+                  "op" : "=",
+                  "rhs" : {
+                    "kind" : "EVar",
+                    "name" : "*on",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                      "line" : 65,
+                      "col" : 26
+                    },
+                    "nameUpper" : "*ON"
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 65,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#65:18"
+                }, {
                   "kind" : "SAssign",
                   "lhs" : {
                     "kind" : "EVar",
@@ -573,23 +832,33 @@
                     "col" : 18
                   },
                   "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#68:18"
+                }, {
+                  "kind" : "SWrite",
+                  "fileName" : "PRSWDWSFL",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 69,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#69:18"
                 } ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                  "line" : 66,
+                  "line" : 62,
                   "col" : 16
                 },
-                "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#67:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#68:18" ],
-                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#66:16"
+                "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#63:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#65:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#67:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#68:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#69:18" ],
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#62:16"
               },
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 66,
+                "line" : 62,
                 "col" : 16
               },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#66:16"
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#62:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
@@ -597,7 +866,7 @@
               "line" : 58,
               "col" : 14
             },
-            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#59:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#66:16" ],
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#59:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#62:16" ],
             "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#58:14"
           },
           "pos" : {
@@ -611,82 +880,60 @@
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-          "line" : 64,
-          "col" : 16
+          "line" : 57,
+          "col" : 12
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#64:16"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#57:12"
+      }, {
+        "kind" : "SEndsrMarker",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 75,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#75:10"
+      }, {
+        "kind" : "SBegsrMarker",
+        "subroutineName" : "FilterNum",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 77,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#77:10"
       }, {
         "kind" : "SIf",
         "cond" : {
           "kind" : "EBin",
-          "op" : "AND",
+          "op" : "=",
           "left" : {
-            "kind" : "EBin",
-            "op" : "=",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "sqlstate",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 93,
-                "col" : 23
-              },
-              "nameUpper" : "SQLSTATE"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : "'02000'",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 93,
-                "col" : 33
-              }
-            },
+            "kind" : "EVar",
+            "name" : "sqlstate",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 93,
-              "col" : 23
-            }
+              "line" : 86,
+              "col" : 15
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
-            "kind" : "EBin",
-            "op" : "<>",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "RRN#",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 93,
-                "col" : 45
-              },
-              "nameUpper" : "RRN#"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : 1,
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 93,
-                "col" : 53
-              }
-            },
+            "kind" : "EConst",
+            "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 93,
-              "col" : 45
+              "line" : 86,
+              "col" : 26
             }
           },
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-            "line" : 93,
-            "col" : 23
+            "line" : 86,
+            "col" : 15
           }
         },
         "thenBranch" : {
@@ -762,35 +1009,77 @@
                 "op" : "=",
                 "left" : {
                   "kind" : "EVar",
-                  "name" : "RRN#",
+                  "name" : "sqlstate",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                    "line" : 95,
-                    "col" : 23
+                    "line" : 91,
+                    "col" : 19
                   },
-                  "nameUpper" : "RRN#"
+                  "nameUpper" : "SQLSTATE"
                 },
                 "right" : {
                   "kind" : "EConst",
-                  "value" : 1,
+                  "value" : "'00000'",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                    "line" : 95,
+                    "line" : 91,
                     "col" : 30
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                  "line" : 95,
-                  "col" : 23
+                  "line" : 91,
+                  "col" : 19
                 }
               },
               "thenBranch" : {
                 "kind" : "SBlock",
                 "stmts" : [ {
+                  "kind" : "SWrite",
+                  "fileName" : "PRSWDWSFL",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 92,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#92:18"
+                }, {
+                  "kind" : "SAssign",
+                  "lhs" : {
+                    "kind" : "EVar",
+                    "name" : "*in51",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                      "line" : 94,
+                      "col" : 18
+                    },
+                    "nameUpper" : "*IN51"
+                  },
+                  "op" : "=",
+                  "rhs" : {
+                    "kind" : "EVar",
+                    "name" : "*on",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                      "line" : 94,
+                      "col" : 26
+                    },
+                    "nameUpper" : "*ON"
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 94,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#94:18"
+                }, {
                   "kind" : "SAssign",
                   "lhs" : {
                     "kind" : "EVar",
@@ -852,23 +1141,33 @@
                     "col" : 18
                   },
                   "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#97:18"
+                }, {
+                  "kind" : "SWrite",
+                  "fileName" : "PRSWDWSFL",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 98,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#98:18"
                 } ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                  "line" : 95,
+                  "line" : 91,
                   "col" : 16
                 },
-                "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#96:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#97:18" ],
-                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#95:16"
+                "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#92:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#94:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#96:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#97:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#98:18" ],
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#91:16"
               },
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 95,
+                "line" : 91,
                 "col" : 16
               },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#95:16"
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#91:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
@@ -876,7 +1175,7 @@
               "line" : 87,
               "col" : 14
             },
-            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#88:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#95:16" ],
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#88:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#91:16" ],
             "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#87:14"
           },
           "pos" : {
@@ -890,10 +1189,29 @@
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-          "line" : 93,
-          "col" : 16
+          "line" : 86,
+          "col" : 12
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#93:16"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#86:12"
+      }, {
+        "kind" : "SEndsrMarker",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 105,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#105:10"
+      }, {
+        "kind" : "SBegsrMarker",
+        "subroutineName" : "FilterNaam",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 107,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#107:10"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -970,74 +1288,33 @@
         "kind" : "SIf",
         "cond" : {
           "kind" : "EBin",
-          "op" : "AND",
+          "op" : "=",
           "left" : {
-            "kind" : "EBin",
-            "op" : "=",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "sqlstate",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 124,
-                "col" : 23
-              },
-              "nameUpper" : "SQLSTATE"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : "'02000'",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 124,
-                "col" : 33
-              }
-            },
+            "kind" : "EVar",
+            "name" : "sqlstate",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 124,
-              "col" : 23
-            }
+              "line" : 117,
+              "col" : 15
+            },
+            "nameUpper" : "SQLSTATE"
           },
           "right" : {
-            "kind" : "EBin",
-            "op" : "<>",
-            "left" : {
-              "kind" : "EVar",
-              "name" : "RRN#",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 124,
-                "col" : 45
-              },
-              "nameUpper" : "RRN#"
-            },
-            "right" : {
-              "kind" : "EConst",
-              "value" : 1,
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 124,
-                "col" : 53
-              }
-            },
+            "kind" : "EConst",
+            "value" : "'00000'",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-              "line" : 124,
-              "col" : 45
+              "line" : 117,
+              "col" : 26
             }
           },
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-            "line" : 124,
-            "col" : 23
+            "line" : 117,
+            "col" : 15
           }
         },
         "thenBranch" : {
@@ -1113,35 +1390,77 @@
                 "op" : "=",
                 "left" : {
                   "kind" : "EVar",
-                  "name" : "RRN#",
+                  "name" : "sqlstate",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                    "line" : 126,
-                    "col" : 23
+                    "line" : 122,
+                    "col" : 19
                   },
-                  "nameUpper" : "RRN#"
+                  "nameUpper" : "SQLSTATE"
                 },
                 "right" : {
                   "kind" : "EConst",
-                  "value" : 1,
+                  "value" : "'00000'",
                   "pos" : {
                     "kind" : "SrcPos",
                     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                    "line" : 126,
+                    "line" : 122,
                     "col" : 30
                   }
                 },
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                  "line" : 126,
-                  "col" : 23
+                  "line" : 122,
+                  "col" : 19
                 }
               },
               "thenBranch" : {
                 "kind" : "SBlock",
                 "stmts" : [ {
+                  "kind" : "SWrite",
+                  "fileName" : "PRSWDWSFL",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 123,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#123:18"
+                }, {
+                  "kind" : "SAssign",
+                  "lhs" : {
+                    "kind" : "EVar",
+                    "name" : "*in51",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                      "line" : 125,
+                      "col" : 18
+                    },
+                    "nameUpper" : "*IN51"
+                  },
+                  "op" : "=",
+                  "rhs" : {
+                    "kind" : "EVar",
+                    "name" : "*on",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                      "line" : 125,
+                      "col" : 26
+                    },
+                    "nameUpper" : "*ON"
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 125,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#125:18"
+                }, {
                   "kind" : "SAssign",
                   "lhs" : {
                     "kind" : "EVar",
@@ -1203,23 +1522,33 @@
                     "col" : 18
                   },
                   "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#128:18"
+                }, {
+                  "kind" : "SWrite",
+                  "fileName" : "PRSWDWSFL",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+                    "line" : 129,
+                    "col" : 18
+                  },
+                  "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#129:18"
                 } ],
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                  "line" : 126,
+                  "line" : 122,
                   "col" : 16
                 },
-                "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#127:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#128:18" ],
-                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#126:16"
+                "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#123:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#125:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#127:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#128:18", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#129:18" ],
+                "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#122:16"
               },
               "pos" : {
                 "kind" : "SrcPos",
                 "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-                "line" : 126,
+                "line" : 122,
                 "col" : 16
               },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#126:16"
+              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#122:16"
             } ],
             "pos" : {
               "kind" : "SrcPos",
@@ -1227,7 +1556,7 @@
               "line" : 118,
               "col" : 14
             },
-            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#119:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#126:16" ],
+            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#119:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#122:16" ],
             "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#118:14"
           },
           "pos" : {
@@ -1241,10 +1570,19 @@
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-          "line" : 124,
-          "col" : 16
+          "line" : 117,
+          "col" : 12
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#124:16"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#117:12"
+      }, {
+        "kind" : "SEndsrMarker",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
+          "line" : 135,
+          "col" : 10
+        },
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#135:10"
       } ],
       "pos" : {
         "kind" : "SrcPos",
@@ -1252,16 +1590,16 @@
         "line" : 136,
         "col" : 8
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#15:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#20:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#34:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#35:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#42:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#43:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#45:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#46:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#64:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#93:16", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#108:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#124:16" ],
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#15:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#16:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#17:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#18:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#19:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#20:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#34:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#35:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#41:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#42:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#43:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#44:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#45:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#46:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#47:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#49:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#57:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#75:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#77:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#86:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#105:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#107:10", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#108:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#117:12", "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#135:10" ],
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#136:8"
     },
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
-      "line" : 10,
+      "line" : 136,
       "col" : 8
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#10:8"
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#136:8"
   } ],
   "main" : {
     "kind" : "SSkip",
@@ -1269,14 +1607,19 @@
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
       "line" : 1,
-      "col" : 8
+      "col" : 1
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#1:8"
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle#1:1"
+  },
+  "subroutines" : [ ],
+  "callGraph" : {
+    "_TOP_" : [ ],
+    "PrsWdw" : [ "ClearSfl", "LoadSfl", "FilterNum", "FilterNaam" ]
   },
   "pos" : {
     "kind" : "SrcPos",
     "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prswdw.sqlrpgle",
     "line" : 1,
-    "col" : 8
+    "col" : 1
   }
 }

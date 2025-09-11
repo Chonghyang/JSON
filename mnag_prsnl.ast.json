@@ -114,8 +114,8 @@
       "line" : 13,
       "col" : 8
     },
-    "initValue" : "*off",
     "static" : false,
+    "initValue" : "*off",
     "template" : false,
     "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#13:8"
@@ -1173,8 +1173,8 @@
                         "line" : 119,
                         "col" : 24
                       },
-                      "arity" : 1,
-                      "nameUpper" : "DSPLY"
+                      "nameUpper" : "DSPLY",
+                      "arity" : 1
                     },
                     "pos" : {
                       "kind" : "SrcPos",
