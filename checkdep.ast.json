@@ -1,6 +1,16 @@
 {
   "kind" : "Program",
   "decls" : [ {
+    "kind" : "DCtlOpt",
+    "options" : { },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkdep.sqlrpgle",
+      "line" : 3,
+      "col" : 8
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkdep.sqlrpgle#3:8"
+  }, {
     "kind" : "DStandaloneField",
     "name" : "N",
     "datatype" : "int(10)",
@@ -12,8 +22,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkdep.sqlrpgle#4:8"
   }, {
     "kind" : "DStandaloneField",
@@ -27,8 +37,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkdep.sqlrpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
@@ -42,8 +52,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkdep.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -57,8 +67,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkdep.sqlrpgle#7:8"
   }, {
     "kind" : "DProc",

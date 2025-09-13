@@ -92,8 +92,8 @@
           "line" : 5,
           "col" : 44
         },
-        "nameUpper" : "OFLIND",
-        "arity" : 1
+        "arity" : 1,
+        "nameUpper" : "OFLIND"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -158,14 +158,14 @@
       "kind" : "SAssign",
       "lhs" : {
         "kind" : "EVar",
-        "name" : "*IN90",
+        "name" : "IN90",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
           "line" : 44,
-          "col" : 8
+          "col" : 9
         },
-        "nameUpper" : "*IN90"
+        "nameUpper" : "IN90"
       },
       "op" : "=",
       "rhs" : {
@@ -182,9 +182,9 @@
         "kind" : "SrcPos",
         "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
         "line" : 44,
-        "col" : 8
+        "col" : 9
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:8"
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:9"
     }, {
       "kind" : "SWhile",
       "cond" : {
@@ -512,14 +512,14 @@
           "kind" : "SAssign",
           "lhs" : {
             "kind" : "EVar",
-            "name" : "*IN90",
+            "name" : "IN90",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
               "line" : 63,
-              "col" : 10
+              "col" : 11
             },
-            "nameUpper" : "*IN90"
+            "nameUpper" : "IN90"
           },
           "op" : "=",
           "rhs" : {
@@ -536,9 +536,9 @@
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
             "line" : 63,
-            "col" : 10
+            "col" : 11
           },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:10"
+          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:11"
         } ],
         "pos" : {
           "kind" : "SrcPos",
@@ -546,7 +546,7 @@
           "line" : 45,
           "col" : 8
         },
-        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#52:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#53:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#54:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#56:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#57:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#58:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#59:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#60:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#61:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#62:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:10" ],
+        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#52:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#53:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#54:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#56:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#57:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#58:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#59:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#60:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#61:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#62:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:11" ],
         "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8"
       },
       "pos" : {
@@ -560,14 +560,14 @@
       "kind" : "SAssign",
       "lhs" : {
         "kind" : "EVar",
-        "name" : "*inlr",
+        "name" : "inlr",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
           "line" : 66,
-          "col" : 8
+          "col" : 9
         },
-        "nameUpper" : "*INLR"
+        "nameUpper" : "INLR"
       },
       "op" : "=",
       "rhs" : {
@@ -585,9 +585,9 @@
         "kind" : "SrcPos",
         "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
         "line" : 66,
-        "col" : 8
+        "col" : 9
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:8"
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:9"
     } ],
     "pos" : {
       "kind" : "SrcPos",
@@ -595,7 +595,7 @@
       "line" : 1,
       "col" : 1
     },
-    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#5:44", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#40:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#41:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#43:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:8" ],
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#5:44", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#40:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#41:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#43:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:9", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:9" ],
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#1:1"
   },
   "subroutines" : [ {
@@ -932,8 +932,8 @@
             "line" : 86,
             "col" : 19
           },
-          "nameUpper" : "STS",
-          "arity" : 1
+          "arity" : 1,
+          "nameUpper" : "STS"
         },
         "pos" : {
           "kind" : "SrcPos",

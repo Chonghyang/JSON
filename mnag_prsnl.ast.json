@@ -1,6 +1,19 @@
 {
   "kind" : "Program",
   "decls" : [ {
+    "kind" : "DCtlOpt",
+    "options" : {
+      "dftactgrp" : "*no",
+      "actgrp" : "*new"
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
+      "line" : 2,
+      "col" : 8
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#2:8"
+  }, {
     "kind" : "DFile",
     "name" : "MNG_PRSNL2",
     "device" : "WORKSTN",
@@ -25,8 +38,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -40,8 +53,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#7:8"
   }, {
     "kind" : "DStandaloneField",
@@ -55,8 +68,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#8:8"
   }, {
     "kind" : "DStandaloneField",
@@ -70,8 +83,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#9:8"
   }, {
     "kind" : "DStandaloneField",
@@ -85,8 +98,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#11:8"
   }, {
     "kind" : "DStandaloneField",
@@ -100,8 +113,8 @@
       "col" : 8
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#12:8"
   }, {
     "kind" : "DStandaloneField",
@@ -115,9 +128,9 @@
       "col" : 8
     },
     "static" : false,
-    "initValue" : "*off",
-    "template" : false,
     "const" : false,
+    "template" : false,
+    "initValue" : "*off",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#13:8"
   } ],
   "main" : {
@@ -211,14 +224,14 @@
       "kind" : "SAssign",
       "lhs" : {
         "kind" : "EVar",
-        "name" : "*in11",
+        "name" : "in11",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 23,
-          "col" : 8
+          "col" : 9
         },
-        "nameUpper" : "*IN11"
+        "nameUpper" : "IN11"
       },
       "op" : "=",
       "rhs" : {
@@ -236,9 +249,9 @@
         "kind" : "SrcPos",
         "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
         "line" : 23,
-        "col" : 8
+        "col" : 9
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#23:8"
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#23:9"
     }, {
       "kind" : "SAssign",
       "lhs" : {
@@ -1173,8 +1186,8 @@
                         "line" : 119,
                         "col" : 24
                       },
-                      "nameUpper" : "DSPLY",
-                      "arity" : 1
+                      "arity" : 1,
+                      "nameUpper" : "DSPLY"
                     },
                     "pos" : {
                       "kind" : "SrcPos",
@@ -2089,14 +2102,14 @@
       "kind" : "SAssign",
       "lhs" : {
         "kind" : "EVar",
-        "name" : "*inlr",
+        "name" : "inlr",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 208,
-          "col" : 8
+          "col" : 9
         },
-        "nameUpper" : "*INLR"
+        "nameUpper" : "INLR"
       },
       "op" : "=",
       "rhs" : {
@@ -2114,9 +2127,9 @@
         "kind" : "SrcPos",
         "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
         "line" : 208,
-        "col" : 8
+        "col" : 9
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#208:8"
+      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#208:9"
     } ],
     "pos" : {
       "kind" : "SrcPos",
@@ -2124,7 +2137,7 @@
       "line" : 1,
       "col" : 1
     },
-    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#16:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#17:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#18:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#20:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#23:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#39:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#40:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#53:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#54:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#55:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#59:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#208:8" ],
+    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#16:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#17:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#18:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#20:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#23:9", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#39:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#40:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#53:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#54:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#55:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#59:8", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#208:9" ],
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#1:1"
   },
   "subroutines" : [ {
@@ -2136,14 +2149,14 @@
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*in40",
+          "name" : "in40",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
             "line" : 214,
-            "col" : 12
+            "col" : 13
           },
-          "nameUpper" : "*IN40"
+          "nameUpper" : "IN40"
         },
         "op" : "=",
         "rhs" : {
@@ -2161,21 +2174,21 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 214,
-          "col" : 12
+          "col" : 13
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#214:12"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#214:13"
       }, {
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*in41",
+          "name" : "in41",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
             "line" : 215,
-            "col" : 12
+            "col" : 13
           },
-          "nameUpper" : "*IN41"
+          "nameUpper" : "IN41"
         },
         "op" : "=",
         "rhs" : {
@@ -2193,21 +2206,21 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 215,
-          "col" : 12
+          "col" : 13
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#215:12"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#215:13"
       }, {
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*in42",
+          "name" : "in42",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
             "line" : 216,
-            "col" : 12
+            "col" : 13
           },
-          "nameUpper" : "*IN42"
+          "nameUpper" : "IN42"
         },
         "op" : "=",
         "rhs" : {
@@ -2225,9 +2238,9 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 216,
-          "col" : 12
+          "col" : 13
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#216:12"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#216:13"
       }, {
         "kind" : "SWrite",
         "fileName" : "SFLCTL01",
@@ -2242,14 +2255,14 @@
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*in40",
+          "name" : "in40",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
             "line" : 218,
-            "col" : 12
+            "col" : 13
           },
-          "nameUpper" : "*IN40"
+          "nameUpper" : "IN40"
         },
         "op" : "=",
         "rhs" : {
@@ -2267,21 +2280,21 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 218,
-          "col" : 12
+          "col" : 13
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#218:12"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#218:13"
       }, {
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*in41",
+          "name" : "in41",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
             "line" : 219,
-            "col" : 12
+            "col" : 13
           },
-          "nameUpper" : "*IN41"
+          "nameUpper" : "IN41"
         },
         "op" : "=",
         "rhs" : {
@@ -2299,21 +2312,21 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 219,
-          "col" : 12
+          "col" : 13
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#219:12"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#219:13"
       }, {
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*in42",
+          "name" : "in42",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
             "line" : 220,
-            "col" : 12
+            "col" : 13
           },
-          "nameUpper" : "*IN42"
+          "nameUpper" : "IN42"
         },
         "op" : "=",
         "rhs" : {
@@ -2331,9 +2344,9 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle",
           "line" : 220,
-          "col" : 12
+          "col" : 13
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#220:12"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#220:13"
       }, {
         "kind" : "SAssign",
         "lhs" : {
@@ -2372,7 +2385,7 @@
         "line" : 213,
         "col" : 8
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#214:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#215:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#216:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#217:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#218:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#219:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#220:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#221:12" ],
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#214:13", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#215:13", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#216:13", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#217:12", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#218:13", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#219:13", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#220:13", "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#221:12" ],
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\mnag_prsnl.rpgle#213:8"
     },
     "pos" : {

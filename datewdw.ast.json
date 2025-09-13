@@ -1,6 +1,16 @@
 {
   "kind" : "Program",
   "decls" : [ {
+    "kind" : "DCtlOpt",
+    "options" : { },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+      "line" : 3,
+      "col" : 8
+    },
+    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#3:8"
+  }, {
     "kind" : "DFile",
     "name" : "datwdw",
     "device" : "WORKSTN",
@@ -25,8 +35,8 @@
       "col" : 10
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#12:10"
   }, {
     "kind" : "DProc",
@@ -145,14 +155,14 @@
         "kind" : "SAssign",
         "lhs" : {
           "kind" : "EVar",
-          "name" : "*inlr",
+          "name" : "inlr",
           "pos" : {
             "kind" : "SrcPos",
             "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
             "line" : 20,
-            "col" : 10
+            "col" : 11
           },
-          "nameUpper" : "*INLR"
+          "nameUpper" : "INLR"
         },
         "op" : "=",
         "rhs" : {
@@ -170,9 +180,9 @@
           "kind" : "SrcPos",
           "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
           "line" : 20,
-          "col" : 10
+          "col" : 11
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#20:10"
+        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#20:11"
       } ],
       "pos" : {
         "kind" : "SrcPos",
@@ -180,7 +190,7 @@
         "line" : 22,
         "col" : 8
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#14:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#15:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#16:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#17:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#18:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#20:10" ],
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#14:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#15:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#16:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#17:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#18:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#20:11" ],
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#22:8"
     },
     "pos" : {
