@@ -147,8 +147,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "*user",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#13:8"
   }, {
@@ -163,8 +163,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#14:8"
   }, {
     "kind" : "DProto",
@@ -199,8 +199,8 @@
       "col" : 8
     },
     "arity" : 2,
-    "extName" : "FLTRPLNNG",
     "nameUpper" : "FLTRPLNNG",
+    "extName" : "FLTRPLNNG",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#20:8"
   }, {
     "kind" : "DProto",
@@ -235,8 +235,8 @@
       "col" : 8
     },
     "arity" : 2,
-    "extName" : "DSP_AFD",
     "nameUpper" : "DSPAFDPLNG",
+    "extName" : "DSP_AFD",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#23:8"
   }, {
     "kind" : "DProto",
@@ -271,8 +271,8 @@
       "col" : 8
     },
     "arity" : 2,
-    "extName" : "DSPPRSPLNG",
     "nameUpper" : "DSPPRSPLNG",
+    "extName" : "DSPPRSPLNG",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#26:8"
   }, {
     "kind" : "DProto",
@@ -307,8 +307,8 @@
       "col" : 8
     },
     "arity" : 2,
-    "extName" : "MEDPLNNG",
     "nameUpper" : "DSPMEDPLNG",
+    "extName" : "MEDPLNNG",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\hsptl_main.sqlrpgle#29:8"
   } ],
   "main" : {

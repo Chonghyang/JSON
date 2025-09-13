@@ -50,8 +50,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "DATEWDW",
     "nameUpper" : "DATWDW",
+    "extName" : "DATEWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#9:8"
   }, {
     "kind" : "DProto",
@@ -67,8 +67,8 @@
       "col" : 8
     },
     "arity" : 0,
-    "extName" : "AFDELINGWDW",
     "nameUpper" : "AFDWDW",
+    "extName" : "AFDELINGWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#12:8"
   }, {
     "kind" : "DProto",
@@ -84,8 +84,8 @@
       "col" : 8
     },
     "arity" : 0,
-    "extName" : "SCHMAWDW",
     "nameUpper" : "SCHEMAWDW",
+    "extName" : "SCHMAWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#14:8"
   }, {
     "kind" : "DProto",
@@ -112,8 +112,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "PRSWDW",
     "nameUpper" : "PRSWDW",
+    "extName" : "PRSWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#16:8"
   }, {
     "kind" : "DDataStructure",
@@ -333,8 +333,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#39:8"
   }, {
     "kind" : "DStandaloneField",
@@ -348,8 +348,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#40:8"
   }, {
     "kind" : "DStandaloneField",
@@ -363,8 +363,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "*off",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#41:8"
   }, {
@@ -379,8 +379,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#42:8"
   }, {
     "kind" : "DStandaloneField",
@@ -394,12 +394,13 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#43:8"
   }, {
     "kind" : "DStandaloneField",
-    "name" : "",
+    "name" : "AFDELING",
+    "datatype" : "varchar(20)",
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
@@ -408,12 +409,13 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#44:8"
   }, {
     "kind" : "DStandaloneField",
-    "name" : "",
+    "name" : "SCHEMA",
+    "datatype" : "varchar(15)",
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
@@ -422,8 +424,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#45:8"
   }, {
     "kind" : "DStandaloneField",
@@ -437,8 +439,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#46:8"
   }, {
     "kind" : "DStandaloneField",
@@ -452,8 +454,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "1",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#47:8"
   }, {
@@ -468,8 +470,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "12",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#48:8"
   }, {
@@ -484,8 +486,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#49:8"
   }, {
     "kind" : "DProc",
@@ -3853,77 +3855,13 @@
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#328:8"
   } ],
   "main" : {
-    "kind" : "SBlock",
-    "stmts" : [ {
-      "kind" : "SExpr",
-      "expr" : {
-        "kind" : "ECall",
-        "name" : "varchar",
-        "args" : [ {
-          "kind" : "EConst",
-          "value" : 20,
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
-            "line" : 44,
-            "col" : 31
-          }
-        } ],
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
-          "line" : 44,
-          "col" : 23
-        },
-        "arity" : 1,
-        "nameUpper" : "VARCHAR"
-      },
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
-        "line" : 44,
-        "col" : 23
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#44:23"
-    }, {
-      "kind" : "SExpr",
-      "expr" : {
-        "kind" : "ECall",
-        "name" : "varchar",
-        "args" : [ {
-          "kind" : "EConst",
-          "value" : 15,
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
-            "line" : 45,
-            "col" : 29
-          }
-        } ],
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
-          "line" : 45,
-          "col" : 21
-        },
-        "arity" : 1,
-        "nameUpper" : "VARCHAR"
-      },
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
-        "line" : 45,
-        "col" : 21
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#45:21"
-    } ],
+    "kind" : "SSkip",
     "pos" : {
       "kind" : "SrcPos",
       "file" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle",
       "line" : 1,
       "col" : 1
     },
-    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#44:23", "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#45:21" ],
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\prs_plng.sqlrpgle#1:1"
   },
   "subroutines" : [ ],

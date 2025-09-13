@@ -25,8 +25,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\edt_prsnl.sqlrpgle#4:8"
   }, {
     "kind" : "DStandaloneField",
@@ -40,8 +40,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\edt_prsnl.sqlrpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
@@ -55,8 +55,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\edt_prsnl.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -70,8 +70,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\edt_prsnl.sqlrpgle#7:8"
   } ],
   "main" : {

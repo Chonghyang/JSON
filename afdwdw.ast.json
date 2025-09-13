@@ -67,8 +67,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "1",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#10:8"
   }, {
@@ -83,8 +83,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#11:8"
   }, {
     "kind" : "DDataStructure",
@@ -615,7 +615,8 @@
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#62:12"
   }, {
     "kind" : "DStandaloneField",
-    "name" : "",
+    "name" : "name",
+    "datatype" : "varchar(20)",
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
@@ -624,8 +625,8 @@
       "col" : 12
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#64:12"
   }, {
     "kind" : "DProc",
@@ -635,37 +636,6 @@
     "body" : {
       "kind" : "SBlock",
       "stmts" : [ {
-        "kind" : "SExpr",
-        "expr" : {
-          "kind" : "ECall",
-          "name" : "varchar",
-          "args" : [ {
-            "kind" : "EConst",
-            "value" : 20,
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle",
-              "line" : 64,
-              "col" : 31
-            }
-          } ],
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle",
-            "line" : 64,
-            "col" : 23
-          },
-          "arity" : 1,
-          "nameUpper" : "VARCHAR"
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle",
-          "line" : 64,
-          "col" : 23
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#64:23"
-      }, {
         "kind" : "SIf",
         "cond" : {
           "kind" : "EBin",
@@ -870,7 +840,7 @@
         "line" : 87,
         "col" : 8
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#64:23", "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#71:12", "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#85:13" ],
+      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#71:12", "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#85:13" ],
       "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afdwdw.sqlrpgle#87:8"
     },
     "pos" : {

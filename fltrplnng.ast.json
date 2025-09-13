@@ -50,8 +50,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "CHECKDEP",
     "nameUpper" : "CHECKDEP",
+    "extName" : "CHECKDEP",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#9:8"
   }, {
     "kind" : "DProto",
@@ -78,8 +78,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "CHECKSCHME",
     "nameUpper" : "CHECKSCHME",
+    "extName" : "CHECKSCHME",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#12:8"
   }, {
     "kind" : "DProto",
@@ -106,8 +106,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "DATEWDW",
     "nameUpper" : "DATWDW",
+    "extName" : "DATEWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#15:8"
   }, {
     "kind" : "DDataStructure",
@@ -242,8 +242,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "0",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#28:8"
   }, {
@@ -258,8 +258,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#29:8"
   }, {
     "kind" : "DStandaloneField",
@@ -273,8 +273,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#30:8"
   }, {
     "kind" : "DStandaloneField",
@@ -288,8 +288,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#31:8"
   }, {
     "kind" : "DStandaloneField",
@@ -303,8 +303,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\fltrplnng.sqlrpgle#32:8"
   }, {
     "kind" : "DDataStructure",

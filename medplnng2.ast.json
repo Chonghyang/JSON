@@ -50,8 +50,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "DATEWDW",
     "nameUpper" : "DATWDW",
+    "extName" : "DATEWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#9:8"
   }, {
     "kind" : "DProto",
@@ -78,8 +78,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "extName" : "PATNUMWDW",
     "nameUpper" : "PATWDW",
+    "extName" : "PATNUMWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#12:8"
   }, {
     "kind" : "DStandaloneField",
@@ -93,8 +93,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#16:8"
   }, {
     "kind" : "DStandaloneField",
@@ -108,8 +108,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#19:8"
   }, {
     "kind" : "DStandaloneField",
@@ -123,8 +123,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#20:8"
   }, {
     "kind" : "DStandaloneField",
@@ -138,8 +138,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#21:8"
   }, {
     "kind" : "DStandaloneField",
@@ -153,8 +153,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#22:8"
   }, {
     "kind" : "DStandaloneField",
@@ -168,8 +168,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#23:8"
   }, {
     "kind" : "DStandaloneField",
@@ -183,8 +183,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\medplnng2.sqlrpgle#24:8"
   }, {
     "kind" : "DDataStructure",

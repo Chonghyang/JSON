@@ -35,8 +35,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "initValue" : "0",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#6:8"
   }, {
@@ -51,8 +51,8 @@
       "col" : 8
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\schemawdw.sqlrpgle#7:8"
   }, {
     "kind" : "DProc",
