@@ -1,0 +1,103 @@
+{
+  "kind" : "Program",
+  "decls" : [ {
+    "kind" : "DStandaloneField",
+    "name" : "test1",
+    "datatype" : "varchar(50)",
+    "keywords" : [ ],
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "executable_test.rpgle",
+      "line" : 2,
+      "col" : 8
+    },
+    "static" : false,
+    "const" : false,
+    "template" : false,
+    "id" : "executable_test.rpgle#2:8"
+  } ],
+  "main" : {
+    "kind" : "SSeq",
+    "left" : {
+      "kind" : "SAssign",
+      "left" : {
+        "kind" : "EVar",
+        "name" : "test1",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "executable_test.rpgle",
+          "line" : 3,
+          "col" : 8
+        },
+        "nameUpper" : "TEST1"
+      },
+      "op" : "=",
+      "right" : {
+        "kind" : "EConst",
+        "value" : "'hello'",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "executable_test.rpgle",
+          "line" : 3,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "executable_test.rpgle",
+        "line" : 3,
+        "col" : 8
+      },
+      "id" : "executable_test.rpgle#3:8"
+    },
+    "right" : {
+      "kind" : "SAssign",
+      "left" : {
+        "kind" : "EVar",
+        "name" : "test1",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "executable_test.rpgle",
+          "line" : 4,
+          "col" : 8
+        },
+        "nameUpper" : "TEST1"
+      },
+      "op" : "=",
+      "right" : {
+        "kind" : "EConst",
+        "value" : "'world'",
+        "pos" : {
+          "kind" : "SrcPos",
+          "file" : "executable_test.rpgle",
+          "line" : 4,
+          "col" : 16
+        }
+      },
+      "pos" : {
+        "kind" : "SrcPos",
+        "file" : "executable_test.rpgle",
+        "line" : 4,
+        "col" : 8
+      },
+      "id" : "executable_test.rpgle#4:8"
+    },
+    "pos" : {
+      "kind" : "SrcPos",
+      "file" : "executable_test.rpgle",
+      "line" : 1,
+      "col" : 1
+    },
+    "id" : "executable_test.rpgle#1:1"
+  },
+  "subroutines" : [ ],
+  "callGraph" : {
+    "_TOP_" : [ ]
+  },
+  "pos" : {
+    "kind" : "SrcPos",
+    "file" : "executable_test.rpgle",
+    "line" : 1,
+    "col" : 1
+  }
+}
