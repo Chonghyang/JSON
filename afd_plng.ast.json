@@ -38,8 +38,8 @@
       "col" : 8
     },
     "arity" : 1,
-    "nameUpper" : "DATWDW",
     "extName" : "DATEWDW",
+    "nameUpper" : "DATWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afd_plng.sqlrpgle#13:8"
   }, {
     "kind" : "DProto",
@@ -55,8 +55,8 @@
       "col" : 8
     },
     "arity" : 0,
-    "nameUpper" : "AFDWDW",
     "extName" : "AFDELINGWDW",
+    "nameUpper" : "AFDWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afd_plng.sqlrpgle#16:8"
   }, {
     "kind" : "DProto",
@@ -72,8 +72,8 @@
       "col" : 8
     },
     "arity" : 0,
-    "nameUpper" : "SCHEMAWDW",
     "extName" : "SCHMAWDW",
+    "nameUpper" : "SCHEMAWDW",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afd_plng.sqlrpgle#18:8"
   }, {
     "kind" : "DDataStructure",
@@ -305,9 +305,9 @@
       "col" : 8
     },
     "static" : false,
+    "initValue" : "*off",
     "template" : false,
     "const" : false,
-    "initValue" : "*off",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afd_plng.sqlrpgle#41:8"
   }, {
     "kind" : "DStandaloneField",
@@ -396,9 +396,9 @@
       "col" : 8
     },
     "static" : false,
+    "initValue" : "1",
     "template" : false,
     "const" : false,
-    "initValue" : "1",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afd_plng.sqlrpgle#47:8"
   }, {
     "kind" : "DStandaloneField",
@@ -412,9 +412,9 @@
       "col" : 8
     },
     "static" : false,
+    "initValue" : "12",
     "template" : false,
     "const" : false,
-    "initValue" : "12",
     "id" : "C:\\ANTLR4\\rpg4parser\\sources\\afd_plng.sqlrpgle#48:8"
   }, {
     "kind" : "DStandaloneField",
@@ -457,7 +457,7 @@
       }
     } ],
     "body" : {
-      "kind" : "SBlock",
+      "kind" : "SSequence",
       "stmts" : [ {
         "kind" : "SAssign",
         "lhs" : {
@@ -695,7 +695,7 @@
           }
         },
         "body" : {
-          "kind" : "SBlock",
+          "kind" : "SSequence",
           "stmts" : [ {
             "kind" : "SExfmt",
             "recordFormat" : "SFLCTL01",
@@ -825,7 +825,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SIf",
                 "cond" : {
@@ -1217,7 +1217,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -1345,7 +1345,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -1474,7 +1474,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -1674,7 +1674,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -1874,7 +1874,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SExpr",
                 "expr" : {
@@ -2031,7 +2031,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SExpr",
                 "expr" : {
@@ -2160,7 +2160,7 @@
               }
             },
             "thenBranch" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SRead",
                 "file" : "SCREEN01",
@@ -2205,7 +2205,7 @@
                   }
                 },
                 "thenBranch" : {
-                  "kind" : "SBlock",
+                  "kind" : "SSequence",
                   "stmts" : [ {
                     "kind" : "SAssign",
                     "lhs" : {
@@ -2450,7 +2450,7 @@
               }
             },
             "body" : {
-              "kind" : "SBlock",
+              "kind" : "SSequence",
               "stmts" : [ {
                 "kind" : "SAssign",
                 "lhs" : {
@@ -2796,7 +2796,7 @@
     "exported" : false,
     "params" : [ ],
     "body" : {
-      "kind" : "SBlock",
+      "kind" : "SSequence",
       "stmts" : [ {
         "kind" : "SExpr",
         "expr" : {
@@ -2874,7 +2874,7 @@
     "exported" : false,
     "params" : [ ],
     "body" : {
-      "kind" : "SBlock",
+      "kind" : "SSequence",
       "stmts" : [ {
         "kind" : "SAssign",
         "lhs" : {
@@ -3003,7 +3003,7 @@
     "exported" : false,
     "params" : [ ],
     "body" : {
-      "kind" : "SBlock",
+      "kind" : "SSequence",
       "stmts" : [ {
         "kind" : "SAssign",
         "lhs" : {
@@ -3187,7 +3187,7 @@
     "exported" : false,
     "params" : [ ],
     "body" : {
-      "kind" : "SBlock",
+      "kind" : "SSequence",
       "stmts" : [ {
         "kind" : "SAssign",
         "lhs" : {
@@ -3440,7 +3440,7 @@
             }
           },
           "thenBranch" : {
-            "kind" : "SBlock",
+            "kind" : "SSequence",
             "stmts" : [ {
               "kind" : "SAssign",
               "lhs" : {
@@ -3655,7 +3655,7 @@
           }
         },
         "thenBranch" : {
-          "kind" : "SBlock",
+          "kind" : "SSequence",
           "stmts" : [ {
             "kind" : "SAssign",
             "lhs" : {
