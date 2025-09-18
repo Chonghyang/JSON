@@ -9,11 +9,12 @@
     "recordFormat" : "e",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 3,
-      "col" : 6
+      "col" : 6,
+      "id" : "sources\\rpg165ffe.rpgle#3:6"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#3:6"
+    "id" : "sources\\rpg165ffe.rpgle#3:6"
   }, {
     "kind" : "DFile",
     "name" : "afdlf1",
@@ -23,11 +24,12 @@
     "recordFormat" : "e",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 4,
-      "col" : 6
+      "col" : 6,
+      "id" : "sources\\rpg165ffe.rpgle#4:6"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#4:6"
+    "id" : "sources\\rpg165ffe.rpgle#4:6"
   }, {
     "kind" : "DDataStructure",
     "name" : "<ds@13>",
@@ -36,11 +38,12 @@
     "template" : false,
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 13,
-      "col" : 6
+      "col" : 6,
+      "id" : "sources\\rpg165ffe.rpgle#13:6"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#13:6"
+    "id" : "sources\\rpg165ffe.rpgle#13:6"
   }, {
     "kind" : "DDataStructure",
     "name" : "<ds@21>",
@@ -49,11 +52,12 @@
     "template" : false,
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 21,
-      "col" : 6
+      "col" : 6,
+      "id" : "sources\\rpg165ffe.rpgle#21:6"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#21:6"
+    "id" : "sources\\rpg165ffe.rpgle#21:6"
   }, {
     "kind" : "DDataStructure",
     "name" : "<ds@29>",
@@ -62,15 +66,16 @@
     "template" : false,
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 29,
-      "col" : 6
+      "col" : 6,
+      "id" : "sources\\rpg165ffe.rpgle#29:6"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#29:6"
+    "id" : "sources\\rpg165ffe.rpgle#29:6"
   } ],
   "main" : {
-    "kind" : "SBlock",
-    "stmts" : [ {
+    "kind" : "SSeq",
+    "left" : {
       "kind" : "SExpr",
       "expr" : {
         "kind" : "ECall",
@@ -80,523 +85,779 @@
           "name" : "overflow",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 5,
-            "col" : 51
+            "col" : 51,
+            "id" : "sources\\rpg165ffe.rpgle#5:51"
           },
-          "nameUpper" : "OVERFLOW"
+          "nameUpper" : "OVERFLOW",
+          "id" : "sources\\rpg165ffe.rpgle#5:51"
         } ],
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 5,
-          "col" : 44
+          "col" : 44,
+          "id" : "sources\\rpg165ffe.rpgle#5:44"
         },
         "arity" : 1,
-        "nameUpper" : "OFLIND"
+        "nameUpper" : "OFLIND",
+        "id" : "sources\\rpg165ffe.rpgle#5:44"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "file" : "sources\\rpg165ffe.rpgle",
         "line" : 5,
-        "col" : 44
+        "col" : 44,
+        "id" : "sources\\rpg165ffe.rpgle#5:44"
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#5:44"
-    }, {
-      "kind" : "SAssign",
-      "lhs" : {
-        "kind" : "EVar",
-        "name" : "prognm",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 40,
-          "col" : 8
-        },
-        "nameUpper" : "PROGNM"
-      },
-      "op" : "=",
-      "rhs" : {
-        "kind" : "EVar",
-        "name" : "prog_naam",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 40,
-          "col" : 17
-        },
-        "nameUpper" : "PROG_NAAM"
-      },
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-        "line" : 40,
-        "col" : 8
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#40:8"
-    }, {
-      "kind" : "SWrite",
-      "fileName" : "header",
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-        "line" : 41,
-        "col" : 8
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#41:8"
-    }, {
-      "kind" : "SRead",
-      "file" : "rec_pers",
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-        "line" : 43,
-        "col" : 8
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#43:8"
-    }, {
-      "kind" : "SAssign",
-      "lhs" : {
-        "kind" : "EVar",
-        "name" : "IN90",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 44,
-          "col" : 9
-        },
-        "nameUpper" : "IN90"
-      },
-      "op" : "=",
-      "rhs" : {
-        "kind" : "ERaw",
-        "text" : "%EOF",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 44,
-          "col" : 16
-        }
-      },
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-        "line" : 44,
-        "col" : 9
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:9"
-    }, {
-      "kind" : "SWhile",
-      "cond" : {
-        "kind" : "EBin",
-        "op" : "=",
+      "id" : "sources\\rpg165ffe.rpgle#5:44"
+    },
+    "right" : {
+      "kind" : "SSeq",
+      "left" : {
+        "kind" : "SAssign",
         "left" : {
           "kind" : "EVar",
-          "name" : "*in90",
+          "name" : "prognm",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 45,
-            "col" : 12
+            "file" : "sources\\rpg165ffe.rpgle",
+            "line" : 40,
+            "col" : 8,
+            "id" : "sources\\rpg165ffe.rpgle#40:8"
           },
-          "nameUpper" : "*IN90"
+          "nameUpper" : "PROGNM",
+          "id" : "sources\\rpg165ffe.rpgle#40:8"
         },
+        "op" : "=",
         "right" : {
           "kind" : "EVar",
-          "name" : "*off",
+          "name" : "prog_naam",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 45,
-            "col" : 20
+            "file" : "sources\\rpg165ffe.rpgle",
+            "line" : 40,
+            "col" : 17,
+            "id" : "sources\\rpg165ffe.rpgle#40:17"
           },
-          "nameUpper" : "*OFF"
+          "nameUpper" : "PROG_NAAM",
+          "id" : "sources\\rpg165ffe.rpgle#40:17"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 45,
-          "col" : 12
-        }
+          "file" : "sources\\rpg165ffe.rpgle",
+          "line" : 40,
+          "col" : 8,
+          "id" : "sources\\rpg165ffe.rpgle#40:8"
+        },
+        "id" : "sources\\rpg165ffe.rpgle#40:8"
       },
-      "body" : {
-        "kind" : "SBlock",
-        "stmts" : [ {
-          "kind" : "SIf",
-          "cond" : {
-            "kind" : "EVar",
-            "name" : "overflow",
+      "right" : {
+        "kind" : "SSeq",
+        "left" : {
+          "kind" : "SWrite",
+          "fileName" : "header",
+          "pos" : {
+            "kind" : "SrcPos",
+            "file" : "sources\\rpg165ffe.rpgle",
+            "line" : 41,
+            "col" : 8,
+            "id" : "sources\\rpg165ffe.rpgle#41:8"
+          },
+          "id" : "sources\\rpg165ffe.rpgle#41:8"
+        },
+        "right" : {
+          "kind" : "SSeq",
+          "left" : {
+            "kind" : "SRead",
+            "file" : "rec_pers",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 47,
-              "col" : 13
+              "file" : "sources\\rpg165ffe.rpgle",
+              "line" : 43,
+              "col" : 8,
+              "id" : "sources\\rpg165ffe.rpgle#43:8"
             },
-            "nameUpper" : "OVERFLOW"
+            "id" : "sources\\rpg165ffe.rpgle#43:8"
           },
-          "thenBranch" : {
-            "kind" : "SBlock",
-            "stmts" : [ {
-              "kind" : "SWrite",
-              "fileName" : "header",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-                "line" : 48,
-                "col" : 12
-              },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#48:12"
-            }, {
+          "right" : {
+            "kind" : "SSeq",
+            "left" : {
               "kind" : "SAssign",
-              "lhs" : {
+              "left" : {
                 "kind" : "EVar",
-                "name" : "overflow",
+                "name" : "IN90",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-                  "line" : 49,
-                  "col" : 12
+                  "file" : "sources\\rpg165ffe.rpgle",
+                  "line" : 44,
+                  "col" : 9,
+                  "id" : "sources\\rpg165ffe.rpgle#44:9"
                 },
-                "nameUpper" : "OVERFLOW"
+                "nameUpper" : "IN90",
+                "id" : "sources\\rpg165ffe.rpgle#44:9"
               },
               "op" : "=",
-              "rhs" : {
-                "kind" : "EVar",
-                "name" : "*off",
+              "right" : {
+                "kind" : "ERaw",
+                "text" : "%EOF",
                 "pos" : {
                   "kind" : "SrcPos",
-                  "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-                  "line" : 49,
-                  "col" : 23
+                  "file" : "sources\\rpg165ffe.rpgle",
+                  "line" : 44,
+                  "col" : 16,
+                  "id" : "sources\\rpg165ffe.rpgle#44:16"
                 },
-                "nameUpper" : "*OFF"
+                "id" : "sources\\rpg165ffe.rpgle#44:16"
               },
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-                "line" : 49,
-                "col" : 12
+                "file" : "sources\\rpg165ffe.rpgle",
+                "line" : 44,
+                "col" : 9,
+                "id" : "sources\\rpg165ffe.rpgle#44:9"
               },
-              "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#49:12"
-            } ],
+              "id" : "sources\\rpg165ffe.rpgle#44:9"
+            },
+            "right" : {
+              "kind" : "SSeq",
+              "left" : {
+                "kind" : "SWhile",
+                "cond" : {
+                  "kind" : "EBin",
+                  "op" : "=",
+                  "left" : {
+                    "kind" : "EVar",
+                    "name" : "*in90",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "sources\\rpg165ffe.rpgle",
+                      "line" : 45,
+                      "col" : 12,
+                      "id" : "sources\\rpg165ffe.rpgle#45:12"
+                    },
+                    "nameUpper" : "*IN90",
+                    "id" : "sources\\rpg165ffe.rpgle#45:12"
+                  },
+                  "right" : {
+                    "kind" : "EVar",
+                    "name" : "*off",
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "sources\\rpg165ffe.rpgle",
+                      "line" : 45,
+                      "col" : 20,
+                      "id" : "sources\\rpg165ffe.rpgle#45:20"
+                    },
+                    "nameUpper" : "*OFF",
+                    "id" : "sources\\rpg165ffe.rpgle#45:20"
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\rpg165ffe.rpgle",
+                    "line" : 45,
+                    "col" : 12,
+                    "id" : "sources\\rpg165ffe.rpgle#45:12"
+                  },
+                  "id" : "sources\\rpg165ffe.rpgle#45:12"
+                },
+                "body" : {
+                  "kind" : "SSeq",
+                  "left" : {
+                    "kind" : "SIf",
+                    "cond" : {
+                      "kind" : "EVar",
+                      "name" : "overflow",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\rpg165ffe.rpgle",
+                        "line" : 47,
+                        "col" : 13,
+                        "id" : "sources\\rpg165ffe.rpgle#47:13"
+                      },
+                      "nameUpper" : "OVERFLOW",
+                      "id" : "sources\\rpg165ffe.rpgle#47:13"
+                    },
+                    "thenBranch" : {
+                      "kind" : "SSeq",
+                      "left" : {
+                        "kind" : "SWrite",
+                        "fileName" : "header",
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\rpg165ffe.rpgle",
+                          "line" : 48,
+                          "col" : 12,
+                          "id" : "sources\\rpg165ffe.rpgle#48:12"
+                        },
+                        "id" : "sources\\rpg165ffe.rpgle#48:12"
+                      },
+                      "right" : {
+                        "kind" : "SAssign",
+                        "left" : {
+                          "kind" : "EVar",
+                          "name" : "overflow",
+                          "pos" : {
+                            "kind" : "SrcPos",
+                            "file" : "sources\\rpg165ffe.rpgle",
+                            "line" : 49,
+                            "col" : 12,
+                            "id" : "sources\\rpg165ffe.rpgle#49:12"
+                          },
+                          "nameUpper" : "OVERFLOW",
+                          "id" : "sources\\rpg165ffe.rpgle#49:12"
+                        },
+                        "op" : "=",
+                        "right" : {
+                          "kind" : "EVar",
+                          "name" : "*off",
+                          "pos" : {
+                            "kind" : "SrcPos",
+                            "file" : "sources\\rpg165ffe.rpgle",
+                            "line" : 49,
+                            "col" : 23,
+                            "id" : "sources\\rpg165ffe.rpgle#49:23"
+                          },
+                          "nameUpper" : "*OFF",
+                          "id" : "sources\\rpg165ffe.rpgle#49:23"
+                        },
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\rpg165ffe.rpgle",
+                          "line" : 49,
+                          "col" : 12,
+                          "id" : "sources\\rpg165ffe.rpgle#49:12"
+                        },
+                        "id" : "sources\\rpg165ffe.rpgle#49:12"
+                      },
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\rpg165ffe.rpgle",
+                        "line" : 47,
+                        "col" : 10,
+                        "id" : "sources\\rpg165ffe.rpgle#47:10"
+                      },
+                      "id" : "sources\\rpg165ffe.rpgle#47:10"
+                    },
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "sources\\rpg165ffe.rpgle",
+                      "line" : 47,
+                      "col" : 10,
+                      "id" : "sources\\rpg165ffe.rpgle#47:10"
+                    },
+                    "id" : "sources\\rpg165ffe.rpgle#47:10"
+                  },
+                  "right" : {
+                    "kind" : "SSeq",
+                    "left" : {
+                      "kind" : "SExsr",
+                      "subroutineName" : "codemanvrouw",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\rpg165ffe.rpgle",
+                        "line" : 52,
+                        "col" : 10,
+                        "id" : "sources\\rpg165ffe.rpgle#52:10"
+                      },
+                      "subroutineUpper" : "CODEMANVROUW",
+                      "id" : "sources\\rpg165ffe.rpgle#52:10"
+                    },
+                    "right" : {
+                      "kind" : "SSeq",
+                      "left" : {
+                        "kind" : "SExsr",
+                        "subroutineName" : "afdomschrijv",
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\rpg165ffe.rpgle",
+                          "line" : 53,
+                          "col" : 10,
+                          "id" : "sources\\rpg165ffe.rpgle#53:10"
+                        },
+                        "subroutineUpper" : "AFDOMSCHRIJV",
+                        "id" : "sources\\rpg165ffe.rpgle#53:10"
+                      },
+                      "right" : {
+                        "kind" : "SSeq",
+                        "left" : {
+                          "kind" : "SExsr",
+                          "subroutineName" : "codebrugstaat",
+                          "pos" : {
+                            "kind" : "SrcPos",
+                            "file" : "sources\\rpg165ffe.rpgle",
+                            "line" : 54,
+                            "col" : 10,
+                            "id" : "sources\\rpg165ffe.rpgle#54:10"
+                          },
+                          "subroutineUpper" : "CODEBRUGSTAAT",
+                          "id" : "sources\\rpg165ffe.rpgle#54:10"
+                        },
+                        "right" : {
+                          "kind" : "SSeq",
+                          "left" : {
+                            "kind" : "SAssign",
+                            "left" : {
+                              "kind" : "EVar",
+                              "name" : "i_hldat",
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\rpg165ffe.rpgle",
+                                "line" : 56,
+                                "col" : 10,
+                                "id" : "sources\\rpg165ffe.rpgle#56:10"
+                              },
+                              "nameUpper" : "I_HLDAT",
+                              "id" : "sources\\rpg165ffe.rpgle#56:10"
+                            },
+                            "op" : "=",
+                            "right" : {
+                              "kind" : "EVar",
+                              "name" : "astdat",
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\rpg165ffe.rpgle",
+                                "line" : 56,
+                                "col" : 20,
+                                "id" : "sources\\rpg165ffe.rpgle#56:20"
+                              },
+                              "nameUpper" : "ASTDAT",
+                              "id" : "sources\\rpg165ffe.rpgle#56:20"
+                            },
+                            "pos" : {
+                              "kind" : "SrcPos",
+                              "file" : "sources\\rpg165ffe.rpgle",
+                              "line" : 56,
+                              "col" : 10,
+                              "id" : "sources\\rpg165ffe.rpgle#56:10"
+                            },
+                            "id" : "sources\\rpg165ffe.rpgle#56:10"
+                          },
+                          "right" : {
+                            "kind" : "SSeq",
+                            "left" : {
+                              "kind" : "SAssign",
+                              "left" : {
+                                "kind" : "EVar",
+                                "name" : "u_dag",
+                                "pos" : {
+                                  "kind" : "SrcPos",
+                                  "file" : "sources\\rpg165ffe.rpgle",
+                                  "line" : 57,
+                                  "col" : 10,
+                                  "id" : "sources\\rpg165ffe.rpgle#57:10"
+                                },
+                                "nameUpper" : "U_DAG",
+                                "id" : "sources\\rpg165ffe.rpgle#57:10"
+                              },
+                              "op" : "=",
+                              "right" : {
+                                "kind" : "EVar",
+                                "name" : "i_dag",
+                                "pos" : {
+                                  "kind" : "SrcPos",
+                                  "file" : "sources\\rpg165ffe.rpgle",
+                                  "line" : 57,
+                                  "col" : 18,
+                                  "id" : "sources\\rpg165ffe.rpgle#57:18"
+                                },
+                                "nameUpper" : "I_DAG",
+                                "id" : "sources\\rpg165ffe.rpgle#57:18"
+                              },
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\rpg165ffe.rpgle",
+                                "line" : 57,
+                                "col" : 10,
+                                "id" : "sources\\rpg165ffe.rpgle#57:10"
+                              },
+                              "id" : "sources\\rpg165ffe.rpgle#57:10"
+                            },
+                            "right" : {
+                              "kind" : "SSeq",
+                              "left" : {
+                                "kind" : "SAssign",
+                                "left" : {
+                                  "kind" : "EVar",
+                                  "name" : "u_maand",
+                                  "pos" : {
+                                    "kind" : "SrcPos",
+                                    "file" : "sources\\rpg165ffe.rpgle",
+                                    "line" : 58,
+                                    "col" : 10,
+                                    "id" : "sources\\rpg165ffe.rpgle#58:10"
+                                  },
+                                  "nameUpper" : "U_MAAND",
+                                  "id" : "sources\\rpg165ffe.rpgle#58:10"
+                                },
+                                "op" : "=",
+                                "right" : {
+                                  "kind" : "EVar",
+                                  "name" : "i_maand",
+                                  "pos" : {
+                                    "kind" : "SrcPos",
+                                    "file" : "sources\\rpg165ffe.rpgle",
+                                    "line" : 58,
+                                    "col" : 20,
+                                    "id" : "sources\\rpg165ffe.rpgle#58:20"
+                                  },
+                                  "nameUpper" : "I_MAAND",
+                                  "id" : "sources\\rpg165ffe.rpgle#58:20"
+                                },
+                                "pos" : {
+                                  "kind" : "SrcPos",
+                                  "file" : "sources\\rpg165ffe.rpgle",
+                                  "line" : 58,
+                                  "col" : 10,
+                                  "id" : "sources\\rpg165ffe.rpgle#58:10"
+                                },
+                                "id" : "sources\\rpg165ffe.rpgle#58:10"
+                              },
+                              "right" : {
+                                "kind" : "SSeq",
+                                "left" : {
+                                  "kind" : "SAssign",
+                                  "left" : {
+                                    "kind" : "EVar",
+                                    "name" : "u_eeja",
+                                    "pos" : {
+                                      "kind" : "SrcPos",
+                                      "file" : "sources\\rpg165ffe.rpgle",
+                                      "line" : 59,
+                                      "col" : 10,
+                                      "id" : "sources\\rpg165ffe.rpgle#59:10"
+                                    },
+                                    "nameUpper" : "U_EEJA",
+                                    "id" : "sources\\rpg165ffe.rpgle#59:10"
+                                  },
+                                  "op" : "=",
+                                  "right" : {
+                                    "kind" : "EVar",
+                                    "name" : "i_eeja",
+                                    "pos" : {
+                                      "kind" : "SrcPos",
+                                      "file" : "sources\\rpg165ffe.rpgle",
+                                      "line" : 59,
+                                      "col" : 19,
+                                      "id" : "sources\\rpg165ffe.rpgle#59:19"
+                                    },
+                                    "nameUpper" : "I_EEJA",
+                                    "id" : "sources\\rpg165ffe.rpgle#59:19"
+                                  },
+                                  "pos" : {
+                                    "kind" : "SrcPos",
+                                    "file" : "sources\\rpg165ffe.rpgle",
+                                    "line" : 59,
+                                    "col" : 10,
+                                    "id" : "sources\\rpg165ffe.rpgle#59:10"
+                                  },
+                                  "id" : "sources\\rpg165ffe.rpgle#59:10"
+                                },
+                                "right" : {
+                                  "kind" : "SSeq",
+                                  "left" : {
+                                    "kind" : "SAssign",
+                                    "left" : {
+                                      "kind" : "EVar",
+                                      "name" : "astdat",
+                                      "pos" : {
+                                        "kind" : "SrcPos",
+                                        "file" : "sources\\rpg165ffe.rpgle",
+                                        "line" : 60,
+                                        "col" : 10,
+                                        "id" : "sources\\rpg165ffe.rpgle#60:10"
+                                      },
+                                      "nameUpper" : "ASTDAT",
+                                      "id" : "sources\\rpg165ffe.rpgle#60:10"
+                                    },
+                                    "op" : "=",
+                                    "right" : {
+                                      "kind" : "EVar",
+                                      "name" : "u_hldat",
+                                      "pos" : {
+                                        "kind" : "SrcPos",
+                                        "file" : "sources\\rpg165ffe.rpgle",
+                                        "line" : 60,
+                                        "col" : 19,
+                                        "id" : "sources\\rpg165ffe.rpgle#60:19"
+                                      },
+                                      "nameUpper" : "U_HLDAT",
+                                      "id" : "sources\\rpg165ffe.rpgle#60:19"
+                                    },
+                                    "pos" : {
+                                      "kind" : "SrcPos",
+                                      "file" : "sources\\rpg165ffe.rpgle",
+                                      "line" : 60,
+                                      "col" : 10,
+                                      "id" : "sources\\rpg165ffe.rpgle#60:10"
+                                    },
+                                    "id" : "sources\\rpg165ffe.rpgle#60:10"
+                                  },
+                                  "right" : {
+                                    "kind" : "SSeq",
+                                    "left" : {
+                                      "kind" : "SWrite",
+                                      "fileName" : "detail",
+                                      "pos" : {
+                                        "kind" : "SrcPos",
+                                        "file" : "sources\\rpg165ffe.rpgle",
+                                        "line" : 61,
+                                        "col" : 10,
+                                        "id" : "sources\\rpg165ffe.rpgle#61:10"
+                                      },
+                                      "id" : "sources\\rpg165ffe.rpgle#61:10"
+                                    },
+                                    "right" : {
+                                      "kind" : "SSeq",
+                                      "left" : {
+                                        "kind" : "SRead",
+                                        "file" : "rec_pers",
+                                        "pos" : {
+                                          "kind" : "SrcPos",
+                                          "file" : "sources\\rpg165ffe.rpgle",
+                                          "line" : 62,
+                                          "col" : 10,
+                                          "id" : "sources\\rpg165ffe.rpgle#62:10"
+                                        },
+                                        "id" : "sources\\rpg165ffe.rpgle#62:10"
+                                      },
+                                      "right" : {
+                                        "kind" : "SAssign",
+                                        "left" : {
+                                          "kind" : "EVar",
+                                          "name" : "IN90",
+                                          "pos" : {
+                                            "kind" : "SrcPos",
+                                            "file" : "sources\\rpg165ffe.rpgle",
+                                            "line" : 63,
+                                            "col" : 11,
+                                            "id" : "sources\\rpg165ffe.rpgle#63:11"
+                                          },
+                                          "nameUpper" : "IN90",
+                                          "id" : "sources\\rpg165ffe.rpgle#63:11"
+                                        },
+                                        "op" : "=",
+                                        "right" : {
+                                          "kind" : "ERaw",
+                                          "text" : "%EOF",
+                                          "pos" : {
+                                            "kind" : "SrcPos",
+                                            "file" : "sources\\rpg165ffe.rpgle",
+                                            "line" : 63,
+                                            "col" : 18,
+                                            "id" : "sources\\rpg165ffe.rpgle#63:18"
+                                          },
+                                          "id" : "sources\\rpg165ffe.rpgle#63:18"
+                                        },
+                                        "pos" : {
+                                          "kind" : "SrcPos",
+                                          "file" : "sources\\rpg165ffe.rpgle",
+                                          "line" : 63,
+                                          "col" : 11,
+                                          "id" : "sources\\rpg165ffe.rpgle#63:11"
+                                        },
+                                        "id" : "sources\\rpg165ffe.rpgle#63:11"
+                                      },
+                                      "pos" : {
+                                        "kind" : "SrcPos",
+                                        "file" : "sources\\rpg165ffe.rpgle",
+                                        "line" : 45,
+                                        "col" : 8,
+                                        "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                      },
+                                      "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                    },
+                                    "pos" : {
+                                      "kind" : "SrcPos",
+                                      "file" : "sources\\rpg165ffe.rpgle",
+                                      "line" : 45,
+                                      "col" : 8,
+                                      "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                    },
+                                    "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                  },
+                                  "pos" : {
+                                    "kind" : "SrcPos",
+                                    "file" : "sources\\rpg165ffe.rpgle",
+                                    "line" : 45,
+                                    "col" : 8,
+                                    "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                  },
+                                  "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                },
+                                "pos" : {
+                                  "kind" : "SrcPos",
+                                  "file" : "sources\\rpg165ffe.rpgle",
+                                  "line" : 45,
+                                  "col" : 8,
+                                  "id" : "sources\\rpg165ffe.rpgle#45:8"
+                                },
+                                "id" : "sources\\rpg165ffe.rpgle#45:8"
+                              },
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\rpg165ffe.rpgle",
+                                "line" : 45,
+                                "col" : 8,
+                                "id" : "sources\\rpg165ffe.rpgle#45:8"
+                              },
+                              "id" : "sources\\rpg165ffe.rpgle#45:8"
+                            },
+                            "pos" : {
+                              "kind" : "SrcPos",
+                              "file" : "sources\\rpg165ffe.rpgle",
+                              "line" : 45,
+                              "col" : 8,
+                              "id" : "sources\\rpg165ffe.rpgle#45:8"
+                            },
+                            "id" : "sources\\rpg165ffe.rpgle#45:8"
+                          },
+                          "pos" : {
+                            "kind" : "SrcPos",
+                            "file" : "sources\\rpg165ffe.rpgle",
+                            "line" : 45,
+                            "col" : 8,
+                            "id" : "sources\\rpg165ffe.rpgle#45:8"
+                          },
+                          "id" : "sources\\rpg165ffe.rpgle#45:8"
+                        },
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\rpg165ffe.rpgle",
+                          "line" : 45,
+                          "col" : 8,
+                          "id" : "sources\\rpg165ffe.rpgle#45:8"
+                        },
+                        "id" : "sources\\rpg165ffe.rpgle#45:8"
+                      },
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\rpg165ffe.rpgle",
+                        "line" : 45,
+                        "col" : 8,
+                        "id" : "sources\\rpg165ffe.rpgle#45:8"
+                      },
+                      "id" : "sources\\rpg165ffe.rpgle#45:8"
+                    },
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "sources\\rpg165ffe.rpgle",
+                      "line" : 45,
+                      "col" : 8,
+                      "id" : "sources\\rpg165ffe.rpgle#45:8"
+                    },
+                    "id" : "sources\\rpg165ffe.rpgle#45:8"
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\rpg165ffe.rpgle",
+                    "line" : 45,
+                    "col" : 8,
+                    "id" : "sources\\rpg165ffe.rpgle#45:8"
+                  },
+                  "id" : "sources\\rpg165ffe.rpgle#45:8"
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\rpg165ffe.rpgle",
+                  "line" : 45,
+                  "col" : 8,
+                  "id" : "sources\\rpg165ffe.rpgle#45:8"
+                },
+                "id" : "sources\\rpg165ffe.rpgle#45:8"
+              },
+              "right" : {
+                "kind" : "SAssign",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "inlr",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\rpg165ffe.rpgle",
+                    "line" : 66,
+                    "col" : 9,
+                    "id" : "sources\\rpg165ffe.rpgle#66:9"
+                  },
+                  "nameUpper" : "INLR",
+                  "id" : "sources\\rpg165ffe.rpgle#66:9"
+                },
+                "op" : "=",
+                "right" : {
+                  "kind" : "EVar",
+                  "name" : "*on",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\rpg165ffe.rpgle",
+                    "line" : 66,
+                    "col" : 14,
+                    "id" : "sources\\rpg165ffe.rpgle#66:14"
+                  },
+                  "nameUpper" : "*ON",
+                  "id" : "sources\\rpg165ffe.rpgle#66:14"
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\rpg165ffe.rpgle",
+                  "line" : 66,
+                  "col" : 9,
+                  "id" : "sources\\rpg165ffe.rpgle#66:9"
+                },
+                "id" : "sources\\rpg165ffe.rpgle#66:9"
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "sources\\rpg165ffe.rpgle",
+                "line" : 1,
+                "col" : 1,
+                "id" : "sources\\rpg165ffe.rpgle#1:1"
+              },
+              "id" : "sources\\rpg165ffe.rpgle#1:1"
+            },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 47,
-              "col" : 10
+              "file" : "sources\\rpg165ffe.rpgle",
+              "line" : 1,
+              "col" : 1,
+              "id" : "sources\\rpg165ffe.rpgle#1:1"
             },
-            "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#48:12", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#49:12" ],
-            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10"
+            "id" : "sources\\rpg165ffe.rpgle#1:1"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 47,
-            "col" : 10
+            "file" : "sources\\rpg165ffe.rpgle",
+            "line" : 1,
+            "col" : 1,
+            "id" : "sources\\rpg165ffe.rpgle#1:1"
           },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10"
-        }, {
-          "kind" : "SExsr",
-          "subroutineName" : "codemanvrouw",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 52,
-            "col" : 10
-          },
-          "subroutineUpper" : "CODEMANVROUW",
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#52:10"
-        }, {
-          "kind" : "SExsr",
-          "subroutineName" : "afdomschrijv",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 53,
-            "col" : 10
-          },
-          "subroutineUpper" : "AFDOMSCHRIJV",
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#53:10"
-        }, {
-          "kind" : "SExsr",
-          "subroutineName" : "codebrugstaat",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 54,
-            "col" : 10
-          },
-          "subroutineUpper" : "CODEBRUGSTAAT",
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#54:10"
-        }, {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "i_hldat",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 56,
-              "col" : 10
-            },
-            "nameUpper" : "I_HLDAT"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "EVar",
-            "name" : "astdat",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 56,
-              "col" : 20
-            },
-            "nameUpper" : "ASTDAT"
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 56,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#56:10"
-        }, {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "u_dag",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 57,
-              "col" : 10
-            },
-            "nameUpper" : "U_DAG"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "EVar",
-            "name" : "i_dag",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 57,
-              "col" : 18
-            },
-            "nameUpper" : "I_DAG"
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 57,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#57:10"
-        }, {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "u_maand",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 58,
-              "col" : 10
-            },
-            "nameUpper" : "U_MAAND"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "EVar",
-            "name" : "i_maand",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 58,
-              "col" : 20
-            },
-            "nameUpper" : "I_MAAND"
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 58,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#58:10"
-        }, {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "u_eeja",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 59,
-              "col" : 10
-            },
-            "nameUpper" : "U_EEJA"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "EVar",
-            "name" : "i_eeja",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 59,
-              "col" : 19
-            },
-            "nameUpper" : "I_EEJA"
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 59,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#59:10"
-        }, {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "astdat",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 60,
-              "col" : 10
-            },
-            "nameUpper" : "ASTDAT"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "EVar",
-            "name" : "u_hldat",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 60,
-              "col" : 19
-            },
-            "nameUpper" : "U_HLDAT"
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 60,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#60:10"
-        }, {
-          "kind" : "SWrite",
-          "fileName" : "detail",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 61,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#61:10"
-        }, {
-          "kind" : "SRead",
-          "file" : "rec_pers",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 62,
-            "col" : 10
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#62:10"
-        }, {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "IN90",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 63,
-              "col" : 11
-            },
-            "nameUpper" : "IN90"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "ERaw",
-            "text" : "%EOF",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-              "line" : 63,
-              "col" : 18
-            }
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-            "line" : 63,
-            "col" : 11
-          },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:11"
-        } ],
+          "id" : "sources\\rpg165ffe.rpgle#1:1"
+        },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 45,
-          "col" : 8
+          "file" : "sources\\rpg165ffe.rpgle",
+          "line" : 1,
+          "col" : 1,
+          "id" : "sources\\rpg165ffe.rpgle#1:1"
         },
-        "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#47:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#52:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#53:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#54:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#56:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#57:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#58:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#59:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#60:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#61:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#62:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#63:11" ],
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8"
+        "id" : "sources\\rpg165ffe.rpgle#1:1"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-        "line" : 45,
-        "col" : 8
+        "file" : "sources\\rpg165ffe.rpgle",
+        "line" : 1,
+        "col" : 1,
+        "id" : "sources\\rpg165ffe.rpgle#1:1"
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8"
-    }, {
-      "kind" : "SAssign",
-      "lhs" : {
-        "kind" : "EVar",
-        "name" : "inlr",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 66,
-          "col" : 9
-        },
-        "nameUpper" : "INLR"
-      },
-      "op" : "=",
-      "rhs" : {
-        "kind" : "EVar",
-        "name" : "*on",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-          "line" : 66,
-          "col" : 14
-        },
-        "nameUpper" : "*ON"
-      },
-      "pos" : {
-        "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
-        "line" : 66,
-        "col" : 9
-      },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:9"
-    } ],
+      "id" : "sources\\rpg165ffe.rpgle#1:1"
+    },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 1,
-      "col" : 1
+      "col" : 1,
+      "id" : "sources\\rpg165ffe.rpgle#1:1"
     },
-    "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#5:44", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#40:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#41:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#43:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#44:9", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#45:8", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#66:9" ],
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#1:1"
+    "id" : "sources\\rpg165ffe.rpgle#1:1"
   },
   "subroutines" : [ {
     "kind" : "SSubroutine",
@@ -611,116 +872,135 @@
           "name" : "codemv",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 69,
-            "col" : 13
+            "col" : 13,
+            "id" : "sources\\rpg165ffe.rpgle#69:13"
           },
-          "nameUpper" : "CODEMV"
+          "nameUpper" : "CODEMV",
+          "id" : "sources\\rpg165ffe.rpgle#69:13"
         },
         "right" : {
           "kind" : "EConst",
           "value" : "'2'",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 69,
-            "col" : 22
-          }
+            "col" : 22,
+            "id" : "sources\\rpg165ffe.rpgle#69:22"
+          },
+          "id" : "sources\\rpg165ffe.rpgle#69:22"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 69,
-          "col" : 13
-        }
+          "col" : 13,
+          "id" : "sources\\rpg165ffe.rpgle#69:13"
+        },
+        "id" : "sources\\rpg165ffe.rpgle#69:13"
       },
       "thenBranch" : {
         "kind" : "SAssign",
-        "lhs" : {
+        "left" : {
           "kind" : "EVar",
           "name" : "omsmvr",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 70,
-            "col" : 12
+            "col" : 12,
+            "id" : "sources\\rpg165ffe.rpgle#70:12"
           },
-          "nameUpper" : "OMSMVR"
+          "nameUpper" : "OMSMVR",
+          "id" : "sources\\rpg165ffe.rpgle#70:12"
         },
         "op" : "=",
-        "rhs" : {
+        "right" : {
           "kind" : "EVar",
           "name" : "Man",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 70,
-            "col" : 21
+            "col" : 21,
+            "id" : "sources\\rpg165ffe.rpgle#70:21"
           },
-          "nameUpper" : "MAN"
+          "nameUpper" : "MAN",
+          "id" : "sources\\rpg165ffe.rpgle#70:21"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 70,
-          "col" : 12
+          "col" : 12,
+          "id" : "sources\\rpg165ffe.rpgle#70:12"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#70:12"
+        "id" : "sources\\rpg165ffe.rpgle#70:12"
       },
       "elseBranch" : {
         "kind" : "SAssign",
-        "lhs" : {
+        "left" : {
           "kind" : "EVar",
           "name" : "omsmvr",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 72,
-            "col" : 12
+            "col" : 12,
+            "id" : "sources\\rpg165ffe.rpgle#72:12"
           },
-          "nameUpper" : "OMSMVR"
+          "nameUpper" : "OMSMVR",
+          "id" : "sources\\rpg165ffe.rpgle#72:12"
         },
         "op" : "=",
-        "rhs" : {
+        "right" : {
           "kind" : "EVar",
           "name" : "Vrouw",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 72,
-            "col" : 21
+            "col" : 21,
+            "id" : "sources\\rpg165ffe.rpgle#72:21"
           },
-          "nameUpper" : "VROUW"
+          "nameUpper" : "VROUW",
+          "id" : "sources\\rpg165ffe.rpgle#72:21"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 72,
-          "col" : 12
+          "col" : 12,
+          "id" : "sources\\rpg165ffe.rpgle#72:12"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#72:12"
+        "id" : "sources\\rpg165ffe.rpgle#72:12"
       },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "file" : "sources\\rpg165ffe.rpgle",
         "line" : 69,
-        "col" : 10
+        "col" : 10,
+        "id" : "sources\\rpg165ffe.rpgle#69:10"
       },
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#69:10"
+      "id" : "sources\\rpg165ffe.rpgle#69:10"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 68,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\rpg165ffe.rpgle#68:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#68:8"
+    "nameUpper" : "CODEMANVROUW",
+    "id" : "sources\\rpg165ffe.rpgle#68:8"
   }, {
     "kind" : "SSubroutine",
     "name" : "afdomschrijv",
     "body" : {
-      "kind" : "SBlock",
-      "stmts" : [ {
+      "kind" : "SSeq",
+      "left" : {
         "kind" : "SChain",
         "file" : "afdrec",
         "key" : {
@@ -728,20 +1008,24 @@
           "name" : "afdnum",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 77,
-            "col" : 16
+            "col" : 16,
+            "id" : "sources\\rpg165ffe.rpgle#77:16"
           },
-          "nameUpper" : "AFDNUM"
+          "nameUpper" : "AFDNUM",
+          "id" : "sources\\rpg165ffe.rpgle#77:16"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 77,
-          "col" : 10
+          "col" : 10,
+          "id" : "sources\\rpg165ffe.rpgle#77:10"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#77:10"
-      }, {
+        "id" : "sources\\rpg165ffe.rpgle#77:10"
+      },
+      "right" : {
         "kind" : "SIf",
         "cond" : {
           "kind" : "ENot",
@@ -750,169 +1034,195 @@
             "text" : "%found",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "file" : "sources\\rpg165ffe.rpgle",
               "line" : 78,
-              "col" : 17
-            }
+              "col" : 17,
+              "id" : "sources\\rpg165ffe.rpgle#78:17"
+            },
+            "id" : "sources\\rpg165ffe.rpgle#78:17"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 78,
-            "col" : 13
-          }
+            "col" : 13,
+            "id" : "sources\\rpg165ffe.rpgle#78:13"
+          },
+          "id" : "sources\\rpg165ffe.rpgle#78:13"
         },
         "thenBranch" : {
-          "kind" : "SBlock",
-          "stmts" : [ {
+          "kind" : "SSeq",
+          "left" : {
             "kind" : "SAssign",
-            "lhs" : {
+            "left" : {
               "kind" : "EVar",
               "name" : "afdnum",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+                "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 79,
-                "col" : 12
+                "col" : 12,
+                "id" : "sources\\rpg165ffe.rpgle#79:12"
               },
-              "nameUpper" : "AFDNUM"
+              "nameUpper" : "AFDNUM",
+              "id" : "sources\\rpg165ffe.rpgle#79:12"
             },
             "op" : "=",
-            "rhs" : {
+            "right" : {
               "kind" : "EVar",
               "name" : "*blanks",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+                "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 79,
-                "col" : 21
+                "col" : 21,
+                "id" : "sources\\rpg165ffe.rpgle#79:21"
               },
-              "nameUpper" : "*BLANKS"
+              "nameUpper" : "*BLANKS",
+              "id" : "sources\\rpg165ffe.rpgle#79:21"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "file" : "sources\\rpg165ffe.rpgle",
               "line" : 79,
-              "col" : 12
+              "col" : 12,
+              "id" : "sources\\rpg165ffe.rpgle#79:12"
             },
-            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#79:12"
-          }, {
+            "id" : "sources\\rpg165ffe.rpgle#79:12"
+          },
+          "right" : {
             "kind" : "SAssign",
-            "lhs" : {
+            "left" : {
               "kind" : "EVar",
               "name" : "afdnum",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+                "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 80,
-                "col" : 12
+                "col" : 12,
+                "id" : "sources\\rpg165ffe.rpgle#80:12"
               },
-              "nameUpper" : "AFDNUM"
+              "nameUpper" : "AFDNUM",
+              "id" : "sources\\rpg165ffe.rpgle#80:12"
             },
             "op" : "=",
-            "rhs" : {
+            "right" : {
               "kind" : "EConst",
               "value" : "'Onbekend'",
               "pos" : {
                 "kind" : "SrcPos",
-                "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+                "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 80,
-                "col" : 21
-              }
+                "col" : 21,
+                "id" : "sources\\rpg165ffe.rpgle#80:21"
+              },
+              "id" : "sources\\rpg165ffe.rpgle#80:21"
             },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "file" : "sources\\rpg165ffe.rpgle",
               "line" : 80,
-              "col" : 12
+              "col" : 12,
+              "id" : "sources\\rpg165ffe.rpgle#80:12"
             },
-            "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#80:12"
-          } ],
+            "id" : "sources\\rpg165ffe.rpgle#80:12"
+          },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 78,
-            "col" : 10
+            "col" : 10,
+            "id" : "sources\\rpg165ffe.rpgle#78:10"
           },
-          "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#79:12", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#80:12" ],
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#78:10"
+          "id" : "sources\\rpg165ffe.rpgle#78:10"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 78,
-          "col" : 10
+          "col" : 10,
+          "id" : "sources\\rpg165ffe.rpgle#78:10"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#78:10"
-      } ],
+        "id" : "sources\\rpg165ffe.rpgle#78:10"
+      },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "file" : "sources\\rpg165ffe.rpgle",
         "line" : 76,
-        "col" : 8
+        "col" : 8,
+        "id" : "sources\\rpg165ffe.rpgle#76:8"
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#77:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#78:10" ],
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#76:8"
+      "id" : "sources\\rpg165ffe.rpgle#76:8"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 76,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\rpg165ffe.rpgle#76:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#76:8"
+    "nameUpper" : "AFDOMSCHRIJV",
+    "id" : "sources\\rpg165ffe.rpgle#76:8"
   }, {
     "kind" : "SSubroutine",
     "name" : "codebrugstaat",
     "body" : {
-      "kind" : "SBlock",
-      "stmts" : [ {
+      "kind" : "SSeq",
+      "left" : {
         "kind" : "SAssign",
-        "lhs" : {
+        "left" : {
           "kind" : "EVar",
           "name" : "omsbst",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 85,
-            "col" : 10
+            "col" : 10,
+            "id" : "sources\\rpg165ffe.rpgle#85:10"
           },
-          "nameUpper" : "OMSBST"
+          "nameUpper" : "OMSBST",
+          "id" : "sources\\rpg165ffe.rpgle#85:10"
         },
         "op" : "=",
-        "rhs" : {
+        "right" : {
           "kind" : "EVar",
           "name" : "*blanks",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 85,
-            "col" : 19
+            "col" : 19,
+            "id" : "sources\\rpg165ffe.rpgle#85:19"
           },
-          "nameUpper" : "*BLANKS"
+          "nameUpper" : "*BLANKS",
+          "id" : "sources\\rpg165ffe.rpgle#85:19"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 85,
-          "col" : 10
+          "col" : 10,
+          "id" : "sources\\rpg165ffe.rpgle#85:10"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#85:10"
-      }, {
+        "id" : "sources\\rpg165ffe.rpgle#85:10"
+      },
+      "right" : {
         "kind" : "SAssign",
-        "lhs" : {
+        "left" : {
           "kind" : "EVar",
           "name" : "omsbst",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 86,
-            "col" : 10
+            "col" : 10,
+            "id" : "sources\\rpg165ffe.rpgle#86:10"
           },
-          "nameUpper" : "OMSBST"
+          "nameUpper" : "OMSBST",
+          "id" : "sources\\rpg165ffe.rpgle#86:10"
         },
         "op" : "=",
-        "rhs" : {
+        "right" : {
           "kind" : "ECall",
           "name" : "sts",
           "args" : [ {
@@ -920,53 +1230,62 @@
             "name" : "codebs",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+              "file" : "sources\\rpg165ffe.rpgle",
               "line" : 86,
-              "col" : 23
+              "col" : 23,
+              "id" : "sources\\rpg165ffe.rpgle#86:23"
             },
-            "nameUpper" : "CODEBS"
+            "nameUpper" : "CODEBS",
+            "id" : "sources\\rpg165ffe.rpgle#86:23"
           } ],
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+            "file" : "sources\\rpg165ffe.rpgle",
             "line" : 86,
-            "col" : 19
+            "col" : 19,
+            "id" : "sources\\rpg165ffe.rpgle#86:19"
           },
           "arity" : 1,
-          "nameUpper" : "STS"
+          "nameUpper" : "STS",
+          "id" : "sources\\rpg165ffe.rpgle#86:19"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+          "file" : "sources\\rpg165ffe.rpgle",
           "line" : 86,
-          "col" : 10
+          "col" : 10,
+          "id" : "sources\\rpg165ffe.rpgle#86:10"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#86:10"
-      } ],
+        "id" : "sources\\rpg165ffe.rpgle#86:10"
+      },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+        "file" : "sources\\rpg165ffe.rpgle",
         "line" : 84,
-        "col" : 8
+        "col" : 8,
+        "id" : "sources\\rpg165ffe.rpgle#84:8"
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#85:10", "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#86:10" ],
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#84:8"
+      "id" : "sources\\rpg165ffe.rpgle#84:8"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+      "file" : "sources\\rpg165ffe.rpgle",
       "line" : 84,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\rpg165ffe.rpgle#84:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle#84:8"
+    "nameUpper" : "CODEBRUGSTAAT",
+    "id" : "sources\\rpg165ffe.rpgle#84:8"
   } ],
   "callGraph" : {
     "_TOP_" : [ "codemanvrouw", "afdomschrijv", "codebrugstaat" ]
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\rpg165ffe.rpgle",
+    "file" : "sources\\rpg165ffe.rpgle",
     "line" : 1,
-    "col" : 1
-  }
+    "col" : 1,
+    "id" : "sources\\rpg165ffe.rpgle#1:1"
+  },
+  "id" : "sources\\rpg165ffe.rpgle#1:1"
 }
