@@ -8,6 +8,7 @@
       "file" : "sources\\prswdw.sqlrpgle",
       "line" : 3,
       "col" : 8,
+      "text" : "ctl-opt NoMain;\n       dcl-f prswindow workstn sfile(PRSWDWSFL:RRN#);\n       ",
       "id" : "sources\\prswdw.sqlrpgle#3:8"
     },
     "id" : "sources\\prswdw.sqlrpgle#3:8"
@@ -22,6 +23,7 @@
       "file" : "sources\\prswdw.sqlrpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-f prswindow workstn sfile(PRSWDWSFL:RRN#);\n       \n       dcl-s RRN# int(10) inz(0);",
       "id" : "sources\\prswdw.sqlrpgle#4:8"
     },
     "id" : "sources\\prswdw.sqlrpgle#4:8"
@@ -35,6 +37,7 @@
       "file" : "sources\\prswdw.sqlrpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-s RRN# int(10) inz(0);\n       dcl-s RtValue packed(6) inz(0);\n       dcl-s SearchPattern char(33);",
       "id" : "sources\\prswdw.sqlrpgle#6:8"
     },
     "static" : false,
@@ -52,6 +55,7 @@
       "file" : "sources\\prswdw.sqlrpgle",
       "line" : 7,
       "col" : 8,
+      "text" : "dcl-s RtValue packed(6) inz(0);\n       dcl-s SearchPattern char(33);\n       ",
       "id" : "sources\\prswdw.sqlrpgle#7:8"
     },
     "static" : false,
@@ -69,6 +73,7 @@
       "file" : "sources\\prswdw.sqlrpgle",
       "line" : 8,
       "col" : 8,
+      "text" : "dcl-s SearchPattern char(33);\n       \n       dcl-proc PrsWdw export;",
       "id" : "sources\\prswdw.sqlrpgle#8:8"
     },
     "static" : false,
@@ -90,6 +95,7 @@
         "file" : "sources\\prswdw.sqlrpgle",
         "line" : 12,
         "col" : 12,
+        "text" : "Input packed(6);\n         end-pi;\n       ",
         "id" : "sources\\prswdw.sqlrpgle#12:12"
       },
       "id" : "sources\\prswdw.sqlrpgle#12:12"
@@ -107,6 +113,7 @@
             "file" : "sources\\prswdw.sqlrpgle",
             "line" : 15,
             "col" : 10,
+            "text" : "OUDPRSNUM = Input;\n         exsr ClearSfl;\n         exsr LoadSfl;",
             "id" : "sources\\prswdw.sqlrpgle#15:10"
           },
           "nameUpper" : "OUDPRSNUM",
@@ -119,6 +126,7 @@
           "file" : "sources\\prswdw.sqlrpgle",
           "line" : 15,
           "col" : 10,
+          "text" : "OUDPRSNUM = Input;\n         exsr ClearSfl;\n         exsr LoadSfl;",
           "id" : "sources\\prswdw.sqlrpgle#15:10"
         },
         "flattened" : true,
@@ -134,6 +142,7 @@
             "file" : "sources\\prswdw.sqlrpgle",
             "line" : 16,
             "col" : 10,
+            "text" : "exsr ClearSfl;\n         exsr LoadSfl;\n         write BASEFMT;",
             "id" : "sources\\prswdw.sqlrpgle#16:10"
           },
           "subroutineUpper" : "CLEARSFL",
@@ -149,6 +158,7 @@
               "file" : "sources\\prswdw.sqlrpgle",
               "line" : 17,
               "col" : 10,
+              "text" : "exsr LoadSfl;\n         write BASEFMT;\n         write FOOTER;",
               "id" : "sources\\prswdw.sqlrpgle#17:10"
             },
             "subroutineUpper" : "LOADSFL",
@@ -164,6 +174,7 @@
                 "file" : "sources\\prswdw.sqlrpgle",
                 "line" : 18,
                 "col" : 10,
+                "text" : "write BASEFMT;\n         write FOOTER;\n         dow not *in12;",
                 "id" : "sources\\prswdw.sqlrpgle#18:10"
               },
               "id" : "sources\\prswdw.sqlrpgle#18:10"
@@ -178,6 +189,7 @@
                   "file" : "sources\\prswdw.sqlrpgle",
                   "line" : 19,
                   "col" : 10,
+                  "text" : "write FOOTER;\n         dow not *in12;\n           exfmt PRSWDWCTL;",
                   "id" : "sources\\prswdw.sqlrpgle#19:10"
                 },
                 "id" : "sources\\prswdw.sqlrpgle#19:10"
@@ -196,6 +208,7 @@
                         "file" : "sources\\prswdw.sqlrpgle",
                         "line" : 20,
                         "col" : 18,
+                        "text" : "*in12;\n           exfmt PRSWDWCTL;\n           if OUTPRSNUM <> 0;",
                         "id" : "sources\\prswdw.sqlrpgle#20:18"
                       },
                       "nameUpper" : "*IN12",
@@ -206,6 +219,7 @@
                       "file" : "sources\\prswdw.sqlrpgle",
                       "line" : 20,
                       "col" : 14,
+                      "text" : "not *in12;\n           exfmt PRSWDWCTL;\n           if OUTPRSNUM <> 0;",
                       "id" : "sources\\prswdw.sqlrpgle#20:14"
                     },
                     "id" : "sources\\prswdw.sqlrpgle#20:14"
@@ -220,6 +234,7 @@
                         "file" : "sources\\prswdw.sqlrpgle",
                         "line" : 21,
                         "col" : 12,
+                        "text" : "exfmt PRSWDWCTL;\n           if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;",
                         "id" : "sources\\prswdw.sqlrpgle#21:12"
                       },
                       "id" : "sources\\prswdw.sqlrpgle#21:12"
@@ -237,6 +252,7 @@
                             "file" : "sources\\prswdw.sqlrpgle",
                             "line" : 22,
                             "col" : 15,
+                            "text" : "OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                             "id" : "sources\\prswdw.sqlrpgle#22:15"
                           },
                           "nameUpper" : "OUTPRSNUM",
@@ -250,6 +266,7 @@
                             "file" : "sources\\prswdw.sqlrpgle",
                             "line" : 22,
                             "col" : 28,
+                            "text" : "0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                             "id" : "sources\\prswdw.sqlrpgle#22:28"
                           },
                           "id" : "sources\\prswdw.sqlrpgle#22:28"
@@ -259,6 +276,7 @@
                           "file" : "sources\\prswdw.sqlrpgle",
                           "line" : 22,
                           "col" : 15,
+                          "text" : "OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                           "id" : "sources\\prswdw.sqlrpgle#22:15"
                         },
                         "id" : "sources\\prswdw.sqlrpgle#22:15"
@@ -275,6 +293,7 @@
                               "file" : "sources\\prswdw.sqlrpgle",
                               "line" : 23,
                               "col" : 14,
+                              "text" : "RtValue = OUTPRSNUM;\n             *in12 = *on;\n           elseif ZOEKPRSNUM <> 0;",
                               "id" : "sources\\prswdw.sqlrpgle#23:14"
                             },
                             "nameUpper" : "RTVALUE",
@@ -287,6 +306,7 @@
                             "file" : "sources\\prswdw.sqlrpgle",
                             "line" : 23,
                             "col" : 14,
+                            "text" : "RtValue = OUTPRSNUM;\n             *in12 = *on;\n           elseif ZOEKPRSNUM <> 0;",
                             "id" : "sources\\prswdw.sqlrpgle#23:14"
                           },
                           "flattened" : true,
@@ -304,6 +324,7 @@
                                 "file" : "sources\\prswdw.sqlrpgle",
                                 "line" : 24,
                                 "col" : 15,
+                                "text" : "in12 = *on;\n           elseif ZOEKPRSNUM <> 0;\n             exsr ClearSfl;",
                                 "id" : "sources\\prswdw.sqlrpgle#24:15"
                               },
                               "nameUpper" : "IN12",
@@ -316,6 +337,7 @@
                               "file" : "sources\\prswdw.sqlrpgle",
                               "line" : 24,
                               "col" : 15,
+                              "text" : "in12 = *on;\n           elseif ZOEKPRSNUM <> 0;\n             exsr ClearSfl;",
                               "id" : "sources\\prswdw.sqlrpgle#24:15"
                             },
                             "flattened" : true,
@@ -331,6 +353,7 @@
                                 "file" : "sources\\prswdw.sqlrpgle",
                                 "line" : 26,
                                 "col" : 14,
+                                "text" : "exsr ClearSfl;\n             exsr FilterNum;\n           elseif ZOEKPRSNAA <> *blanks;",
                                 "id" : "sources\\prswdw.sqlrpgle#26:14"
                               },
                               "subroutineUpper" : "CLEARSFL",
@@ -346,6 +369,7 @@
                                   "file" : "sources\\prswdw.sqlrpgle",
                                   "line" : 27,
                                   "col" : 14,
+                                  "text" : "exsr FilterNum;\n           elseif ZOEKPRSNAA <> *blanks;\n             exsr ClearSfl;",
                                   "id" : "sources\\prswdw.sqlrpgle#27:14"
                                 },
                                 "subroutineUpper" : "FILTERNUM",
@@ -361,6 +385,7 @@
                                     "file" : "sources\\prswdw.sqlrpgle",
                                     "line" : 29,
                                     "col" : 14,
+                                    "text" : "exsr ClearSfl;\n             exsr FilterNaam;\n           endif;",
                                     "id" : "sources\\prswdw.sqlrpgle#29:14"
                                   },
                                   "subroutineUpper" : "CLEARSFL",
@@ -374,6 +399,7 @@
                                     "file" : "sources\\prswdw.sqlrpgle",
                                     "line" : 30,
                                     "col" : 14,
+                                    "text" : "exsr FilterNaam;\n           endif;\n         enddo;",
                                     "id" : "sources\\prswdw.sqlrpgle#30:14"
                                   },
                                   "subroutineUpper" : "FILTERNAAM",
@@ -384,6 +410,7 @@
                                   "file" : "sources\\prswdw.sqlrpgle",
                                   "line" : 22,
                                   "col" : 12,
+                                  "text" : "if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                                   "id" : "sources\\prswdw.sqlrpgle#22:12"
                                 },
                                 "id" : "sources\\prswdw.sqlrpgle#22:12"
@@ -393,6 +420,7 @@
                                 "file" : "sources\\prswdw.sqlrpgle",
                                 "line" : 22,
                                 "col" : 12,
+                                "text" : "if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                                 "id" : "sources\\prswdw.sqlrpgle#22:12"
                               },
                               "id" : "sources\\prswdw.sqlrpgle#22:13"
@@ -402,6 +430,7 @@
                               "file" : "sources\\prswdw.sqlrpgle",
                               "line" : 22,
                               "col" : 12,
+                              "text" : "if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                               "id" : "sources\\prswdw.sqlrpgle#22:12"
                             },
                             "id" : "sources\\prswdw.sqlrpgle#22:14"
@@ -411,6 +440,7 @@
                             "file" : "sources\\prswdw.sqlrpgle",
                             "line" : 22,
                             "col" : 12,
+                            "text" : "if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                             "id" : "sources\\prswdw.sqlrpgle#22:12"
                           },
                           "id" : "sources\\prswdw.sqlrpgle#22:15"
@@ -420,6 +450,7 @@
                           "file" : "sources\\prswdw.sqlrpgle",
                           "line" : 22,
                           "col" : 12,
+                          "text" : "if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                           "id" : "sources\\prswdw.sqlrpgle#22:12"
                         },
                         "id" : "sources\\prswdw.sqlrpgle#22:16"
@@ -429,6 +460,7 @@
                         "file" : "sources\\prswdw.sqlrpgle",
                         "line" : 22,
                         "col" : 12,
+                        "text" : "if OUTPRSNUM <> 0;\n             RtValue = OUTPRSNUM;\n             *in12 = *on;",
                         "id" : "sources\\prswdw.sqlrpgle#22:12"
                       },
                       "id" : "sources\\prswdw.sqlrpgle#22:12"
@@ -438,6 +470,7 @@
                       "file" : "sources\\prswdw.sqlrpgle",
                       "line" : 20,
                       "col" : 10,
+                      "text" : "dow not *in12;\n           exfmt PRSWDWCTL;\n           if OUTPRSNUM <> 0;",
                       "id" : "sources\\prswdw.sqlrpgle#20:10"
                     },
                     "id" : "sources\\prswdw.sqlrpgle#20:15"
@@ -447,6 +480,7 @@
                     "file" : "sources\\prswdw.sqlrpgle",
                     "line" : 20,
                     "col" : 10,
+                    "text" : "dow not *in12;\n           exfmt PRSWDWCTL;\n           if OUTPRSNUM <> 0;",
                     "id" : "sources\\prswdw.sqlrpgle#20:10"
                   },
                   "id" : "sources\\prswdw.sqlrpgle#20:10"
@@ -463,6 +497,7 @@
                         "file" : "sources\\prswdw.sqlrpgle",
                         "line" : 34,
                         "col" : 11,
+                        "text" : "in12 = *off;\n         *inlr = *on;\n         return RtValue;",
                         "id" : "sources\\prswdw.sqlrpgle#34:11"
                       },
                       "nameUpper" : "IN12",
@@ -475,6 +510,7 @@
                       "file" : "sources\\prswdw.sqlrpgle",
                       "line" : 34,
                       "col" : 11,
+                      "text" : "in12 = *off;\n         *inlr = *on;\n         return RtValue;",
                       "id" : "sources\\prswdw.sqlrpgle#34:11"
                     },
                     "flattened" : true,
@@ -492,6 +528,7 @@
                           "file" : "sources\\prswdw.sqlrpgle",
                           "line" : 35,
                           "col" : 11,
+                          "text" : "inlr = *on;\n         return RtValue;\n       ",
                           "id" : "sources\\prswdw.sqlrpgle#35:11"
                         },
                         "nameUpper" : "INLR",
@@ -504,6 +541,7 @@
                         "file" : "sources\\prswdw.sqlrpgle",
                         "line" : 35,
                         "col" : 11,
+                        "text" : "inlr = *on;\n         return RtValue;\n       ",
                         "id" : "sources\\prswdw.sqlrpgle#35:11"
                       },
                       "flattened" : true,
@@ -519,6 +557,7 @@
                           "file" : "sources\\prswdw.sqlrpgle",
                           "line" : 41,
                           "col" : 10,
+                          "text" : "begsr ClearSfl;\n           *in51 = *off;\n           *in40 = *off;",
                           "id" : "sources\\prswdw.sqlrpgle#41:10"
                         },
                         "id" : "sources\\prswdw.sqlrpgle#41:10"
@@ -535,6 +574,7 @@
                               "file" : "sources\\prswdw.sqlrpgle",
                               "line" : 42,
                               "col" : 13,
+                              "text" : "in51 = *off;\n           *in40 = *off;\n           write PRSWDWCTL;",
                               "id" : "sources\\prswdw.sqlrpgle#42:13"
                             },
                             "nameUpper" : "IN51",
@@ -547,6 +587,7 @@
                             "file" : "sources\\prswdw.sqlrpgle",
                             "line" : 42,
                             "col" : 13,
+                            "text" : "in51 = *off;\n           *in40 = *off;\n           write PRSWDWCTL;",
                             "id" : "sources\\prswdw.sqlrpgle#42:13"
                           },
                           "flattened" : true,
@@ -564,6 +605,7 @@
                                 "file" : "sources\\prswdw.sqlrpgle",
                                 "line" : 43,
                                 "col" : 13,
+                                "text" : "in40 = *off;\n           write PRSWDWCTL;\n           *in40 = *on;",
                                 "id" : "sources\\prswdw.sqlrpgle#43:13"
                               },
                               "nameUpper" : "IN40",
@@ -576,6 +618,7 @@
                               "file" : "sources\\prswdw.sqlrpgle",
                               "line" : 43,
                               "col" : 13,
+                              "text" : "in40 = *off;\n           write PRSWDWCTL;\n           *in40 = *on;",
                               "id" : "sources\\prswdw.sqlrpgle#43:13"
                             },
                             "flattened" : true,
@@ -591,6 +634,7 @@
                                 "file" : "sources\\prswdw.sqlrpgle",
                                 "line" : 44,
                                 "col" : 12,
+                                "text" : "write PRSWDWCTL;\n           *in40 = *on;\n           RRN# = 0;",
                                 "id" : "sources\\prswdw.sqlrpgle#44:12"
                               },
                               "id" : "sources\\prswdw.sqlrpgle#44:12"
@@ -607,6 +651,7 @@
                                     "file" : "sources\\prswdw.sqlrpgle",
                                     "line" : 45,
                                     "col" : 13,
+                                    "text" : "in40 = *on;\n           RRN# = 0;\n         endsr;",
                                     "id" : "sources\\prswdw.sqlrpgle#45:13"
                                   },
                                   "nameUpper" : "IN40",
@@ -619,6 +664,7 @@
                                   "file" : "sources\\prswdw.sqlrpgle",
                                   "line" : 45,
                                   "col" : 13,
+                                  "text" : "in40 = *on;\n           RRN# = 0;\n         endsr;",
                                   "id" : "sources\\prswdw.sqlrpgle#45:13"
                                 },
                                 "flattened" : true,
@@ -636,6 +682,7 @@
                                       "file" : "sources\\prswdw.sqlrpgle",
                                       "line" : 46,
                                       "col" : 12,
+                                      "text" : "RRN# = 0;\n         endsr;\n       ",
                                       "id" : "sources\\prswdw.sqlrpgle#46:12"
                                     },
                                     "nameUpper" : "RRN#",
@@ -648,6 +695,7 @@
                                     "file" : "sources\\prswdw.sqlrpgle",
                                     "line" : 46,
                                     "col" : 12,
+                                    "text" : "RRN# = 0;\n         endsr;\n       ",
                                     "id" : "sources\\prswdw.sqlrpgle#46:12"
                                   },
                                   "flattened" : true,
@@ -662,6 +710,7 @@
                                       "file" : "sources\\prswdw.sqlrpgle",
                                       "line" : 47,
                                       "col" : 10,
+                                      "text" : "endsr;\n       \n         begsr LoadSfl;",
                                       "id" : "sources\\prswdw.sqlrpgle#47:10"
                                     },
                                     "id" : "sources\\prswdw.sqlrpgle#47:10"
@@ -676,6 +725,7 @@
                                         "file" : "sources\\prswdw.sqlrpgle",
                                         "line" : 49,
                                         "col" : 10,
+                                        "text" : "begsr LoadSfl;\n           EXEC SQL\n             DECLARE C1 CURSOR FOR",
                                         "id" : "sources\\prswdw.sqlrpgle#49:10"
                                       },
                                       "id" : "sources\\prswdw.sqlrpgle#49:10"
@@ -695,6 +745,7 @@
                                               "file" : "sources\\prswdw.sqlrpgle",
                                               "line" : 57,
                                               "col" : 15,
+                                              "text" : "sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                               "id" : "sources\\prswdw.sqlrpgle#57:15"
                                             },
                                             "nameUpper" : "SQLSTATE",
@@ -708,6 +759,7 @@
                                               "file" : "sources\\prswdw.sqlrpgle",
                                               "line" : 57,
                                               "col" : 26,
+                                              "text" : "'00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                               "id" : "sources\\prswdw.sqlrpgle#57:26"
                                             },
                                             "id" : "sources\\prswdw.sqlrpgle#57:26"
@@ -717,6 +769,7 @@
                                             "file" : "sources\\prswdw.sqlrpgle",
                                             "line" : 57,
                                             "col" : 15,
+                                            "text" : "sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                             "id" : "sources\\prswdw.sqlrpgle#57:15"
                                           },
                                           "id" : "sources\\prswdw.sqlrpgle#57:15"
@@ -734,6 +787,7 @@
                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                 "line" : 58,
                                                 "col" : 18,
+                                                "text" : "SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                 "id" : "sources\\prswdw.sqlrpgle#58:18"
                                               },
                                               "nameUpper" : "SQLSTATE",
@@ -747,6 +801,7 @@
                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                 "line" : 58,
                                                 "col" : 29,
+                                                "text" : "'00000';\n               RRN# += 1;\n               EXEC SQL",
                                                 "id" : "sources\\prswdw.sqlrpgle#58:29"
                                               },
                                               "id" : "sources\\prswdw.sqlrpgle#58:29"
@@ -756,6 +811,7 @@
                                               "file" : "sources\\prswdw.sqlrpgle",
                                               "line" : 58,
                                               "col" : 18,
+                                              "text" : "SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                               "id" : "sources\\prswdw.sqlrpgle#58:18"
                                             },
                                             "id" : "sources\\prswdw.sqlrpgle#58:18"
@@ -772,6 +828,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 59,
                                                   "col" : 16,
+                                                  "text" : "RRN# += 1;\n               EXEC SQL\n                 FETCH NEXT FROM C1 INTO :PRSID, :PRSNAAM;",
                                                   "id" : "sources\\prswdw.sqlrpgle#59:16"
                                                 },
                                                 "nameUpper" : "RRN#",
@@ -784,6 +841,7 @@
                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                 "line" : 59,
                                                 "col" : 16,
+                                                "text" : "RRN# += 1;\n               EXEC SQL\n                 FETCH NEXT FROM C1 INTO :PRSID, :PRSNAAM;",
                                                 "id" : "sources\\prswdw.sqlrpgle#59:16"
                                               },
                                               "flattened" : true,
@@ -802,6 +860,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 62,
                                                     "col" : 19,
+                                                    "text" : "sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                     "id" : "sources\\prswdw.sqlrpgle#62:19"
                                                   },
                                                   "nameUpper" : "SQLSTATE",
@@ -815,6 +874,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 62,
                                                     "col" : 30,
+                                                    "text" : "'00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                     "id" : "sources\\prswdw.sqlrpgle#62:30"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#62:30"
@@ -824,6 +884,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 62,
                                                   "col" : 19,
+                                                  "text" : "sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                   "id" : "sources\\prswdw.sqlrpgle#62:19"
                                                 },
                                                 "id" : "sources\\prswdw.sqlrpgle#62:19"
@@ -838,6 +899,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 63,
                                                     "col" : 18,
+                                                    "text" : "write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;\n                 *in51 = *on;",
                                                     "id" : "sources\\prswdw.sqlrpgle#63:18"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#63:18"
@@ -854,6 +916,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 65,
                                                         "col" : 19,
+                                                        "text" : "in51 = *on;\n               elseif RRN# = 1;\n                 PRSID = 0;",
                                                         "id" : "sources\\prswdw.sqlrpgle#65:19"
                                                       },
                                                       "nameUpper" : "IN51",
@@ -866,6 +929,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 65,
                                                       "col" : 19,
+                                                      "text" : "in51 = *on;\n               elseif RRN# = 1;\n                 PRSID = 0;",
                                                       "id" : "sources\\prswdw.sqlrpgle#65:19"
                                                     },
                                                     "flattened" : true,
@@ -883,6 +947,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 67,
                                                           "col" : 18,
+                                                          "text" : "PRSID = 0;\n                 PRSNAAM = 'N/A';\n                 write PRSWDWSFL;",
                                                           "id" : "sources\\prswdw.sqlrpgle#67:18"
                                                         },
                                                         "nameUpper" : "PRSID",
@@ -895,6 +960,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 67,
                                                         "col" : 18,
+                                                        "text" : "PRSID = 0;\n                 PRSNAAM = 'N/A';\n                 write PRSWDWSFL;",
                                                         "id" : "sources\\prswdw.sqlrpgle#67:18"
                                                       },
                                                       "flattened" : true,
@@ -912,6 +978,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 68,
                                                             "col" : 18,
+                                                            "text" : "PRSNAAM = 'N/A';\n                 write PRSWDWSFL;\n               endif;",
                                                             "id" : "sources\\prswdw.sqlrpgle#68:18"
                                                           },
                                                           "nameUpper" : "PRSNAAM",
@@ -924,6 +991,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 68,
                                                           "col" : 18,
+                                                          "text" : "PRSNAAM = 'N/A';\n                 write PRSWDWSFL;\n               endif;",
                                                           "id" : "sources\\prswdw.sqlrpgle#68:18"
                                                         },
                                                         "flattened" : true,
@@ -937,6 +1005,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 69,
                                                           "col" : 18,
+                                                          "text" : "write PRSWDWSFL;\n               endif;\n             enddo;",
                                                           "id" : "sources\\prswdw.sqlrpgle#69:18"
                                                         },
                                                         "id" : "sources\\prswdw.sqlrpgle#69:18"
@@ -946,6 +1015,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 62,
                                                         "col" : 16,
+                                                        "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                         "id" : "sources\\prswdw.sqlrpgle#62:16"
                                                       },
                                                       "id" : "sources\\prswdw.sqlrpgle#62:22"
@@ -955,6 +1025,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 62,
                                                       "col" : 16,
+                                                      "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                       "id" : "sources\\prswdw.sqlrpgle#62:16"
                                                     },
                                                     "id" : "sources\\prswdw.sqlrpgle#62:23"
@@ -964,6 +1035,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 62,
                                                     "col" : 16,
+                                                    "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                     "id" : "sources\\prswdw.sqlrpgle#62:16"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#62:24"
@@ -973,6 +1045,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 62,
                                                   "col" : 16,
+                                                  "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                   "id" : "sources\\prswdw.sqlrpgle#62:16"
                                                 },
                                                 "id" : "sources\\prswdw.sqlrpgle#62:25"
@@ -982,6 +1055,7 @@
                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                 "line" : 62,
                                                 "col" : 16,
+                                                "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                 "id" : "sources\\prswdw.sqlrpgle#62:16"
                                               },
                                               "id" : "sources\\prswdw.sqlrpgle#62:16"
@@ -991,6 +1065,7 @@
                                               "file" : "sources\\prswdw.sqlrpgle",
                                               "line" : 58,
                                               "col" : 14,
+                                              "text" : "dow SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                               "id" : "sources\\prswdw.sqlrpgle#58:14"
                                             },
                                             "id" : "sources\\prswdw.sqlrpgle#58:24"
@@ -1000,6 +1075,7 @@
                                             "file" : "sources\\prswdw.sqlrpgle",
                                             "line" : 58,
                                             "col" : 14,
+                                            "text" : "dow SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                             "id" : "sources\\prswdw.sqlrpgle#58:14"
                                           },
                                           "id" : "sources\\prswdw.sqlrpgle#58:14"
@@ -1009,6 +1085,7 @@
                                           "file" : "sources\\prswdw.sqlrpgle",
                                           "line" : 57,
                                           "col" : 12,
+                                          "text" : "if sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                           "id" : "sources\\prswdw.sqlrpgle#57:12"
                                         },
                                         "id" : "sources\\prswdw.sqlrpgle#57:12"
@@ -1022,6 +1099,7 @@
                                             "file" : "sources\\prswdw.sqlrpgle",
                                             "line" : 75,
                                             "col" : 10,
+                                            "text" : "endsr;\n       \n         begsr FilterNum;",
                                             "id" : "sources\\prswdw.sqlrpgle#75:10"
                                           },
                                           "id" : "sources\\prswdw.sqlrpgle#75:10"
@@ -1036,6 +1114,7 @@
                                               "file" : "sources\\prswdw.sqlrpgle",
                                               "line" : 77,
                                               "col" : 10,
+                                              "text" : "begsr FilterNum;\n           EXEC SQL\n             DECLARE C2 CURSOR FOR",
                                               "id" : "sources\\prswdw.sqlrpgle#77:10"
                                             },
                                             "id" : "sources\\prswdw.sqlrpgle#77:10"
@@ -1055,6 +1134,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 86,
                                                     "col" : 15,
+                                                    "text" : "sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                     "id" : "sources\\prswdw.sqlrpgle#86:15"
                                                   },
                                                   "nameUpper" : "SQLSTATE",
@@ -1068,6 +1148,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 86,
                                                     "col" : 26,
+                                                    "text" : "'00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                     "id" : "sources\\prswdw.sqlrpgle#86:26"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#86:26"
@@ -1077,6 +1158,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 86,
                                                   "col" : 15,
+                                                  "text" : "sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                   "id" : "sources\\prswdw.sqlrpgle#86:15"
                                                 },
                                                 "id" : "sources\\prswdw.sqlrpgle#86:15"
@@ -1094,6 +1176,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 87,
                                                       "col" : 18,
+                                                      "text" : "SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                       "id" : "sources\\prswdw.sqlrpgle#87:18"
                                                     },
                                                     "nameUpper" : "SQLSTATE",
@@ -1107,6 +1190,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 87,
                                                       "col" : 29,
+                                                      "text" : "'00000';\n               RRN# += 1;\n               EXEC SQL",
                                                       "id" : "sources\\prswdw.sqlrpgle#87:29"
                                                     },
                                                     "id" : "sources\\prswdw.sqlrpgle#87:29"
@@ -1116,6 +1200,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 87,
                                                     "col" : 18,
+                                                    "text" : "SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                     "id" : "sources\\prswdw.sqlrpgle#87:18"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#87:18"
@@ -1132,6 +1217,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 88,
                                                         "col" : 16,
+                                                        "text" : "RRN# += 1;\n               EXEC SQL\n                 FETCH NEXT FROM C2 INTO :PRSID, :PRSNAAM;",
                                                         "id" : "sources\\prswdw.sqlrpgle#88:16"
                                                       },
                                                       "nameUpper" : "RRN#",
@@ -1144,6 +1230,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 88,
                                                       "col" : 16,
+                                                      "text" : "RRN# += 1;\n               EXEC SQL\n                 FETCH NEXT FROM C2 INTO :PRSID, :PRSNAAM;",
                                                       "id" : "sources\\prswdw.sqlrpgle#88:16"
                                                     },
                                                     "flattened" : true,
@@ -1162,6 +1249,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 91,
                                                           "col" : 19,
+                                                          "text" : "sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                           "id" : "sources\\prswdw.sqlrpgle#91:19"
                                                         },
                                                         "nameUpper" : "SQLSTATE",
@@ -1175,6 +1263,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 91,
                                                           "col" : 30,
+                                                          "text" : "'00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                           "id" : "sources\\prswdw.sqlrpgle#91:30"
                                                         },
                                                         "id" : "sources\\prswdw.sqlrpgle#91:30"
@@ -1184,6 +1273,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 91,
                                                         "col" : 19,
+                                                        "text" : "sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                         "id" : "sources\\prswdw.sqlrpgle#91:19"
                                                       },
                                                       "id" : "sources\\prswdw.sqlrpgle#91:19"
@@ -1198,6 +1288,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 92,
                                                           "col" : 18,
+                                                          "text" : "write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;\n                 *in51 = *on;",
                                                           "id" : "sources\\prswdw.sqlrpgle#92:18"
                                                         },
                                                         "id" : "sources\\prswdw.sqlrpgle#92:18"
@@ -1214,6 +1305,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 94,
                                                               "col" : 19,
+                                                              "text" : "in51 = *on;\n               elseif RRN# = 1;\n                 PRSID = 0;",
                                                               "id" : "sources\\prswdw.sqlrpgle#94:19"
                                                             },
                                                             "nameUpper" : "IN51",
@@ -1226,6 +1318,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 94,
                                                             "col" : 19,
+                                                            "text" : "in51 = *on;\n               elseif RRN# = 1;\n                 PRSID = 0;",
                                                             "id" : "sources\\prswdw.sqlrpgle#94:19"
                                                           },
                                                           "flattened" : true,
@@ -1243,6 +1336,7 @@
                                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                                 "line" : 96,
                                                                 "col" : 18,
+                                                                "text" : "PRSID = 0;\n                 PRSNAAM = 'N/A';\n                 write PRSWDWSFL;",
                                                                 "id" : "sources\\prswdw.sqlrpgle#96:18"
                                                               },
                                                               "nameUpper" : "PRSID",
@@ -1255,6 +1349,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 96,
                                                               "col" : 18,
+                                                              "text" : "PRSID = 0;\n                 PRSNAAM = 'N/A';\n                 write PRSWDWSFL;",
                                                               "id" : "sources\\prswdw.sqlrpgle#96:18"
                                                             },
                                                             "flattened" : true,
@@ -1272,6 +1367,7 @@
                                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                                   "line" : 97,
                                                                   "col" : 18,
+                                                                  "text" : "PRSNAAM = 'N/A';\n                 write PRSWDWSFL;\n               endif;",
                                                                   "id" : "sources\\prswdw.sqlrpgle#97:18"
                                                                 },
                                                                 "nameUpper" : "PRSNAAM",
@@ -1284,6 +1380,7 @@
                                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                                 "line" : 97,
                                                                 "col" : 18,
+                                                                "text" : "PRSNAAM = 'N/A';\n                 write PRSWDWSFL;\n               endif;",
                                                                 "id" : "sources\\prswdw.sqlrpgle#97:18"
                                                               },
                                                               "flattened" : true,
@@ -1297,6 +1394,7 @@
                                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                                 "line" : 98,
                                                                 "col" : 18,
+                                                                "text" : "write PRSWDWSFL;\n               endif;\n             enddo;",
                                                                 "id" : "sources\\prswdw.sqlrpgle#98:18"
                                                               },
                                                               "id" : "sources\\prswdw.sqlrpgle#98:18"
@@ -1306,6 +1404,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 91,
                                                               "col" : 16,
+                                                              "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                               "id" : "sources\\prswdw.sqlrpgle#91:16"
                                                             },
                                                             "id" : "sources\\prswdw.sqlrpgle#91:27"
@@ -1315,6 +1414,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 91,
                                                             "col" : 16,
+                                                            "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                             "id" : "sources\\prswdw.sqlrpgle#91:16"
                                                           },
                                                           "id" : "sources\\prswdw.sqlrpgle#91:28"
@@ -1324,6 +1424,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 91,
                                                           "col" : 16,
+                                                          "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                           "id" : "sources\\prswdw.sqlrpgle#91:16"
                                                         },
                                                         "id" : "sources\\prswdw.sqlrpgle#91:29"
@@ -1333,6 +1434,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 91,
                                                         "col" : 16,
+                                                        "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                         "id" : "sources\\prswdw.sqlrpgle#91:16"
                                                       },
                                                       "id" : "sources\\prswdw.sqlrpgle#91:30"
@@ -1342,6 +1444,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 91,
                                                       "col" : 16,
+                                                      "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                       "id" : "sources\\prswdw.sqlrpgle#91:16"
                                                     },
                                                     "id" : "sources\\prswdw.sqlrpgle#91:16"
@@ -1351,6 +1454,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 87,
                                                     "col" : 14,
+                                                    "text" : "dow SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                     "id" : "sources\\prswdw.sqlrpgle#87:14"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#87:29"
@@ -1360,6 +1464,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 87,
                                                   "col" : 14,
+                                                  "text" : "dow SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                   "id" : "sources\\prswdw.sqlrpgle#87:14"
                                                 },
                                                 "id" : "sources\\prswdw.sqlrpgle#87:14"
@@ -1369,6 +1474,7 @@
                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                 "line" : 86,
                                                 "col" : 12,
+                                                "text" : "if sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                 "id" : "sources\\prswdw.sqlrpgle#86:12"
                                               },
                                               "id" : "sources\\prswdw.sqlrpgle#86:12"
@@ -1382,6 +1488,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 105,
                                                   "col" : 10,
+                                                  "text" : "endsr;\n       \n         begsr FilterNaam;",
                                                   "id" : "sources\\prswdw.sqlrpgle#105:10"
                                                 },
                                                 "id" : "sources\\prswdw.sqlrpgle#105:10"
@@ -1396,6 +1503,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 107,
                                                     "col" : 10,
+                                                    "text" : "begsr FilterNaam;\n           SearchPattern = '%'+ZOEKPRSNAA+'%';\n           EXEC SQL",
                                                     "id" : "sources\\prswdw.sqlrpgle#107:10"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#107:10"
@@ -1412,6 +1520,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 108,
                                                         "col" : 12,
+                                                        "text" : "SearchPattern = '%'+ZOEKPRSNAA+'%';\n           EXEC SQL\n             DECLARE C3 CURSOR FOR",
                                                         "id" : "sources\\prswdw.sqlrpgle#108:12"
                                                       },
                                                       "nameUpper" : "SEARCHPATTERN",
@@ -1424,6 +1533,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 108,
                                                       "col" : 12,
+                                                      "text" : "SearchPattern = '%'+ZOEKPRSNAA+'%';\n           EXEC SQL\n             DECLARE C3 CURSOR FOR",
                                                       "id" : "sources\\prswdw.sqlrpgle#108:12"
                                                     },
                                                     "flattened" : true,
@@ -1444,6 +1554,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 117,
                                                             "col" : 15,
+                                                            "text" : "sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                             "id" : "sources\\prswdw.sqlrpgle#117:15"
                                                           },
                                                           "nameUpper" : "SQLSTATE",
@@ -1457,6 +1568,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 117,
                                                             "col" : 26,
+                                                            "text" : "'00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                             "id" : "sources\\prswdw.sqlrpgle#117:26"
                                                           },
                                                           "id" : "sources\\prswdw.sqlrpgle#117:26"
@@ -1466,6 +1578,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 117,
                                                           "col" : 15,
+                                                          "text" : "sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                           "id" : "sources\\prswdw.sqlrpgle#117:15"
                                                         },
                                                         "id" : "sources\\prswdw.sqlrpgle#117:15"
@@ -1483,6 +1596,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 118,
                                                               "col" : 18,
+                                                              "text" : "SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                               "id" : "sources\\prswdw.sqlrpgle#118:18"
                                                             },
                                                             "nameUpper" : "SQLSTATE",
@@ -1496,6 +1610,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 118,
                                                               "col" : 29,
+                                                              "text" : "'00000';\n               RRN# += 1;\n               EXEC SQL",
                                                               "id" : "sources\\prswdw.sqlrpgle#118:29"
                                                             },
                                                             "id" : "sources\\prswdw.sqlrpgle#118:29"
@@ -1505,6 +1620,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 118,
                                                             "col" : 18,
+                                                            "text" : "SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                             "id" : "sources\\prswdw.sqlrpgle#118:18"
                                                           },
                                                           "id" : "sources\\prswdw.sqlrpgle#118:18"
@@ -1521,6 +1637,7 @@
                                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                                 "line" : 119,
                                                                 "col" : 16,
+                                                                "text" : "RRN# += 1;\n               EXEC SQL\n                 FETCH NEXT FROM C3 INTO :PRSID, :PRSNAAM;",
                                                                 "id" : "sources\\prswdw.sqlrpgle#119:16"
                                                               },
                                                               "nameUpper" : "RRN#",
@@ -1533,6 +1650,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 119,
                                                               "col" : 16,
+                                                              "text" : "RRN# += 1;\n               EXEC SQL\n                 FETCH NEXT FROM C3 INTO :PRSID, :PRSNAAM;",
                                                               "id" : "sources\\prswdw.sqlrpgle#119:16"
                                                             },
                                                             "flattened" : true,
@@ -1551,6 +1669,7 @@
                                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                                   "line" : 122,
                                                                   "col" : 19,
+                                                                  "text" : "sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                   "id" : "sources\\prswdw.sqlrpgle#122:19"
                                                                 },
                                                                 "nameUpper" : "SQLSTATE",
@@ -1564,6 +1683,7 @@
                                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                                   "line" : 122,
                                                                   "col" : 30,
+                                                                  "text" : "'00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                   "id" : "sources\\prswdw.sqlrpgle#122:30"
                                                                 },
                                                                 "id" : "sources\\prswdw.sqlrpgle#122:30"
@@ -1573,6 +1693,7 @@
                                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                                 "line" : 122,
                                                                 "col" : 19,
+                                                                "text" : "sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                 "id" : "sources\\prswdw.sqlrpgle#122:19"
                                                               },
                                                               "id" : "sources\\prswdw.sqlrpgle#122:19"
@@ -1587,6 +1708,7 @@
                                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                                   "line" : 123,
                                                                   "col" : 18,
+                                                                  "text" : "write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;\n                 *in51 = *on;",
                                                                   "id" : "sources\\prswdw.sqlrpgle#123:18"
                                                                 },
                                                                 "id" : "sources\\prswdw.sqlrpgle#123:18"
@@ -1603,6 +1725,7 @@
                                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                                       "line" : 125,
                                                                       "col" : 19,
+                                                                      "text" : "in51 = *on;\n               elseif RRN# = 1;\n                 PRSID = 0;",
                                                                       "id" : "sources\\prswdw.sqlrpgle#125:19"
                                                                     },
                                                                     "nameUpper" : "IN51",
@@ -1615,6 +1738,7 @@
                                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                                     "line" : 125,
                                                                     "col" : 19,
+                                                                    "text" : "in51 = *on;\n               elseif RRN# = 1;\n                 PRSID = 0;",
                                                                     "id" : "sources\\prswdw.sqlrpgle#125:19"
                                                                   },
                                                                   "flattened" : true,
@@ -1632,6 +1756,7 @@
                                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                                         "line" : 127,
                                                                         "col" : 18,
+                                                                        "text" : "PRSID = 0;\n                 PRSNAAM = 'N/A';\n                 write PRSWDWSFL;",
                                                                         "id" : "sources\\prswdw.sqlrpgle#127:18"
                                                                       },
                                                                       "nameUpper" : "PRSID",
@@ -1644,6 +1769,7 @@
                                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                                       "line" : 127,
                                                                       "col" : 18,
+                                                                      "text" : "PRSID = 0;\n                 PRSNAAM = 'N/A';\n                 write PRSWDWSFL;",
                                                                       "id" : "sources\\prswdw.sqlrpgle#127:18"
                                                                     },
                                                                     "flattened" : true,
@@ -1661,6 +1787,7 @@
                                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                                           "line" : 128,
                                                                           "col" : 18,
+                                                                          "text" : "PRSNAAM = 'N/A';\n                 write PRSWDWSFL;\n               endif;",
                                                                           "id" : "sources\\prswdw.sqlrpgle#128:18"
                                                                         },
                                                                         "nameUpper" : "PRSNAAM",
@@ -1673,6 +1800,7 @@
                                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                                         "line" : 128,
                                                                         "col" : 18,
+                                                                        "text" : "PRSNAAM = 'N/A';\n                 write PRSWDWSFL;\n               endif;",
                                                                         "id" : "sources\\prswdw.sqlrpgle#128:18"
                                                                       },
                                                                       "flattened" : true,
@@ -1686,6 +1814,7 @@
                                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                                         "line" : 129,
                                                                         "col" : 18,
+                                                                        "text" : "write PRSWDWSFL;\n               endif;\n             enddo;",
                                                                         "id" : "sources\\prswdw.sqlrpgle#129:18"
                                                                       },
                                                                       "id" : "sources\\prswdw.sqlrpgle#129:18"
@@ -1695,6 +1824,7 @@
                                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                                       "line" : 122,
                                                                       "col" : 16,
+                                                                      "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                       "id" : "sources\\prswdw.sqlrpgle#122:16"
                                                                     },
                                                                     "id" : "sources\\prswdw.sqlrpgle#122:32"
@@ -1704,6 +1834,7 @@
                                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                                     "line" : 122,
                                                                     "col" : 16,
+                                                                    "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                     "id" : "sources\\prswdw.sqlrpgle#122:16"
                                                                   },
                                                                   "id" : "sources\\prswdw.sqlrpgle#122:33"
@@ -1713,6 +1844,7 @@
                                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                                   "line" : 122,
                                                                   "col" : 16,
+                                                                  "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                   "id" : "sources\\prswdw.sqlrpgle#122:16"
                                                                 },
                                                                 "id" : "sources\\prswdw.sqlrpgle#122:34"
@@ -1722,6 +1854,7 @@
                                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                                 "line" : 122,
                                                                 "col" : 16,
+                                                                "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                                 "id" : "sources\\prswdw.sqlrpgle#122:16"
                                                               },
                                                               "id" : "sources\\prswdw.sqlrpgle#122:35"
@@ -1731,6 +1864,7 @@
                                                               "file" : "sources\\prswdw.sqlrpgle",
                                                               "line" : 122,
                                                               "col" : 16,
+                                                              "text" : "if sqlstate = '00000';\n                 write PRSWDWSFL;\n               elseif sqlstate ='02000' and RRN# <> 1;",
                                                               "id" : "sources\\prswdw.sqlrpgle#122:16"
                                                             },
                                                             "id" : "sources\\prswdw.sqlrpgle#122:16"
@@ -1740,6 +1874,7 @@
                                                             "file" : "sources\\prswdw.sqlrpgle",
                                                             "line" : 118,
                                                             "col" : 14,
+                                                            "text" : "dow SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                             "id" : "sources\\prswdw.sqlrpgle#118:14"
                                                           },
                                                           "id" : "sources\\prswdw.sqlrpgle#118:34"
@@ -1749,6 +1884,7 @@
                                                           "file" : "sources\\prswdw.sqlrpgle",
                                                           "line" : 118,
                                                           "col" : 14,
+                                                          "text" : "dow SQLSTATE = '00000';\n               RRN# += 1;\n               EXEC SQL",
                                                           "id" : "sources\\prswdw.sqlrpgle#118:14"
                                                         },
                                                         "id" : "sources\\prswdw.sqlrpgle#118:14"
@@ -1758,6 +1894,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 117,
                                                         "col" : 12,
+                                                        "text" : "if sqlstate = '00000';\n             dow SQLSTATE = '00000';\n               RRN# += 1;",
                                                         "id" : "sources\\prswdw.sqlrpgle#117:12"
                                                       },
                                                       "id" : "sources\\prswdw.sqlrpgle#117:12"
@@ -1769,6 +1906,7 @@
                                                         "file" : "sources\\prswdw.sqlrpgle",
                                                         "line" : 135,
                                                         "col" : 10,
+                                                        "text" : "endsr;\n       end-proc;\n       ",
                                                         "id" : "sources\\prswdw.sqlrpgle#135:10"
                                                       },
                                                       "id" : "sources\\prswdw.sqlrpgle#135:10"
@@ -1778,6 +1916,7 @@
                                                       "file" : "sources\\prswdw.sqlrpgle",
                                                       "line" : 136,
                                                       "col" : 8,
+                                                      "text" : "end-proc;\n       \n       ",
                                                       "id" : "sources\\prswdw.sqlrpgle#136:8"
                                                     },
                                                     "id" : "sources\\prswdw.sqlrpgle#136:29"
@@ -1787,6 +1926,7 @@
                                                     "file" : "sources\\prswdw.sqlrpgle",
                                                     "line" : 136,
                                                     "col" : 8,
+                                                    "text" : "end-proc;\n       \n       ",
                                                     "id" : "sources\\prswdw.sqlrpgle#136:8"
                                                   },
                                                   "id" : "sources\\prswdw.sqlrpgle#136:30"
@@ -1796,6 +1936,7 @@
                                                   "file" : "sources\\prswdw.sqlrpgle",
                                                   "line" : 136,
                                                   "col" : 8,
+                                                  "text" : "end-proc;\n       \n       ",
                                                   "id" : "sources\\prswdw.sqlrpgle#136:8"
                                                 },
                                                 "id" : "sources\\prswdw.sqlrpgle#136:31"
@@ -1805,6 +1946,7 @@
                                                 "file" : "sources\\prswdw.sqlrpgle",
                                                 "line" : 136,
                                                 "col" : 8,
+                                                "text" : "end-proc;\n       \n       ",
                                                 "id" : "sources\\prswdw.sqlrpgle#136:8"
                                               },
                                               "id" : "sources\\prswdw.sqlrpgle#136:32"
@@ -1814,6 +1956,7 @@
                                               "file" : "sources\\prswdw.sqlrpgle",
                                               "line" : 136,
                                               "col" : 8,
+                                              "text" : "end-proc;\n       \n       ",
                                               "id" : "sources\\prswdw.sqlrpgle#136:8"
                                             },
                                             "id" : "sources\\prswdw.sqlrpgle#136:33"
@@ -1823,6 +1966,7 @@
                                             "file" : "sources\\prswdw.sqlrpgle",
                                             "line" : 136,
                                             "col" : 8,
+                                            "text" : "end-proc;\n       \n       ",
                                             "id" : "sources\\prswdw.sqlrpgle#136:8"
                                           },
                                           "id" : "sources\\prswdw.sqlrpgle#136:34"
@@ -1832,6 +1976,7 @@
                                           "file" : "sources\\prswdw.sqlrpgle",
                                           "line" : 136,
                                           "col" : 8,
+                                          "text" : "end-proc;\n       \n       ",
                                           "id" : "sources\\prswdw.sqlrpgle#136:8"
                                         },
                                         "id" : "sources\\prswdw.sqlrpgle#136:35"
@@ -1841,6 +1986,7 @@
                                         "file" : "sources\\prswdw.sqlrpgle",
                                         "line" : 136,
                                         "col" : 8,
+                                        "text" : "end-proc;\n       \n       ",
                                         "id" : "sources\\prswdw.sqlrpgle#136:8"
                                       },
                                       "id" : "sources\\prswdw.sqlrpgle#136:36"
@@ -1850,6 +1996,7 @@
                                       "file" : "sources\\prswdw.sqlrpgle",
                                       "line" : 136,
                                       "col" : 8,
+                                      "text" : "end-proc;\n       \n       ",
                                       "id" : "sources\\prswdw.sqlrpgle#136:8"
                                     },
                                     "id" : "sources\\prswdw.sqlrpgle#136:37"
@@ -1859,6 +2006,7 @@
                                     "file" : "sources\\prswdw.sqlrpgle",
                                     "line" : 136,
                                     "col" : 8,
+                                    "text" : "end-proc;\n       \n       ",
                                     "id" : "sources\\prswdw.sqlrpgle#136:8"
                                   },
                                   "id" : "sources\\prswdw.sqlrpgle#136:38"
@@ -1868,6 +2016,7 @@
                                   "file" : "sources\\prswdw.sqlrpgle",
                                   "line" : 136,
                                   "col" : 8,
+                                  "text" : "end-proc;\n       \n       ",
                                   "id" : "sources\\prswdw.sqlrpgle#136:8"
                                 },
                                 "id" : "sources\\prswdw.sqlrpgle#136:39"
@@ -1877,6 +2026,7 @@
                                 "file" : "sources\\prswdw.sqlrpgle",
                                 "line" : 136,
                                 "col" : 8,
+                                "text" : "end-proc;\n       \n       ",
                                 "id" : "sources\\prswdw.sqlrpgle#136:8"
                               },
                               "id" : "sources\\prswdw.sqlrpgle#136:40"
@@ -1886,6 +2036,7 @@
                               "file" : "sources\\prswdw.sqlrpgle",
                               "line" : 136,
                               "col" : 8,
+                              "text" : "end-proc;\n       \n       ",
                               "id" : "sources\\prswdw.sqlrpgle#136:8"
                             },
                             "id" : "sources\\prswdw.sqlrpgle#136:41"
@@ -1895,6 +2046,7 @@
                             "file" : "sources\\prswdw.sqlrpgle",
                             "line" : 136,
                             "col" : 8,
+                            "text" : "end-proc;\n       \n       ",
                             "id" : "sources\\prswdw.sqlrpgle#136:8"
                           },
                           "id" : "sources\\prswdw.sqlrpgle#136:42"
@@ -1904,6 +2056,7 @@
                           "file" : "sources\\prswdw.sqlrpgle",
                           "line" : 136,
                           "col" : 8,
+                          "text" : "end-proc;\n       \n       ",
                           "id" : "sources\\prswdw.sqlrpgle#136:8"
                         },
                         "id" : "sources\\prswdw.sqlrpgle#136:43"
@@ -1913,6 +2066,7 @@
                         "file" : "sources\\prswdw.sqlrpgle",
                         "line" : 136,
                         "col" : 8,
+                        "text" : "end-proc;\n       \n       ",
                         "id" : "sources\\prswdw.sqlrpgle#136:8"
                       },
                       "id" : "sources\\prswdw.sqlrpgle#136:44"
@@ -1922,6 +2076,7 @@
                       "file" : "sources\\prswdw.sqlrpgle",
                       "line" : 136,
                       "col" : 8,
+                      "text" : "end-proc;\n       \n       ",
                       "id" : "sources\\prswdw.sqlrpgle#136:8"
                     },
                     "id" : "sources\\prswdw.sqlrpgle#136:45"
@@ -1931,6 +2086,7 @@
                     "file" : "sources\\prswdw.sqlrpgle",
                     "line" : 136,
                     "col" : 8,
+                    "text" : "end-proc;\n       \n       ",
                     "id" : "sources\\prswdw.sqlrpgle#136:8"
                   },
                   "id" : "sources\\prswdw.sqlrpgle#136:46"
@@ -1940,6 +2096,7 @@
                   "file" : "sources\\prswdw.sqlrpgle",
                   "line" : 136,
                   "col" : 8,
+                  "text" : "end-proc;\n       \n       ",
                   "id" : "sources\\prswdw.sqlrpgle#136:8"
                 },
                 "id" : "sources\\prswdw.sqlrpgle#136:47"
@@ -1949,6 +2106,7 @@
                 "file" : "sources\\prswdw.sqlrpgle",
                 "line" : 136,
                 "col" : 8,
+                "text" : "end-proc;\n       \n       ",
                 "id" : "sources\\prswdw.sqlrpgle#136:8"
               },
               "id" : "sources\\prswdw.sqlrpgle#136:48"
@@ -1958,6 +2116,7 @@
               "file" : "sources\\prswdw.sqlrpgle",
               "line" : 136,
               "col" : 8,
+              "text" : "end-proc;\n       \n       ",
               "id" : "sources\\prswdw.sqlrpgle#136:8"
             },
             "id" : "sources\\prswdw.sqlrpgle#136:49"
@@ -1967,6 +2126,7 @@
             "file" : "sources\\prswdw.sqlrpgle",
             "line" : 136,
             "col" : 8,
+            "text" : "end-proc;\n       \n       ",
             "id" : "sources\\prswdw.sqlrpgle#136:8"
           },
           "id" : "sources\\prswdw.sqlrpgle#136:50"
@@ -1976,6 +2136,7 @@
           "file" : "sources\\prswdw.sqlrpgle",
           "line" : 136,
           "col" : 8,
+          "text" : "end-proc;\n       \n       ",
           "id" : "sources\\prswdw.sqlrpgle#136:8"
         },
         "id" : "sources\\prswdw.sqlrpgle#136:51"
@@ -1985,6 +2146,7 @@
         "file" : "sources\\prswdw.sqlrpgle",
         "line" : 136,
         "col" : 8,
+        "text" : "end-proc;\n       \n       ",
         "id" : "sources\\prswdw.sqlrpgle#136:8"
       },
       "id" : "sources\\prswdw.sqlrpgle#136:52"
@@ -1994,6 +2156,7 @@
       "file" : "sources\\prswdw.sqlrpgle",
       "line" : 136,
       "col" : 8,
+      "text" : "end-proc;\n       \n       ",
       "id" : "sources\\prswdw.sqlrpgle#136:8"
     },
     "id" : "sources\\prswdw.sqlrpgle#136:8"

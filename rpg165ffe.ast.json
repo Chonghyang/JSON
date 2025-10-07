@@ -12,6 +12,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 3,
       "col" : 6,
+      "text" : "fperslf1   if   e           k disk    rename(persrec:rec_pers)\n     fafdlf1    if   e           k disk\n     frpglst3   o    e             printer oflind(overflow)",
       "id" : "sources\\rpg165ffe.rpgle#3:6"
     },
     "id" : "sources\\rpg165ffe.rpgle#3:6"
@@ -27,6 +28,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 4,
       "col" : 6,
+      "text" : "fafdlf1    if   e           k disk\n     frpglst3   o    e             printer oflind(overflow)\n",
       "id" : "sources\\rpg165ffe.rpgle#4:6"
     },
     "id" : "sources\\rpg165ffe.rpgle#4:6"
@@ -41,6 +43,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 13,
       "col" : 6,
+      "text" : "d i_datum         ds\n     d  i_hldat                       8  0 overlay(i_datum)\n     d   i_eeja                       4  0 overlay(i_datum)",
       "id" : "sources\\rpg165ffe.rpgle#13:6"
     },
     "id" : "sources\\rpg165ffe.rpgle#13:6"
@@ -55,6 +58,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 21,
       "col" : 6,
+      "text" : "d u_datum         ds\n     d  u_hldat                       8  0 overlay(u_datum)\n     d   u_eeja                       4  0 overlay(u_datum:5)",
       "id" : "sources\\rpg165ffe.rpgle#21:6"
     },
     "id" : "sources\\rpg165ffe.rpgle#21:6"
@@ -69,6 +73,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 29,
       "col" : 6,
+      "text" : "d Program_status sds\n     d Prog_naam         *proc\n     d Status            *status",
       "id" : "sources\\rpg165ffe.rpgle#29:6"
     },
     "id" : "sources\\rpg165ffe.rpgle#29:6"
@@ -88,6 +93,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 5,
             "col" : 51,
+            "text" : "overflow)\n\n     d sts             s             20    dim(6) ctdata perrcd(2)",
             "id" : "sources\\rpg165ffe.rpgle#5:51"
           },
           "nameUpper" : "OVERFLOW",
@@ -98,6 +104,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 5,
           "col" : 44,
+          "text" : "oflind(overflow)\n\n     d sts             s             20    dim(6) ctdata perrcd(2)",
           "id" : "sources\\rpg165ffe.rpgle#5:44"
         },
         "arity" : 1,
@@ -109,6 +116,7 @@
         "file" : "sources\\rpg165ffe.rpgle",
         "line" : 5,
         "col" : 44,
+        "text" : "oflind(overflow)\n\n     d sts             s             20    dim(6) ctdata perrcd(2)",
         "id" : "sources\\rpg165ffe.rpgle#5:44"
       },
       "id" : "sources\\rpg165ffe.rpgle#5:44"
@@ -125,6 +133,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 40,
             "col" : 8,
+            "text" : "prognm = prog_naam;\n       write header;\n",
             "id" : "sources\\rpg165ffe.rpgle#40:8"
           },
           "nameUpper" : "PROGNM",
@@ -137,6 +146,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 40,
           "col" : 8,
+          "text" : "prognm = prog_naam;\n       write header;\n",
           "id" : "sources\\rpg165ffe.rpgle#40:8"
         },
         "flattened" : true,
@@ -152,6 +162,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 41,
             "col" : 8,
+            "text" : "write header;\n\n       read rec_pers;",
             "id" : "sources\\rpg165ffe.rpgle#41:8"
           },
           "id" : "sources\\rpg165ffe.rpgle#41:8"
@@ -166,6 +177,7 @@
               "file" : "sources\\rpg165ffe.rpgle",
               "line" : 43,
               "col" : 8,
+              "text" : "read rec_pers;\n       *IN90 = %EOF;\n       dow *in90 = *off;",
               "id" : "sources\\rpg165ffe.rpgle#43:8"
             },
             "id" : "sources\\rpg165ffe.rpgle#43:8"
@@ -182,6 +194,7 @@
                   "file" : "sources\\rpg165ffe.rpgle",
                   "line" : 44,
                   "col" : 9,
+                  "text" : "IN90 = %EOF;\n       dow *in90 = *off;\n",
                   "id" : "sources\\rpg165ffe.rpgle#44:9"
                 },
                 "nameUpper" : "IN90",
@@ -196,6 +209,7 @@
                   "file" : "sources\\rpg165ffe.rpgle",
                   "line" : 44,
                   "col" : 16,
+                  "text" : "%EOF;\n       dow *in90 = *off;\n",
                   "id" : "sources\\rpg165ffe.rpgle#44:16"
                 },
                 "id" : "sources\\rpg165ffe.rpgle#44:16"
@@ -205,6 +219,7 @@
                 "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 44,
                 "col" : 9,
+                "text" : "IN90 = %EOF;\n       dow *in90 = *off;\n",
                 "id" : "sources\\rpg165ffe.rpgle#44:9"
               },
               "flattened" : false,
@@ -225,6 +240,7 @@
                       "file" : "sources\\rpg165ffe.rpgle",
                       "line" : 45,
                       "col" : 12,
+                      "text" : "*in90 = *off;\n\n         if overflow;",
                       "id" : "sources\\rpg165ffe.rpgle#45:12"
                     },
                     "nameUpper" : "*IN90",
@@ -238,6 +254,7 @@
                       "file" : "sources\\rpg165ffe.rpgle",
                       "line" : 45,
                       "col" : 20,
+                      "text" : "*off;\n\n         if overflow;",
                       "id" : "sources\\rpg165ffe.rpgle#45:20"
                     },
                     "nameUpper" : "*OFF",
@@ -248,6 +265,7 @@
                     "file" : "sources\\rpg165ffe.rpgle",
                     "line" : 45,
                     "col" : 12,
+                    "text" : "*in90 = *off;\n\n         if overflow;",
                     "id" : "sources\\rpg165ffe.rpgle#45:12"
                   },
                   "id" : "sources\\rpg165ffe.rpgle#45:12"
@@ -264,6 +282,7 @@
                         "file" : "sources\\rpg165ffe.rpgle",
                         "line" : 47,
                         "col" : 13,
+                        "text" : "overflow;\n           write header;\n           overflow = *off;",
                         "id" : "sources\\rpg165ffe.rpgle#47:13"
                       },
                       "nameUpper" : "OVERFLOW",
@@ -279,6 +298,7 @@
                           "file" : "sources\\rpg165ffe.rpgle",
                           "line" : 48,
                           "col" : 12,
+                          "text" : "write header;\n           overflow = *off;\n         endif;",
                           "id" : "sources\\rpg165ffe.rpgle#48:12"
                         },
                         "id" : "sources\\rpg165ffe.rpgle#48:12"
@@ -293,6 +313,7 @@
                             "file" : "sources\\rpg165ffe.rpgle",
                             "line" : 49,
                             "col" : 12,
+                            "text" : "overflow = *off;\n         endif;\n",
                             "id" : "sources\\rpg165ffe.rpgle#49:12"
                           },
                           "nameUpper" : "OVERFLOW",
@@ -305,6 +326,7 @@
                           "file" : "sources\\rpg165ffe.rpgle",
                           "line" : 49,
                           "col" : 12,
+                          "text" : "overflow = *off;\n         endif;\n",
                           "id" : "sources\\rpg165ffe.rpgle#49:12"
                         },
                         "flattened" : true,
@@ -315,6 +337,7 @@
                         "file" : "sources\\rpg165ffe.rpgle",
                         "line" : 47,
                         "col" : 10,
+                        "text" : "if overflow;\n           write header;\n           overflow = *off;",
                         "id" : "sources\\rpg165ffe.rpgle#47:10"
                       },
                       "id" : "sources\\rpg165ffe.rpgle#47:10"
@@ -324,6 +347,7 @@
                       "file" : "sources\\rpg165ffe.rpgle",
                       "line" : 47,
                       "col" : 10,
+                      "text" : "if overflow;\n           write header;\n           overflow = *off;",
                       "id" : "sources\\rpg165ffe.rpgle#47:10"
                     },
                     "id" : "sources\\rpg165ffe.rpgle#47:10"
@@ -338,6 +362,7 @@
                         "file" : "sources\\rpg165ffe.rpgle",
                         "line" : 52,
                         "col" : 10,
+                        "text" : "exsr codemanvrouw;\n         exsr afdomschrijv;\n         exsr codebrugstaat;",
                         "id" : "sources\\rpg165ffe.rpgle#52:10"
                       },
                       "subroutineUpper" : "CODEMANVROUW",
@@ -353,6 +378,7 @@
                           "file" : "sources\\rpg165ffe.rpgle",
                           "line" : 53,
                           "col" : 10,
+                          "text" : "exsr afdomschrijv;\n         exsr codebrugstaat;\n",
                           "id" : "sources\\rpg165ffe.rpgle#53:10"
                         },
                         "subroutineUpper" : "AFDOMSCHRIJV",
@@ -368,6 +394,7 @@
                             "file" : "sources\\rpg165ffe.rpgle",
                             "line" : 54,
                             "col" : 10,
+                            "text" : "exsr codebrugstaat;\n\n         i_hldat = astdat;",
                             "id" : "sources\\rpg165ffe.rpgle#54:10"
                           },
                           "subroutineUpper" : "CODEBRUGSTAAT",
@@ -385,6 +412,7 @@
                                 "file" : "sources\\rpg165ffe.rpgle",
                                 "line" : 56,
                                 "col" : 10,
+                                "text" : "i_hldat = astdat;\n         u_dag = i_dag;\n         u_maand = i_maand;",
                                 "id" : "sources\\rpg165ffe.rpgle#56:10"
                               },
                               "nameUpper" : "I_HLDAT",
@@ -397,6 +425,7 @@
                               "file" : "sources\\rpg165ffe.rpgle",
                               "line" : 56,
                               "col" : 10,
+                              "text" : "i_hldat = astdat;\n         u_dag = i_dag;\n         u_maand = i_maand;",
                               "id" : "sources\\rpg165ffe.rpgle#56:10"
                             },
                             "flattened" : true,
@@ -414,6 +443,7 @@
                                   "file" : "sources\\rpg165ffe.rpgle",
                                   "line" : 57,
                                   "col" : 10,
+                                  "text" : "u_dag = i_dag;\n         u_maand = i_maand;\n         u_eeja = i_eeja;",
                                   "id" : "sources\\rpg165ffe.rpgle#57:10"
                                 },
                                 "nameUpper" : "U_DAG",
@@ -426,6 +456,7 @@
                                 "file" : "sources\\rpg165ffe.rpgle",
                                 "line" : 57,
                                 "col" : 10,
+                                "text" : "u_dag = i_dag;\n         u_maand = i_maand;\n         u_eeja = i_eeja;",
                                 "id" : "sources\\rpg165ffe.rpgle#57:10"
                               },
                               "flattened" : true,
@@ -443,6 +474,7 @@
                                     "file" : "sources\\rpg165ffe.rpgle",
                                     "line" : 58,
                                     "col" : 10,
+                                    "text" : "u_maand = i_maand;\n         u_eeja = i_eeja;\n         astdat = u_hldat;",
                                     "id" : "sources\\rpg165ffe.rpgle#58:10"
                                   },
                                   "nameUpper" : "U_MAAND",
@@ -455,6 +487,7 @@
                                   "file" : "sources\\rpg165ffe.rpgle",
                                   "line" : 58,
                                   "col" : 10,
+                                  "text" : "u_maand = i_maand;\n         u_eeja = i_eeja;\n         astdat = u_hldat;",
                                   "id" : "sources\\rpg165ffe.rpgle#58:10"
                                 },
                                 "flattened" : true,
@@ -472,6 +505,7 @@
                                       "file" : "sources\\rpg165ffe.rpgle",
                                       "line" : 59,
                                       "col" : 10,
+                                      "text" : "u_eeja = i_eeja;\n         astdat = u_hldat;\n         write detail;",
                                       "id" : "sources\\rpg165ffe.rpgle#59:10"
                                     },
                                     "nameUpper" : "U_EEJA",
@@ -484,6 +518,7 @@
                                     "file" : "sources\\rpg165ffe.rpgle",
                                     "line" : 59,
                                     "col" : 10,
+                                    "text" : "u_eeja = i_eeja;\n         astdat = u_hldat;\n         write detail;",
                                     "id" : "sources\\rpg165ffe.rpgle#59:10"
                                   },
                                   "flattened" : true,
@@ -501,6 +536,7 @@
                                         "file" : "sources\\rpg165ffe.rpgle",
                                         "line" : 60,
                                         "col" : 10,
+                                        "text" : "astdat = u_hldat;\n         write detail;\n         read rec_pers;",
                                         "id" : "sources\\rpg165ffe.rpgle#60:10"
                                       },
                                       "nameUpper" : "ASTDAT",
@@ -513,6 +549,7 @@
                                       "file" : "sources\\rpg165ffe.rpgle",
                                       "line" : 60,
                                       "col" : 10,
+                                      "text" : "astdat = u_hldat;\n         write detail;\n         read rec_pers;",
                                       "id" : "sources\\rpg165ffe.rpgle#60:10"
                                     },
                                     "flattened" : true,
@@ -528,6 +565,7 @@
                                         "file" : "sources\\rpg165ffe.rpgle",
                                         "line" : 61,
                                         "col" : 10,
+                                        "text" : "write detail;\n         read rec_pers;\n         *IN90 = %EOF;",
                                         "id" : "sources\\rpg165ffe.rpgle#61:10"
                                       },
                                       "id" : "sources\\rpg165ffe.rpgle#61:10"
@@ -542,6 +580,7 @@
                                           "file" : "sources\\rpg165ffe.rpgle",
                                           "line" : 62,
                                           "col" : 10,
+                                          "text" : "read rec_pers;\n         *IN90 = %EOF;\n       enddo;",
                                           "id" : "sources\\rpg165ffe.rpgle#62:10"
                                         },
                                         "id" : "sources\\rpg165ffe.rpgle#62:10"
@@ -556,6 +595,7 @@
                                             "file" : "sources\\rpg165ffe.rpgle",
                                             "line" : 63,
                                             "col" : 11,
+                                            "text" : "IN90 = %EOF;\n       enddo;\n",
                                             "id" : "sources\\rpg165ffe.rpgle#63:11"
                                           },
                                           "nameUpper" : "IN90",
@@ -570,6 +610,7 @@
                                             "file" : "sources\\rpg165ffe.rpgle",
                                             "line" : 63,
                                             "col" : 18,
+                                            "text" : "%EOF;\n       enddo;\n",
                                             "id" : "sources\\rpg165ffe.rpgle#63:18"
                                           },
                                           "id" : "sources\\rpg165ffe.rpgle#63:18"
@@ -579,6 +620,7 @@
                                           "file" : "sources\\rpg165ffe.rpgle",
                                           "line" : 63,
                                           "col" : 11,
+                                          "text" : "IN90 = %EOF;\n       enddo;\n",
                                           "id" : "sources\\rpg165ffe.rpgle#63:11"
                                         },
                                         "flattened" : false,
@@ -589,6 +631,7 @@
                                         "file" : "sources\\rpg165ffe.rpgle",
                                         "line" : 45,
                                         "col" : 8,
+                                        "text" : "dow *in90 = *off;\n\n         if overflow;",
                                         "id" : "sources\\rpg165ffe.rpgle#45:8"
                                       },
                                       "id" : "sources\\rpg165ffe.rpgle#45:9"
@@ -598,6 +641,7 @@
                                       "file" : "sources\\rpg165ffe.rpgle",
                                       "line" : 45,
                                       "col" : 8,
+                                      "text" : "dow *in90 = *off;\n\n         if overflow;",
                                       "id" : "sources\\rpg165ffe.rpgle#45:8"
                                     },
                                     "id" : "sources\\rpg165ffe.rpgle#45:10"
@@ -607,6 +651,7 @@
                                     "file" : "sources\\rpg165ffe.rpgle",
                                     "line" : 45,
                                     "col" : 8,
+                                    "text" : "dow *in90 = *off;\n\n         if overflow;",
                                     "id" : "sources\\rpg165ffe.rpgle#45:8"
                                   },
                                   "id" : "sources\\rpg165ffe.rpgle#45:11"
@@ -616,6 +661,7 @@
                                   "file" : "sources\\rpg165ffe.rpgle",
                                   "line" : 45,
                                   "col" : 8,
+                                  "text" : "dow *in90 = *off;\n\n         if overflow;",
                                   "id" : "sources\\rpg165ffe.rpgle#45:8"
                                 },
                                 "id" : "sources\\rpg165ffe.rpgle#45:12"
@@ -625,6 +671,7 @@
                                 "file" : "sources\\rpg165ffe.rpgle",
                                 "line" : 45,
                                 "col" : 8,
+                                "text" : "dow *in90 = *off;\n\n         if overflow;",
                                 "id" : "sources\\rpg165ffe.rpgle#45:8"
                               },
                               "id" : "sources\\rpg165ffe.rpgle#45:13"
@@ -634,6 +681,7 @@
                               "file" : "sources\\rpg165ffe.rpgle",
                               "line" : 45,
                               "col" : 8,
+                              "text" : "dow *in90 = *off;\n\n         if overflow;",
                               "id" : "sources\\rpg165ffe.rpgle#45:8"
                             },
                             "id" : "sources\\rpg165ffe.rpgle#45:14"
@@ -643,6 +691,7 @@
                             "file" : "sources\\rpg165ffe.rpgle",
                             "line" : 45,
                             "col" : 8,
+                            "text" : "dow *in90 = *off;\n\n         if overflow;",
                             "id" : "sources\\rpg165ffe.rpgle#45:8"
                           },
                           "id" : "sources\\rpg165ffe.rpgle#45:15"
@@ -652,6 +701,7 @@
                           "file" : "sources\\rpg165ffe.rpgle",
                           "line" : 45,
                           "col" : 8,
+                          "text" : "dow *in90 = *off;\n\n         if overflow;",
                           "id" : "sources\\rpg165ffe.rpgle#45:8"
                         },
                         "id" : "sources\\rpg165ffe.rpgle#45:16"
@@ -661,6 +711,7 @@
                         "file" : "sources\\rpg165ffe.rpgle",
                         "line" : 45,
                         "col" : 8,
+                        "text" : "dow *in90 = *off;\n\n         if overflow;",
                         "id" : "sources\\rpg165ffe.rpgle#45:8"
                       },
                       "id" : "sources\\rpg165ffe.rpgle#45:17"
@@ -670,6 +721,7 @@
                       "file" : "sources\\rpg165ffe.rpgle",
                       "line" : 45,
                       "col" : 8,
+                      "text" : "dow *in90 = *off;\n\n         if overflow;",
                       "id" : "sources\\rpg165ffe.rpgle#45:8"
                     },
                     "id" : "sources\\rpg165ffe.rpgle#45:18"
@@ -679,6 +731,7 @@
                     "file" : "sources\\rpg165ffe.rpgle",
                     "line" : 45,
                     "col" : 8,
+                    "text" : "dow *in90 = *off;\n\n         if overflow;",
                     "id" : "sources\\rpg165ffe.rpgle#45:8"
                   },
                   "id" : "sources\\rpg165ffe.rpgle#45:19"
@@ -688,6 +741,7 @@
                   "file" : "sources\\rpg165ffe.rpgle",
                   "line" : 45,
                   "col" : 8,
+                  "text" : "dow *in90 = *off;\n\n         if overflow;",
                   "id" : "sources\\rpg165ffe.rpgle#45:8"
                 },
                 "id" : "sources\\rpg165ffe.rpgle#45:8"
@@ -702,6 +756,7 @@
                     "file" : "sources\\rpg165ffe.rpgle",
                     "line" : 66,
                     "col" : 9,
+                    "text" : "inlr=*on;\n\n       begsr codemanvrouw;",
                     "id" : "sources\\rpg165ffe.rpgle#66:9"
                   },
                   "nameUpper" : "INLR",
@@ -714,6 +769,7 @@
                   "file" : "sources\\rpg165ffe.rpgle",
                   "line" : 66,
                   "col" : 9,
+                  "text" : "inlr=*on;\n\n       begsr codemanvrouw;",
                   "id" : "sources\\rpg165ffe.rpgle#66:9"
                 },
                 "flattened" : true,
@@ -789,6 +845,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 69,
             "col" : 13,
+            "text" : "codemv = '2';\n           omsmvr = Man;\n         else;",
             "id" : "sources\\rpg165ffe.rpgle#69:13"
           },
           "nameUpper" : "CODEMV",
@@ -802,6 +859,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 69,
             "col" : 22,
+            "text" : "'2';\n           omsmvr = Man;\n         else;",
             "id" : "sources\\rpg165ffe.rpgle#69:22"
           },
           "id" : "sources\\rpg165ffe.rpgle#69:22"
@@ -811,6 +869,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 69,
           "col" : 13,
+          "text" : "codemv = '2';\n           omsmvr = Man;\n         else;",
           "id" : "sources\\rpg165ffe.rpgle#69:13"
         },
         "id" : "sources\\rpg165ffe.rpgle#69:13"
@@ -825,6 +884,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 70,
             "col" : 12,
+            "text" : "omsmvr = Man;\n         else;\n           omsmvr = Vrouw;",
             "id" : "sources\\rpg165ffe.rpgle#70:12"
           },
           "nameUpper" : "OMSMVR",
@@ -837,6 +897,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 70,
           "col" : 12,
+          "text" : "omsmvr = Man;\n         else;\n           omsmvr = Vrouw;",
           "id" : "sources\\rpg165ffe.rpgle#70:12"
         },
         "flattened" : true,
@@ -852,6 +913,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 72,
             "col" : 12,
+            "text" : "omsmvr = Vrouw;\n         endif;\n       endsr;",
             "id" : "sources\\rpg165ffe.rpgle#72:12"
           },
           "nameUpper" : "OMSMVR",
@@ -864,6 +926,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 72,
           "col" : 12,
+          "text" : "omsmvr = Vrouw;\n         endif;\n       endsr;",
           "id" : "sources\\rpg165ffe.rpgle#72:12"
         },
         "flattened" : true,
@@ -874,6 +937,7 @@
         "file" : "sources\\rpg165ffe.rpgle",
         "line" : 69,
         "col" : 10,
+        "text" : "if codemv = '2';\n           omsmvr = Man;\n         else;",
         "id" : "sources\\rpg165ffe.rpgle#69:10"
       },
       "id" : "sources\\rpg165ffe.rpgle#69:10"
@@ -883,6 +947,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 68,
       "col" : 8,
+      "text" : "begsr codemanvrouw;\n         if codemv = '2';\n           omsmvr = Man;",
       "id" : "sources\\rpg165ffe.rpgle#68:8"
     },
     "nameUpper" : "CODEMANVROUW",
@@ -903,6 +968,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 77,
             "col" : 16,
+            "text" : "afdnum afdrec;\n         if not %found;\n           afdnum = *blanks;",
             "id" : "sources\\rpg165ffe.rpgle#77:16"
           },
           "nameUpper" : "AFDNUM",
@@ -913,6 +979,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 77,
           "col" : 10,
+          "text" : "chain afdnum afdrec;\n         if not %found;\n           afdnum = *blanks;",
           "id" : "sources\\rpg165ffe.rpgle#77:10"
         },
         "id" : "sources\\rpg165ffe.rpgle#77:10"
@@ -929,6 +996,7 @@
               "file" : "sources\\rpg165ffe.rpgle",
               "line" : 78,
               "col" : 17,
+              "text" : "%found;\n           afdnum = *blanks;\n           afdnum = 'Onbekend';",
               "id" : "sources\\rpg165ffe.rpgle#78:17"
             },
             "id" : "sources\\rpg165ffe.rpgle#78:17"
@@ -938,6 +1006,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 78,
             "col" : 13,
+            "text" : "not %found;\n           afdnum = *blanks;\n           afdnum = 'Onbekend';",
             "id" : "sources\\rpg165ffe.rpgle#78:13"
           },
           "id" : "sources\\rpg165ffe.rpgle#78:13"
@@ -954,6 +1023,7 @@
                 "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 79,
                 "col" : 12,
+                "text" : "afdnum = *blanks;\n           afdnum = 'Onbekend';\n         endif;",
                 "id" : "sources\\rpg165ffe.rpgle#79:12"
               },
               "nameUpper" : "AFDNUM",
@@ -966,6 +1036,7 @@
               "file" : "sources\\rpg165ffe.rpgle",
               "line" : 79,
               "col" : 12,
+              "text" : "afdnum = *blanks;\n           afdnum = 'Onbekend';\n         endif;",
               "id" : "sources\\rpg165ffe.rpgle#79:12"
             },
             "flattened" : true,
@@ -981,6 +1052,7 @@
                 "file" : "sources\\rpg165ffe.rpgle",
                 "line" : 80,
                 "col" : 12,
+                "text" : "afdnum = 'Onbekend';\n         endif;\n       endsr;",
                 "id" : "sources\\rpg165ffe.rpgle#80:12"
               },
               "nameUpper" : "AFDNUM",
@@ -993,6 +1065,7 @@
               "file" : "sources\\rpg165ffe.rpgle",
               "line" : 80,
               "col" : 12,
+              "text" : "afdnum = 'Onbekend';\n         endif;\n       endsr;",
               "id" : "sources\\rpg165ffe.rpgle#80:12"
             },
             "flattened" : true,
@@ -1003,6 +1076,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 78,
             "col" : 10,
+            "text" : "if not %found;\n           afdnum = *blanks;\n           afdnum = 'Onbekend';",
             "id" : "sources\\rpg165ffe.rpgle#78:10"
           },
           "id" : "sources\\rpg165ffe.rpgle#78:22"
@@ -1012,6 +1086,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 78,
           "col" : 10,
+          "text" : "if not %found;\n           afdnum = *blanks;\n           afdnum = 'Onbekend';",
           "id" : "sources\\rpg165ffe.rpgle#78:10"
         },
         "id" : "sources\\rpg165ffe.rpgle#78:10"
@@ -1021,6 +1096,7 @@
         "file" : "sources\\rpg165ffe.rpgle",
         "line" : 76,
         "col" : 8,
+        "text" : "begsr afdomschrijv;\n         chain afdnum afdrec;\n         if not %found;",
         "id" : "sources\\rpg165ffe.rpgle#76:8"
       },
       "id" : "sources\\rpg165ffe.rpgle#76:21"
@@ -1030,6 +1106,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 76,
       "col" : 8,
+      "text" : "begsr afdomschrijv;\n         chain afdnum afdrec;\n         if not %found;",
       "id" : "sources\\rpg165ffe.rpgle#76:8"
     },
     "nameUpper" : "AFDOMSCHRIJV",
@@ -1049,6 +1126,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 85,
             "col" : 10,
+            "text" : "omsbst = *blanks;\n         omsbst = sts(codebs);\n       endsr;",
             "id" : "sources\\rpg165ffe.rpgle#85:10"
           },
           "nameUpper" : "OMSBST",
@@ -1061,6 +1139,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 85,
           "col" : 10,
+          "text" : "omsbst = *blanks;\n         omsbst = sts(codebs);\n       endsr;",
           "id" : "sources\\rpg165ffe.rpgle#85:10"
         },
         "flattened" : true,
@@ -1076,6 +1155,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 86,
             "col" : 10,
+            "text" : "omsbst = sts(codebs);\n       endsr;\n",
             "id" : "sources\\rpg165ffe.rpgle#86:10"
           },
           "nameUpper" : "OMSBST",
@@ -1093,6 +1173,7 @@
               "file" : "sources\\rpg165ffe.rpgle",
               "line" : 86,
               "col" : 23,
+              "text" : "codebs);\n       endsr;\n",
               "id" : "sources\\rpg165ffe.rpgle#86:23"
             },
             "nameUpper" : "CODEBS",
@@ -1103,6 +1184,7 @@
             "file" : "sources\\rpg165ffe.rpgle",
             "line" : 86,
             "col" : 19,
+            "text" : "sts(codebs);\n       endsr;\n",
             "id" : "sources\\rpg165ffe.rpgle#86:19"
           },
           "arity" : 1,
@@ -1114,6 +1196,7 @@
           "file" : "sources\\rpg165ffe.rpgle",
           "line" : 86,
           "col" : 10,
+          "text" : "omsbst = sts(codebs);\n       endsr;\n",
           "id" : "sources\\rpg165ffe.rpgle#86:10"
         },
         "flattened" : false,
@@ -1124,6 +1207,7 @@
         "file" : "sources\\rpg165ffe.rpgle",
         "line" : 84,
         "col" : 8,
+        "text" : "begsr codebrugstaat;\n         omsbst = *blanks;\n         omsbst = sts(codebs);",
         "id" : "sources\\rpg165ffe.rpgle#84:8"
       },
       "id" : "sources\\rpg165ffe.rpgle#84:22"
@@ -1133,6 +1217,7 @@
       "file" : "sources\\rpg165ffe.rpgle",
       "line" : 84,
       "col" : 8,
+      "text" : "begsr codebrugstaat;\n         omsbst = *blanks;\n         omsbst = sts(codebs);",
       "id" : "sources\\rpg165ffe.rpgle#84:8"
     },
     "nameUpper" : "CODEBRUGSTAAT",

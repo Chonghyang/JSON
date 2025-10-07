@@ -8,6 +8,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 3,
       "col" : 8,
+      "text" : "ctl-opt NoMain;\n       dcl-f afdwdw workstn sfile(AFDWDWSFL:RRN#);\n       ",
       "id" : "sources\\afdwdw.sqlrpgle#3:8"
     },
     "id" : "sources\\afdwdw.sqlrpgle#3:8"
@@ -22,6 +23,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-f afdwdw workstn sfile(AFDWDWSFL:RRN#);\n       \n       dcl-ds AfdDS dim(9999) qualified template;",
       "id" : "sources\\afdwdw.sqlrpgle#4:8"
     },
     "id" : "sources\\afdwdw.sqlrpgle#4:8"
@@ -39,6 +41,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 7,
           "col" : 12,
+          "text" : "name char(20);\n       end-ds;\n       ",
           "id" : "sources\\afdwdw.sqlrpgle#7:12"
         },
         "id" : "sources\\afdwdw.sqlrpgle#7:12"
@@ -48,6 +51,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 7,
         "col" : 12,
+        "text" : "name char(20);\n       end-ds;\n       ",
         "id" : "sources\\afdwdw.sqlrpgle#7:12"
       },
       "nameUpper" : "NAME",
@@ -61,6 +65,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-ds AfdDS dim(9999) qualified template;\n           name char(20);\n       end-ds;",
       "id" : "sources\\afdwdw.sqlrpgle#6:8"
     },
     "id" : "sources\\afdwdw.sqlrpgle#6:8"
@@ -74,6 +79,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 10,
       "col" : 8,
+      "text" : "dcl-s RRN# int(10) inz(1);\n       dcl-s ReturnValue char(20);\n       ",
       "id" : "sources\\afdwdw.sqlrpgle#10:8"
     },
     "static" : false,
@@ -91,6 +97,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 11,
       "col" : 8,
+      "text" : "dcl-s ReturnValue char(20);\n       \n       dcl-proc AfdelingWdw export;",
       "id" : "sources\\afdwdw.sqlrpgle#11:8"
     },
     "static" : false,
@@ -111,6 +118,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 19,
           "col" : 12,
+          "text" : "exsr ClearSfl;\n           AfdRtv = FetchAfds();\n           for RRN# = 1 to %elem(AfdRtv);",
           "id" : "sources\\afdwdw.sqlrpgle#19:12"
         },
         "nameUpper" : "CLEARSFL",
@@ -121,6 +129,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 19,
         "col" : 12,
+        "text" : "exsr ClearSfl;\n           AfdRtv = FetchAfds();\n           for RRN# = 1 to %elem(AfdRtv);",
         "id" : "sources\\afdwdw.sqlrpgle#19:12"
       },
       "nameUpper" : "EXSR",
@@ -136,6 +145,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 20,
           "col" : 12,
+          "text" : "AfdRtv = FetchAfds();\n           for RRN# = 1 to %elem(AfdRtv);\n               if AfdRtv(RRN#).name = '';",
           "id" : "sources\\afdwdw.sqlrpgle#20:12"
         },
         "nameUpper" : "AFDRTV=",
@@ -146,6 +156,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 20,
         "col" : 12,
+        "text" : "AfdRtv = FetchAfds();\n           for RRN# = 1 to %elem(AfdRtv);\n               if AfdRtv(RRN#).name = '';",
         "id" : "sources\\afdwdw.sqlrpgle#20:12"
       },
       "nameUpper" : "",
@@ -161,6 +172,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 20,
           "col" : 21,
+          "text" : "FetchAfds();\n           for RRN# = 1 to %elem(AfdRtv);\n               if AfdRtv(RRN#).name = '';",
           "id" : "sources\\afdwdw.sqlrpgle#20:21"
         },
         "nameUpper" : "?",
@@ -171,6 +183,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 20,
         "col" : 21,
+        "text" : "FetchAfds();\n           for RRN# = 1 to %elem(AfdRtv);\n               if AfdRtv(RRN#).name = '';",
         "id" : "sources\\afdwdw.sqlrpgle#20:21"
       },
       "nameUpper" : "FETCHAFDS",
@@ -185,6 +198,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 17,
       "col" : 12,
+      "text" : "dcl-ds AfdRtv likeds(AfdDS) dim(9999);\n       \n           exsr ClearSfl;",
       "id" : "sources\\afdwdw.sqlrpgle#17:12"
     },
     "id" : "sources\\afdwdw.sqlrpgle#17:12"
@@ -209,6 +223,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 22,
               "col" : 19,
+              "text" : "AfdRtv(RRN#).name = '';\n                   leave;\n               endif;",
               "id" : "sources\\afdwdw.sqlrpgle#22:19"
             },
             "nameUpper" : "AFDRTV(RRN#).NAME",
@@ -222,6 +237,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 22,
               "col" : 39,
+              "text" : "'';\n                   leave;\n               endif;",
               "id" : "sources\\afdwdw.sqlrpgle#22:39"
             },
             "id" : "sources\\afdwdw.sqlrpgle#22:39"
@@ -231,6 +247,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 22,
             "col" : 19,
+            "text" : "AfdRtv(RRN#).name = '';\n                   leave;\n               endif;",
             "id" : "sources\\afdwdw.sqlrpgle#22:19"
           },
           "id" : "sources\\afdwdw.sqlrpgle#22:19"
@@ -242,6 +259,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 22,
             "col" : 16,
+            "text" : "if AfdRtv(RRN#).name = '';\n                   leave;\n               endif;",
             "id" : "sources\\afdwdw.sqlrpgle#22:16"
           },
           "id" : "sources\\afdwdw.sqlrpgle#22:16"
@@ -251,6 +269,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 22,
           "col" : 16,
+          "text" : "if AfdRtv(RRN#).name = '';\n                   leave;\n               endif;",
           "id" : "sources\\afdwdw.sqlrpgle#22:16"
         },
         "id" : "sources\\afdwdw.sqlrpgle#22:16"
@@ -267,6 +286,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 25,
               "col" : 16,
+              "text" : "SAAFD = AfdRtv(RRN#).name;\n               write AFDWDWSFL;\n           endfor;",
               "id" : "sources\\afdwdw.sqlrpgle#25:16"
             },
             "nameUpper" : "SAAFD",
@@ -279,6 +299,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 25,
             "col" : 16,
+            "text" : "SAAFD = AfdRtv(RRN#).name;\n               write AFDWDWSFL;\n           endfor;",
             "id" : "sources\\afdwdw.sqlrpgle#25:16"
           },
           "flattened" : true,
@@ -294,6 +315,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 26,
               "col" : 16,
+              "text" : "write AFDWDWSFL;\n           endfor;\n           //exsr LoadSfl;",
               "id" : "sources\\afdwdw.sqlrpgle#26:16"
             },
             "id" : "sources\\afdwdw.sqlrpgle#26:16"
@@ -308,6 +330,7 @@
                 "file" : "sources\\afdwdw.sqlrpgle",
                 "line" : 31,
                 "col" : 12,
+                "text" : "write BASEFMT;\n           write FOOTER;\n           exfmt afdwdwctl;",
                 "id" : "sources\\afdwdw.sqlrpgle#31:12"
               },
               "id" : "sources\\afdwdw.sqlrpgle#31:12"
@@ -322,6 +345,7 @@
                   "file" : "sources\\afdwdw.sqlrpgle",
                   "line" : 32,
                   "col" : 12,
+                  "text" : "write FOOTER;\n           exfmt afdwdwctl;\n           exsr ReadUserInput;",
                   "id" : "sources\\afdwdw.sqlrpgle#32:12"
                 },
                 "id" : "sources\\afdwdw.sqlrpgle#32:12"
@@ -336,6 +360,7 @@
                     "file" : "sources\\afdwdw.sqlrpgle",
                     "line" : 33,
                     "col" : 12,
+                    "text" : "exfmt afdwdwctl;\n           exsr ReadUserInput;\n       ",
                     "id" : "sources\\afdwdw.sqlrpgle#33:12"
                   },
                   "id" : "sources\\afdwdw.sqlrpgle#33:12"
@@ -350,6 +375,7 @@
                       "file" : "sources\\afdwdw.sqlrpgle",
                       "line" : 34,
                       "col" : 12,
+                      "text" : "exsr ReadUserInput;\n       \n           *inlr=*on;",
                       "id" : "sources\\afdwdw.sqlrpgle#34:12"
                     },
                     "subroutineUpper" : "READUSERINPUT",
@@ -367,6 +393,7 @@
                           "file" : "sources\\afdwdw.sqlrpgle",
                           "line" : 36,
                           "col" : 13,
+                          "text" : "inlr=*on;\n           return Returnvalue;\n       ",
                           "id" : "sources\\afdwdw.sqlrpgle#36:13"
                         },
                         "nameUpper" : "INLR",
@@ -379,6 +406,7 @@
                         "file" : "sources\\afdwdw.sqlrpgle",
                         "line" : 36,
                         "col" : 13,
+                        "text" : "inlr=*on;\n           return Returnvalue;\n       ",
                         "id" : "sources\\afdwdw.sqlrpgle#36:13"
                       },
                       "flattened" : true,
@@ -394,6 +422,7 @@
                           "file" : "sources\\afdwdw.sqlrpgle",
                           "line" : 42,
                           "col" : 12,
+                          "text" : "begsr ClearSfl;\n               *in40 = *off;\n               write AFDWDWCTL;",
                           "id" : "sources\\afdwdw.sqlrpgle#42:12"
                         },
                         "id" : "sources\\afdwdw.sqlrpgle#42:12"
@@ -410,6 +439,7 @@
                               "file" : "sources\\afdwdw.sqlrpgle",
                               "line" : 43,
                               "col" : 17,
+                              "text" : "in40 = *off;\n               write AFDWDWCTL;\n               *in40 = *on;",
                               "id" : "sources\\afdwdw.sqlrpgle#43:17"
                             },
                             "nameUpper" : "IN40",
@@ -422,6 +452,7 @@
                             "file" : "sources\\afdwdw.sqlrpgle",
                             "line" : 43,
                             "col" : 17,
+                            "text" : "in40 = *off;\n               write AFDWDWCTL;\n               *in40 = *on;",
                             "id" : "sources\\afdwdw.sqlrpgle#43:17"
                           },
                           "flattened" : true,
@@ -437,6 +468,7 @@
                               "file" : "sources\\afdwdw.sqlrpgle",
                               "line" : 44,
                               "col" : 16,
+                              "text" : "write AFDWDWCTL;\n               *in40 = *on;\n               RRN# = 0;",
                               "id" : "sources\\afdwdw.sqlrpgle#44:16"
                             },
                             "id" : "sources\\afdwdw.sqlrpgle#44:16"
@@ -453,6 +485,7 @@
                                   "file" : "sources\\afdwdw.sqlrpgle",
                                   "line" : 45,
                                   "col" : 17,
+                                  "text" : "in40 = *on;\n               RRN# = 0;\n           endsr;",
                                   "id" : "sources\\afdwdw.sqlrpgle#45:17"
                                 },
                                 "nameUpper" : "IN40",
@@ -465,6 +498,7 @@
                                 "file" : "sources\\afdwdw.sqlrpgle",
                                 "line" : 45,
                                 "col" : 17,
+                                "text" : "in40 = *on;\n               RRN# = 0;\n           endsr;",
                                 "id" : "sources\\afdwdw.sqlrpgle#45:17"
                               },
                               "flattened" : true,
@@ -482,6 +516,7 @@
                                     "file" : "sources\\afdwdw.sqlrpgle",
                                     "line" : 46,
                                     "col" : 16,
+                                    "text" : "RRN# = 0;\n           endsr;\n       ",
                                     "id" : "sources\\afdwdw.sqlrpgle#46:16"
                                   },
                                   "nameUpper" : "RRN#",
@@ -494,6 +529,7 @@
                                   "file" : "sources\\afdwdw.sqlrpgle",
                                   "line" : 46,
                                   "col" : 16,
+                                  "text" : "RRN# = 0;\n           endsr;\n       ",
                                   "id" : "sources\\afdwdw.sqlrpgle#46:16"
                                 },
                                 "flattened" : true,
@@ -508,6 +544,7 @@
                                     "file" : "sources\\afdwdw.sqlrpgle",
                                     "line" : 47,
                                     "col" : 12,
+                                    "text" : "endsr;\n       \n           begsr ReadUserInput;",
                                     "id" : "sources\\afdwdw.sqlrpgle#47:12"
                                   },
                                   "id" : "sources\\afdwdw.sqlrpgle#47:12"
@@ -522,6 +559,7 @@
                                       "file" : "sources\\afdwdw.sqlrpgle",
                                       "line" : 49,
                                       "col" : 12,
+                                      "text" : "begsr ReadUserInput;\n               readc AFDWDWSFL;\n               dow not %eof(afdwdw);",
                                       "id" : "sources\\afdwdw.sqlrpgle#49:12"
                                     },
                                     "id" : "sources\\afdwdw.sqlrpgle#49:12"
@@ -536,6 +574,7 @@
                                         "file" : "sources\\afdwdw.sqlrpgle",
                                         "line" : 50,
                                         "col" : 16,
+                                        "text" : "readc AFDWDWSFL;\n               dow not %eof(afdwdw);\n                   ReturnValue = SAAFD;",
                                         "id" : "sources\\afdwdw.sqlrpgle#50:16"
                                       },
                                       "id" : "sources\\afdwdw.sqlrpgle#50:16"
@@ -554,6 +593,7 @@
                                               "file" : "sources\\afdwdw.sqlrpgle",
                                               "line" : 51,
                                               "col" : 24,
+                                              "text" : "%eof(afdwdw);\n                   ReturnValue = SAAFD;\n                   readc AFDWDWSFL;",
                                               "id" : "sources\\afdwdw.sqlrpgle#51:24"
                                             },
                                             "id" : "sources\\afdwdw.sqlrpgle#51:24"
@@ -563,6 +603,7 @@
                                             "file" : "sources\\afdwdw.sqlrpgle",
                                             "line" : 51,
                                             "col" : 20,
+                                            "text" : "not %eof(afdwdw);\n                   ReturnValue = SAAFD;\n                   readc AFDWDWSFL;",
                                             "id" : "sources\\afdwdw.sqlrpgle#51:20"
                                           },
                                           "id" : "sources\\afdwdw.sqlrpgle#51:20"
@@ -579,6 +620,7 @@
                                                 "file" : "sources\\afdwdw.sqlrpgle",
                                                 "line" : 52,
                                                 "col" : 20,
+                                                "text" : "ReturnValue = SAAFD;\n                   readc AFDWDWSFL;\n               enddo;",
                                                 "id" : "sources\\afdwdw.sqlrpgle#52:20"
                                               },
                                               "nameUpper" : "RETURNVALUE",
@@ -591,6 +633,7 @@
                                               "file" : "sources\\afdwdw.sqlrpgle",
                                               "line" : 52,
                                               "col" : 20,
+                                              "text" : "ReturnValue = SAAFD;\n                   readc AFDWDWSFL;\n               enddo;",
                                               "id" : "sources\\afdwdw.sqlrpgle#52:20"
                                             },
                                             "flattened" : true,
@@ -604,6 +647,7 @@
                                               "file" : "sources\\afdwdw.sqlrpgle",
                                               "line" : 53,
                                               "col" : 20,
+                                              "text" : "readc AFDWDWSFL;\n               enddo;\n           endsr;",
                                               "id" : "sources\\afdwdw.sqlrpgle#53:20"
                                             },
                                             "id" : "sources\\afdwdw.sqlrpgle#53:20"
@@ -613,6 +657,7 @@
                                             "file" : "sources\\afdwdw.sqlrpgle",
                                             "line" : 51,
                                             "col" : 16,
+                                            "text" : "dow not %eof(afdwdw);\n                   ReturnValue = SAAFD;\n                   readc AFDWDWSFL;",
                                             "id" : "sources\\afdwdw.sqlrpgle#51:16"
                                           },
                                           "id" : "sources\\afdwdw.sqlrpgle#51:16"
@@ -622,6 +667,7 @@
                                           "file" : "sources\\afdwdw.sqlrpgle",
                                           "line" : 51,
                                           "col" : 16,
+                                          "text" : "dow not %eof(afdwdw);\n                   ReturnValue = SAAFD;\n                   readc AFDWDWSFL;",
                                           "id" : "sources\\afdwdw.sqlrpgle#51:16"
                                         },
                                         "id" : "sources\\afdwdw.sqlrpgle#51:16"
@@ -633,6 +679,7 @@
                                           "file" : "sources\\afdwdw.sqlrpgle",
                                           "line" : 55,
                                           "col" : 12,
+                                          "text" : "endsr;\n       end-proc;\n       ",
                                           "id" : "sources\\afdwdw.sqlrpgle#55:12"
                                         },
                                         "id" : "sources\\afdwdw.sqlrpgle#55:12"
@@ -642,6 +689,7 @@
                                         "file" : "sources\\afdwdw.sqlrpgle",
                                         "line" : 56,
                                         "col" : 8,
+                                        "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                                         "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                       },
                                       "id" : "sources\\afdwdw.sqlrpgle#56:9"
@@ -651,6 +699,7 @@
                                       "file" : "sources\\afdwdw.sqlrpgle",
                                       "line" : 56,
                                       "col" : 8,
+                                      "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                                       "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                     },
                                     "id" : "sources\\afdwdw.sqlrpgle#56:10"
@@ -660,6 +709,7 @@
                                     "file" : "sources\\afdwdw.sqlrpgle",
                                     "line" : 56,
                                     "col" : 8,
+                                    "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                                     "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                   },
                                   "id" : "sources\\afdwdw.sqlrpgle#56:11"
@@ -669,6 +719,7 @@
                                   "file" : "sources\\afdwdw.sqlrpgle",
                                   "line" : 56,
                                   "col" : 8,
+                                  "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                                   "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                 },
                                 "id" : "sources\\afdwdw.sqlrpgle#56:12"
@@ -678,6 +729,7 @@
                                 "file" : "sources\\afdwdw.sqlrpgle",
                                 "line" : 56,
                                 "col" : 8,
+                                "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                                 "id" : "sources\\afdwdw.sqlrpgle#56:8"
                               },
                               "id" : "sources\\afdwdw.sqlrpgle#56:13"
@@ -687,6 +739,7 @@
                               "file" : "sources\\afdwdw.sqlrpgle",
                               "line" : 56,
                               "col" : 8,
+                              "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                               "id" : "sources\\afdwdw.sqlrpgle#56:8"
                             },
                             "id" : "sources\\afdwdw.sqlrpgle#56:14"
@@ -696,6 +749,7 @@
                             "file" : "sources\\afdwdw.sqlrpgle",
                             "line" : 56,
                             "col" : 8,
+                            "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                             "id" : "sources\\afdwdw.sqlrpgle#56:8"
                           },
                           "id" : "sources\\afdwdw.sqlrpgle#56:15"
@@ -705,6 +759,7 @@
                           "file" : "sources\\afdwdw.sqlrpgle",
                           "line" : 56,
                           "col" : 8,
+                          "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                           "id" : "sources\\afdwdw.sqlrpgle#56:8"
                         },
                         "id" : "sources\\afdwdw.sqlrpgle#56:16"
@@ -714,6 +769,7 @@
                         "file" : "sources\\afdwdw.sqlrpgle",
                         "line" : 56,
                         "col" : 8,
+                        "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                         "id" : "sources\\afdwdw.sqlrpgle#56:8"
                       },
                       "id" : "sources\\afdwdw.sqlrpgle#56:17"
@@ -723,6 +779,7 @@
                       "file" : "sources\\afdwdw.sqlrpgle",
                       "line" : 56,
                       "col" : 8,
+                      "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                       "id" : "sources\\afdwdw.sqlrpgle#56:8"
                     },
                     "id" : "sources\\afdwdw.sqlrpgle#56:18"
@@ -732,6 +789,7 @@
                     "file" : "sources\\afdwdw.sqlrpgle",
                     "line" : 56,
                     "col" : 8,
+                    "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                     "id" : "sources\\afdwdw.sqlrpgle#56:8"
                   },
                   "id" : "sources\\afdwdw.sqlrpgle#56:19"
@@ -741,6 +799,7 @@
                   "file" : "sources\\afdwdw.sqlrpgle",
                   "line" : 56,
                   "col" : 8,
+                  "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                   "id" : "sources\\afdwdw.sqlrpgle#56:8"
                 },
                 "id" : "sources\\afdwdw.sqlrpgle#56:20"
@@ -750,6 +809,7 @@
                 "file" : "sources\\afdwdw.sqlrpgle",
                 "line" : 56,
                 "col" : 8,
+                "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
                 "id" : "sources\\afdwdw.sqlrpgle#56:8"
               },
               "id" : "sources\\afdwdw.sqlrpgle#56:21"
@@ -759,6 +819,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 56,
               "col" : 8,
+              "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
               "id" : "sources\\afdwdw.sqlrpgle#56:8"
             },
             "id" : "sources\\afdwdw.sqlrpgle#56:22"
@@ -768,6 +829,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 56,
             "col" : 8,
+            "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
             "id" : "sources\\afdwdw.sqlrpgle#56:8"
           },
           "id" : "sources\\afdwdw.sqlrpgle#56:23"
@@ -777,6 +839,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 56,
           "col" : 8,
+          "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
           "id" : "sources\\afdwdw.sqlrpgle#56:8"
         },
         "id" : "sources\\afdwdw.sqlrpgle#56:24"
@@ -786,6 +849,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 56,
         "col" : 8,
+        "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
         "id" : "sources\\afdwdw.sqlrpgle#56:8"
       },
       "id" : "sources\\afdwdw.sqlrpgle#56:25"
@@ -795,6 +859,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 56,
       "col" : 8,
+      "text" : "end-proc;\n       \n       dcl-proc FetchAfds;",
       "id" : "sources\\afdwdw.sqlrpgle#56:8"
     },
     "id" : "sources\\afdwdw.sqlrpgle#56:8"
@@ -812,6 +877,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 63,
           "col" : 18,
+          "text" : "i int(10) inz(1);\n           dcl-s name varchar(20);\n       ",
           "id" : "sources\\afdwdw.sqlrpgle#63:18"
         },
         "id" : "sources\\afdwdw.sqlrpgle#63:18"
@@ -821,6 +887,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 63,
         "col" : 18,
+        "text" : "i int(10) inz(1);\n           dcl-s name varchar(20);\n       ",
         "id" : "sources\\afdwdw.sqlrpgle#63:18"
       },
       "nameUpper" : "I",
@@ -835,6 +902,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 62,
       "col" : 12,
+      "text" : "dcl-ds Afdlist likeds(AfdDS) dim(9999);\n           dcl-s i int(10) inz(1);\n           dcl-s name varchar(20);",
       "id" : "sources\\afdwdw.sqlrpgle#62:12"
     },
     "id" : "sources\\afdwdw.sqlrpgle#62:12"
@@ -848,6 +916,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 64,
       "col" : 12,
+      "text" : "dcl-s name varchar(20);\n       \n           EXEC SQL",
       "id" : "sources\\afdwdw.sqlrpgle#64:12"
     },
     "static" : false,
@@ -874,6 +943,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 71,
               "col" : 15,
+              "text" : "SQLSTATE = '00000';\n               for i = 1 to %elem(Afdlist);\n                   exec sql",
               "id" : "sources\\afdwdw.sqlrpgle#71:15"
             },
             "nameUpper" : "SQLSTATE",
@@ -887,6 +957,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 71,
               "col" : 26,
+              "text" : "'00000';\n               for i = 1 to %elem(Afdlist);\n                   exec sql",
               "id" : "sources\\afdwdw.sqlrpgle#71:26"
             },
             "id" : "sources\\afdwdw.sqlrpgle#71:26"
@@ -896,6 +967,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 71,
             "col" : 15,
+            "text" : "SQLSTATE = '00000';\n               for i = 1 to %elem(Afdlist);\n                   exec sql",
             "id" : "sources\\afdwdw.sqlrpgle#71:15"
           },
           "id" : "sources\\afdwdw.sqlrpgle#71:15"
@@ -915,6 +987,7 @@
                   "file" : "sources\\afdwdw.sqlrpgle",
                   "line" : 75,
                   "col" : 23,
+                  "text" : "SQLSTATE <> '00000';\n                       leave;\n                   endif;",
                   "id" : "sources\\afdwdw.sqlrpgle#75:23"
                 },
                 "nameUpper" : "SQLSTATE",
@@ -928,6 +1001,7 @@
                   "file" : "sources\\afdwdw.sqlrpgle",
                   "line" : 75,
                   "col" : 35,
+                  "text" : "'00000';\n                       leave;\n                   endif;",
                   "id" : "sources\\afdwdw.sqlrpgle#75:35"
                 },
                 "id" : "sources\\afdwdw.sqlrpgle#75:35"
@@ -937,6 +1011,7 @@
                 "file" : "sources\\afdwdw.sqlrpgle",
                 "line" : 75,
                 "col" : 23,
+                "text" : "SQLSTATE <> '00000';\n                       leave;\n                   endif;",
                 "id" : "sources\\afdwdw.sqlrpgle#75:23"
               },
               "id" : "sources\\afdwdw.sqlrpgle#75:23"
@@ -948,6 +1023,7 @@
                 "file" : "sources\\afdwdw.sqlrpgle",
                 "line" : 75,
                 "col" : 20,
+                "text" : "if SQLSTATE <> '00000';\n                       leave;\n                   endif;",
                 "id" : "sources\\afdwdw.sqlrpgle#75:20"
               },
               "id" : "sources\\afdwdw.sqlrpgle#75:20"
@@ -957,6 +1033,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 75,
               "col" : 20,
+              "text" : "if SQLSTATE <> '00000';\n                       leave;\n                   endif;",
               "id" : "sources\\afdwdw.sqlrpgle#75:20"
             },
             "id" : "sources\\afdwdw.sqlrpgle#75:20"
@@ -971,6 +1048,7 @@
                 "file" : "sources\\afdwdw.sqlrpgle",
                 "line" : 78,
                 "col" : 20,
+                "text" : "Afdlist(i).name = name;\n               endfor;\n           else;",
                 "id" : "sources\\afdwdw.sqlrpgle#78:20"
               },
               "nameUpper" : "AFDLIST(I).NAME",
@@ -983,6 +1061,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 78,
               "col" : 20,
+              "text" : "Afdlist(i).name = name;\n               endfor;\n           else;",
               "id" : "sources\\afdwdw.sqlrpgle#78:20"
             },
             "flattened" : true,
@@ -993,6 +1072,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 71,
             "col" : 12,
+            "text" : "if SQLSTATE = '00000';\n               for i = 1 to %elem(Afdlist);\n                   exec sql",
             "id" : "sources\\afdwdw.sqlrpgle#71:12"
           },
           "id" : "sources\\afdwdw.sqlrpgle#71:30"
@@ -1007,6 +1087,7 @@
               "file" : "sources\\afdwdw.sqlrpgle",
               "line" : 81,
               "col" : 16,
+              "text" : "Afdlist(1).name = 'Afdelingen N/A';\n           endif;\n           exec sql",
               "id" : "sources\\afdwdw.sqlrpgle#81:16"
             },
             "nameUpper" : "AFDLIST(1).NAME",
@@ -1019,6 +1100,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 81,
             "col" : 16,
+            "text" : "Afdlist(1).name = 'Afdelingen N/A';\n           endif;\n           exec sql",
             "id" : "sources\\afdwdw.sqlrpgle#81:16"
           },
           "flattened" : true,
@@ -1029,6 +1111,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 71,
           "col" : 12,
+          "text" : "if SQLSTATE = '00000';\n               for i = 1 to %elem(Afdlist);\n                   exec sql",
           "id" : "sources\\afdwdw.sqlrpgle#71:12"
         },
         "id" : "sources\\afdwdw.sqlrpgle#71:12"
@@ -1043,6 +1126,7 @@
             "file" : "sources\\afdwdw.sqlrpgle",
             "line" : 85,
             "col" : 13,
+            "text" : "inlr = *on;\n           return Afdlist;\n       end-proc;",
             "id" : "sources\\afdwdw.sqlrpgle#85:13"
           },
           "nameUpper" : "INLR",
@@ -1055,6 +1139,7 @@
           "file" : "sources\\afdwdw.sqlrpgle",
           "line" : 85,
           "col" : 13,
+          "text" : "inlr = *on;\n           return Afdlist;\n       end-proc;",
           "id" : "sources\\afdwdw.sqlrpgle#85:13"
         },
         "flattened" : true,
@@ -1065,6 +1150,7 @@
         "file" : "sources\\afdwdw.sqlrpgle",
         "line" : 87,
         "col" : 8,
+        "text" : "end-proc;\n       ",
         "id" : "sources\\afdwdw.sqlrpgle#87:8"
       },
       "id" : "sources\\afdwdw.sqlrpgle#87:27"
@@ -1074,6 +1160,7 @@
       "file" : "sources\\afdwdw.sqlrpgle",
       "line" : 87,
       "col" : 8,
+      "text" : "end-proc;\n       ",
       "id" : "sources\\afdwdw.sqlrpgle#87:8"
     },
     "id" : "sources\\afdwdw.sqlrpgle#87:8"

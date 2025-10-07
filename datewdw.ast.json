@@ -8,6 +8,7 @@
       "file" : "sources\\datewdw.rpgle",
       "line" : 3,
       "col" : 8,
+      "text" : "ctl-opt NoMain;\n       \n       dcl-f datwdw workstn;",
       "id" : "sources\\datewdw.rpgle#3:8"
     },
     "id" : "sources\\datewdw.rpgle#3:8"
@@ -22,6 +23,7 @@
       "file" : "sources\\datewdw.rpgle",
       "line" : 5,
       "col" : 8,
+      "text" : "dcl-f datwdw workstn;\n       \n       dcl-proc DateWdw Export;",
       "id" : "sources\\datewdw.rpgle#5:8"
     },
     "id" : "sources\\datewdw.rpgle#5:8"
@@ -35,6 +37,7 @@
       "file" : "sources\\datewdw.rpgle",
       "line" : 12,
       "col" : 10,
+      "text" : "dcl-s returnvalue date(*iso);\n       \n         DADATUM = InputValue;",
       "id" : "sources\\datewdw.rpgle#12:10"
     },
     "static" : false,
@@ -56,6 +59,7 @@
         "file" : "sources\\datewdw.rpgle",
         "line" : 9,
         "col" : 12,
+        "text" : "InputValue DATE(*iso);\n         end-pi;\n       ",
         "id" : "sources\\datewdw.rpgle#9:12"
       },
       "id" : "sources\\datewdw.rpgle#9:12"
@@ -73,6 +77,7 @@
             "file" : "sources\\datewdw.rpgle",
             "line" : 14,
             "col" : 10,
+            "text" : "DADATUM = InputValue;\n         write BASEFMT;\n         write FOOTER;",
             "id" : "sources\\datewdw.rpgle#14:10"
           },
           "nameUpper" : "DADATUM",
@@ -85,6 +90,7 @@
           "file" : "sources\\datewdw.rpgle",
           "line" : 14,
           "col" : 10,
+          "text" : "DADATUM = InputValue;\n         write BASEFMT;\n         write FOOTER;",
           "id" : "sources\\datewdw.rpgle#14:10"
         },
         "flattened" : true,
@@ -100,6 +106,7 @@
             "file" : "sources\\datewdw.rpgle",
             "line" : 15,
             "col" : 10,
+            "text" : "write BASEFMT;\n         write FOOTER;\n         exfmt DATEWINDOW;",
             "id" : "sources\\datewdw.rpgle#15:10"
           },
           "id" : "sources\\datewdw.rpgle#15:10"
@@ -114,6 +121,7 @@
               "file" : "sources\\datewdw.rpgle",
               "line" : 16,
               "col" : 10,
+              "text" : "write FOOTER;\n         exfmt DATEWINDOW;\n         returnvalue = DADATUM;",
               "id" : "sources\\datewdw.rpgle#16:10"
             },
             "id" : "sources\\datewdw.rpgle#16:10"
@@ -128,6 +136,7 @@
                 "file" : "sources\\datewdw.rpgle",
                 "line" : 17,
                 "col" : 10,
+                "text" : "exfmt DATEWINDOW;\n         returnvalue = DADATUM;\n       ",
                 "id" : "sources\\datewdw.rpgle#17:10"
               },
               "id" : "sources\\datewdw.rpgle#17:10"
@@ -144,6 +153,7 @@
                     "file" : "sources\\datewdw.rpgle",
                     "line" : 18,
                     "col" : 10,
+                    "text" : "returnvalue = DADATUM;\n       \n         *inlr=*on;",
                     "id" : "sources\\datewdw.rpgle#18:10"
                   },
                   "nameUpper" : "RETURNVALUE",
@@ -156,6 +166,7 @@
                   "file" : "sources\\datewdw.rpgle",
                   "line" : 18,
                   "col" : 10,
+                  "text" : "returnvalue = DADATUM;\n       \n         *inlr=*on;",
                   "id" : "sources\\datewdw.rpgle#18:10"
                 },
                 "flattened" : true,
@@ -171,6 +182,7 @@
                     "file" : "sources\\datewdw.rpgle",
                     "line" : 20,
                     "col" : 11,
+                    "text" : "inlr=*on;\n         return returnvalue;\n       end-proc;",
                     "id" : "sources\\datewdw.rpgle#20:11"
                   },
                   "nameUpper" : "INLR",
@@ -183,6 +195,7 @@
                   "file" : "sources\\datewdw.rpgle",
                   "line" : 20,
                   "col" : 11,
+                  "text" : "inlr=*on;\n         return returnvalue;\n       end-proc;",
                   "id" : "sources\\datewdw.rpgle#20:11"
                 },
                 "flattened" : true,
@@ -193,6 +206,7 @@
                 "file" : "sources\\datewdw.rpgle",
                 "line" : 22,
                 "col" : 8,
+                "text" : "end-proc;",
                 "id" : "sources\\datewdw.rpgle#22:8"
               },
               "id" : "sources\\datewdw.rpgle#22:8"
@@ -202,6 +216,7 @@
               "file" : "sources\\datewdw.rpgle",
               "line" : 22,
               "col" : 8,
+              "text" : "end-proc;",
               "id" : "sources\\datewdw.rpgle#22:8"
             },
             "id" : "sources\\datewdw.rpgle#22:9"
@@ -211,6 +226,7 @@
             "file" : "sources\\datewdw.rpgle",
             "line" : 22,
             "col" : 8,
+            "text" : "end-proc;",
             "id" : "sources\\datewdw.rpgle#22:8"
           },
           "id" : "sources\\datewdw.rpgle#22:10"
@@ -220,6 +236,7 @@
           "file" : "sources\\datewdw.rpgle",
           "line" : 22,
           "col" : 8,
+          "text" : "end-proc;",
           "id" : "sources\\datewdw.rpgle#22:8"
         },
         "id" : "sources\\datewdw.rpgle#22:11"
@@ -229,6 +246,7 @@
         "file" : "sources\\datewdw.rpgle",
         "line" : 22,
         "col" : 8,
+        "text" : "end-proc;",
         "id" : "sources\\datewdw.rpgle#22:8"
       },
       "id" : "sources\\datewdw.rpgle#22:12"
@@ -238,6 +256,7 @@
       "file" : "sources\\datewdw.rpgle",
       "line" : 22,
       "col" : 8,
+      "text" : "end-proc;",
       "id" : "sources\\datewdw.rpgle#22:8"
     },
     "id" : "sources\\datewdw.rpgle#22:8"

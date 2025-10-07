@@ -11,6 +11,7 @@
       "file" : "sources\\edt_prsnl.sqlrpgle",
       "line" : 2,
       "col" : 8,
+      "text" : "dcl-f EDT_PRSNL workstn;\n       \n       dcl-s exitProgram   ind;",
       "id" : "sources\\edt_prsnl.sqlrpgle#2:8"
     },
     "id" : "sources\\edt_prsnl.sqlrpgle#2:8"
@@ -24,6 +25,7 @@
       "file" : "sources\\edt_prsnl.sqlrpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-s exitProgram   ind;\n       dcl-s invalidInput  ind;\n       dcl-s recordExists  ind;",
       "id" : "sources\\edt_prsnl.sqlrpgle#4:8"
     },
     "static" : false,
@@ -40,6 +42,7 @@
       "file" : "sources\\edt_prsnl.sqlrpgle",
       "line" : 5,
       "col" : 8,
+      "text" : "dcl-s invalidInput  ind;\n       dcl-s recordExists  ind;\n       dcl-s matches       int(10);",
       "id" : "sources\\edt_prsnl.sqlrpgle#5:8"
     },
     "static" : false,
@@ -56,6 +59,7 @@
       "file" : "sources\\edt_prsnl.sqlrpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-s recordExists  ind;\n       dcl-s matches       int(10);\n       ",
       "id" : "sources\\edt_prsnl.sqlrpgle#6:8"
     },
     "static" : false,
@@ -72,6 +76,7 @@
       "file" : "sources\\edt_prsnl.sqlrpgle",
       "line" : 7,
       "col" : 8,
+      "text" : "dcl-s matches       int(10);\n       \n       dow not exitProgram;",
       "id" : "sources\\edt_prsnl.sqlrpgle#7:8"
     },
     "static" : false,
@@ -93,6 +98,7 @@
             "file" : "sources\\edt_prsnl.sqlrpgle",
             "line" : 9,
             "col" : 16,
+            "text" : "exitProgram;\n       \n           invalidInput = *off;",
             "id" : "sources\\edt_prsnl.sqlrpgle#9:16"
           },
           "nameUpper" : "EXITPROGRAM",
@@ -103,6 +109,7 @@
           "file" : "sources\\edt_prsnl.sqlrpgle",
           "line" : 9,
           "col" : 12,
+          "text" : "not exitProgram;\n       \n           invalidInput = *off;",
           "id" : "sources\\edt_prsnl.sqlrpgle#9:12"
         },
         "id" : "sources\\edt_prsnl.sqlrpgle#9:12"
@@ -119,6 +126,7 @@
               "file" : "sources\\edt_prsnl.sqlrpgle",
               "line" : 11,
               "col" : 12,
+              "text" : "invalidInput = *off;\n           recordExists = *off;\n       ",
               "id" : "sources\\edt_prsnl.sqlrpgle#11:12"
             },
             "nameUpper" : "INVALIDINPUT",
@@ -131,6 +139,7 @@
             "file" : "sources\\edt_prsnl.sqlrpgle",
             "line" : 11,
             "col" : 12,
+            "text" : "invalidInput = *off;\n           recordExists = *off;\n       ",
             "id" : "sources\\edt_prsnl.sqlrpgle#11:12"
           },
           "flattened" : true,
@@ -148,6 +157,7 @@
                 "file" : "sources\\edt_prsnl.sqlrpgle",
                 "line" : 12,
                 "col" : 12,
+                "text" : "recordExists = *off;\n       \n           // Startscherm tonen",
                 "id" : "sources\\edt_prsnl.sqlrpgle#12:12"
               },
               "nameUpper" : "RECORDEXISTS",
@@ -160,6 +170,7 @@
               "file" : "sources\\edt_prsnl.sqlrpgle",
               "line" : 12,
               "col" : 12,
+              "text" : "recordExists = *off;\n       \n           // Startscherm tonen",
               "id" : "sources\\edt_prsnl.sqlrpgle#12:12"
             },
             "flattened" : true,
@@ -175,6 +186,7 @@
                 "file" : "sources\\edt_prsnl.sqlrpgle",
                 "line" : 15,
                 "col" : 12,
+                "text" : "exfmt SCREEN01;\n       \n           if *in12 = *on;",
                 "id" : "sources\\edt_prsnl.sqlrpgle#15:12"
               },
               "id" : "sources\\edt_prsnl.sqlrpgle#15:12"
@@ -194,6 +206,7 @@
                       "file" : "sources\\edt_prsnl.sqlrpgle",
                       "line" : 17,
                       "col" : 15,
+                      "text" : "*in12 = *on;\n               exitProgram = *on;\n               leave;",
                       "id" : "sources\\edt_prsnl.sqlrpgle#17:15"
                     },
                     "nameUpper" : "*IN12",
@@ -207,6 +220,7 @@
                       "file" : "sources\\edt_prsnl.sqlrpgle",
                       "line" : 17,
                       "col" : 23,
+                      "text" : "*on;\n               exitProgram = *on;\n               leave;",
                       "id" : "sources\\edt_prsnl.sqlrpgle#17:23"
                     },
                     "nameUpper" : "*ON",
@@ -217,6 +231,7 @@
                     "file" : "sources\\edt_prsnl.sqlrpgle",
                     "line" : 17,
                     "col" : 15,
+                    "text" : "*in12 = *on;\n               exitProgram = *on;\n               leave;",
                     "id" : "sources\\edt_prsnl.sqlrpgle#17:15"
                   },
                   "id" : "sources\\edt_prsnl.sqlrpgle#17:15"
@@ -231,6 +246,7 @@
                       "file" : "sources\\edt_prsnl.sqlrpgle",
                       "line" : 18,
                       "col" : 16,
+                      "text" : "exitProgram = *on;\n               leave;\n           endif;",
                       "id" : "sources\\edt_prsnl.sqlrpgle#18:16"
                     },
                     "nameUpper" : "EXITPROGRAM",
@@ -243,6 +259,7 @@
                     "file" : "sources\\edt_prsnl.sqlrpgle",
                     "line" : 18,
                     "col" : 16,
+                    "text" : "exitProgram = *on;\n               leave;\n           endif;",
                     "id" : "sources\\edt_prsnl.sqlrpgle#18:16"
                   },
                   "flattened" : true,
@@ -253,6 +270,7 @@
                   "file" : "sources\\edt_prsnl.sqlrpgle",
                   "line" : 17,
                   "col" : 12,
+                  "text" : "if *in12 = *on;\n               exitProgram = *on;\n               leave;",
                   "id" : "sources\\edt_prsnl.sqlrpgle#17:12"
                 },
                 "id" : "sources\\edt_prsnl.sqlrpgle#17:12"
@@ -267,6 +285,7 @@
                     "file" : "sources\\edt_prsnl.sqlrpgle",
                     "line" : 25,
                     "col" : 20,
+                    "text" : "exfmt SCREEN02; // Ga naar ID-invoerscherm\n               when SELECTION = '2';\n                   exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04",
                     "id" : "sources\\edt_prsnl.sqlrpgle#25:20"
                   },
                   "id" : "sources\\edt_prsnl.sqlrpgle#25:20"
@@ -281,6 +300,7 @@
                       "file" : "sources\\edt_prsnl.sqlrpgle",
                       "line" : 27,
                       "col" : 20,
+                      "text" : "exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04\n               when SELECTION = '3';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm",
                       "id" : "sources\\edt_prsnl.sqlrpgle#27:20"
                     },
                     "id" : "sources\\edt_prsnl.sqlrpgle#27:20"
@@ -295,6 +315,7 @@
                         "file" : "sources\\edt_prsnl.sqlrpgle",
                         "line" : 29,
                         "col" : 20,
+                        "text" : "exfmt SCREEN02; // Ga naar ID-invoerscherm\n           endsl;\n       ",
                         "id" : "sources\\edt_prsnl.sqlrpgle#29:20"
                       },
                       "id" : "sources\\edt_prsnl.sqlrpgle#29:20"
@@ -316,6 +337,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 24,
                                 "col" : 21,
+                                "text" : "SELECTION = '1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n               when SELECTION = '2';",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#24:21"
                               },
                               "nameUpper" : "SELECTION",
@@ -329,6 +351,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 24,
                                 "col" : 33,
+                                "text" : "'1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n               when SELECTION = '2';",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#24:33"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#24:33"
@@ -338,6 +361,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 24,
                               "col" : 21,
+                              "text" : "SELECTION = '1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n               when SELECTION = '2';",
                               "id" : "sources\\edt_prsnl.sqlrpgle#24:21"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#24:21"
@@ -349,6 +373,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 24,
                               "col" : 16,
+                              "text" : "when SELECTION = '1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n               when SELECTION = '2';",
                               "id" : "sources\\edt_prsnl.sqlrpgle#24:16"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#24:16"
@@ -358,6 +383,7 @@
                             "file" : "sources\\edt_prsnl.sqlrpgle",
                             "line" : 24,
                             "col" : 16,
+                            "text" : "when SELECTION = '1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n               when SELECTION = '2';",
                             "id" : "sources\\edt_prsnl.sqlrpgle#24:16"
                           },
                           "id" : "sources\\edt_prsnl.sqlrpgle#24:16"
@@ -374,6 +400,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 26,
                                 "col" : 21,
+                                "text" : "SELECTION = '2';\n                   exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04\n               when SELECTION = '3';",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#26:21"
                               },
                               "nameUpper" : "SELECTION",
@@ -387,6 +414,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 26,
                                 "col" : 33,
+                                "text" : "'2';\n                   exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04\n               when SELECTION = '3';",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#26:33"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#26:33"
@@ -396,6 +424,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 26,
                               "col" : 21,
+                              "text" : "SELECTION = '2';\n                   exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04\n               when SELECTION = '3';",
                               "id" : "sources\\edt_prsnl.sqlrpgle#26:21"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#26:21"
@@ -407,6 +436,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 26,
                               "col" : 16,
+                              "text" : "when SELECTION = '2';\n                   exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04\n               when SELECTION = '3';",
                               "id" : "sources\\edt_prsnl.sqlrpgle#26:16"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#26:16"
@@ -416,6 +446,7 @@
                             "file" : "sources\\edt_prsnl.sqlrpgle",
                             "line" : 26,
                             "col" : 16,
+                            "text" : "when SELECTION = '2';\n                   exfmt SCREEN04; // Ga naar nieuw scherm SCREEN04\n               when SELECTION = '3';",
                             "id" : "sources\\edt_prsnl.sqlrpgle#26:16"
                           },
                           "id" : "sources\\edt_prsnl.sqlrpgle#26:16"
@@ -432,6 +463,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 28,
                                 "col" : 21,
+                                "text" : "SELECTION = '3';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n           endsl;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#28:21"
                               },
                               "nameUpper" : "SELECTION",
@@ -445,6 +477,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 28,
                                 "col" : 33,
+                                "text" : "'3';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n           endsl;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#28:33"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#28:33"
@@ -454,6 +487,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 28,
                               "col" : 21,
+                              "text" : "SELECTION = '3';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n           endsl;",
                               "id" : "sources\\edt_prsnl.sqlrpgle#28:21"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#28:21"
@@ -465,6 +499,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 28,
                               "col" : 16,
+                              "text" : "when SELECTION = '3';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n           endsl;",
                               "id" : "sources\\edt_prsnl.sqlrpgle#28:16"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#28:16"
@@ -474,6 +509,7 @@
                             "file" : "sources\\edt_prsnl.sqlrpgle",
                             "line" : 28,
                             "col" : 16,
+                            "text" : "when SELECTION = '3';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm\n           endsl;",
                             "id" : "sources\\edt_prsnl.sqlrpgle#28:16"
                           },
                           "id" : "sources\\edt_prsnl.sqlrpgle#28:16"
@@ -485,6 +521,7 @@
                             "file" : "sources\\edt_prsnl.sqlrpgle",
                             "line" : 23,
                             "col" : 12,
+                            "text" : "select;\n               when SELECTION = '1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm",
                             "id" : "sources\\edt_prsnl.sqlrpgle#23:12"
                           },
                           "id" : "sources\\edt_prsnl.sqlrpgle#23:12"
@@ -494,6 +531,7 @@
                           "file" : "sources\\edt_prsnl.sqlrpgle",
                           "line" : 23,
                           "col" : 12,
+                          "text" : "select;\n               when SELECTION = '1';\n                   exfmt SCREEN02; // Ga naar ID-invoerscherm",
                           "id" : "sources\\edt_prsnl.sqlrpgle#23:12"
                         },
                         "id" : "sources\\edt_prsnl.sqlrpgle#23:12"
@@ -513,6 +551,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 32,
                                 "col" : 15,
+                                "text" : "*in12 = *on;\n               exitProgram = *on;\n               leave;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#32:15"
                               },
                               "nameUpper" : "*IN12",
@@ -526,6 +565,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 32,
                                 "col" : 23,
+                                "text" : "*on;\n               exitProgram = *on;\n               leave;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#32:23"
                               },
                               "nameUpper" : "*ON",
@@ -536,6 +576,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 32,
                               "col" : 15,
+                              "text" : "*in12 = *on;\n               exitProgram = *on;\n               leave;",
                               "id" : "sources\\edt_prsnl.sqlrpgle#32:15"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#32:15"
@@ -550,6 +591,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 33,
                                 "col" : 16,
+                                "text" : "exitProgram = *on;\n               leave;\n           endif;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#33:16"
                               },
                               "nameUpper" : "EXITPROGRAM",
@@ -562,6 +604,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 33,
                               "col" : 16,
+                              "text" : "exitProgram = *on;\n               leave;\n           endif;",
                               "id" : "sources\\edt_prsnl.sqlrpgle#33:16"
                             },
                             "flattened" : true,
@@ -572,6 +615,7 @@
                             "file" : "sources\\edt_prsnl.sqlrpgle",
                             "line" : 32,
                             "col" : 12,
+                            "text" : "if *in12 = *on;\n               exitProgram = *on;\n               leave;",
                             "id" : "sources\\edt_prsnl.sqlrpgle#32:12"
                           },
                           "id" : "sources\\edt_prsnl.sqlrpgle#32:12"
@@ -591,6 +635,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 38,
                                   "col" : 15,
+                                  "text" : "SELECTION = '1';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#38:15"
                                 },
                                 "nameUpper" : "SELECTION",
@@ -604,6 +649,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 38,
                                   "col" : 27,
+                                  "text" : "'1';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#38:27"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#38:27"
@@ -613,6 +659,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 38,
                                 "col" : 15,
+                                "text" : "SELECTION = '1';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#38:15"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#38:15"
@@ -632,6 +679,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 40,
                                       "col" : 19,
+                                      "text" : "ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#40:19"
                                     },
                                     "nameUpper" : "ID",
@@ -645,6 +693,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 40,
                                       "col" : 24,
+                                      "text" : "*blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#40:24"
                                     },
                                     "nameUpper" : "*BLANKS",
@@ -655,6 +704,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 40,
                                     "col" : 19,
+                                    "text" : "ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#40:19"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#40:19"
@@ -671,6 +721,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 41,
                                         "col" : 20,
+                                        "text" : "MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst\n                   invalidInput = *on;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#41:20"
                                       },
                                       "nameUpper" : "MSGTEXT",
@@ -683,6 +734,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 41,
                                       "col" : 20,
+                                      "text" : "MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst\n                   invalidInput = *on;",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#41:20"
                                     },
                                     "flattened" : true,
@@ -700,6 +752,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 42,
                                           "col" : 21,
+                                          "text" : "in99 = *on; // Rode tekst\n                   invalidInput = *on;\n               endif;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#42:21"
                                         },
                                         "nameUpper" : "IN99",
@@ -712,6 +765,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 42,
                                         "col" : 21,
+                                        "text" : "in99 = *on; // Rode tekst\n                   invalidInput = *on;\n               endif;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#42:21"
                                       },
                                       "flattened" : true,
@@ -727,6 +781,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 43,
                                           "col" : 20,
+                                          "text" : "invalidInput = *on;\n               endif;\n               // tot hier kan ik denk ik kopieren, om vervolgens naar scherm 5 te gaan",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#43:20"
                                         },
                                         "nameUpper" : "INVALIDINPUT",
@@ -739,6 +794,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 43,
                                         "col" : 20,
+                                        "text" : "invalidInput = *on;\n               endif;\n               // tot hier kan ik denk ik kopieren, om vervolgens naar scherm 5 te gaan",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#43:20"
                                       },
                                       "flattened" : true,
@@ -749,6 +805,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 40,
                                       "col" : 16,
+                                      "text" : "if ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#40:16"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#40:16"
@@ -758,6 +815,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 40,
                                     "col" : 16,
+                                    "text" : "if ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#40:16"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#40:17"
@@ -767,6 +825,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 40,
                                   "col" : 16,
+                                  "text" : "if ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#40:16"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#40:16"
@@ -785,6 +844,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 48,
                                         "col" : 23,
+                                        "text" : "invalidInput;\n                   exec sql\n                       SELECT Roepnaam, Achternaam, Geslacht, SchemaID",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#48:23"
                                       },
                                       "nameUpper" : "INVALIDINPUT",
@@ -795,6 +855,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 48,
                                       "col" : 19,
+                                      "text" : "not invalidInput;\n                   exec sql\n                       SELECT Roepnaam, Achternaam, Geslacht, SchemaID",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#48:19"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#48:19"
@@ -812,6 +873,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 55,
                                           "col" : 23,
+                                          "text" : "sqlcod <> 0;  // Geen gegevens gevonden\n                       dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#55:23"
                                         },
                                         "nameUpper" : "SQLCOD",
@@ -825,6 +887,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 55,
                                           "col" : 33,
+                                          "text" : "0;  // Geen gegevens gevonden\n                       dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#55:33"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#55:33"
@@ -834,6 +897,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 55,
                                         "col" : 23,
+                                        "text" : "sqlcod <> 0;  // Geen gegevens gevonden\n                       dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#55:23"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#55:23"
@@ -850,6 +914,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 56,
                                             "col" : 30,
+                                            "text" : "'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;\n                       invalidInput = *on;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#56:30"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#56:30"
@@ -859,6 +924,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 56,
                                           "col" : 24,
+                                          "text" : "dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;\n                       invalidInput = *on;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#56:24"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#56:24"
@@ -873,6 +939,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 57,
                                             "col" : 24,
+                                            "text" : "exfmt SCREEN02;\n                       invalidInput = *on;\n                   endif;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#57:24"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#57:24"
@@ -887,6 +954,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 58,
                                               "col" : 24,
+                                              "text" : "invalidInput = *on;\n                   endif;\n               endif;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#58:24"
                                             },
                                             "nameUpper" : "INVALIDINPUT",
@@ -899,6 +967,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 58,
                                             "col" : 24,
+                                            "text" : "invalidInput = *on;\n                   endif;\n               endif;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#58:24"
                                           },
                                           "flattened" : true,
@@ -909,6 +978,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 55,
                                           "col" : 20,
+                                          "text" : "if sqlcod <> 0;  // Geen gegevens gevonden\n                       dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#55:20"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#55:22"
@@ -918,6 +988,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 55,
                                         "col" : 20,
+                                        "text" : "if sqlcod <> 0;  // Geen gegevens gevonden\n                       dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#55:20"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#55:23"
@@ -927,6 +998,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 55,
                                       "col" : 20,
+                                      "text" : "if sqlcod <> 0;  // Geen gegevens gevonden\n                       dsply 'Geen record gevonden voor dit ID.';\n                       exfmt SCREEN02;",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#55:20"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#55:20"
@@ -936,6 +1008,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 48,
                                     "col" : 16,
+                                    "text" : "if not invalidInput;\n                   exec sql\n                       SELECT Roepnaam, Achternaam, Geslacht, SchemaID",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#48:16"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#48:16"
@@ -952,6 +1025,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 63,
                                         "col" : 23,
+                                        "text" : "invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#63:23"
                                       },
                                       "nameUpper" : "INVALIDINPUT",
@@ -962,6 +1036,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 63,
                                       "col" : 19,
+                                      "text" : "not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#63:19"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#63:19"
@@ -978,6 +1053,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 64,
                                           "col" : 20,
+                                          "text" : "MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;\n                   exfmt SCREEN03;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#64:20"
                                         },
                                         "nameUpper" : "MSGTEXT",
@@ -990,6 +1066,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 64,
                                         "col" : 20,
+                                        "text" : "MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;\n                   exfmt SCREEN03;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#64:20"
                                       },
                                       "flattened" : true,
@@ -1007,6 +1084,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 65,
                                             "col" : 20,
+                                            "text" : "CURRENTID = ID;\n                   exfmt SCREEN03;\n       ",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#65:20"
                                           },
                                           "nameUpper" : "CURRENTID",
@@ -1019,6 +1097,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 65,
                                           "col" : 20,
+                                          "text" : "CURRENTID = ID;\n                   exfmt SCREEN03;\n       ",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#65:20"
                                         },
                                         "flattened" : true,
@@ -1034,6 +1113,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 66,
                                             "col" : 20,
+                                            "text" : "exfmt SCREEN03;\n       \n                   if *in12 = *on;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#66:20"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#66:20"
@@ -1053,6 +1133,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 68,
                                                   "col" : 23,
+                                                  "text" : "*in12 = *on;\n                       exitProgram = *on;\n                       leave;",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#68:23"
                                                 },
                                                 "nameUpper" : "*IN12",
@@ -1066,6 +1147,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 68,
                                                   "col" : 31,
+                                                  "text" : "*on;\n                       exitProgram = *on;\n                       leave;",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#68:31"
                                                 },
                                                 "nameUpper" : "*ON",
@@ -1076,6 +1158,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 68,
                                                 "col" : 23,
+                                                "text" : "*in12 = *on;\n                       exitProgram = *on;\n                       leave;",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#68:23"
                                               },
                                               "id" : "sources\\edt_prsnl.sqlrpgle#68:23"
@@ -1090,6 +1173,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 69,
                                                   "col" : 24,
+                                                  "text" : "exitProgram = *on;\n                       leave;\n                   endif;",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#69:24"
                                                 },
                                                 "nameUpper" : "EXITPROGRAM",
@@ -1102,6 +1186,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 69,
                                                 "col" : 24,
+                                                "text" : "exitProgram = *on;\n                       leave;\n                   endif;",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#69:24"
                                               },
                                               "flattened" : true,
@@ -1112,6 +1197,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 68,
                                               "col" : 20,
+                                              "text" : "if *in12 = *on;\n                       exitProgram = *on;\n                       leave;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#68:20"
                                             },
                                             "id" : "sources\\edt_prsnl.sqlrpgle#68:20"
@@ -1140,6 +1226,7 @@
                                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                                           "line" : 74,
                                                           "col" : 23,
+                                                          "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                           "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
                                                         },
                                                         "nameUpper" : "RNAMEB",
@@ -1153,6 +1240,7 @@
                                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                                           "line" : 74,
                                                           "col" : 32,
+                                                          "text" : "*blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                           "id" : "sources\\edt_prsnl.sqlrpgle#74:32"
                                                         },
                                                         "nameUpper" : "*BLANKS",
@@ -1163,6 +1251,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 74,
                                                         "col" : 23,
+                                                        "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
                                                       },
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
@@ -1178,6 +1267,7 @@
                                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                                           "line" : 74,
                                                           "col" : 43,
+                                                          "text" : "LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                           "id" : "sources\\edt_prsnl.sqlrpgle#74:43"
                                                         },
                                                         "nameUpper" : "LNAMEB",
@@ -1191,6 +1281,7 @@
                                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                                           "line" : 74,
                                                           "col" : 52,
+                                                          "text" : "*blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                           "id" : "sources\\edt_prsnl.sqlrpgle#74:52"
                                                         },
                                                         "nameUpper" : "*BLANKS",
@@ -1201,6 +1292,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 74,
                                                         "col" : 43,
+                                                        "text" : "LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#74:43"
                                                       },
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#74:43"
@@ -1210,6 +1302,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 74,
                                                       "col" : 23,
+                                                      "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
                                                     },
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
@@ -1225,6 +1318,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 75,
                                                         "col" : 20,
+                                                        "text" : "GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#75:20"
                                                       },
                                                       "nameUpper" : "GESLACHTB",
@@ -1238,6 +1332,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 75,
                                                         "col" : 32,
+                                                        "text" : "*blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#75:32"
                                                       },
                                                       "nameUpper" : "*BLANKS",
@@ -1248,6 +1343,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 75,
                                                       "col" : 20,
+                                                      "text" : "GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#75:20"
                                                     },
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#75:20"
@@ -1257,6 +1353,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 74,
                                                     "col" : 23,
+                                                    "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
@@ -1272,6 +1369,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 75,
                                                       "col" : 43,
+                                                      "text" : "SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#75:43"
                                                     },
                                                     "nameUpper" : "SCHEMAIDB",
@@ -1285,6 +1383,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 75,
                                                       "col" : 55,
+                                                      "text" : "*blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#75:55"
                                                     },
                                                     "nameUpper" : "*BLANKS",
@@ -1295,6 +1394,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 75,
                                                     "col" : 43,
+                                                    "text" : "SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#75:43"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#75:43"
@@ -1304,6 +1404,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 74,
                                                   "col" : 23,
+                                                  "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#74:23"
@@ -1320,6 +1421,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 76,
                                                       "col" : 24,
+                                                      "text" : "MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;\n                       invalidInput = *on;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#76:24"
                                                     },
                                                     "nameUpper" : "MSGTEXT",
@@ -1332,6 +1434,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 76,
                                                     "col" : 24,
+                                                    "text" : "MSGTEXT = 'Velden mogen niet leeg zijn.';\n                       *in99 = *on;\n                       invalidInput = *on;",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#76:24"
                                                   },
                                                   "flattened" : true,
@@ -1349,6 +1452,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 77,
                                                         "col" : 25,
+                                                        "text" : "in99 = *on;\n                       invalidInput = *on;\n                   endif;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#77:25"
                                                       },
                                                       "nameUpper" : "IN99",
@@ -1361,6 +1465,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 77,
                                                       "col" : 25,
+                                                      "text" : "in99 = *on;\n                       invalidInput = *on;\n                   endif;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#77:25"
                                                     },
                                                     "flattened" : true,
@@ -1376,6 +1481,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 78,
                                                         "col" : 24,
+                                                        "text" : "invalidInput = *on;\n                   endif;\n       ",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#78:24"
                                                       },
                                                       "nameUpper" : "INVALIDINPUT",
@@ -1388,6 +1494,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 78,
                                                       "col" : 24,
+                                                      "text" : "invalidInput = *on;\n                   endif;\n       ",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#78:24"
                                                     },
                                                     "flattened" : true,
@@ -1398,6 +1505,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 74,
                                                     "col" : 20,
+                                                    "text" : "if RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#74:20"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#74:24"
@@ -1407,6 +1515,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 74,
                                                   "col" : 20,
+                                                  "text" : "if RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#74:20"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#74:25"
@@ -1416,6 +1525,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 74,
                                                 "col" : 20,
+                                                "text" : "if RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGTEXT = 'Velden mogen niet leeg zijn.';",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#74:20"
                                               },
                                               "id" : "sources\\edt_prsnl.sqlrpgle#74:20"
@@ -1432,6 +1542,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 82,
                                                     "col" : 27,
+                                                    "text" : "invalidInput;\n                       exec sql\n                           UPDATE PERSONEEL2",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#82:27"
                                                   },
                                                   "nameUpper" : "INVALIDINPUT",
@@ -1442,6 +1553,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 82,
                                                   "col" : 23,
+                                                  "text" : "not invalidInput;\n                       exec sql\n                           UPDATE PERSONEEL2",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#82:23"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#82:23"
@@ -1459,6 +1571,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 91,
                                                       "col" : 27,
+                                                      "text" : "sqlcod = 0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#91:27"
                                                     },
                                                     "nameUpper" : "SQLCOD",
@@ -1472,6 +1585,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 91,
                                                       "col" : 36,
+                                                      "text" : "0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#91:36"
                                                     },
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#91:36"
@@ -1481,6 +1595,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 91,
                                                     "col" : 27,
+                                                    "text" : "sqlcod = 0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#91:27"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#91:27"
@@ -1497,6 +1612,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 92,
                                                         "col" : 28,
+                                                        "text" : "MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst\n                           *in98 = *on;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#92:28"
                                                       },
                                                       "nameUpper" : "MSGTEXT",
@@ -1509,6 +1625,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 92,
                                                       "col" : 28,
+                                                      "text" : "MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst\n                           *in98 = *on;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#92:28"
                                                     },
                                                     "flattened" : true,
@@ -1526,6 +1643,7 @@
                                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                                           "line" : 93,
                                                           "col" : 29,
+                                                          "text" : "in99 = *off; // Groene tekst\n                           *in98 = *on;\n                       else;",
                                                           "id" : "sources\\edt_prsnl.sqlrpgle#93:29"
                                                         },
                                                         "nameUpper" : "IN99",
@@ -1538,6 +1656,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 93,
                                                         "col" : 29,
+                                                        "text" : "in99 = *off; // Groene tekst\n                           *in98 = *on;\n                       else;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#93:29"
                                                       },
                                                       "flattened" : true,
@@ -1553,6 +1672,7 @@
                                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                                           "line" : 94,
                                                           "col" : 29,
+                                                          "text" : "in98 = *on;\n                       else;\n                           MSGTEXT = 'Fout bij updaten.';",
                                                           "id" : "sources\\edt_prsnl.sqlrpgle#94:29"
                                                         },
                                                         "nameUpper" : "IN98",
@@ -1565,6 +1685,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 94,
                                                         "col" : 29,
+                                                        "text" : "in98 = *on;\n                       else;\n                           MSGTEXT = 'Fout bij updaten.';",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#94:29"
                                                       },
                                                       "flattened" : true,
@@ -1575,6 +1696,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 91,
                                                       "col" : 24,
+                                                      "text" : "if sqlcod = 0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#91:24"
                                                     },
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#91:30"
@@ -1584,6 +1706,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 91,
                                                     "col" : 24,
+                                                    "text" : "if sqlcod = 0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#91:24"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#91:31"
@@ -1600,6 +1723,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 96,
                                                         "col" : 28,
+                                                        "text" : "MSGTEXT = 'Fout bij updaten.';\n                           *in99 = *on;\n                       endif;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#96:28"
                                                       },
                                                       "nameUpper" : "MSGTEXT",
@@ -1612,6 +1736,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 96,
                                                       "col" : 28,
+                                                      "text" : "MSGTEXT = 'Fout bij updaten.';\n                           *in99 = *on;\n                       endif;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#96:28"
                                                     },
                                                     "flattened" : true,
@@ -1627,6 +1752,7 @@
                                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                                         "line" : 97,
                                                         "col" : 29,
+                                                        "text" : "in99 = *on;\n                       endif;\n                   endif;",
                                                         "id" : "sources\\edt_prsnl.sqlrpgle#97:29"
                                                       },
                                                       "nameUpper" : "IN99",
@@ -1639,6 +1765,7 @@
                                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                                       "line" : 97,
                                                       "col" : 29,
+                                                      "text" : "in99 = *on;\n                       endif;\n                   endif;",
                                                       "id" : "sources\\edt_prsnl.sqlrpgle#97:29"
                                                     },
                                                     "flattened" : true,
@@ -1649,6 +1776,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 91,
                                                     "col" : 24,
+                                                    "text" : "if sqlcod = 0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#91:24"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#91:32"
@@ -1658,6 +1786,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 91,
                                                   "col" : 24,
+                                                  "text" : "if sqlcod = 0;\n                           MSGTEXT = 'Gegevens succesvol bijgewerkt.';\n                           *in99 = *off; // Groene tekst",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#91:24"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#91:24"
@@ -1667,6 +1796,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 82,
                                                 "col" : 20,
+                                                "text" : "if not invalidInput;\n                       exec sql\n                           UPDATE PERSONEEL2",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#82:20"
                                               },
                                               "id" : "sources\\edt_prsnl.sqlrpgle#82:20"
@@ -1676,6 +1806,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 63,
                                               "col" : 16,
+                                              "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
                                             },
                                             "id" : "sources\\edt_prsnl.sqlrpgle#63:25"
@@ -1685,6 +1816,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 63,
                                             "col" : 16,
+                                            "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#63:26"
@@ -1694,6 +1826,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 63,
                                           "col" : 16,
+                                          "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#63:27"
@@ -1703,6 +1836,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 63,
                                         "col" : 16,
+                                        "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#63:28"
@@ -1712,6 +1846,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 63,
                                       "col" : 16,
+                                      "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#63:29"
@@ -1721,6 +1856,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 63,
                                     "col" : 16,
+                                    "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#63:16"
@@ -1730,6 +1866,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 38,
                                   "col" : 12,
+                                  "text" : "if SELECTION = '1';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#38:12"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#38:26"
@@ -1739,6 +1876,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 38,
                                 "col" : 12,
+                                "text" : "if SELECTION = '1';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#38:12"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#38:27"
@@ -1748,6 +1886,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 38,
                               "col" : 12,
+                              "text" : "if SELECTION = '1';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                               "id" : "sources\\edt_prsnl.sqlrpgle#38:12"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#38:12"
@@ -1767,6 +1906,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 103,
                                     "col" : 15,
+                                    "text" : "SELECTION = '2';\n               // Toevoegen\n               exec sql",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#103:15"
                                   },
                                   "nameUpper" : "SELECTION",
@@ -1780,6 +1920,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 103,
                                     "col" : 27,
+                                    "text" : "'2';\n               // Toevoegen\n               exec sql",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#103:27"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#103:27"
@@ -1789,6 +1930,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 103,
                                   "col" : 15,
+                                  "text" : "SELECTION = '2';\n               // Toevoegen\n               exec sql",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#103:15"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#103:15"
@@ -1803,6 +1945,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 109,
                                     "col" : 22,
+                                    "text" : "'Personeelslid succesvol toegevoegd.';\n       \n           endif;",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#109:22"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#109:22"
@@ -1812,6 +1955,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 109,
                                   "col" : 16,
+                                  "text" : "dsply 'Personeelslid succesvol toegevoegd.';\n       \n           endif;",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#109:16"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#109:16"
@@ -1821,6 +1965,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 103,
                                 "col" : 12,
+                                "text" : "if SELECTION = '2';\n               // Toevoegen\n               exec sql",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#103:12"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#103:12"
@@ -1838,6 +1983,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 113,
                                     "col" : 15,
+                                    "text" : "SELECTION = '3';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#113:15"
                                   },
                                   "nameUpper" : "SELECTION",
@@ -1851,6 +1997,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 113,
                                     "col" : 27,
+                                    "text" : "'3';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#113:27"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#113:27"
@@ -1860,6 +2007,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 113,
                                   "col" : 15,
+                                  "text" : "SELECTION = '3';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#113:15"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#113:15"
@@ -1879,6 +2027,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 115,
                                         "col" : 19,
+                                        "text" : "ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#115:19"
                                       },
                                       "nameUpper" : "ID",
@@ -1892,6 +2041,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 115,
                                         "col" : 24,
+                                        "text" : "*blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#115:24"
                                       },
                                       "nameUpper" : "*BLANKS",
@@ -1902,6 +2052,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 115,
                                       "col" : 19,
+                                      "text" : "ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#115:19"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#115:19"
@@ -1918,6 +2069,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 116,
                                           "col" : 20,
+                                          "text" : "MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst\n                   invalidInput = *on;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#116:20"
                                         },
                                         "nameUpper" : "MSGTEXT",
@@ -1930,6 +2082,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 116,
                                         "col" : 20,
+                                        "text" : "MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst\n                   invalidInput = *on;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#116:20"
                                       },
                                       "flattened" : true,
@@ -1947,6 +2100,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 117,
                                             "col" : 21,
+                                            "text" : "in99 = *on; // Rode tekst\n                   invalidInput = *on;\n               endif;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#117:21"
                                           },
                                           "nameUpper" : "IN99",
@@ -1959,6 +2113,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 117,
                                           "col" : 21,
+                                          "text" : "in99 = *on; // Rode tekst\n                   invalidInput = *on;\n               endif;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#117:21"
                                         },
                                         "flattened" : true,
@@ -1974,6 +2129,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 118,
                                             "col" : 20,
+                                            "text" : "invalidInput = *on;\n               endif;\n               // tot hier kan ik denk ik kopieren, om vervolgens naar scherm 5 te gaan",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#118:20"
                                           },
                                           "nameUpper" : "INVALIDINPUT",
@@ -1986,6 +2142,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 118,
                                           "col" : 20,
+                                          "text" : "invalidInput = *on;\n               endif;\n               // tot hier kan ik denk ik kopieren, om vervolgens naar scherm 5 te gaan",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#118:20"
                                         },
                                         "flattened" : true,
@@ -1996,6 +2153,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 115,
                                         "col" : 16,
+                                        "text" : "if ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#115:16"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#115:32"
@@ -2005,6 +2163,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 115,
                                       "col" : 16,
+                                      "text" : "if ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#115:16"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#115:33"
@@ -2014,6 +2173,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 115,
                                     "col" : 16,
+                                    "text" : "if ID = *blanks;\n                   MSGTEXT = 'Vul een personeels-ID in.';\n                   *in99 = *on; // Rode tekst",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#115:16"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#115:16"
@@ -2032,6 +2192,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 123,
                                           "col" : 23,
+                                          "text" : "invalidInput;\n                   exec sql\n                           SELECT Roepnaam, Achternaam, Geslacht, SchemaID",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#123:23"
                                         },
                                         "nameUpper" : "INVALIDINPUT",
@@ -2042,6 +2203,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 123,
                                         "col" : 19,
+                                        "text" : "not invalidInput;\n                   exec sql\n                           SELECT Roepnaam, Achternaam, Geslacht, SchemaID",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#123:19"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#123:19"
@@ -2059,6 +2221,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 130,
                                             "col" : 27,
+                                            "text" : "sqlcod <> 0;  // Geen gegevens gevonden\n                           dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#130:27"
                                           },
                                           "nameUpper" : "SQLCOD",
@@ -2072,6 +2235,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 130,
                                             "col" : 37,
+                                            "text" : "0;  // Geen gegevens gevonden\n                           dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#130:37"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#130:37"
@@ -2081,6 +2245,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 130,
                                           "col" : 27,
+                                          "text" : "sqlcod <> 0;  // Geen gegevens gevonden\n                           dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#130:27"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#130:27"
@@ -2097,6 +2262,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 131,
                                               "col" : 34,
+                                              "text" : "'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;\n                           invalidInput = *on;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#131:34"
                                             },
                                             "id" : "sources\\edt_prsnl.sqlrpgle#131:34"
@@ -2106,6 +2272,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 131,
                                             "col" : 28,
+                                            "text" : "dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;\n                           invalidInput = *on;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#131:28"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#131:28"
@@ -2120,6 +2287,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 132,
                                               "col" : 28,
+                                              "text" : "exfmt SCREEN02;\n                           invalidInput = *on;\n                       endif;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#132:28"
                                             },
                                             "id" : "sources\\edt_prsnl.sqlrpgle#132:28"
@@ -2134,6 +2302,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 133,
                                                 "col" : 28,
+                                                "text" : "invalidInput = *on;\n                       endif;\n                   endif;",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#133:28"
                                               },
                                               "nameUpper" : "INVALIDINPUT",
@@ -2146,6 +2315,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 133,
                                               "col" : 28,
+                                              "text" : "invalidInput = *on;\n                       endif;\n                   endif;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#133:28"
                                             },
                                             "flattened" : true,
@@ -2156,6 +2326,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 130,
                                             "col" : 24,
+                                            "text" : "if sqlcod <> 0;  // Geen gegevens gevonden\n                           dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#130:24"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#130:42"
@@ -2165,6 +2336,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 130,
                                           "col" : 24,
+                                          "text" : "if sqlcod <> 0;  // Geen gegevens gevonden\n                           dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#130:24"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#130:43"
@@ -2174,6 +2346,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 130,
                                         "col" : 24,
+                                        "text" : "if sqlcod <> 0;  // Geen gegevens gevonden\n                           dsply 'Geen record gevonden voor dit ID.';\n                           exfmt SCREEN02;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#130:24"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#130:24"
@@ -2183,6 +2356,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 123,
                                       "col" : 16,
+                                      "text" : "if not invalidInput;\n                   exec sql\n                           SELECT Roepnaam, Achternaam, Geslacht, SchemaID",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#123:16"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#123:16"
@@ -2199,6 +2373,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 137,
                                           "col" : 23,
+                                          "text" : "invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#137:23"
                                         },
                                         "nameUpper" : "INVALIDINPUT",
@@ -2209,6 +2384,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 137,
                                         "col" : 19,
+                                        "text" : "not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#137:19"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#137:19"
@@ -2225,6 +2401,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 138,
                                             "col" : 20,
+                                            "text" : "MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;\n                   exfmt SCREEN05;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#138:20"
                                           },
                                           "nameUpper" : "MSGTEXT",
@@ -2237,6 +2414,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 138,
                                           "col" : 20,
+                                          "text" : "MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;\n                   exfmt SCREEN05;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#138:20"
                                         },
                                         "flattened" : true,
@@ -2254,6 +2432,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 139,
                                               "col" : 20,
+                                              "text" : "CURRENTID = ID;\n                   exfmt SCREEN05;\n       ",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#139:20"
                                             },
                                             "nameUpper" : "CURRENTID",
@@ -2266,6 +2445,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 139,
                                             "col" : 20,
+                                            "text" : "CURRENTID = ID;\n                   exfmt SCREEN05;\n       ",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#139:20"
                                           },
                                           "flattened" : true,
@@ -2281,6 +2461,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 140,
                                               "col" : 20,
+                                              "text" : "exfmt SCREEN05;\n       \n                   if *in12 = *on;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#140:20"
                                             },
                                             "id" : "sources\\edt_prsnl.sqlrpgle#140:20"
@@ -2300,6 +2481,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 142,
                                                     "col" : 23,
+                                                    "text" : "*in12 = *on;\n                       exitProgram = *on;\n                       leave;",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#142:23"
                                                   },
                                                   "nameUpper" : "*IN12",
@@ -2313,6 +2495,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 142,
                                                     "col" : 31,
+                                                    "text" : "*on;\n                       exitProgram = *on;\n                       leave;",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#142:31"
                                                   },
                                                   "nameUpper" : "*ON",
@@ -2323,6 +2506,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 142,
                                                   "col" : 23,
+                                                  "text" : "*in12 = *on;\n                       exitProgram = *on;\n                       leave;",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#142:23"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#142:23"
@@ -2337,6 +2521,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 143,
                                                     "col" : 24,
+                                                    "text" : "exitProgram = *on;\n                       leave;\n                   endif;",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#143:24"
                                                   },
                                                   "nameUpper" : "EXITPROGRAM",
@@ -2349,6 +2534,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 143,
                                                   "col" : 24,
+                                                  "text" : "exitProgram = *on;\n                       leave;\n                   endif;",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#143:24"
                                                 },
                                                 "flattened" : true,
@@ -2359,6 +2545,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 142,
                                                 "col" : 20,
+                                                "text" : "if *in12 = *on;\n                       exitProgram = *on;\n                       leave;",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#142:20"
                                               },
                                               "id" : "sources\\edt_prsnl.sqlrpgle#142:20"
@@ -2375,6 +2562,7 @@
                                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                                     "line" : 151,
                                                     "col" : 26,
+                                                    "text" : "'Gebruiker verwijderd.';\n                   exfmt SCREEN01;\n       ",
                                                     "id" : "sources\\edt_prsnl.sqlrpgle#151:26"
                                                   },
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#151:26"
@@ -2384,6 +2572,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 151,
                                                   "col" : 20,
+                                                  "text" : "dsply 'Gebruiker verwijderd.';\n                   exfmt SCREEN01;\n       ",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#151:20"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#151:20"
@@ -2396,6 +2585,7 @@
                                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                                   "line" : 152,
                                                   "col" : 20,
+                                                  "text" : "exfmt SCREEN01;\n       \n       ",
                                                   "id" : "sources\\edt_prsnl.sqlrpgle#152:20"
                                                 },
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#152:20"
@@ -2405,6 +2595,7 @@
                                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                                 "line" : 137,
                                                 "col" : 16,
+                                                "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                                 "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
                                               },
                                               "id" : "sources\\edt_prsnl.sqlrpgle#137:36"
@@ -2414,6 +2605,7 @@
                                               "file" : "sources\\edt_prsnl.sqlrpgle",
                                               "line" : 137,
                                               "col" : 16,
+                                              "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                               "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
                                             },
                                             "id" : "sources\\edt_prsnl.sqlrpgle#137:37"
@@ -2423,6 +2615,7 @@
                                             "file" : "sources\\edt_prsnl.sqlrpgle",
                                             "line" : 137,
                                             "col" : 16,
+                                            "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                             "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
                                           },
                                           "id" : "sources\\edt_prsnl.sqlrpgle#137:38"
@@ -2432,6 +2625,7 @@
                                           "file" : "sources\\edt_prsnl.sqlrpgle",
                                           "line" : 137,
                                           "col" : 16,
+                                          "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                           "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
                                         },
                                         "id" : "sources\\edt_prsnl.sqlrpgle#137:39"
@@ -2441,6 +2635,7 @@
                                         "file" : "sources\\edt_prsnl.sqlrpgle",
                                         "line" : 137,
                                         "col" : 16,
+                                        "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                         "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
                                       },
                                       "id" : "sources\\edt_prsnl.sqlrpgle#137:40"
@@ -2450,6 +2645,7 @@
                                       "file" : "sources\\edt_prsnl.sqlrpgle",
                                       "line" : 137,
                                       "col" : 16,
+                                      "text" : "if not invalidInput;\n                   MSGTEXT = ''; // eventuele foutmelding weghalen\n                   CURRENTID = ID;",
                                       "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
                                     },
                                     "id" : "sources\\edt_prsnl.sqlrpgle#137:16"
@@ -2459,6 +2655,7 @@
                                     "file" : "sources\\edt_prsnl.sqlrpgle",
                                     "line" : 113,
                                     "col" : 12,
+                                    "text" : "if SELECTION = '3';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                     "id" : "sources\\edt_prsnl.sqlrpgle#113:12"
                                   },
                                   "id" : "sources\\edt_prsnl.sqlrpgle#113:37"
@@ -2468,6 +2665,7 @@
                                   "file" : "sources\\edt_prsnl.sqlrpgle",
                                   "line" : 113,
                                   "col" : 12,
+                                  "text" : "if SELECTION = '3';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                   "id" : "sources\\edt_prsnl.sqlrpgle#113:12"
                                 },
                                 "id" : "sources\\edt_prsnl.sqlrpgle#113:38"
@@ -2477,6 +2675,7 @@
                                 "file" : "sources\\edt_prsnl.sqlrpgle",
                                 "line" : 113,
                                 "col" : 12,
+                                "text" : "if SELECTION = '3';\n               // Controleer of ID veld leeg is\n               if ID = *blanks;",
                                 "id" : "sources\\edt_prsnl.sqlrpgle#113:12"
                               },
                               "id" : "sources\\edt_prsnl.sqlrpgle#113:12"
@@ -2486,6 +2685,7 @@
                               "file" : "sources\\edt_prsnl.sqlrpgle",
                               "line" : 9,
                               "col" : 8,
+                              "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                               "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                             },
                             "id" : "sources\\edt_prsnl.sqlrpgle#9:35"
@@ -2495,6 +2695,7 @@
                             "file" : "sources\\edt_prsnl.sqlrpgle",
                             "line" : 9,
                             "col" : 8,
+                            "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                             "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                           },
                           "id" : "sources\\edt_prsnl.sqlrpgle#9:36"
@@ -2504,6 +2705,7 @@
                           "file" : "sources\\edt_prsnl.sqlrpgle",
                           "line" : 9,
                           "col" : 8,
+                          "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                           "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                         },
                         "id" : "sources\\edt_prsnl.sqlrpgle#9:37"
@@ -2513,6 +2715,7 @@
                         "file" : "sources\\edt_prsnl.sqlrpgle",
                         "line" : 9,
                         "col" : 8,
+                        "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                         "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                       },
                       "id" : "sources\\edt_prsnl.sqlrpgle#9:38"
@@ -2522,6 +2725,7 @@
                       "file" : "sources\\edt_prsnl.sqlrpgle",
                       "line" : 9,
                       "col" : 8,
+                      "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                       "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                     },
                     "id" : "sources\\edt_prsnl.sqlrpgle#9:39"
@@ -2531,6 +2735,7 @@
                     "file" : "sources\\edt_prsnl.sqlrpgle",
                     "line" : 9,
                     "col" : 8,
+                    "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                     "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                   },
                   "id" : "sources\\edt_prsnl.sqlrpgle#9:40"
@@ -2540,6 +2745,7 @@
                   "file" : "sources\\edt_prsnl.sqlrpgle",
                   "line" : 9,
                   "col" : 8,
+                  "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                   "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
                 },
                 "id" : "sources\\edt_prsnl.sqlrpgle#9:41"
@@ -2549,6 +2755,7 @@
                 "file" : "sources\\edt_prsnl.sqlrpgle",
                 "line" : 9,
                 "col" : 8,
+                "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                 "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
               },
               "id" : "sources\\edt_prsnl.sqlrpgle#9:42"
@@ -2558,6 +2765,7 @@
               "file" : "sources\\edt_prsnl.sqlrpgle",
               "line" : 9,
               "col" : 8,
+              "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
               "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
             },
             "id" : "sources\\edt_prsnl.sqlrpgle#9:43"
@@ -2567,6 +2775,7 @@
             "file" : "sources\\edt_prsnl.sqlrpgle",
             "line" : 9,
             "col" : 8,
+            "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
             "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
           },
           "id" : "sources\\edt_prsnl.sqlrpgle#9:44"
@@ -2576,6 +2785,7 @@
           "file" : "sources\\edt_prsnl.sqlrpgle",
           "line" : 9,
           "col" : 8,
+          "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
           "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
         },
         "id" : "sources\\edt_prsnl.sqlrpgle#9:45"
@@ -2585,6 +2795,7 @@
         "file" : "sources\\edt_prsnl.sqlrpgle",
         "line" : 9,
         "col" : 8,
+        "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
         "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
       },
       "id" : "sources\\edt_prsnl.sqlrpgle#9:8"
@@ -2599,6 +2810,7 @@
           "file" : "sources\\edt_prsnl.sqlrpgle",
           "line" : 160,
           "col" : 9,
+          "text" : "inlr = *on;\n       return;\n       ",
           "id" : "sources\\edt_prsnl.sqlrpgle#160:9"
         },
         "nameUpper" : "INLR",
@@ -2611,6 +2823,7 @@
         "file" : "sources\\edt_prsnl.sqlrpgle",
         "line" : 160,
         "col" : 9,
+        "text" : "inlr = *on;\n       return;\n       ",
         "id" : "sources\\edt_prsnl.sqlrpgle#160:9"
       },
       "flattened" : true,

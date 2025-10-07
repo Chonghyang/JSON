@@ -11,6 +11,7 @@
       "file" : "sources\\add_ptnt.sqlrpgle",
       "line" : 2,
       "col" : 8,
+      "text" : "dcl-f ADD_PTNT workstn;\n       \n       dcl-s exitProgram ind;",
       "id" : "sources\\add_ptnt.sqlrpgle#2:8"
     },
     "id" : "sources\\add_ptnt.sqlrpgle#2:8"
@@ -24,6 +25,7 @@
       "file" : "sources\\add_ptnt.sqlrpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-s exitProgram ind;\n       dcl-s invalidInput ind;\n       dcl-s recordExists ind;",
       "id" : "sources\\add_ptnt.sqlrpgle#4:8"
     },
     "static" : false,
@@ -40,6 +42,7 @@
       "file" : "sources\\add_ptnt.sqlrpgle",
       "line" : 5,
       "col" : 8,
+      "text" : "dcl-s invalidInput ind;\n       dcl-s recordExists ind;\n       dcl-s matches int(10);",
       "id" : "sources\\add_ptnt.sqlrpgle#5:8"
     },
     "static" : false,
@@ -56,6 +59,7 @@
       "file" : "sources\\add_ptnt.sqlrpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-s recordExists ind;\n       dcl-s matches int(10);\n       ",
       "id" : "sources\\add_ptnt.sqlrpgle#6:8"
     },
     "static" : false,
@@ -72,6 +76,7 @@
       "file" : "sources\\add_ptnt.sqlrpgle",
       "line" : 7,
       "col" : 8,
+      "text" : "dcl-s matches int(10);\n       \n       dow not exitProgram;",
       "id" : "sources\\add_ptnt.sqlrpgle#7:8"
     },
     "static" : false,
@@ -93,6 +98,7 @@
             "file" : "sources\\add_ptnt.sqlrpgle",
             "line" : 9,
             "col" : 16,
+            "text" : "exitProgram;\n       \n           invalidInput = *off;",
             "id" : "sources\\add_ptnt.sqlrpgle#9:16"
           },
           "nameUpper" : "EXITPROGRAM",
@@ -103,6 +109,7 @@
           "file" : "sources\\add_ptnt.sqlrpgle",
           "line" : 9,
           "col" : 12,
+          "text" : "not exitProgram;\n       \n           invalidInput = *off;",
           "id" : "sources\\add_ptnt.sqlrpgle#9:12"
         },
         "id" : "sources\\add_ptnt.sqlrpgle#9:12"
@@ -119,6 +126,7 @@
               "file" : "sources\\add_ptnt.sqlrpgle",
               "line" : 11,
               "col" : 12,
+              "text" : "invalidInput = *off;\n           recordExists = *off;\n       ",
               "id" : "sources\\add_ptnt.sqlrpgle#11:12"
             },
             "nameUpper" : "INVALIDINPUT",
@@ -131,6 +139,7 @@
             "file" : "sources\\add_ptnt.sqlrpgle",
             "line" : 11,
             "col" : 12,
+            "text" : "invalidInput = *off;\n           recordExists = *off;\n       ",
             "id" : "sources\\add_ptnt.sqlrpgle#11:12"
           },
           "flattened" : true,
@@ -148,6 +157,7 @@
                 "file" : "sources\\add_ptnt.sqlrpgle",
                 "line" : 12,
                 "col" : 12,
+                "text" : "recordExists = *off;\n       \n           exfmt SCREEN03;",
                 "id" : "sources\\add_ptnt.sqlrpgle#12:12"
               },
               "nameUpper" : "RECORDEXISTS",
@@ -160,6 +170,7 @@
               "file" : "sources\\add_ptnt.sqlrpgle",
               "line" : 12,
               "col" : 12,
+              "text" : "recordExists = *off;\n       \n           exfmt SCREEN03;",
               "id" : "sources\\add_ptnt.sqlrpgle#12:12"
             },
             "flattened" : true,
@@ -175,6 +186,7 @@
                 "file" : "sources\\add_ptnt.sqlrpgle",
                 "line" : 14,
                 "col" : 12,
+                "text" : "exfmt SCREEN03;\n       \n           if *in12 = *on;",
                 "id" : "sources\\add_ptnt.sqlrpgle#14:12"
               },
               "id" : "sources\\add_ptnt.sqlrpgle#14:12"
@@ -194,6 +206,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 16,
                       "col" : 15,
+                      "text" : "*in12 = *on;\n               exitProgram = *on;\n               leave;",
                       "id" : "sources\\add_ptnt.sqlrpgle#16:15"
                     },
                     "nameUpper" : "*IN12",
@@ -207,6 +220,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 16,
                       "col" : 23,
+                      "text" : "*on;\n               exitProgram = *on;\n               leave;",
                       "id" : "sources\\add_ptnt.sqlrpgle#16:23"
                     },
                     "nameUpper" : "*ON",
@@ -217,6 +231,7 @@
                     "file" : "sources\\add_ptnt.sqlrpgle",
                     "line" : 16,
                     "col" : 15,
+                    "text" : "*in12 = *on;\n               exitProgram = *on;\n               leave;",
                     "id" : "sources\\add_ptnt.sqlrpgle#16:15"
                   },
                   "id" : "sources\\add_ptnt.sqlrpgle#16:15"
@@ -231,6 +246,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 17,
                       "col" : 16,
+                      "text" : "exitProgram = *on;\n               leave;\n           endif;",
                       "id" : "sources\\add_ptnt.sqlrpgle#17:16"
                     },
                     "nameUpper" : "EXITPROGRAM",
@@ -243,6 +259,7 @@
                     "file" : "sources\\add_ptnt.sqlrpgle",
                     "line" : 17,
                     "col" : 16,
+                    "text" : "exitProgram = *on;\n               leave;\n           endif;",
                     "id" : "sources\\add_ptnt.sqlrpgle#17:16"
                   },
                   "flattened" : true,
@@ -253,6 +270,7 @@
                   "file" : "sources\\add_ptnt.sqlrpgle",
                   "line" : 16,
                   "col" : 12,
+                  "text" : "if *in12 = *on;\n               exitProgram = *on;\n               leave;",
                   "id" : "sources\\add_ptnt.sqlrpgle#16:12"
                 },
                 "id" : "sources\\add_ptnt.sqlrpgle#16:12"
@@ -281,6 +299,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 22,
                               "col" : 15,
+                              "text" : "RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                               "id" : "sources\\add_ptnt.sqlrpgle#22:15"
                             },
                             "nameUpper" : "RNAMEIN",
@@ -294,6 +313,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 22,
                               "col" : 25,
+                              "text" : "*blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                               "id" : "sources\\add_ptnt.sqlrpgle#22:25"
                             },
                             "nameUpper" : "*BLANKS",
@@ -304,6 +324,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 22,
                             "col" : 15,
+                            "text" : "RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                             "id" : "sources\\add_ptnt.sqlrpgle#22:15"
                           },
                           "id" : "sources\\add_ptnt.sqlrpgle#22:15"
@@ -319,6 +340,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 22,
                               "col" : 36,
+                              "text" : "LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                               "id" : "sources\\add_ptnt.sqlrpgle#22:36"
                             },
                             "nameUpper" : "LNAMEIN",
@@ -332,6 +354,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 22,
                               "col" : 46,
+                              "text" : "*blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                               "id" : "sources\\add_ptnt.sqlrpgle#22:46"
                             },
                             "nameUpper" : "*BLANKS",
@@ -342,6 +365,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 22,
                             "col" : 36,
+                            "text" : "LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                             "id" : "sources\\add_ptnt.sqlrpgle#22:36"
                           },
                           "id" : "sources\\add_ptnt.sqlrpgle#22:36"
@@ -351,6 +375,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 22,
                           "col" : 15,
+                          "text" : "RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                           "id" : "sources\\add_ptnt.sqlrpgle#22:15"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#22:15"
@@ -366,6 +391,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 23,
                             "col" : 15,
+                            "text" : "GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst",
                             "id" : "sources\\add_ptnt.sqlrpgle#23:15"
                           },
                           "nameUpper" : "GESLACHT",
@@ -379,6 +405,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 23,
                             "col" : 26,
+                            "text" : "*blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst",
                             "id" : "sources\\add_ptnt.sqlrpgle#23:26"
                           },
                           "nameUpper" : "*BLANKS",
@@ -389,6 +416,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 23,
                           "col" : 15,
+                          "text" : "GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst",
                           "id" : "sources\\add_ptnt.sqlrpgle#23:15"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#23:15"
@@ -398,6 +426,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 22,
                         "col" : 15,
+                        "text" : "RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                         "id" : "sources\\add_ptnt.sqlrpgle#22:15"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#22:15"
@@ -413,6 +442,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 23,
                           "col" : 37,
+                          "text" : "AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst",
                           "id" : "sources\\add_ptnt.sqlrpgle#23:37"
                         },
                         "nameUpper" : "AFDELING",
@@ -426,6 +456,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 23,
                           "col" : 48,
+                          "text" : "*blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst",
                           "id" : "sources\\add_ptnt.sqlrpgle#23:48"
                         },
                         "nameUpper" : "*BLANKS",
@@ -436,6 +467,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 23,
                         "col" : 37,
+                        "text" : "AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst",
                         "id" : "sources\\add_ptnt.sqlrpgle#23:37"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#23:37"
@@ -445,6 +477,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 22,
                       "col" : 15,
+                      "text" : "RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                       "id" : "sources\\add_ptnt.sqlrpgle#22:15"
                     },
                     "id" : "sources\\add_ptnt.sqlrpgle#22:15"
@@ -461,6 +494,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 24,
                           "col" : 16,
+                          "text" : "MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst\n               invalidInput = *on;",
                           "id" : "sources\\add_ptnt.sqlrpgle#24:16"
                         },
                         "nameUpper" : "MSGTEXT",
@@ -473,6 +507,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 24,
                         "col" : 16,
+                        "text" : "MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';\n               *in99 = *on; // Rode tekst\n               invalidInput = *on;",
                         "id" : "sources\\add_ptnt.sqlrpgle#24:16"
                       },
                       "flattened" : true,
@@ -490,6 +525,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 25,
                             "col" : 17,
+                            "text" : "in99 = *on; // Rode tekst\n               invalidInput = *on;\n           endif;",
                             "id" : "sources\\add_ptnt.sqlrpgle#25:17"
                           },
                           "nameUpper" : "IN99",
@@ -502,6 +538,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 25,
                           "col" : 17,
+                          "text" : "in99 = *on; // Rode tekst\n               invalidInput = *on;\n           endif;",
                           "id" : "sources\\add_ptnt.sqlrpgle#25:17"
                         },
                         "flattened" : true,
@@ -517,6 +554,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 26,
                             "col" : 16,
+                            "text" : "invalidInput = *on;\n           endif;\n       ",
                             "id" : "sources\\add_ptnt.sqlrpgle#26:16"
                           },
                           "nameUpper" : "INVALIDINPUT",
@@ -529,6 +567,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 26,
                           "col" : 16,
+                          "text" : "invalidInput = *on;\n           endif;\n       ",
                           "id" : "sources\\add_ptnt.sqlrpgle#26:16"
                         },
                         "flattened" : true,
@@ -539,6 +578,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 22,
                         "col" : 12,
+                        "text" : "if RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                         "id" : "sources\\add_ptnt.sqlrpgle#22:12"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#22:12"
@@ -548,6 +588,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 22,
                       "col" : 12,
+                      "text" : "if RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                       "id" : "sources\\add_ptnt.sqlrpgle#22:12"
                     },
                     "id" : "sources\\add_ptnt.sqlrpgle#22:13"
@@ -557,6 +598,7 @@
                     "file" : "sources\\add_ptnt.sqlrpgle",
                     "line" : 22,
                     "col" : 12,
+                    "text" : "if RNAMEIN = *blanks or LNAMEIN = *blanks or\n              GESLACHT = *blanks or AFDELING = *blanks;\n               MSGTEXT = 'Toevoegen mislukt. Controleer de invoer.';",
                     "id" : "sources\\add_ptnt.sqlrpgle#22:12"
                   },
                   "id" : "sources\\add_ptnt.sqlrpgle#22:12"
@@ -575,6 +617,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 31,
                           "col" : 19,
+                          "text" : "invalidInput;\n               exec sql\n                   SELECT COUNT(*)",
                           "id" : "sources\\add_ptnt.sqlrpgle#31:19"
                         },
                         "nameUpper" : "INVALIDINPUT",
@@ -585,6 +628,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 31,
                         "col" : 15,
+                        "text" : "not invalidInput;\n               exec sql\n                   SELECT COUNT(*)",
                         "id" : "sources\\add_ptnt.sqlrpgle#31:15"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#31:15"
@@ -602,6 +646,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 38,
                             "col" : 19,
+                            "text" : "matches > 0;\n                   MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst",
                             "id" : "sources\\add_ptnt.sqlrpgle#38:19"
                           },
                           "nameUpper" : "MATCHES",
@@ -615,6 +660,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 38,
                             "col" : 29,
+                            "text" : "0;\n                   MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst",
                             "id" : "sources\\add_ptnt.sqlrpgle#38:29"
                           },
                           "id" : "sources\\add_ptnt.sqlrpgle#38:29"
@@ -624,6 +670,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 38,
                           "col" : 19,
+                          "text" : "matches > 0;\n                   MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst",
                           "id" : "sources\\add_ptnt.sqlrpgle#38:19"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#38:19"
@@ -640,6 +687,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 39,
                               "col" : 20,
+                              "text" : "MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst\n                   recordExists = *on;",
                               "id" : "sources\\add_ptnt.sqlrpgle#39:20"
                             },
                             "nameUpper" : "MSGTEXT",
@@ -652,6 +700,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 39,
                             "col" : 20,
+                            "text" : "MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst\n                   recordExists = *on;",
                             "id" : "sources\\add_ptnt.sqlrpgle#39:20"
                           },
                           "flattened" : true,
@@ -669,6 +718,7 @@
                                 "file" : "sources\\add_ptnt.sqlrpgle",
                                 "line" : 40,
                                 "col" : 21,
+                                "text" : "in99 = *on; // Rode tekst\n                   recordExists = *on;\n               endif;",
                                 "id" : "sources\\add_ptnt.sqlrpgle#40:21"
                               },
                               "nameUpper" : "IN99",
@@ -681,6 +731,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 40,
                               "col" : 21,
+                              "text" : "in99 = *on; // Rode tekst\n                   recordExists = *on;\n               endif;",
                               "id" : "sources\\add_ptnt.sqlrpgle#40:21"
                             },
                             "flattened" : true,
@@ -696,6 +747,7 @@
                                 "file" : "sources\\add_ptnt.sqlrpgle",
                                 "line" : 41,
                                 "col" : 20,
+                                "text" : "recordExists = *on;\n               endif;\n           endif;",
                                 "id" : "sources\\add_ptnt.sqlrpgle#41:20"
                               },
                               "nameUpper" : "RECORDEXISTS",
@@ -708,6 +760,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 41,
                               "col" : 20,
+                              "text" : "recordExists = *on;\n               endif;\n           endif;",
                               "id" : "sources\\add_ptnt.sqlrpgle#41:20"
                             },
                             "flattened" : true,
@@ -718,6 +771,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 38,
                             "col" : 16,
+                            "text" : "if matches > 0;\n                   MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst",
                             "id" : "sources\\add_ptnt.sqlrpgle#38:16"
                           },
                           "id" : "sources\\add_ptnt.sqlrpgle#38:18"
@@ -727,6 +781,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 38,
                           "col" : 16,
+                          "text" : "if matches > 0;\n                   MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst",
                           "id" : "sources\\add_ptnt.sqlrpgle#38:16"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#38:19"
@@ -736,6 +791,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 38,
                         "col" : 16,
+                        "text" : "if matches > 0;\n                   MSGTEXT = 'Persoon bestaat al in het systeem.';\n                   *in99 = *on; // Rode tekst",
                         "id" : "sources\\add_ptnt.sqlrpgle#38:16"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#38:16"
@@ -745,6 +801,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 31,
                       "col" : 12,
+                      "text" : "if not invalidInput;\n               exec sql\n                   SELECT COUNT(*)",
                       "id" : "sources\\add_ptnt.sqlrpgle#31:12"
                     },
                     "id" : "sources\\add_ptnt.sqlrpgle#31:12"
@@ -764,6 +821,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 46,
                             "col" : 19,
+                            "text" : "invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                             "id" : "sources\\add_ptnt.sqlrpgle#46:19"
                           },
                           "nameUpper" : "INVALIDINPUT",
@@ -774,6 +832,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 46,
                           "col" : 15,
+                          "text" : "not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                           "id" : "sources\\add_ptnt.sqlrpgle#46:15"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#46:15"
@@ -788,6 +847,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 46,
                             "col" : 40,
+                            "text" : "recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                             "id" : "sources\\add_ptnt.sqlrpgle#46:40"
                           },
                           "nameUpper" : "RECORDEXISTS",
@@ -798,6 +858,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 46,
                           "col" : 36,
+                          "text" : "not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                           "id" : "sources\\add_ptnt.sqlrpgle#46:36"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#46:36"
@@ -807,6 +868,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 46,
                         "col" : 15,
+                        "text" : "not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                         "id" : "sources\\add_ptnt.sqlrpgle#46:15"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#46:15"
@@ -823,6 +885,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 51,
                             "col" : 16,
+                            "text" : "MSGTEXT = %TRIM(RNAMEIN) + ' is succesvol toegevoegd.';\n               *in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan",
                             "id" : "sources\\add_ptnt.sqlrpgle#51:16"
                           },
                           "nameUpper" : "MSGTEXT",
@@ -840,6 +903,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 51,
                               "col" : 26,
+                              "text" : "%TRIM(RNAMEIN) + ' is succesvol toegevoegd.';\n               *in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan",
                               "id" : "sources\\add_ptnt.sqlrpgle#51:26"
                             },
                             "id" : "sources\\add_ptnt.sqlrpgle#51:26"
@@ -852,6 +916,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 51,
                               "col" : 43,
+                              "text" : "' is succesvol toegevoegd.';\n               *in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan",
                               "id" : "sources\\add_ptnt.sqlrpgle#51:43"
                             },
                             "id" : "sources\\add_ptnt.sqlrpgle#51:43"
@@ -861,6 +926,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 51,
                             "col" : 26,
+                            "text" : "%TRIM(RNAMEIN) + ' is succesvol toegevoegd.';\n               *in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan",
                             "id" : "sources\\add_ptnt.sqlrpgle#51:26"
                           },
                           "id" : "sources\\add_ptnt.sqlrpgle#51:26"
@@ -870,6 +936,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 51,
                           "col" : 16,
+                          "text" : "MSGTEXT = %TRIM(RNAMEIN) + ' is succesvol toegevoegd.';\n               *in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan",
                           "id" : "sources\\add_ptnt.sqlrpgle#51:16"
                         },
                         "flattened" : false,
@@ -887,6 +954,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 52,
                               "col" : 17,
+                              "text" : "in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan\n       ",
                               "id" : "sources\\add_ptnt.sqlrpgle#52:17"
                             },
                             "nameUpper" : "IN99",
@@ -899,6 +967,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 52,
                             "col" : 17,
+                            "text" : "in99 = *off; // rode tekst uit\n               *in98 = *on; // groene tekst aan\n       ",
                             "id" : "sources\\add_ptnt.sqlrpgle#52:17"
                           },
                           "flattened" : true,
@@ -916,6 +985,7 @@
                                 "file" : "sources\\add_ptnt.sqlrpgle",
                                 "line" : 53,
                                 "col" : 17,
+                                "text" : "in98 = *on; // groene tekst aan\n       \n               // Velden leegmaken na succesvolle invoer",
                                 "id" : "sources\\add_ptnt.sqlrpgle#53:17"
                               },
                               "nameUpper" : "IN98",
@@ -928,6 +998,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 53,
                               "col" : 17,
+                              "text" : "in98 = *on; // groene tekst aan\n       \n               // Velden leegmaken na succesvolle invoer",
                               "id" : "sources\\add_ptnt.sqlrpgle#53:17"
                             },
                             "flattened" : true,
@@ -945,6 +1016,7 @@
                                   "file" : "sources\\add_ptnt.sqlrpgle",
                                   "line" : 56,
                                   "col" : 16,
+                                  "text" : "RNAMEIN = *blanks;\n               LNAMEIN = *blanks;\n               GESLACHT = *blanks;",
                                   "id" : "sources\\add_ptnt.sqlrpgle#56:16"
                                 },
                                 "nameUpper" : "RNAMEIN",
@@ -957,6 +1029,7 @@
                                 "file" : "sources\\add_ptnt.sqlrpgle",
                                 "line" : 56,
                                 "col" : 16,
+                                "text" : "RNAMEIN = *blanks;\n               LNAMEIN = *blanks;\n               GESLACHT = *blanks;",
                                 "id" : "sources\\add_ptnt.sqlrpgle#56:16"
                               },
                               "flattened" : true,
@@ -974,6 +1047,7 @@
                                     "file" : "sources\\add_ptnt.sqlrpgle",
                                     "line" : 57,
                                     "col" : 16,
+                                    "text" : "LNAMEIN = *blanks;\n               GESLACHT = *blanks;\n               AFDELING = *blanks;",
                                     "id" : "sources\\add_ptnt.sqlrpgle#57:16"
                                   },
                                   "nameUpper" : "LNAMEIN",
@@ -986,6 +1060,7 @@
                                   "file" : "sources\\add_ptnt.sqlrpgle",
                                   "line" : 57,
                                   "col" : 16,
+                                  "text" : "LNAMEIN = *blanks;\n               GESLACHT = *blanks;\n               AFDELING = *blanks;",
                                   "id" : "sources\\add_ptnt.sqlrpgle#57:16"
                                 },
                                 "flattened" : true,
@@ -1003,6 +1078,7 @@
                                       "file" : "sources\\add_ptnt.sqlrpgle",
                                       "line" : 58,
                                       "col" : 16,
+                                      "text" : "GESLACHT = *blanks;\n               AFDELING = *blanks;\n           endif;",
                                       "id" : "sources\\add_ptnt.sqlrpgle#58:16"
                                     },
                                     "nameUpper" : "GESLACHT",
@@ -1015,6 +1091,7 @@
                                     "file" : "sources\\add_ptnt.sqlrpgle",
                                     "line" : 58,
                                     "col" : 16,
+                                    "text" : "GESLACHT = *blanks;\n               AFDELING = *blanks;\n           endif;",
                                     "id" : "sources\\add_ptnt.sqlrpgle#58:16"
                                   },
                                   "flattened" : true,
@@ -1030,6 +1107,7 @@
                                       "file" : "sources\\add_ptnt.sqlrpgle",
                                       "line" : 59,
                                       "col" : 16,
+                                      "text" : "AFDELING = *blanks;\n           endif;\n       enddo;",
                                       "id" : "sources\\add_ptnt.sqlrpgle#59:16"
                                     },
                                     "nameUpper" : "AFDELING",
@@ -1042,6 +1120,7 @@
                                     "file" : "sources\\add_ptnt.sqlrpgle",
                                     "line" : 59,
                                     "col" : 16,
+                                    "text" : "AFDELING = *blanks;\n           endif;\n       enddo;",
                                     "id" : "sources\\add_ptnt.sqlrpgle#59:16"
                                   },
                                   "flattened" : true,
@@ -1052,6 +1131,7 @@
                                   "file" : "sources\\add_ptnt.sqlrpgle",
                                   "line" : 46,
                                   "col" : 12,
+                                  "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                                   "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                                 },
                                 "id" : "sources\\add_ptnt.sqlrpgle#46:16"
@@ -1061,6 +1141,7 @@
                                 "file" : "sources\\add_ptnt.sqlrpgle",
                                 "line" : 46,
                                 "col" : 12,
+                                "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                                 "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                               },
                               "id" : "sources\\add_ptnt.sqlrpgle#46:17"
@@ -1070,6 +1151,7 @@
                               "file" : "sources\\add_ptnt.sqlrpgle",
                               "line" : 46,
                               "col" : 12,
+                              "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                               "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                             },
                             "id" : "sources\\add_ptnt.sqlrpgle#46:18"
@@ -1079,6 +1161,7 @@
                             "file" : "sources\\add_ptnt.sqlrpgle",
                             "line" : 46,
                             "col" : 12,
+                            "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                             "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                           },
                           "id" : "sources\\add_ptnt.sqlrpgle#46:19"
@@ -1088,6 +1171,7 @@
                           "file" : "sources\\add_ptnt.sqlrpgle",
                           "line" : 46,
                           "col" : 12,
+                          "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                           "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                         },
                         "id" : "sources\\add_ptnt.sqlrpgle#46:20"
@@ -1097,6 +1181,7 @@
                         "file" : "sources\\add_ptnt.sqlrpgle",
                         "line" : 46,
                         "col" : 12,
+                        "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                         "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                       },
                       "id" : "sources\\add_ptnt.sqlrpgle#46:21"
@@ -1106,6 +1191,7 @@
                       "file" : "sources\\add_ptnt.sqlrpgle",
                       "line" : 46,
                       "col" : 12,
+                      "text" : "if not invalidInput and not recordExists;\n               exec sql\n                   INSERT INTO patienten2 (Roepnaam, Achternaam, Geslacht, Afdeling)",
                       "id" : "sources\\add_ptnt.sqlrpgle#46:12"
                     },
                     "id" : "sources\\add_ptnt.sqlrpgle#46:12"
@@ -1115,6 +1201,7 @@
                     "file" : "sources\\add_ptnt.sqlrpgle",
                     "line" : 9,
                     "col" : 8,
+                    "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                     "id" : "sources\\add_ptnt.sqlrpgle#9:8"
                   },
                   "id" : "sources\\add_ptnt.sqlrpgle#9:18"
@@ -1124,6 +1211,7 @@
                   "file" : "sources\\add_ptnt.sqlrpgle",
                   "line" : 9,
                   "col" : 8,
+                  "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                   "id" : "sources\\add_ptnt.sqlrpgle#9:8"
                 },
                 "id" : "sources\\add_ptnt.sqlrpgle#9:19"
@@ -1133,6 +1221,7 @@
                 "file" : "sources\\add_ptnt.sqlrpgle",
                 "line" : 9,
                 "col" : 8,
+                "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
                 "id" : "sources\\add_ptnt.sqlrpgle#9:8"
               },
               "id" : "sources\\add_ptnt.sqlrpgle#9:20"
@@ -1142,6 +1231,7 @@
               "file" : "sources\\add_ptnt.sqlrpgle",
               "line" : 9,
               "col" : 8,
+              "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
               "id" : "sources\\add_ptnt.sqlrpgle#9:8"
             },
             "id" : "sources\\add_ptnt.sqlrpgle#9:21"
@@ -1151,6 +1241,7 @@
             "file" : "sources\\add_ptnt.sqlrpgle",
             "line" : 9,
             "col" : 8,
+            "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
             "id" : "sources\\add_ptnt.sqlrpgle#9:8"
           },
           "id" : "sources\\add_ptnt.sqlrpgle#9:22"
@@ -1160,6 +1251,7 @@
           "file" : "sources\\add_ptnt.sqlrpgle",
           "line" : 9,
           "col" : 8,
+          "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
           "id" : "sources\\add_ptnt.sqlrpgle#9:8"
         },
         "id" : "sources\\add_ptnt.sqlrpgle#9:23"
@@ -1169,6 +1261,7 @@
         "file" : "sources\\add_ptnt.sqlrpgle",
         "line" : 9,
         "col" : 8,
+        "text" : "dow not exitProgram;\n       \n           invalidInput = *off;",
         "id" : "sources\\add_ptnt.sqlrpgle#9:8"
       },
       "id" : "sources\\add_ptnt.sqlrpgle#9:8"
@@ -1183,6 +1276,7 @@
           "file" : "sources\\add_ptnt.sqlrpgle",
           "line" : 63,
           "col" : 9,
+          "text" : "inlr = *on;\n       return;\n       ",
           "id" : "sources\\add_ptnt.sqlrpgle#63:9"
         },
         "nameUpper" : "INLR",
@@ -1195,6 +1289,7 @@
         "file" : "sources\\add_ptnt.sqlrpgle",
         "line" : 63,
         "col" : 9,
+        "text" : "inlr = *on;\n       return;\n       ",
         "id" : "sources\\add_ptnt.sqlrpgle#63:9"
       },
       "flattened" : true,

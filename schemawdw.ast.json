@@ -8,6 +8,7 @@
       "file" : "sources\\schemawdw.sqlrpgle",
       "line" : 3,
       "col" : 8,
+      "text" : "ctl-opt NoMain;\n       dcl-f schemawdw workstn sfile(SCHEMASFL:RRN#);\n       ",
       "id" : "sources\\schemawdw.sqlrpgle#3:8"
     },
     "id" : "sources\\schemawdw.sqlrpgle#3:8"
@@ -22,6 +23,7 @@
       "file" : "sources\\schemawdw.sqlrpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-f schemawdw workstn sfile(SCHEMASFL:RRN#);\n       \n       dcl-s RRN# int(10) inz(0);",
       "id" : "sources\\schemawdw.sqlrpgle#4:8"
     },
     "id" : "sources\\schemawdw.sqlrpgle#4:8"
@@ -35,6 +37,7 @@
       "file" : "sources\\schemawdw.sqlrpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-s RRN# int(10) inz(0);\n       dcl-s ReturnValue char(20);\n       ",
       "id" : "sources\\schemawdw.sqlrpgle#6:8"
     },
     "static" : false,
@@ -52,6 +55,7 @@
       "file" : "sources\\schemawdw.sqlrpgle",
       "line" : 7,
       "col" : 8,
+      "text" : "dcl-s ReturnValue char(20);\n       \n       dcl-proc SchmaWdw export;",
       "id" : "sources\\schemawdw.sqlrpgle#7:8"
     },
     "static" : false,
@@ -74,6 +78,7 @@
           "file" : "sources\\schemawdw.sqlrpgle",
           "line" : 13,
           "col" : 12,
+          "text" : "exsr ClearSfl;\n           exsr LoadSfl;\n       ",
           "id" : "sources\\schemawdw.sqlrpgle#13:12"
         },
         "subroutineUpper" : "CLEARSFL",
@@ -89,6 +94,7 @@
             "file" : "sources\\schemawdw.sqlrpgle",
             "line" : 14,
             "col" : 12,
+            "text" : "exsr LoadSfl;\n       \n       ",
             "id" : "sources\\schemawdw.sqlrpgle#14:12"
           },
           "subroutineUpper" : "LOADSFL",
@@ -104,6 +110,7 @@
               "file" : "sources\\schemawdw.sqlrpgle",
               "line" : 17,
               "col" : 12,
+              "text" : "write BASEFMT;\n           write FOOTER;\n           exfmt SCHEMACTL;",
               "id" : "sources\\schemawdw.sqlrpgle#17:12"
             },
             "id" : "sources\\schemawdw.sqlrpgle#17:12"
@@ -118,6 +125,7 @@
                 "file" : "sources\\schemawdw.sqlrpgle",
                 "line" : 18,
                 "col" : 12,
+                "text" : "write FOOTER;\n           exfmt SCHEMACTL;\n           exsr ReadUserInput;",
                 "id" : "sources\\schemawdw.sqlrpgle#18:12"
               },
               "id" : "sources\\schemawdw.sqlrpgle#18:12"
@@ -132,6 +140,7 @@
                   "file" : "sources\\schemawdw.sqlrpgle",
                   "line" : 19,
                   "col" : 12,
+                  "text" : "exfmt SCHEMACTL;\n           exsr ReadUserInput;\n       ",
                   "id" : "sources\\schemawdw.sqlrpgle#19:12"
                 },
                 "id" : "sources\\schemawdw.sqlrpgle#19:12"
@@ -146,6 +155,7 @@
                     "file" : "sources\\schemawdw.sqlrpgle",
                     "line" : 20,
                     "col" : 12,
+                    "text" : "exsr ReadUserInput;\n       \n           *inlr=*on;",
                     "id" : "sources\\schemawdw.sqlrpgle#20:12"
                   },
                   "subroutineUpper" : "READUSERINPUT",
@@ -163,6 +173,7 @@
                         "file" : "sources\\schemawdw.sqlrpgle",
                         "line" : 22,
                         "col" : 13,
+                        "text" : "inlr=*on;\n           return Returnvalue;\n       ",
                         "id" : "sources\\schemawdw.sqlrpgle#22:13"
                       },
                       "nameUpper" : "INLR",
@@ -175,6 +186,7 @@
                       "file" : "sources\\schemawdw.sqlrpgle",
                       "line" : 22,
                       "col" : 13,
+                      "text" : "inlr=*on;\n           return Returnvalue;\n       ",
                       "id" : "sources\\schemawdw.sqlrpgle#22:13"
                     },
                     "flattened" : true,
@@ -190,6 +202,7 @@
                         "file" : "sources\\schemawdw.sqlrpgle",
                         "line" : 28,
                         "col" : 12,
+                        "text" : "begsr ClearSfl;\n               *in40 = *off;\n               write SCHEMACTL;",
                         "id" : "sources\\schemawdw.sqlrpgle#28:12"
                       },
                       "id" : "sources\\schemawdw.sqlrpgle#28:12"
@@ -206,6 +219,7 @@
                             "file" : "sources\\schemawdw.sqlrpgle",
                             "line" : 29,
                             "col" : 17,
+                            "text" : "in40 = *off;\n               write SCHEMACTL;\n               *in40=*on;",
                             "id" : "sources\\schemawdw.sqlrpgle#29:17"
                           },
                           "nameUpper" : "IN40",
@@ -218,6 +232,7 @@
                           "file" : "sources\\schemawdw.sqlrpgle",
                           "line" : 29,
                           "col" : 17,
+                          "text" : "in40 = *off;\n               write SCHEMACTL;\n               *in40=*on;",
                           "id" : "sources\\schemawdw.sqlrpgle#29:17"
                         },
                         "flattened" : true,
@@ -233,6 +248,7 @@
                             "file" : "sources\\schemawdw.sqlrpgle",
                             "line" : 30,
                             "col" : 16,
+                            "text" : "write SCHEMACTL;\n               *in40=*on;\n               RRN# = 0;",
                             "id" : "sources\\schemawdw.sqlrpgle#30:16"
                           },
                           "id" : "sources\\schemawdw.sqlrpgle#30:16"
@@ -249,6 +265,7 @@
                                 "file" : "sources\\schemawdw.sqlrpgle",
                                 "line" : 31,
                                 "col" : 17,
+                                "text" : "in40=*on;\n               RRN# = 0;\n           endsr;",
                                 "id" : "sources\\schemawdw.sqlrpgle#31:17"
                               },
                               "nameUpper" : "IN40",
@@ -261,6 +278,7 @@
                               "file" : "sources\\schemawdw.sqlrpgle",
                               "line" : 31,
                               "col" : 17,
+                              "text" : "in40=*on;\n               RRN# = 0;\n           endsr;",
                               "id" : "sources\\schemawdw.sqlrpgle#31:17"
                             },
                             "flattened" : true,
@@ -278,6 +296,7 @@
                                   "file" : "sources\\schemawdw.sqlrpgle",
                                   "line" : 32,
                                   "col" : 16,
+                                  "text" : "RRN# = 0;\n           endsr;\n       ",
                                   "id" : "sources\\schemawdw.sqlrpgle#32:16"
                                 },
                                 "nameUpper" : "RRN#",
@@ -290,6 +309,7 @@
                                 "file" : "sources\\schemawdw.sqlrpgle",
                                 "line" : 32,
                                 "col" : 16,
+                                "text" : "RRN# = 0;\n           endsr;\n       ",
                                 "id" : "sources\\schemawdw.sqlrpgle#32:16"
                               },
                               "flattened" : true,
@@ -304,6 +324,7 @@
                                   "file" : "sources\\schemawdw.sqlrpgle",
                                   "line" : 33,
                                   "col" : 12,
+                                  "text" : "endsr;\n       \n           begsr LoadSfl;",
                                   "id" : "sources\\schemawdw.sqlrpgle#33:12"
                                 },
                                 "id" : "sources\\schemawdw.sqlrpgle#33:12"
@@ -318,6 +339,7 @@
                                     "file" : "sources\\schemawdw.sqlrpgle",
                                     "line" : 35,
                                     "col" : 12,
+                                    "text" : "begsr LoadSfl;\n               EXEC SQL\n               DECLARE C1 CURSOR FOR",
                                     "id" : "sources\\schemawdw.sqlrpgle#35:12"
                                   },
                                   "id" : "sources\\schemawdw.sqlrpgle#35:12"
@@ -337,6 +359,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 41,
                                           "col" : 19,
+                                          "text" : "SQLSTATE = '00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                           "id" : "sources\\schemawdw.sqlrpgle#41:19"
                                         },
                                         "nameUpper" : "SQLSTATE",
@@ -350,6 +373,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 41,
                                           "col" : 30,
+                                          "text" : "'00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                           "id" : "sources\\schemawdw.sqlrpgle#41:30"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#41:30"
@@ -359,6 +383,7 @@
                                         "file" : "sources\\schemawdw.sqlrpgle",
                                         "line" : 41,
                                         "col" : 19,
+                                        "text" : "SQLSTATE = '00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                         "id" : "sources\\schemawdw.sqlrpgle#41:19"
                                       },
                                       "id" : "sources\\schemawdw.sqlrpgle#41:19"
@@ -376,6 +401,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 42,
                                             "col" : 24,
+                                            "text" : "SQLSTATE = '00000';\n                       RRN# += 1;\n                       EXEC SQL",
                                             "id" : "sources\\schemawdw.sqlrpgle#42:24"
                                           },
                                           "nameUpper" : "SQLSTATE",
@@ -389,6 +415,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 42,
                                             "col" : 35,
+                                            "text" : "'00000';\n                       RRN# += 1;\n                       EXEC SQL",
                                             "id" : "sources\\schemawdw.sqlrpgle#42:35"
                                           },
                                           "id" : "sources\\schemawdw.sqlrpgle#42:35"
@@ -398,6 +425,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 42,
                                           "col" : 24,
+                                          "text" : "SQLSTATE = '00000';\n                       RRN# += 1;\n                       EXEC SQL",
                                           "id" : "sources\\schemawdw.sqlrpgle#42:24"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#42:24"
@@ -414,6 +442,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 43,
                                               "col" : 24,
+                                              "text" : "RRN# += 1;\n                       EXEC SQL\n                           FETCH NEXT FROM C1 INTO :OPT,:SASCHEMA;",
                                               "id" : "sources\\schemawdw.sqlrpgle#43:24"
                                             },
                                             "nameUpper" : "RRN#",
@@ -426,6 +455,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 43,
                                             "col" : 24,
+                                            "text" : "RRN# += 1;\n                       EXEC SQL\n                           FETCH NEXT FROM C1 INTO :OPT,:SASCHEMA;",
                                             "id" : "sources\\schemawdw.sqlrpgle#43:24"
                                           },
                                           "flattened" : true,
@@ -444,6 +474,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 46,
                                                 "col" : 27,
+                                                "text" : "SQLSTATE = '00000';\n                           write SCHEMASFL;\n                       elseif RRN# = 1;",
                                                 "id" : "sources\\schemawdw.sqlrpgle#46:27"
                                               },
                                               "nameUpper" : "SQLSTATE",
@@ -457,6 +488,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 46,
                                                 "col" : 38,
+                                                "text" : "'00000';\n                           write SCHEMASFL;\n                       elseif RRN# = 1;",
                                                 "id" : "sources\\schemawdw.sqlrpgle#46:38"
                                               },
                                               "id" : "sources\\schemawdw.sqlrpgle#46:38"
@@ -466,6 +498,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 46,
                                               "col" : 27,
+                                              "text" : "SQLSTATE = '00000';\n                           write SCHEMASFL;\n                       elseif RRN# = 1;",
                                               "id" : "sources\\schemawdw.sqlrpgle#46:27"
                                             },
                                             "id" : "sources\\schemawdw.sqlrpgle#46:27"
@@ -480,6 +513,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 47,
                                                 "col" : 28,
+                                                "text" : "write SCHEMASFL;\n                       elseif RRN# = 1;\n                           SASCHEMA = 'Afdelingen N/A';",
                                                 "id" : "sources\\schemawdw.sqlrpgle#47:28"
                                               },
                                               "id" : "sources\\schemawdw.sqlrpgle#47:28"
@@ -496,6 +530,7 @@
                                                     "file" : "sources\\schemawdw.sqlrpgle",
                                                     "line" : 49,
                                                     "col" : 28,
+                                                    "text" : "SASCHEMA = 'Afdelingen N/A';\n                           write SCHEMASFL;\n                       endif;",
                                                     "id" : "sources\\schemawdw.sqlrpgle#49:28"
                                                   },
                                                   "nameUpper" : "SASCHEMA",
@@ -508,6 +543,7 @@
                                                   "file" : "sources\\schemawdw.sqlrpgle",
                                                   "line" : 49,
                                                   "col" : 28,
+                                                  "text" : "SASCHEMA = 'Afdelingen N/A';\n                           write SCHEMASFL;\n                       endif;",
                                                   "id" : "sources\\schemawdw.sqlrpgle#49:28"
                                                 },
                                                 "flattened" : true,
@@ -521,6 +557,7 @@
                                                   "file" : "sources\\schemawdw.sqlrpgle",
                                                   "line" : 50,
                                                   "col" : 28,
+                                                  "text" : "write SCHEMASFL;\n                       endif;\n                   enddo;",
                                                   "id" : "sources\\schemawdw.sqlrpgle#50:28"
                                                 },
                                                 "id" : "sources\\schemawdw.sqlrpgle#50:28"
@@ -530,6 +567,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 46,
                                                 "col" : 24,
+                                                "text" : "if SQLSTATE = '00000';\n                           write SCHEMASFL;\n                       elseif RRN# = 1;",
                                                 "id" : "sources\\schemawdw.sqlrpgle#46:24"
                                               },
                                               "id" : "sources\\schemawdw.sqlrpgle#46:24"
@@ -539,6 +577,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 46,
                                               "col" : 24,
+                                              "text" : "if SQLSTATE = '00000';\n                           write SCHEMASFL;\n                       elseif RRN# = 1;",
                                               "id" : "sources\\schemawdw.sqlrpgle#46:24"
                                             },
                                             "id" : "sources\\schemawdw.sqlrpgle#46:25"
@@ -548,6 +587,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 46,
                                             "col" : 24,
+                                            "text" : "if SQLSTATE = '00000';\n                           write SCHEMASFL;\n                       elseif RRN# = 1;",
                                             "id" : "sources\\schemawdw.sqlrpgle#46:24"
                                           },
                                           "id" : "sources\\schemawdw.sqlrpgle#46:24"
@@ -557,6 +597,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 42,
                                           "col" : 20,
+                                          "text" : "dow SQLSTATE = '00000';\n                       RRN# += 1;\n                       EXEC SQL",
                                           "id" : "sources\\schemawdw.sqlrpgle#42:20"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#42:22"
@@ -566,6 +607,7 @@
                                         "file" : "sources\\schemawdw.sqlrpgle",
                                         "line" : 42,
                                         "col" : 20,
+                                        "text" : "dow SQLSTATE = '00000';\n                       RRN# += 1;\n                       EXEC SQL",
                                         "id" : "sources\\schemawdw.sqlrpgle#42:20"
                                       },
                                       "id" : "sources\\schemawdw.sqlrpgle#42:20"
@@ -582,6 +624,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 54,
                                             "col" : 26,
+                                            "text" : "'Failed to fetch';\n                   SASCHEMA = 'Afdelingen N/A';\n                   RRN# += 1;",
                                             "id" : "sources\\schemawdw.sqlrpgle#54:26"
                                           },
                                           "id" : "sources\\schemawdw.sqlrpgle#54:26"
@@ -591,6 +634,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 54,
                                           "col" : 20,
+                                          "text" : "dsply 'Failed to fetch';\n                   SASCHEMA = 'Afdelingen N/A';\n                   RRN# += 1;",
                                           "id" : "sources\\schemawdw.sqlrpgle#54:20"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#54:20"
@@ -607,6 +651,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 55,
                                               "col" : 20,
+                                              "text" : "SASCHEMA = 'Afdelingen N/A';\n                   RRN# += 1;\n                   write SCHEMASFL;",
                                               "id" : "sources\\schemawdw.sqlrpgle#55:20"
                                             },
                                             "nameUpper" : "SASCHEMA",
@@ -619,6 +664,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 55,
                                             "col" : 20,
+                                            "text" : "SASCHEMA = 'Afdelingen N/A';\n                   RRN# += 1;\n                   write SCHEMASFL;",
                                             "id" : "sources\\schemawdw.sqlrpgle#55:20"
                                           },
                                           "flattened" : true,
@@ -636,6 +682,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 56,
                                                 "col" : 20,
+                                                "text" : "RRN# += 1;\n                   write SCHEMASFL;\n                   // dsply %char(SNDEPNUM);",
                                                 "id" : "sources\\schemawdw.sqlrpgle#56:20"
                                               },
                                               "nameUpper" : "RRN#",
@@ -648,6 +695,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 56,
                                               "col" : 20,
+                                              "text" : "RRN# += 1;\n                   write SCHEMASFL;\n                   // dsply %char(SNDEPNUM);",
                                               "id" : "sources\\schemawdw.sqlrpgle#56:20"
                                             },
                                             "flattened" : true,
@@ -661,6 +709,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 57,
                                               "col" : 20,
+                                              "text" : "write SCHEMASFL;\n                   // dsply %char(SNDEPNUM);\n                   // dsply SADEPS;",
                                               "id" : "sources\\schemawdw.sqlrpgle#57:20"
                                             },
                                             "id" : "sources\\schemawdw.sqlrpgle#57:20"
@@ -670,6 +719,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 41,
                                             "col" : 16,
+                                            "text" : "if SQLSTATE = '00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                             "id" : "sources\\schemawdw.sqlrpgle#41:16"
                                           },
                                           "id" : "sources\\schemawdw.sqlrpgle#41:19"
@@ -679,6 +729,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 41,
                                           "col" : 16,
+                                          "text" : "if SQLSTATE = '00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                           "id" : "sources\\schemawdw.sqlrpgle#41:16"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#41:20"
@@ -688,6 +739,7 @@
                                         "file" : "sources\\schemawdw.sqlrpgle",
                                         "line" : 41,
                                         "col" : 16,
+                                        "text" : "if SQLSTATE = '00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                         "id" : "sources\\schemawdw.sqlrpgle#41:16"
                                       },
                                       "id" : "sources\\schemawdw.sqlrpgle#41:21"
@@ -697,6 +749,7 @@
                                       "file" : "sources\\schemawdw.sqlrpgle",
                                       "line" : 41,
                                       "col" : 16,
+                                      "text" : "if SQLSTATE = '00000';\n                   dow SQLSTATE = '00000';\n                       RRN# += 1;",
                                       "id" : "sources\\schemawdw.sqlrpgle#41:16"
                                     },
                                     "id" : "sources\\schemawdw.sqlrpgle#41:16"
@@ -710,6 +763,7 @@
                                         "file" : "sources\\schemawdw.sqlrpgle",
                                         "line" : 63,
                                         "col" : 12,
+                                        "text" : "endsr;\n       \n           begsr ReadUserInput;",
                                         "id" : "sources\\schemawdw.sqlrpgle#63:12"
                                       },
                                       "id" : "sources\\schemawdw.sqlrpgle#63:12"
@@ -724,6 +778,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 65,
                                           "col" : 12,
+                                          "text" : "begsr ReadUserInput;\n               readc SCHEMASFL;\n               dow not %eof(schemawdw);",
                                           "id" : "sources\\schemawdw.sqlrpgle#65:12"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#65:12"
@@ -738,6 +793,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 66,
                                             "col" : 16,
+                                            "text" : "readc SCHEMASFL;\n               dow not %eof(schemawdw);\n                   ReturnValue = SASCHEMA;",
                                             "id" : "sources\\schemawdw.sqlrpgle#66:16"
                                           },
                                           "id" : "sources\\schemawdw.sqlrpgle#66:16"
@@ -756,6 +812,7 @@
                                                   "file" : "sources\\schemawdw.sqlrpgle",
                                                   "line" : 67,
                                                   "col" : 24,
+                                                  "text" : "%eof(schemawdw);\n                   ReturnValue = SASCHEMA;\n                   readc SCHEMASFL;",
                                                   "id" : "sources\\schemawdw.sqlrpgle#67:24"
                                                 },
                                                 "id" : "sources\\schemawdw.sqlrpgle#67:24"
@@ -765,6 +822,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 67,
                                                 "col" : 20,
+                                                "text" : "not %eof(schemawdw);\n                   ReturnValue = SASCHEMA;\n                   readc SCHEMASFL;",
                                                 "id" : "sources\\schemawdw.sqlrpgle#67:20"
                                               },
                                               "id" : "sources\\schemawdw.sqlrpgle#67:20"
@@ -781,6 +839,7 @@
                                                     "file" : "sources\\schemawdw.sqlrpgle",
                                                     "line" : 68,
                                                     "col" : 20,
+                                                    "text" : "ReturnValue = SASCHEMA;\n                   readc SCHEMASFL;\n               enddo;",
                                                     "id" : "sources\\schemawdw.sqlrpgle#68:20"
                                                   },
                                                   "nameUpper" : "RETURNVALUE",
@@ -793,6 +852,7 @@
                                                   "file" : "sources\\schemawdw.sqlrpgle",
                                                   "line" : 68,
                                                   "col" : 20,
+                                                  "text" : "ReturnValue = SASCHEMA;\n                   readc SCHEMASFL;\n               enddo;",
                                                   "id" : "sources\\schemawdw.sqlrpgle#68:20"
                                                 },
                                                 "flattened" : true,
@@ -806,6 +866,7 @@
                                                   "file" : "sources\\schemawdw.sqlrpgle",
                                                   "line" : 69,
                                                   "col" : 20,
+                                                  "text" : "readc SCHEMASFL;\n               enddo;\n           endsr;",
                                                   "id" : "sources\\schemawdw.sqlrpgle#69:20"
                                                 },
                                                 "id" : "sources\\schemawdw.sqlrpgle#69:20"
@@ -815,6 +876,7 @@
                                                 "file" : "sources\\schemawdw.sqlrpgle",
                                                 "line" : 67,
                                                 "col" : 16,
+                                                "text" : "dow not %eof(schemawdw);\n                   ReturnValue = SASCHEMA;\n                   readc SCHEMASFL;",
                                                 "id" : "sources\\schemawdw.sqlrpgle#67:16"
                                               },
                                               "id" : "sources\\schemawdw.sqlrpgle#67:22"
@@ -824,6 +886,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 67,
                                               "col" : 16,
+                                              "text" : "dow not %eof(schemawdw);\n                   ReturnValue = SASCHEMA;\n                   readc SCHEMASFL;",
                                               "id" : "sources\\schemawdw.sqlrpgle#67:16"
                                             },
                                             "id" : "sources\\schemawdw.sqlrpgle#67:16"
@@ -835,6 +898,7 @@
                                               "file" : "sources\\schemawdw.sqlrpgle",
                                               "line" : 71,
                                               "col" : 12,
+                                              "text" : "endsr;\n       end-proc;\n       ",
                                               "id" : "sources\\schemawdw.sqlrpgle#71:12"
                                             },
                                             "id" : "sources\\schemawdw.sqlrpgle#71:12"
@@ -844,6 +908,7 @@
                                             "file" : "sources\\schemawdw.sqlrpgle",
                                             "line" : 72,
                                             "col" : 8,
+                                            "text" : "end-proc;\n       ",
                                             "id" : "sources\\schemawdw.sqlrpgle#72:8"
                                           },
                                           "id" : "sources\\schemawdw.sqlrpgle#72:15"
@@ -853,6 +918,7 @@
                                           "file" : "sources\\schemawdw.sqlrpgle",
                                           "line" : 72,
                                           "col" : 8,
+                                          "text" : "end-proc;\n       ",
                                           "id" : "sources\\schemawdw.sqlrpgle#72:8"
                                         },
                                         "id" : "sources\\schemawdw.sqlrpgle#72:16"
@@ -862,6 +928,7 @@
                                         "file" : "sources\\schemawdw.sqlrpgle",
                                         "line" : 72,
                                         "col" : 8,
+                                        "text" : "end-proc;\n       ",
                                         "id" : "sources\\schemawdw.sqlrpgle#72:8"
                                       },
                                       "id" : "sources\\schemawdw.sqlrpgle#72:17"
@@ -871,6 +938,7 @@
                                       "file" : "sources\\schemawdw.sqlrpgle",
                                       "line" : 72,
                                       "col" : 8,
+                                      "text" : "end-proc;\n       ",
                                       "id" : "sources\\schemawdw.sqlrpgle#72:8"
                                     },
                                     "id" : "sources\\schemawdw.sqlrpgle#72:18"
@@ -880,6 +948,7 @@
                                     "file" : "sources\\schemawdw.sqlrpgle",
                                     "line" : 72,
                                     "col" : 8,
+                                    "text" : "end-proc;\n       ",
                                     "id" : "sources\\schemawdw.sqlrpgle#72:8"
                                   },
                                   "id" : "sources\\schemawdw.sqlrpgle#72:19"
@@ -889,6 +958,7 @@
                                   "file" : "sources\\schemawdw.sqlrpgle",
                                   "line" : 72,
                                   "col" : 8,
+                                  "text" : "end-proc;\n       ",
                                   "id" : "sources\\schemawdw.sqlrpgle#72:8"
                                 },
                                 "id" : "sources\\schemawdw.sqlrpgle#72:20"
@@ -898,6 +968,7 @@
                                 "file" : "sources\\schemawdw.sqlrpgle",
                                 "line" : 72,
                                 "col" : 8,
+                                "text" : "end-proc;\n       ",
                                 "id" : "sources\\schemawdw.sqlrpgle#72:8"
                               },
                               "id" : "sources\\schemawdw.sqlrpgle#72:21"
@@ -907,6 +978,7 @@
                               "file" : "sources\\schemawdw.sqlrpgle",
                               "line" : 72,
                               "col" : 8,
+                              "text" : "end-proc;\n       ",
                               "id" : "sources\\schemawdw.sqlrpgle#72:8"
                             },
                             "id" : "sources\\schemawdw.sqlrpgle#72:22"
@@ -916,6 +988,7 @@
                             "file" : "sources\\schemawdw.sqlrpgle",
                             "line" : 72,
                             "col" : 8,
+                            "text" : "end-proc;\n       ",
                             "id" : "sources\\schemawdw.sqlrpgle#72:8"
                           },
                           "id" : "sources\\schemawdw.sqlrpgle#72:23"
@@ -925,6 +998,7 @@
                           "file" : "sources\\schemawdw.sqlrpgle",
                           "line" : 72,
                           "col" : 8,
+                          "text" : "end-proc;\n       ",
                           "id" : "sources\\schemawdw.sqlrpgle#72:8"
                         },
                         "id" : "sources\\schemawdw.sqlrpgle#72:24"
@@ -934,6 +1008,7 @@
                         "file" : "sources\\schemawdw.sqlrpgle",
                         "line" : 72,
                         "col" : 8,
+                        "text" : "end-proc;\n       ",
                         "id" : "sources\\schemawdw.sqlrpgle#72:8"
                       },
                       "id" : "sources\\schemawdw.sqlrpgle#72:25"
@@ -943,6 +1018,7 @@
                       "file" : "sources\\schemawdw.sqlrpgle",
                       "line" : 72,
                       "col" : 8,
+                      "text" : "end-proc;\n       ",
                       "id" : "sources\\schemawdw.sqlrpgle#72:8"
                     },
                     "id" : "sources\\schemawdw.sqlrpgle#72:26"
@@ -952,6 +1028,7 @@
                     "file" : "sources\\schemawdw.sqlrpgle",
                     "line" : 72,
                     "col" : 8,
+                    "text" : "end-proc;\n       ",
                     "id" : "sources\\schemawdw.sqlrpgle#72:8"
                   },
                   "id" : "sources\\schemawdw.sqlrpgle#72:27"
@@ -961,6 +1038,7 @@
                   "file" : "sources\\schemawdw.sqlrpgle",
                   "line" : 72,
                   "col" : 8,
+                  "text" : "end-proc;\n       ",
                   "id" : "sources\\schemawdw.sqlrpgle#72:8"
                 },
                 "id" : "sources\\schemawdw.sqlrpgle#72:28"
@@ -970,6 +1048,7 @@
                 "file" : "sources\\schemawdw.sqlrpgle",
                 "line" : 72,
                 "col" : 8,
+                "text" : "end-proc;\n       ",
                 "id" : "sources\\schemawdw.sqlrpgle#72:8"
               },
               "id" : "sources\\schemawdw.sqlrpgle#72:29"
@@ -979,6 +1058,7 @@
               "file" : "sources\\schemawdw.sqlrpgle",
               "line" : 72,
               "col" : 8,
+              "text" : "end-proc;\n       ",
               "id" : "sources\\schemawdw.sqlrpgle#72:8"
             },
             "id" : "sources\\schemawdw.sqlrpgle#72:30"
@@ -988,6 +1068,7 @@
             "file" : "sources\\schemawdw.sqlrpgle",
             "line" : 72,
             "col" : 8,
+            "text" : "end-proc;\n       ",
             "id" : "sources\\schemawdw.sqlrpgle#72:8"
           },
           "id" : "sources\\schemawdw.sqlrpgle#72:31"
@@ -997,6 +1078,7 @@
           "file" : "sources\\schemawdw.sqlrpgle",
           "line" : 72,
           "col" : 8,
+          "text" : "end-proc;\n       ",
           "id" : "sources\\schemawdw.sqlrpgle#72:8"
         },
         "id" : "sources\\schemawdw.sqlrpgle#72:32"
@@ -1006,6 +1088,7 @@
         "file" : "sources\\schemawdw.sqlrpgle",
         "line" : 72,
         "col" : 8,
+        "text" : "end-proc;\n       ",
         "id" : "sources\\schemawdw.sqlrpgle#72:8"
       },
       "id" : "sources\\schemawdw.sqlrpgle#72:33"
@@ -1015,6 +1098,7 @@
       "file" : "sources\\schemawdw.sqlrpgle",
       "line" : 72,
       "col" : 8,
+      "text" : "end-proc;\n       ",
       "id" : "sources\\schemawdw.sqlrpgle#72:8"
     },
     "id" : "sources\\schemawdw.sqlrpgle#72:8"

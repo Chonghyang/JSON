@@ -12,6 +12,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 3,
       "col" : 8,
+      "text" : "ctl-opt dftactgrp(*no) actgrp(*new) bnddir('WORKSTN');\n       \n       dcl-ds Main qualified;",
       "id" : "sources\\hsptl_main.sqlrpgle#3:8"
     },
     "id" : "sources\\hsptl_main.sqlrpgle#3:8"
@@ -29,6 +30,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 6,
           "col" : 10,
+          "text" : "CurrScrn char(6) inz('AfdPlg');\n         Dep varchar(20) inz('');\n         Scheme varchar(15) inz('');",
           "id" : "sources\\hsptl_main.sqlrpgle#6:10"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#6:10"
@@ -38,6 +40,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 6,
         "col" : 10,
+        "text" : "CurrScrn char(6) inz('AfdPlg');\n         Dep varchar(20) inz('');\n         Scheme varchar(15) inz('');",
         "id" : "sources\\hsptl_main.sqlrpgle#6:10"
       },
       "nameUpper" : "CURRSCRN",
@@ -53,6 +56,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 7,
           "col" : 10,
+          "text" : "Dep varchar(20) inz('');\n         Scheme varchar(15) inz('');\n         SelDate date(*iso) inz(*sys);",
           "id" : "sources\\hsptl_main.sqlrpgle#7:10"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#7:10"
@@ -62,6 +66,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 7,
         "col" : 10,
+        "text" : "Dep varchar(20) inz('');\n         Scheme varchar(15) inz('');\n         SelDate date(*iso) inz(*sys);",
         "id" : "sources\\hsptl_main.sqlrpgle#7:10"
       },
       "nameUpper" : "DEP",
@@ -77,6 +82,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 8,
           "col" : 10,
+          "text" : "Scheme varchar(15) inz('');\n         SelDate date(*iso) inz(*sys);\n         PrsNum packed(6) inz(0);",
           "id" : "sources\\hsptl_main.sqlrpgle#8:10"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#8:10"
@@ -86,6 +92,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 8,
         "col" : 10,
+        "text" : "Scheme varchar(15) inz('');\n         SelDate date(*iso) inz(*sys);\n         PrsNum packed(6) inz(0);",
         "id" : "sources\\hsptl_main.sqlrpgle#8:10"
       },
       "nameUpper" : "SCHEME",
@@ -101,6 +108,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 9,
           "col" : 10,
+          "text" : "SelDate date(*iso) inz(*sys);\n         PrsNum packed(6) inz(0);\n         PatNum packed(6) INZ(0);",
           "id" : "sources\\hsptl_main.sqlrpgle#9:10"
         },
         "nameUpper" : "DATE(*ISO)",
@@ -111,6 +119,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 9,
         "col" : 10,
+        "text" : "SelDate date(*iso) inz(*sys);\n         PrsNum packed(6) inz(0);\n         PatNum packed(6) INZ(0);",
         "id" : "sources\\hsptl_main.sqlrpgle#9:10"
       },
       "nameUpper" : "SELDATE",
@@ -126,6 +135,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 10,
           "col" : 10,
+          "text" : "PrsNum packed(6) inz(0);\n         PatNum packed(6) INZ(0);\n       end-ds;",
           "id" : "sources\\hsptl_main.sqlrpgle#10:10"
         },
         "nameUpper" : "PACKED(6)",
@@ -136,6 +146,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 10,
         "col" : 10,
+        "text" : "PrsNum packed(6) inz(0);\n         PatNum packed(6) INZ(0);\n       end-ds;",
         "id" : "sources\\hsptl_main.sqlrpgle#10:10"
       },
       "nameUpper" : "PRSNUM",
@@ -151,6 +162,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 11,
           "col" : 10,
+          "text" : "PatNum packed(6) INZ(0);\n       end-ds;\n       dcl-s User char(10) inz(*user);",
           "id" : "sources\\hsptl_main.sqlrpgle#11:10"
         },
         "nameUpper" : "PACKED(6)",
@@ -161,6 +173,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 11,
         "col" : 10,
+        "text" : "PatNum packed(6) INZ(0);\n       end-ds;\n       dcl-s User char(10) inz(*user);",
         "id" : "sources\\hsptl_main.sqlrpgle#11:10"
       },
       "nameUpper" : "PATNUM",
@@ -173,6 +186,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 5,
       "col" : 8,
+      "text" : "dcl-ds Main qualified;\n         CurrScrn char(6) inz('AfdPlg');\n         Dep varchar(20) inz('');",
       "id" : "sources\\hsptl_main.sqlrpgle#5:8"
     },
     "id" : "sources\\hsptl_main.sqlrpgle#5:8"
@@ -186,6 +200,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 13,
       "col" : 8,
+      "text" : "dcl-s User char(10) inz(*user);\n       dcl-s naam char(10);\n       ",
       "id" : "sources\\hsptl_main.sqlrpgle#13:8"
     },
     "static" : false,
@@ -203,6 +218,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 14,
       "col" : 8,
+      "text" : "dcl-s naam char(10);\n       \n       exec sql",
       "id" : "sources\\hsptl_main.sqlrpgle#14:8"
     },
     "static" : false,
@@ -222,6 +238,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 21,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       dcl-pr DspAfdPlng likeds(Main) extproc('DSP_AFD');",
         "id" : "sources\\hsptl_main.sqlrpgle#21:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#21:10"
@@ -235,6 +252,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 21,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       dcl-pr DspAfdPlng likeds(Main) extproc('DSP_AFD');",
         "id" : "sources\\hsptl_main.sqlrpgle#21:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#21:10"
@@ -246,6 +264,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 20,
       "col" : 8,
+      "text" : "dcl-pr FltrPlnng likeds(Main) extproc('FLTRPLNNG');\n         InputArray likeds(Main);\n       end-pr;",
       "id" : "sources\\hsptl_main.sqlrpgle#20:8"
     },
     "arity" : 2,
@@ -265,6 +284,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 24,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       dcl-pr DspPrsPlng likeds(Main) extproc('DSPPRSPLNG');",
         "id" : "sources\\hsptl_main.sqlrpgle#24:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#24:10"
@@ -278,6 +298,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 24,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       dcl-pr DspPrsPlng likeds(Main) extproc('DSPPRSPLNG');",
         "id" : "sources\\hsptl_main.sqlrpgle#24:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#24:10"
@@ -289,6 +310,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 23,
       "col" : 8,
+      "text" : "dcl-pr DspAfdPlng likeds(Main) extproc('DSP_AFD');\n         InputArray likeds(Main);\n       end-pr;",
       "id" : "sources\\hsptl_main.sqlrpgle#23:8"
     },
     "arity" : 2,
@@ -308,6 +330,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 27,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       dcl-pr DspMedPlng likeds(Main) extproc('MEDPLNNG');",
         "id" : "sources\\hsptl_main.sqlrpgle#27:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#27:10"
@@ -321,6 +344,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 27,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       dcl-pr DspMedPlng likeds(Main) extproc('MEDPLNNG');",
         "id" : "sources\\hsptl_main.sqlrpgle#27:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#27:10"
@@ -332,6 +356,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 26,
       "col" : 8,
+      "text" : "dcl-pr DspPrsPlng likeds(Main) extproc('DSPPRSPLNG');\n         InputArray likeds(Main);\n       end-pr;",
       "id" : "sources\\hsptl_main.sqlrpgle#26:8"
     },
     "arity" : 2,
@@ -351,6 +376,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 30,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       ",
         "id" : "sources\\hsptl_main.sqlrpgle#30:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#30:10"
@@ -364,6 +390,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 30,
         "col" : 10,
+        "text" : "InputArray likeds(Main);\n       end-pr;\n       ",
         "id" : "sources\\hsptl_main.sqlrpgle#30:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#30:10"
@@ -375,6 +402,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 29,
       "col" : 8,
+      "text" : "dcl-pr DspMedPlng likeds(Main) extproc('MEDPLNNG');\n         InputArray likeds(Main);\n       end-pr;",
       "id" : "sources\\hsptl_main.sqlrpgle#29:8"
     },
     "arity" : 2,
@@ -392,6 +420,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 35,
         "col" : 8,
+        "text" : "exsr Initialize;\n       dow not (Main.CurrScrn = 'EXIT');\n         select;",
         "id" : "sources\\hsptl_main.sqlrpgle#35:8"
       },
       "subroutineUpper" : "INITIALIZE",
@@ -414,6 +443,7 @@
                 "file" : "sources\\hsptl_main.sqlrpgle",
                 "line" : 36,
                 "col" : 17,
+                "text" : "Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                 "id" : "sources\\hsptl_main.sqlrpgle#36:17"
               },
               "nameUpper" : "MAIN.CURRSCRN",
@@ -427,6 +457,7 @@
                 "file" : "sources\\hsptl_main.sqlrpgle",
                 "line" : 36,
                 "col" : 33,
+                "text" : "'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                 "id" : "sources\\hsptl_main.sqlrpgle#36:33"
               },
               "id" : "sources\\hsptl_main.sqlrpgle#36:33"
@@ -436,6 +467,7 @@
               "file" : "sources\\hsptl_main.sqlrpgle",
               "line" : 36,
               "col" : 17,
+              "text" : "Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
               "id" : "sources\\hsptl_main.sqlrpgle#36:17"
             },
             "id" : "sources\\hsptl_main.sqlrpgle#36:17"
@@ -445,6 +477,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 36,
             "col" : 12,
+            "text" : "not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
             "id" : "sources\\hsptl_main.sqlrpgle#36:12"
           },
           "id" : "sources\\hsptl_main.sqlrpgle#36:12"
@@ -461,6 +494,7 @@
                 "file" : "sources\\hsptl_main.sqlrpgle",
                 "line" : 39,
                 "col" : 14,
+                "text" : "Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);",
                 "id" : "sources\\hsptl_main.sqlrpgle#39:14"
               },
               "nameUpper" : "MAIN",
@@ -478,6 +512,7 @@
                   "file" : "sources\\hsptl_main.sqlrpgle",
                   "line" : 39,
                   "col" : 31,
+                  "text" : "Main);\n           when (Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);",
                   "id" : "sources\\hsptl_main.sqlrpgle#39:31"
                 },
                 "nameUpper" : "MAIN",
@@ -488,6 +523,7 @@
                 "file" : "sources\\hsptl_main.sqlrpgle",
                 "line" : 39,
                 "col" : 21,
+                "text" : "FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);",
                 "id" : "sources\\hsptl_main.sqlrpgle#39:21"
               },
               "arity" : 1,
@@ -499,6 +535,7 @@
               "file" : "sources\\hsptl_main.sqlrpgle",
               "line" : 39,
               "col" : 14,
+              "text" : "Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);",
               "id" : "sources\\hsptl_main.sqlrpgle#39:14"
             },
             "flattened" : false,
@@ -522,6 +559,7 @@
                       "file" : "sources\\hsptl_main.sqlrpgle",
                       "line" : 40,
                       "col" : 18,
+                      "text" : "Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');",
                       "id" : "sources\\hsptl_main.sqlrpgle#40:18"
                     },
                     "nameUpper" : "MAIN.CURRSCRN",
@@ -535,6 +573,7 @@
                       "file" : "sources\\hsptl_main.sqlrpgle",
                       "line" : 40,
                       "col" : 34,
+                      "text" : "'AfdPlg');\n             Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');",
                       "id" : "sources\\hsptl_main.sqlrpgle#40:34"
                     },
                     "id" : "sources\\hsptl_main.sqlrpgle#40:34"
@@ -544,6 +583,7 @@
                     "file" : "sources\\hsptl_main.sqlrpgle",
                     "line" : 40,
                     "col" : 18,
+                    "text" : "Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');",
                     "id" : "sources\\hsptl_main.sqlrpgle#40:18"
                   },
                   "id" : "sources\\hsptl_main.sqlrpgle#40:18"
@@ -553,6 +593,7 @@
                   "file" : "sources\\hsptl_main.sqlrpgle",
                   "line" : 40,
                   "col" : 12,
+                  "text" : "when (Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');",
                   "id" : "sources\\hsptl_main.sqlrpgle#40:12"
                 },
                 "arity" : 1,
@@ -564,6 +605,7 @@
                 "file" : "sources\\hsptl_main.sqlrpgle",
                 "line" : 40,
                 "col" : 12,
+                "text" : "when (Main.CurrScrn = 'AfdPlg');\n             Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');",
                 "id" : "sources\\hsptl_main.sqlrpgle#40:12"
               },
               "id" : "sources\\hsptl_main.sqlrpgle#40:12"
@@ -580,6 +622,7 @@
                     "file" : "sources\\hsptl_main.sqlrpgle",
                     "line" : 41,
                     "col" : 14,
+                    "text" : "Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);",
                     "id" : "sources\\hsptl_main.sqlrpgle#41:14"
                   },
                   "nameUpper" : "MAIN",
@@ -597,6 +640,7 @@
                       "file" : "sources\\hsptl_main.sqlrpgle",
                       "line" : 41,
                       "col" : 32,
+                      "text" : "Main);\n           when (Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);",
                       "id" : "sources\\hsptl_main.sqlrpgle#41:32"
                     },
                     "nameUpper" : "MAIN",
@@ -607,6 +651,7 @@
                     "file" : "sources\\hsptl_main.sqlrpgle",
                     "line" : 41,
                     "col" : 21,
+                    "text" : "DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);",
                     "id" : "sources\\hsptl_main.sqlrpgle#41:21"
                   },
                   "arity" : 1,
@@ -618,6 +663,7 @@
                   "file" : "sources\\hsptl_main.sqlrpgle",
                   "line" : 41,
                   "col" : 14,
+                  "text" : "Main = DspAfdPlng(Main);\n           when (Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);",
                   "id" : "sources\\hsptl_main.sqlrpgle#41:14"
                 },
                 "flattened" : false,
@@ -641,6 +687,7 @@
                           "file" : "sources\\hsptl_main.sqlrpgle",
                           "line" : 42,
                           "col" : 18,
+                          "text" : "Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');",
                           "id" : "sources\\hsptl_main.sqlrpgle#42:18"
                         },
                         "nameUpper" : "MAIN.CURRSCRN",
@@ -654,6 +701,7 @@
                           "file" : "sources\\hsptl_main.sqlrpgle",
                           "line" : 42,
                           "col" : 34,
+                          "text" : "'PrsPlg');\n             Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');",
                           "id" : "sources\\hsptl_main.sqlrpgle#42:34"
                         },
                         "id" : "sources\\hsptl_main.sqlrpgle#42:34"
@@ -663,6 +711,7 @@
                         "file" : "sources\\hsptl_main.sqlrpgle",
                         "line" : 42,
                         "col" : 18,
+                        "text" : "Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');",
                         "id" : "sources\\hsptl_main.sqlrpgle#42:18"
                       },
                       "id" : "sources\\hsptl_main.sqlrpgle#42:18"
@@ -672,6 +721,7 @@
                       "file" : "sources\\hsptl_main.sqlrpgle",
                       "line" : 42,
                       "col" : 12,
+                      "text" : "when (Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');",
                       "id" : "sources\\hsptl_main.sqlrpgle#42:12"
                     },
                     "arity" : 1,
@@ -683,6 +733,7 @@
                     "file" : "sources\\hsptl_main.sqlrpgle",
                     "line" : 42,
                     "col" : 12,
+                    "text" : "when (Main.CurrScrn = 'PrsPlg');\n             Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');",
                     "id" : "sources\\hsptl_main.sqlrpgle#42:12"
                   },
                   "id" : "sources\\hsptl_main.sqlrpgle#42:12"
@@ -699,6 +750,7 @@
                         "file" : "sources\\hsptl_main.sqlrpgle",
                         "line" : 43,
                         "col" : 14,
+                        "text" : "Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);",
                         "id" : "sources\\hsptl_main.sqlrpgle#43:14"
                       },
                       "nameUpper" : "MAIN",
@@ -716,6 +768,7 @@
                           "file" : "sources\\hsptl_main.sqlrpgle",
                           "line" : 43,
                           "col" : 32,
+                          "text" : "Main);\n           when (Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);",
                           "id" : "sources\\hsptl_main.sqlrpgle#43:32"
                         },
                         "nameUpper" : "MAIN",
@@ -726,6 +779,7 @@
                         "file" : "sources\\hsptl_main.sqlrpgle",
                         "line" : 43,
                         "col" : 21,
+                        "text" : "DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);",
                         "id" : "sources\\hsptl_main.sqlrpgle#43:21"
                       },
                       "arity" : 1,
@@ -737,6 +791,7 @@
                       "file" : "sources\\hsptl_main.sqlrpgle",
                       "line" : 43,
                       "col" : 14,
+                      "text" : "Main = DspPrsPlng(Main);\n           when (Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);",
                       "id" : "sources\\hsptl_main.sqlrpgle#43:14"
                     },
                     "flattened" : false,
@@ -760,6 +815,7 @@
                               "file" : "sources\\hsptl_main.sqlrpgle",
                               "line" : 44,
                               "col" : 18,
+                              "text" : "Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);\n           other;",
                               "id" : "sources\\hsptl_main.sqlrpgle#44:18"
                             },
                             "nameUpper" : "MAIN.CURRSCRN",
@@ -773,6 +829,7 @@
                               "file" : "sources\\hsptl_main.sqlrpgle",
                               "line" : 44,
                               "col" : 34,
+                              "text" : "'MedPlg');\n             main = DspMedPlng(Main);\n           other;",
                               "id" : "sources\\hsptl_main.sqlrpgle#44:34"
                             },
                             "id" : "sources\\hsptl_main.sqlrpgle#44:34"
@@ -782,6 +839,7 @@
                             "file" : "sources\\hsptl_main.sqlrpgle",
                             "line" : 44,
                             "col" : 18,
+                            "text" : "Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);\n           other;",
                             "id" : "sources\\hsptl_main.sqlrpgle#44:18"
                           },
                           "id" : "sources\\hsptl_main.sqlrpgle#44:18"
@@ -791,6 +849,7 @@
                           "file" : "sources\\hsptl_main.sqlrpgle",
                           "line" : 44,
                           "col" : 12,
+                          "text" : "when (Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);\n           other;",
                           "id" : "sources\\hsptl_main.sqlrpgle#44:12"
                         },
                         "arity" : 1,
@@ -802,6 +861,7 @@
                         "file" : "sources\\hsptl_main.sqlrpgle",
                         "line" : 44,
                         "col" : 12,
+                        "text" : "when (Main.CurrScrn = 'MedPlg');\n             main = DspMedPlng(Main);\n           other;",
                         "id" : "sources\\hsptl_main.sqlrpgle#44:12"
                       },
                       "id" : "sources\\hsptl_main.sqlrpgle#44:12"
@@ -818,6 +878,7 @@
                             "file" : "sources\\hsptl_main.sqlrpgle",
                             "line" : 45,
                             "col" : 14,
+                            "text" : "main = DspMedPlng(Main);\n           other;\n             Main.CurrScrn = 'EXIT';",
                             "id" : "sources\\hsptl_main.sqlrpgle#45:14"
                           },
                           "nameUpper" : "MAIN",
@@ -835,6 +896,7 @@
                               "file" : "sources\\hsptl_main.sqlrpgle",
                               "line" : 45,
                               "col" : 32,
+                              "text" : "Main);\n           other;\n             Main.CurrScrn = 'EXIT';",
                               "id" : "sources\\hsptl_main.sqlrpgle#45:32"
                             },
                             "nameUpper" : "MAIN",
@@ -845,6 +907,7 @@
                             "file" : "sources\\hsptl_main.sqlrpgle",
                             "line" : 45,
                             "col" : 21,
+                            "text" : "DspMedPlng(Main);\n           other;\n             Main.CurrScrn = 'EXIT';",
                             "id" : "sources\\hsptl_main.sqlrpgle#45:21"
                           },
                           "arity" : 1,
@@ -856,6 +919,7 @@
                           "file" : "sources\\hsptl_main.sqlrpgle",
                           "line" : 45,
                           "col" : 14,
+                          "text" : "main = DspMedPlng(Main);\n           other;\n             Main.CurrScrn = 'EXIT';",
                           "id" : "sources\\hsptl_main.sqlrpgle#45:14"
                         },
                         "flattened" : false,
@@ -873,6 +937,7 @@
                               "file" : "sources\\hsptl_main.sqlrpgle",
                               "line" : 47,
                               "col" : 14,
+                              "text" : "Main.CurrScrn = 'EXIT';\n         endsl;\n       enddo;",
                               "id" : "sources\\hsptl_main.sqlrpgle#47:14"
                             },
                             "nameUpper" : "MAIN.CURRSCRN",
@@ -885,6 +950,7 @@
                             "file" : "sources\\hsptl_main.sqlrpgle",
                             "line" : 47,
                             "col" : 14,
+                            "text" : "Main.CurrScrn = 'EXIT';\n         endsl;\n       enddo;",
                             "id" : "sources\\hsptl_main.sqlrpgle#47:14"
                           },
                           "flattened" : true,
@@ -905,6 +971,7 @@
                                   "file" : "sources\\hsptl_main.sqlrpgle",
                                   "line" : 38,
                                   "col" : 18,
+                                  "text" : "Main.CurrScrn = 'filter');\n             Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');",
                                   "id" : "sources\\hsptl_main.sqlrpgle#38:18"
                                 },
                                 "nameUpper" : "MAIN.CURRSCRN",
@@ -918,6 +985,7 @@
                                   "file" : "sources\\hsptl_main.sqlrpgle",
                                   "line" : 38,
                                   "col" : 34,
+                                  "text" : "'filter');\n             Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');",
                                   "id" : "sources\\hsptl_main.sqlrpgle#38:34"
                                 },
                                 "id" : "sources\\hsptl_main.sqlrpgle#38:34"
@@ -927,6 +995,7 @@
                                 "file" : "sources\\hsptl_main.sqlrpgle",
                                 "line" : 38,
                                 "col" : 18,
+                                "text" : "Main.CurrScrn = 'filter');\n             Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');",
                                 "id" : "sources\\hsptl_main.sqlrpgle#38:18"
                               },
                               "id" : "sources\\hsptl_main.sqlrpgle#38:18"
@@ -938,6 +1007,7 @@
                                 "file" : "sources\\hsptl_main.sqlrpgle",
                                 "line" : 38,
                                 "col" : 12,
+                                "text" : "when (Main.CurrScrn = 'filter');\n             Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');",
                                 "id" : "sources\\hsptl_main.sqlrpgle#38:12"
                               },
                               "id" : "sources\\hsptl_main.sqlrpgle#38:12"
@@ -947,6 +1017,7 @@
                               "file" : "sources\\hsptl_main.sqlrpgle",
                               "line" : 38,
                               "col" : 12,
+                              "text" : "when (Main.CurrScrn = 'filter');\n             Main = FltrPlnng(Main);\n           when (Main.CurrScrn = 'AfdPlg');",
                               "id" : "sources\\hsptl_main.sqlrpgle#38:12"
                             },
                             "id" : "sources\\hsptl_main.sqlrpgle#38:12"
@@ -958,6 +1029,7 @@
                               "file" : "sources\\hsptl_main.sqlrpgle",
                               "line" : 37,
                               "col" : 10,
+                              "text" : "select;\n           when (Main.CurrScrn = 'filter');\n             Main = FltrPlnng(Main);",
                               "id" : "sources\\hsptl_main.sqlrpgle#37:10"
                             },
                             "id" : "sources\\hsptl_main.sqlrpgle#37:10"
@@ -967,6 +1039,7 @@
                             "file" : "sources\\hsptl_main.sqlrpgle",
                             "line" : 37,
                             "col" : 10,
+                            "text" : "select;\n           when (Main.CurrScrn = 'filter');\n             Main = FltrPlnng(Main);",
                             "id" : "sources\\hsptl_main.sqlrpgle#37:10"
                           },
                           "id" : "sources\\hsptl_main.sqlrpgle#37:10"
@@ -976,6 +1049,7 @@
                           "file" : "sources\\hsptl_main.sqlrpgle",
                           "line" : 36,
                           "col" : 8,
+                          "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                           "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                         },
                         "id" : "sources\\hsptl_main.sqlrpgle#36:8"
@@ -985,6 +1059,7 @@
                         "file" : "sources\\hsptl_main.sqlrpgle",
                         "line" : 36,
                         "col" : 8,
+                        "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                         "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                       },
                       "id" : "sources\\hsptl_main.sqlrpgle#36:9"
@@ -994,6 +1069,7 @@
                       "file" : "sources\\hsptl_main.sqlrpgle",
                       "line" : 36,
                       "col" : 8,
+                      "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                       "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                     },
                     "id" : "sources\\hsptl_main.sqlrpgle#36:10"
@@ -1003,6 +1079,7 @@
                     "file" : "sources\\hsptl_main.sqlrpgle",
                     "line" : 36,
                     "col" : 8,
+                    "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                     "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                   },
                   "id" : "sources\\hsptl_main.sqlrpgle#36:11"
@@ -1012,6 +1089,7 @@
                   "file" : "sources\\hsptl_main.sqlrpgle",
                   "line" : 36,
                   "col" : 8,
+                  "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                   "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                 },
                 "id" : "sources\\hsptl_main.sqlrpgle#36:12"
@@ -1021,6 +1099,7 @@
                 "file" : "sources\\hsptl_main.sqlrpgle",
                 "line" : 36,
                 "col" : 8,
+                "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
                 "id" : "sources\\hsptl_main.sqlrpgle#36:8"
               },
               "id" : "sources\\hsptl_main.sqlrpgle#36:13"
@@ -1030,6 +1109,7 @@
               "file" : "sources\\hsptl_main.sqlrpgle",
               "line" : 36,
               "col" : 8,
+              "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
               "id" : "sources\\hsptl_main.sqlrpgle#36:8"
             },
             "id" : "sources\\hsptl_main.sqlrpgle#36:14"
@@ -1039,6 +1119,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 36,
             "col" : 8,
+            "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
             "id" : "sources\\hsptl_main.sqlrpgle#36:8"
           },
           "id" : "sources\\hsptl_main.sqlrpgle#36:15"
@@ -1048,6 +1129,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 36,
           "col" : 8,
+          "text" : "dow not (Main.CurrScrn = 'EXIT');\n         select;\n           when (Main.CurrScrn = 'filter');",
           "id" : "sources\\hsptl_main.sqlrpgle#36:8"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#36:8"
@@ -1062,6 +1144,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 50,
             "col" : 8,
+            "text" : "exsr UpdateUserSettings;\n       // dsply 'End of program, Vars:';\n       // dsply Main.CurrScrn;",
             "id" : "sources\\hsptl_main.sqlrpgle#50:8"
           },
           "subroutineUpper" : "UPDATEUSERSETTINGS",
@@ -1077,6 +1160,7 @@
               "file" : "sources\\hsptl_main.sqlrpgle",
               "line" : 56,
               "col" : 9,
+              "text" : "inlr = *on;\n       return;\n       ",
               "id" : "sources\\hsptl_main.sqlrpgle#56:9"
             },
             "nameUpper" : "INLR",
@@ -1089,6 +1173,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 56,
             "col" : 9,
+            "text" : "inlr = *on;\n       return;\n       ",
             "id" : "sources\\hsptl_main.sqlrpgle#56:9"
           },
           "flattened" : true,
@@ -1137,6 +1222,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 75,
             "col" : 13,
+            "text" : "sqlstate = '02000'; // no user found\n            Main.Scheme = '';\n            Main.Dep = '';",
             "id" : "sources\\hsptl_main.sqlrpgle#75:13"
           },
           "nameUpper" : "SQLSTATE",
@@ -1150,6 +1236,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 75,
             "col" : 24,
+            "text" : "'02000'; // no user found\n            Main.Scheme = '';\n            Main.Dep = '';",
             "id" : "sources\\hsptl_main.sqlrpgle#75:24"
           },
           "id" : "sources\\hsptl_main.sqlrpgle#75:24"
@@ -1159,6 +1246,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 75,
           "col" : 13,
+          "text" : "sqlstate = '02000'; // no user found\n            Main.Scheme = '';\n            Main.Dep = '';",
           "id" : "sources\\hsptl_main.sqlrpgle#75:13"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#75:13"
@@ -1175,6 +1263,7 @@
               "file" : "sources\\hsptl_main.sqlrpgle",
               "line" : 76,
               "col" : 13,
+              "text" : "Main.Scheme = '';\n            Main.Dep = '';\n         elseif sqlstate = '00000';",
               "id" : "sources\\hsptl_main.sqlrpgle#76:13"
             },
             "nameUpper" : "MAIN.SCHEME",
@@ -1187,6 +1276,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 76,
             "col" : 13,
+            "text" : "Main.Scheme = '';\n            Main.Dep = '';\n         elseif sqlstate = '00000';",
             "id" : "sources\\hsptl_main.sqlrpgle#76:13"
           },
           "flattened" : true,
@@ -1202,6 +1292,7 @@
               "file" : "sources\\hsptl_main.sqlrpgle",
               "line" : 77,
               "col" : 13,
+              "text" : "Main.Dep = '';\n         elseif sqlstate = '00000';\n           // do nothing, fetch went well",
               "id" : "sources\\hsptl_main.sqlrpgle#77:13"
             },
             "nameUpper" : "MAIN.DEP",
@@ -1214,6 +1305,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 77,
             "col" : 13,
+            "text" : "Main.Dep = '';\n         elseif sqlstate = '00000';\n           // do nothing, fetch went well",
             "id" : "sources\\hsptl_main.sqlrpgle#77:13"
           },
           "flattened" : true,
@@ -1224,6 +1316,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 75,
           "col" : 10,
+          "text" : "if sqlstate = '02000'; // no user found\n            Main.Scheme = '';\n            Main.Dep = '';",
           "id" : "sources\\hsptl_main.sqlrpgle#75:10"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#75:18"
@@ -1238,6 +1331,7 @@
             "file" : "sources\\hsptl_main.sqlrpgle",
             "line" : 81,
             "col" : 18,
+            "text" : "'Error fetching or creating settings';\n         endif;\n         EXEC SQL",
             "id" : "sources\\hsptl_main.sqlrpgle#81:18"
           },
           "id" : "sources\\hsptl_main.sqlrpgle#81:18"
@@ -1247,6 +1341,7 @@
           "file" : "sources\\hsptl_main.sqlrpgle",
           "line" : 81,
           "col" : 12,
+          "text" : "dsply 'Error fetching or creating settings';\n         endif;\n         EXEC SQL",
           "id" : "sources\\hsptl_main.sqlrpgle#81:12"
         },
         "id" : "sources\\hsptl_main.sqlrpgle#81:12"
@@ -1256,6 +1351,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 75,
         "col" : 10,
+        "text" : "if sqlstate = '02000'; // no user found\n            Main.Scheme = '';\n            Main.Dep = '';",
         "id" : "sources\\hsptl_main.sqlrpgle#75:10"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#75:10"
@@ -1265,6 +1361,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 60,
       "col" : 8,
+      "text" : "begsr Initialize;\n         EXEC SQL\n           DECLARE C1 CURSOR FOR",
       "id" : "sources\\hsptl_main.sqlrpgle#60:8"
     },
     "nameUpper" : "INITIALIZE",
@@ -1279,6 +1376,7 @@
         "file" : "sources\\hsptl_main.sqlrpgle",
         "line" : 87,
         "col" : 8,
+        "text" : "begsr UpdateUserSettings;\n         exec sql\n           merge into usersetup as t",
         "id" : "sources\\hsptl_main.sqlrpgle#87:8"
       },
       "id" : "sources\\hsptl_main.sqlrpgle#87:8"
@@ -1288,6 +1386,7 @@
       "file" : "sources\\hsptl_main.sqlrpgle",
       "line" : 87,
       "col" : 8,
+      "text" : "begsr UpdateUserSettings;\n         exec sql\n           merge into usersetup as t",
       "id" : "sources\\hsptl_main.sqlrpgle#87:8"
     },
     "nameUpper" : "UPDATEUSERSETTINGS",

@@ -11,6 +11,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 10,
       "col" : 8,
+      "text" : "dcl-f AFD_PLNG_D workstn sfile(SFL01:RRN#);\n       \n       //declare service programs procedures",
       "id" : "sources\\afd_plng.sqlrpgle#10:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#10:8"
@@ -29,6 +30,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 14,
         "col" : 10,
+        "text" : "InputValue date(*iso);\n       end-pr;\n       dcl-pr AfdWdw char(20) extproc('AFDELINGWDW');",
         "id" : "sources\\afd_plng.sqlrpgle#14:10"
       },
       "id" : "sources\\afd_plng.sqlrpgle#14:10"
@@ -40,6 +42,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 13,
       "col" : 8,
+      "text" : "dcl-pr DatWdw date(*iso) extproc('DATEWDW');\n         InputValue date(*iso);\n       end-pr;",
       "id" : "sources\\afd_plng.sqlrpgle#13:8"
     },
     "arity" : 1,
@@ -58,6 +61,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 16,
       "col" : 8,
+      "text" : "dcl-pr AfdWdw char(20) extproc('AFDELINGWDW');\n       end-pr;\n       dcl-pr SchemaWdw char(15) extproc('SCHMAWDW');",
       "id" : "sources\\afd_plng.sqlrpgle#16:8"
     },
     "arity" : 0,
@@ -76,6 +80,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 18,
       "col" : 8,
+      "text" : "dcl-pr SchemaWdw char(15) extproc('SCHMAWDW');\n       end-pr;\n       ",
       "id" : "sources\\afd_plng.sqlrpgle#18:8"
     },
     "arity" : 0,
@@ -96,6 +101,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 23,
           "col" : 10,
+          "text" : "DAAFDELING varchar(20);\n         DASCHEMA varchar(15);\n         DADATUM date(*ISO);",
           "id" : "sources\\afd_plng.sqlrpgle#23:10"
         },
         "id" : "sources\\afd_plng.sqlrpgle#23:10"
@@ -105,6 +111,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 23,
         "col" : 10,
+        "text" : "DAAFDELING varchar(20);\n         DASCHEMA varchar(15);\n         DADATUM date(*ISO);",
         "id" : "sources\\afd_plng.sqlrpgle#23:10"
       },
       "nameUpper" : "DAAFDELING",
@@ -120,6 +127,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 24,
           "col" : 10,
+          "text" : "DASCHEMA varchar(15);\n         DADATUM date(*ISO);\n       end-ds;",
           "id" : "sources\\afd_plng.sqlrpgle#24:10"
         },
         "id" : "sources\\afd_plng.sqlrpgle#24:10"
@@ -129,6 +137,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 24,
         "col" : 10,
+        "text" : "DASCHEMA varchar(15);\n         DADATUM date(*ISO);\n       end-ds;",
         "id" : "sources\\afd_plng.sqlrpgle#24:10"
       },
       "nameUpper" : "DASCHEMA",
@@ -144,6 +153,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 25,
           "col" : 10,
+          "text" : "DADATUM date(*ISO);\n       end-ds;\n       ",
           "id" : "sources\\afd_plng.sqlrpgle#25:10"
         },
         "nameUpper" : "DATE(*ISO)",
@@ -154,6 +164,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 25,
         "col" : 10,
+        "text" : "DADATUM date(*ISO);\n       end-ds;\n       ",
         "id" : "sources\\afd_plng.sqlrpgle#25:10"
       },
       "nameUpper" : "DADATUM",
@@ -166,6 +177,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 22,
       "col" : 8,
+      "text" : "dcl-ds params qualified template;\n         DAAFDELING varchar(20);\n         DASCHEMA varchar(15);",
       "id" : "sources\\afd_plng.sqlrpgle#22:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#22:8"
@@ -183,6 +195,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 30,
           "col" : 10,
+          "text" : "xaScrnAction char(6);\n         DAAFDELING varchar(20);\n         DASCHEMA varchar(15);",
           "id" : "sources\\afd_plng.sqlrpgle#30:10"
         },
         "id" : "sources\\afd_plng.sqlrpgle#30:10"
@@ -192,6 +205,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 30,
         "col" : 10,
+        "text" : "xaScrnAction char(6);\n         DAAFDELING varchar(20);\n         DASCHEMA varchar(15);",
         "id" : "sources\\afd_plng.sqlrpgle#30:10"
       },
       "nameUpper" : "XASCRNACTION",
@@ -207,6 +221,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 31,
           "col" : 10,
+          "text" : "DAAFDELING varchar(20);\n         DASCHEMA varchar(15);\n         DADATUM date(*ISO);",
           "id" : "sources\\afd_plng.sqlrpgle#31:10"
         },
         "id" : "sources\\afd_plng.sqlrpgle#31:10"
@@ -216,6 +231,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 31,
         "col" : 10,
+        "text" : "DAAFDELING varchar(20);\n         DASCHEMA varchar(15);\n         DADATUM date(*ISO);",
         "id" : "sources\\afd_plng.sqlrpgle#31:10"
       },
       "nameUpper" : "DAAFDELING",
@@ -231,6 +247,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 32,
           "col" : 10,
+          "text" : "DASCHEMA varchar(15);\n         DADATUM date(*ISO);\n         PRSNUM packed(6);",
           "id" : "sources\\afd_plng.sqlrpgle#32:10"
         },
         "id" : "sources\\afd_plng.sqlrpgle#32:10"
@@ -240,6 +257,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 32,
         "col" : 10,
+        "text" : "DASCHEMA varchar(15);\n         DADATUM date(*ISO);\n         PRSNUM packed(6);",
         "id" : "sources\\afd_plng.sqlrpgle#32:10"
       },
       "nameUpper" : "DASCHEMA",
@@ -255,6 +273,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 33,
           "col" : 10,
+          "text" : "DADATUM date(*ISO);\n         PRSNUM packed(6);\n         PatNum packed(6);",
           "id" : "sources\\afd_plng.sqlrpgle#33:10"
         },
         "nameUpper" : "DATE(*ISO)",
@@ -265,6 +284,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 33,
         "col" : 10,
+        "text" : "DADATUM date(*ISO);\n         PRSNUM packed(6);\n         PatNum packed(6);",
         "id" : "sources\\afd_plng.sqlrpgle#33:10"
       },
       "nameUpper" : "DADATUM",
@@ -280,6 +300,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 34,
           "col" : 10,
+          "text" : "PRSNUM packed(6);\n         PatNum packed(6);\n       end-ds;",
           "id" : "sources\\afd_plng.sqlrpgle#34:10"
         },
         "nameUpper" : "PACKED(6)",
@@ -290,6 +311,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 34,
         "col" : 10,
+        "text" : "PRSNUM packed(6);\n         PatNum packed(6);\n       end-ds;",
         "id" : "sources\\afd_plng.sqlrpgle#34:10"
       },
       "nameUpper" : "PRSNUM",
@@ -305,6 +327,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 35,
           "col" : 10,
+          "text" : "PatNum packed(6);\n       end-ds;\n       ",
           "id" : "sources\\afd_plng.sqlrpgle#35:10"
         },
         "nameUpper" : "PACKED(6)",
@@ -315,6 +338,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 35,
         "col" : 10,
+        "text" : "PatNum packed(6);\n       end-ds;\n       ",
         "id" : "sources\\afd_plng.sqlrpgle#35:10"
       },
       "nameUpper" : "PATNUM",
@@ -327,6 +351,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 29,
       "col" : 8,
+      "text" : "dcl-ds return_ds qualified;\n         xaScrnAction char(6);\n         DAAFDELING varchar(20);",
       "id" : "sources\\afd_plng.sqlrpgle#29:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#29:8"
@@ -340,6 +365,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 39,
       "col" : 8,
+      "text" : "dcl-s RRN# packed(4);\n       dcl-s PRSNUM packed(6);\n       dcl-s userExited ind inz(*off);  // Indicator to detect if F3 was pressed",
       "id" : "sources\\afd_plng.sqlrpgle#39:8"
     },
     "static" : false,
@@ -356,6 +382,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 40,
       "col" : 8,
+      "text" : "dcl-s PRSNUM packed(6);\n       dcl-s userExited ind inz(*off);  // Indicator to detect if F3 was pressed\n       dcl-s TOTAL_RECORDS packed(4);",
       "id" : "sources\\afd_plng.sqlrpgle#40:8"
     },
     "static" : false,
@@ -372,6 +399,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 41,
       "col" : 8,
+      "text" : "dcl-s userExited ind inz(*off);  // Indicator to detect if F3 was pressed\n       dcl-s TOTAL_RECORDS packed(4);\n       dcl-s DATUM date(*ISO);",
       "id" : "sources\\afd_plng.sqlrpgle#41:8"
     },
     "static" : false,
@@ -389,6 +417,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 42,
       "col" : 8,
+      "text" : "dcl-s TOTAL_RECORDS packed(4);\n       dcl-s DATUM date(*ISO);\n       dcl-s AFDELING varchar(20);",
       "id" : "sources\\afd_plng.sqlrpgle#42:8"
     },
     "static" : false,
@@ -405,6 +434,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 43,
       "col" : 8,
+      "text" : "dcl-s DATUM date(*ISO);\n       dcl-s AFDELING varchar(20);\n       dcl-s str_pos packed(4);",
       "id" : "sources\\afd_plng.sqlrpgle#43:8"
     },
     "static" : false,
@@ -421,6 +451,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 44,
       "col" : 8,
+      "text" : "dcl-s AFDELING varchar(20);\n       dcl-s str_pos packed(4);\n       dcl-s SCHEMA varchar(15);",
       "id" : "sources\\afd_plng.sqlrpgle#44:8"
     },
     "static" : false,
@@ -437,6 +468,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 45,
       "col" : 8,
+      "text" : "dcl-s str_pos packed(4);\n       dcl-s SCHEMA varchar(15);\n       dcl-s page_num packed(4) inz(1);",
       "id" : "sources\\afd_plng.sqlrpgle#45:8"
     },
     "static" : false,
@@ -453,6 +485,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 46,
       "col" : 8,
+      "text" : "dcl-s SCHEMA varchar(15);\n       dcl-s page_num packed(4) inz(1);\n       dcl-s SFLPG packed(4) inz(12);",
       "id" : "sources\\afd_plng.sqlrpgle#46:8"
     },
     "static" : false,
@@ -469,6 +502,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 47,
       "col" : 8,
+      "text" : "dcl-s page_num packed(4) inz(1);\n       dcl-s SFLPG packed(4) inz(12);\n       dcl-s totalPages packed(4);",
       "id" : "sources\\afd_plng.sqlrpgle#47:8"
     },
     "static" : false,
@@ -486,6 +520,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 48,
       "col" : 8,
+      "text" : "dcl-s SFLPG packed(4) inz(12);\n       dcl-s totalPages packed(4);\n       ",
       "id" : "sources\\afd_plng.sqlrpgle#48:8"
     },
     "static" : false,
@@ -503,6 +538,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 49,
       "col" : 8,
+      "text" : "dcl-s totalPages packed(4);\n       \n       // Constants for screen navigation",
       "id" : "sources\\afd_plng.sqlrpgle#49:8"
     },
     "static" : false,
@@ -523,6 +559,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 57,
         "col" : 12,
+        "text" : "ds likeds(return_ds);\n         end-pi;\n       ",
         "id" : "sources\\afd_plng.sqlrpgle#57:12"
       },
       "id" : "sources\\afd_plng.sqlrpgle#57:12"
@@ -536,6 +573,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 57,
         "col" : 12,
+        "text" : "ds likeds(return_ds);\n         end-pi;\n       ",
         "id" : "sources\\afd_plng.sqlrpgle#57:12"
       },
       "id" : "sources\\afd_plng.sqlrpgle#57:12"
@@ -552,6 +590,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 61,
             "col" : 10,
+            "text" : "AFDELING = ds.DAAFDELING;\n         SCHEMA = ds.DASCHEMA;\n         DATUM = ds.DADATUM;",
             "id" : "sources\\afd_plng.sqlrpgle#61:10"
           },
           "nameUpper" : "AFDELING",
@@ -564,6 +603,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 61,
           "col" : 10,
+          "text" : "AFDELING = ds.DAAFDELING;\n         SCHEMA = ds.DASCHEMA;\n         DATUM = ds.DADATUM;",
           "id" : "sources\\afd_plng.sqlrpgle#61:10"
         },
         "flattened" : true,
@@ -581,6 +621,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 62,
               "col" : 10,
+              "text" : "SCHEMA = ds.DASCHEMA;\n         DATUM = ds.DADATUM;\n       ",
               "id" : "sources\\afd_plng.sqlrpgle#62:10"
             },
             "nameUpper" : "SCHEMA",
@@ -593,6 +634,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 62,
             "col" : 10,
+            "text" : "SCHEMA = ds.DASCHEMA;\n         DATUM = ds.DADATUM;\n       ",
             "id" : "sources\\afd_plng.sqlrpgle#62:10"
           },
           "flattened" : true,
@@ -610,6 +652,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 63,
                 "col" : 10,
+                "text" : "DATUM = ds.DADATUM;\n       \n         // Assign field values",
                 "id" : "sources\\afd_plng.sqlrpgle#63:10"
               },
               "nameUpper" : "DATUM",
@@ -622,6 +665,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 63,
               "col" : 10,
+              "text" : "DATUM = ds.DADATUM;\n       \n         // Assign field values",
               "id" : "sources\\afd_plng.sqlrpgle#63:10"
             },
             "flattened" : true,
@@ -639,6 +683,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 66,
                   "col" : 10,
+                  "text" : "DAAFDELING = AFDELING;\n         DASCHEMA = SCHEMA;\n         DADATUM = DATUM;",
                   "id" : "sources\\afd_plng.sqlrpgle#66:10"
                 },
                 "nameUpper" : "DAAFDELING",
@@ -651,6 +696,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 66,
                 "col" : 10,
+                "text" : "DAAFDELING = AFDELING;\n         DASCHEMA = SCHEMA;\n         DADATUM = DATUM;",
                 "id" : "sources\\afd_plng.sqlrpgle#66:10"
               },
               "flattened" : true,
@@ -668,6 +714,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 67,
                     "col" : 10,
+                    "text" : "DASCHEMA = SCHEMA;\n         DADATUM = DATUM;\n       ",
                     "id" : "sources\\afd_plng.sqlrpgle#67:10"
                   },
                   "nameUpper" : "DASCHEMA",
@@ -680,6 +727,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 67,
                   "col" : 10,
+                  "text" : "DASCHEMA = SCHEMA;\n         DADATUM = DATUM;\n       ",
                   "id" : "sources\\afd_plng.sqlrpgle#67:10"
                 },
                 "flattened" : true,
@@ -697,6 +745,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 68,
                       "col" : 10,
+                      "text" : "DADATUM = DATUM;\n       \n         // Load subfile data initially",
                       "id" : "sources\\afd_plng.sqlrpgle#68:10"
                     },
                     "nameUpper" : "DADATUM",
@@ -709,6 +758,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 68,
                     "col" : 10,
+                    "text" : "DADATUM = DATUM;\n       \n         // Load subfile data initially",
                     "id" : "sources\\afd_plng.sqlrpgle#68:10"
                   },
                   "flattened" : true,
@@ -727,6 +777,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 71,
                         "col" : 10,
+                        "text" : "Initialize();\n       \n         // Keep displaying until F3 is pressed",
                         "id" : "sources\\afd_plng.sqlrpgle#71:10"
                       },
                       "arity" : 0,
@@ -738,6 +789,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 71,
                       "col" : 10,
+                      "text" : "Initialize();\n       \n         // Keep displaying until F3 is pressed",
                       "id" : "sources\\afd_plng.sqlrpgle#71:10"
                     },
                     "id" : "sources\\afd_plng.sqlrpgle#71:10"
@@ -756,6 +808,7 @@
                             "file" : "sources\\afd_plng.sqlrpgle",
                             "line" : 74,
                             "col" : 19,
+                            "text" : "*in03);\n           exfmt SFLCTL01;\n       ",
                             "id" : "sources\\afd_plng.sqlrpgle#74:19"
                           },
                           "nameUpper" : "*IN03",
@@ -766,6 +819,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 74,
                           "col" : 15,
+                          "text" : "not *in03);\n           exfmt SFLCTL01;\n       ",
                           "id" : "sources\\afd_plng.sqlrpgle#74:15"
                         },
                         "id" : "sources\\afd_plng.sqlrpgle#74:15"
@@ -780,6 +834,7 @@
                             "file" : "sources\\afd_plng.sqlrpgle",
                             "line" : 75,
                             "col" : 12,
+                            "text" : "exfmt SFLCTL01;\n       \n           // Calculate total page count",
                             "id" : "sources\\afd_plng.sqlrpgle#75:12"
                           },
                           "id" : "sources\\afd_plng.sqlrpgle#75:12"
@@ -797,6 +852,7 @@
                                 "file" : "sources\\afd_plng.sqlrpgle",
                                 "line" : 78,
                                 "col" : 12,
+                                "text" : "countTotalRecords();\n       \n           // SFLMSG indicator.",
                                 "id" : "sources\\afd_plng.sqlrpgle#78:12"
                               },
                               "arity" : 0,
@@ -808,6 +864,7 @@
                               "file" : "sources\\afd_plng.sqlrpgle",
                               "line" : 78,
                               "col" : 12,
+                              "text" : "countTotalRecords();\n       \n           // SFLMSG indicator.",
                               "id" : "sources\\afd_plng.sqlrpgle#78:12"
                             },
                             "id" : "sources\\afd_plng.sqlrpgle#78:12"
@@ -824,6 +881,7 @@
                                   "file" : "sources\\afd_plng.sqlrpgle",
                                   "line" : 81,
                                   "col" : 13,
+                                  "text" : "in10 = *off;\n       \n           // Handle the function keys",
                                   "id" : "sources\\afd_plng.sqlrpgle#81:13"
                                 },
                                 "nameUpper" : "IN10",
@@ -836,6 +894,7 @@
                                 "file" : "sources\\afd_plng.sqlrpgle",
                                 "line" : 81,
                                 "col" : 13,
+                                "text" : "in10 = *off;\n       \n           // Handle the function keys",
                                 "id" : "sources\\afd_plng.sqlrpgle#81:13"
                               },
                               "flattened" : true,
@@ -859,6 +918,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 84,
                                         "col" : 16,
+                                        "text" : "*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                         "id" : "sources\\afd_plng.sqlrpgle#84:16"
                                       },
                                       "nameUpper" : "*IN70",
@@ -872,6 +932,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 84,
                                         "col" : 24,
+                                        "text" : "*on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                         "id" : "sources\\afd_plng.sqlrpgle#84:24"
                                       },
                                       "nameUpper" : "*ON",
@@ -882,6 +943,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 84,
                                       "col" : 16,
+                                      "text" : "*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                       "id" : "sources\\afd_plng.sqlrpgle#84:16"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#84:16"
@@ -896,6 +958,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 84,
                                         "col" : 36,
+                                        "text" : "*in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                         "id" : "sources\\afd_plng.sqlrpgle#84:36"
                                       },
                                       "nameUpper" : "*IN45",
@@ -906,6 +969,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 84,
                                       "col" : 32,
+                                      "text" : "not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                       "id" : "sources\\afd_plng.sqlrpgle#84:32"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#84:32"
@@ -915,6 +979,7 @@
                                     "file" : "sources\\afd_plng.sqlrpgle",
                                     "line" : 84,
                                     "col" : 16,
+                                    "text" : "*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                     "id" : "sources\\afd_plng.sqlrpgle#84:16"
                                   },
                                   "id" : "sources\\afd_plng.sqlrpgle#84:16"
@@ -934,6 +999,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 85,
                                           "col" : 18,
+                                          "text" : "page_num < totalPages);\n               page_num += 1;\n             endif;",
                                           "id" : "sources\\afd_plng.sqlrpgle#85:18"
                                         },
                                         "nameUpper" : "PAGE_NUM",
@@ -947,6 +1013,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 85,
                                           "col" : 29,
+                                          "text" : "totalPages);\n               page_num += 1;\n             endif;",
                                           "id" : "sources\\afd_plng.sqlrpgle#85:29"
                                         },
                                         "nameUpper" : "TOTALPAGES",
@@ -957,6 +1024,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 85,
                                         "col" : 18,
+                                        "text" : "page_num < totalPages);\n               page_num += 1;\n             endif;",
                                         "id" : "sources\\afd_plng.sqlrpgle#85:18"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#85:18"
@@ -971,6 +1039,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 86,
                                           "col" : 16,
+                                          "text" : "page_num += 1;\n             endif;\n             clearSFL();",
                                           "id" : "sources\\afd_plng.sqlrpgle#86:16"
                                         },
                                         "nameUpper" : "PAGE_NUM",
@@ -983,6 +1052,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 86,
                                         "col" : 16,
+                                        "text" : "page_num += 1;\n             endif;\n             clearSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#86:16"
                                       },
                                       "flattened" : true,
@@ -993,6 +1063,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 85,
                                       "col" : 14,
+                                      "text" : "if (page_num < totalPages);\n               page_num += 1;\n             endif;",
                                       "id" : "sources\\afd_plng.sqlrpgle#85:14"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#85:14"
@@ -1010,6 +1081,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 88,
                                           "col" : 14,
+                                          "text" : "clearSFL();\n             loadSFL();\n           elseif (*in71 = *on); // PageUp",
                                           "id" : "sources\\afd_plng.sqlrpgle#88:14"
                                         },
                                         "arity" : 0,
@@ -1021,6 +1093,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 88,
                                         "col" : 14,
+                                        "text" : "clearSFL();\n             loadSFL();\n           elseif (*in71 = *on); // PageUp",
                                         "id" : "sources\\afd_plng.sqlrpgle#88:14"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#88:14"
@@ -1038,6 +1111,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 89,
                                             "col" : 14,
+                                            "text" : "loadSFL();\n           elseif (*in71 = *on); // PageUp\n             if (*in45 =*on);",
                                             "id" : "sources\\afd_plng.sqlrpgle#89:14"
                                           },
                                           "arity" : 0,
@@ -1049,6 +1123,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 89,
                                           "col" : 14,
+                                          "text" : "loadSFL();\n           elseif (*in71 = *on); // PageUp\n             if (*in45 =*on);",
                                           "id" : "sources\\afd_plng.sqlrpgle#89:14"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#89:14"
@@ -1068,6 +1143,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 91,
                                                 "col" : 18,
+                                                "text" : "*in45 =*on);\n               *in45 = *off;\n             endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#91:18"
                                               },
                                               "nameUpper" : "*IN45",
@@ -1081,6 +1157,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 91,
                                                 "col" : 25,
+                                                "text" : "*on);\n               *in45 = *off;\n             endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#91:25"
                                               },
                                               "nameUpper" : "*ON",
@@ -1091,6 +1168,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 91,
                                               "col" : 18,
+                                              "text" : "*in45 =*on);\n               *in45 = *off;\n             endif;",
                                               "id" : "sources\\afd_plng.sqlrpgle#91:18"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#91:18"
@@ -1105,6 +1183,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 92,
                                                 "col" : 17,
+                                                "text" : "in45 = *off;\n             endif;\n             if (page_num > 1);",
                                                 "id" : "sources\\afd_plng.sqlrpgle#92:17"
                                               },
                                               "nameUpper" : "IN45",
@@ -1117,6 +1196,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 92,
                                               "col" : 17,
+                                              "text" : "in45 = *off;\n             endif;\n             if (page_num > 1);",
                                               "id" : "sources\\afd_plng.sqlrpgle#92:17"
                                             },
                                             "flattened" : true,
@@ -1127,6 +1207,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 91,
                                             "col" : 14,
+                                            "text" : "if (*in45 =*on);\n               *in45 = *off;\n             endif;",
                                             "id" : "sources\\afd_plng.sqlrpgle#91:14"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#91:14"
@@ -1146,6 +1227,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 94,
                                                   "col" : 18,
+                                                  "text" : "page_num > 1);\n               page_num -= 1;\n             endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#94:18"
                                                 },
                                                 "nameUpper" : "PAGE_NUM",
@@ -1159,6 +1241,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 94,
                                                   "col" : 29,
+                                                  "text" : "1);\n               page_num -= 1;\n             endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#94:29"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#94:29"
@@ -1168,6 +1251,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 94,
                                                 "col" : 18,
+                                                "text" : "page_num > 1);\n               page_num -= 1;\n             endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#94:18"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#94:18"
@@ -1182,6 +1266,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 95,
                                                   "col" : 16,
+                                                  "text" : "page_num -= 1;\n             endif;\n             clearSFL();",
                                                   "id" : "sources\\afd_plng.sqlrpgle#95:16"
                                                 },
                                                 "nameUpper" : "PAGE_NUM",
@@ -1194,6 +1279,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 95,
                                                 "col" : 16,
+                                                "text" : "page_num -= 1;\n             endif;\n             clearSFL();",
                                                 "id" : "sources\\afd_plng.sqlrpgle#95:16"
                                               },
                                               "flattened" : true,
@@ -1204,6 +1290,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 94,
                                               "col" : 14,
+                                              "text" : "if (page_num > 1);\n               page_num -= 1;\n             endif;",
                                               "id" : "sources\\afd_plng.sqlrpgle#94:14"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#94:14"
@@ -1221,6 +1308,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 97,
                                                   "col" : 14,
+                                                  "text" : "clearSFL();\n             loadSFL();\n           elseif (*in70 = *on AND *in45 = *on); // End of file",
                                                   "id" : "sources\\afd_plng.sqlrpgle#97:14"
                                                 },
                                                 "arity" : 0,
@@ -1232,6 +1320,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 97,
                                                 "col" : 14,
+                                                "text" : "clearSFL();\n             loadSFL();\n           elseif (*in70 = *on AND *in45 = *on); // End of file",
                                                 "id" : "sources\\afd_plng.sqlrpgle#97:14"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#97:14"
@@ -1249,6 +1338,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 98,
                                                     "col" : 14,
+                                                    "text" : "loadSFL();\n           elseif (*in70 = *on AND *in45 = *on); // End of file\n             *in10 = *on;",
                                                     "id" : "sources\\afd_plng.sqlrpgle#98:14"
                                                   },
                                                   "arity" : 0,
@@ -1260,6 +1350,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 98,
                                                   "col" : 14,
+                                                  "text" : "loadSFL();\n           elseif (*in70 = *on AND *in45 = *on); // End of file\n             *in10 = *on;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#98:14"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#98:14"
@@ -1274,6 +1365,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 100,
                                                     "col" : 15,
+                                                    "text" : "in10 = *on;\n           endif;\n       ",
                                                     "id" : "sources\\afd_plng.sqlrpgle#100:15"
                                                   },
                                                   "nameUpper" : "IN10",
@@ -1286,6 +1378,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 100,
                                                   "col" : 15,
+                                                  "text" : "in10 = *on;\n           endif;\n       ",
                                                   "id" : "sources\\afd_plng.sqlrpgle#100:15"
                                                 },
                                                 "flattened" : true,
@@ -1296,6 +1389,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 84,
                                                 "col" : 12,
+                                                "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#84:12"
@@ -1305,6 +1399,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 84,
                                               "col" : 12,
+                                              "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                               "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#84:13"
@@ -1314,6 +1409,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 84,
                                             "col" : 12,
+                                            "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                             "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#84:14"
@@ -1323,6 +1419,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 84,
                                           "col" : 12,
+                                          "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                           "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#84:15"
@@ -1332,6 +1429,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 84,
                                         "col" : 12,
+                                        "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                         "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#84:16"
@@ -1341,6 +1439,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 84,
                                       "col" : 12,
+                                      "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                       "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#84:17"
@@ -1350,6 +1449,7 @@
                                     "file" : "sources\\afd_plng.sqlrpgle",
                                     "line" : 84,
                                     "col" : 12,
+                                    "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                     "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                   },
                                   "id" : "sources\\afd_plng.sqlrpgle#84:18"
@@ -1359,6 +1459,7 @@
                                   "file" : "sources\\afd_plng.sqlrpgle",
                                   "line" : 84,
                                   "col" : 12,
+                                  "text" : "if (*in70 = *on AND not *in45); // PageDown\n             if (page_num < totalPages);\n               page_num += 1;",
                                   "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                 },
                                 "id" : "sources\\afd_plng.sqlrpgle#84:12"
@@ -1378,6 +1479,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 104,
                                         "col" : 16,
+                                        "text" : "*in17 = *on); // F17, top of file\n             page_num = 1;\n             clearSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#104:16"
                                       },
                                       "nameUpper" : "*IN17",
@@ -1391,6 +1493,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 104,
                                         "col" : 24,
+                                        "text" : "*on); // F17, top of file\n             page_num = 1;\n             clearSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#104:24"
                                       },
                                       "nameUpper" : "*ON",
@@ -1401,6 +1504,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 104,
                                       "col" : 16,
+                                      "text" : "*in17 = *on); // F17, top of file\n             page_num = 1;\n             clearSFL();",
                                       "id" : "sources\\afd_plng.sqlrpgle#104:16"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#104:16"
@@ -1417,6 +1521,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 105,
                                           "col" : 14,
+                                          "text" : "page_num = 1;\n             clearSFL();\n             loadSFL();",
                                           "id" : "sources\\afd_plng.sqlrpgle#105:14"
                                         },
                                         "nameUpper" : "PAGE_NUM",
@@ -1429,6 +1534,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 105,
                                         "col" : 14,
+                                        "text" : "page_num = 1;\n             clearSFL();\n             loadSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#105:14"
                                       },
                                       "flattened" : true,
@@ -1447,6 +1553,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 106,
                                             "col" : 14,
+                                            "text" : "clearSFL();\n             loadSFL();\n           endif;",
                                             "id" : "sources\\afd_plng.sqlrpgle#106:14"
                                           },
                                           "arity" : 0,
@@ -1458,6 +1565,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 106,
                                           "col" : 14,
+                                          "text" : "clearSFL();\n             loadSFL();\n           endif;",
                                           "id" : "sources\\afd_plng.sqlrpgle#106:14"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#106:14"
@@ -1473,6 +1581,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 107,
                                             "col" : 14,
+                                            "text" : "loadSFL();\n           endif;\n       ",
                                             "id" : "sources\\afd_plng.sqlrpgle#107:14"
                                           },
                                           "arity" : 0,
@@ -1484,6 +1593,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 107,
                                           "col" : 14,
+                                          "text" : "loadSFL();\n           endif;\n       ",
                                           "id" : "sources\\afd_plng.sqlrpgle#107:14"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#107:14"
@@ -1493,6 +1603,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 104,
                                         "col" : 12,
+                                        "text" : "if (*in17 = *on); // F17, top of file\n             page_num = 1;\n             clearSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#104:12"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#104:19"
@@ -1502,6 +1613,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 104,
                                       "col" : 12,
+                                      "text" : "if (*in17 = *on); // F17, top of file\n             page_num = 1;\n             clearSFL();",
                                       "id" : "sources\\afd_plng.sqlrpgle#104:12"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#104:20"
@@ -1511,6 +1623,7 @@
                                     "file" : "sources\\afd_plng.sqlrpgle",
                                     "line" : 104,
                                     "col" : 12,
+                                    "text" : "if (*in17 = *on); // F17, top of file\n             page_num = 1;\n             clearSFL();",
                                     "id" : "sources\\afd_plng.sqlrpgle#104:12"
                                   },
                                   "id" : "sources\\afd_plng.sqlrpgle#104:12"
@@ -1530,6 +1643,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 110,
                                           "col" : 16,
+                                          "text" : "*in18 = *on); // F18, bottom of file\n             page_num = totalPages;\n             clearSFL();",
                                           "id" : "sources\\afd_plng.sqlrpgle#110:16"
                                         },
                                         "nameUpper" : "*IN18",
@@ -1543,6 +1657,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 110,
                                           "col" : 24,
+                                          "text" : "*on); // F18, bottom of file\n             page_num = totalPages;\n             clearSFL();",
                                           "id" : "sources\\afd_plng.sqlrpgle#110:24"
                                         },
                                         "nameUpper" : "*ON",
@@ -1553,6 +1668,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 110,
                                         "col" : 16,
+                                        "text" : "*in18 = *on); // F18, bottom of file\n             page_num = totalPages;\n             clearSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#110:16"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#110:16"
@@ -1569,6 +1685,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 111,
                                             "col" : 14,
+                                            "text" : "page_num = totalPages;\n             clearSFL();\n             loadSFL();",
                                             "id" : "sources\\afd_plng.sqlrpgle#111:14"
                                           },
                                           "nameUpper" : "PAGE_NUM",
@@ -1581,6 +1698,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 111,
                                           "col" : 14,
+                                          "text" : "page_num = totalPages;\n             clearSFL();\n             loadSFL();",
                                           "id" : "sources\\afd_plng.sqlrpgle#111:14"
                                         },
                                         "flattened" : true,
@@ -1599,6 +1717,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 112,
                                               "col" : 14,
+                                              "text" : "clearSFL();\n             loadSFL();\n           endif;",
                                               "id" : "sources\\afd_plng.sqlrpgle#112:14"
                                             },
                                             "arity" : 0,
@@ -1610,6 +1729,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 112,
                                             "col" : 14,
+                                            "text" : "clearSFL();\n             loadSFL();\n           endif;",
                                             "id" : "sources\\afd_plng.sqlrpgle#112:14"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#112:14"
@@ -1625,6 +1745,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 113,
                                               "col" : 14,
+                                              "text" : "loadSFL();\n           endif;\n       ",
                                               "id" : "sources\\afd_plng.sqlrpgle#113:14"
                                             },
                                             "arity" : 0,
@@ -1636,6 +1757,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 113,
                                             "col" : 14,
+                                            "text" : "loadSFL();\n           endif;\n       ",
                                             "id" : "sources\\afd_plng.sqlrpgle#113:14"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#113:14"
@@ -1645,6 +1767,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 110,
                                           "col" : 12,
+                                          "text" : "if (*in18 = *on); // F18, bottom of file\n             page_num = totalPages;\n             clearSFL();",
                                           "id" : "sources\\afd_plng.sqlrpgle#110:12"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#110:21"
@@ -1654,6 +1777,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 110,
                                         "col" : 12,
+                                        "text" : "if (*in18 = *on); // F18, bottom of file\n             page_num = totalPages;\n             clearSFL();",
                                         "id" : "sources\\afd_plng.sqlrpgle#110:12"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#110:22"
@@ -1663,6 +1787,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 110,
                                       "col" : 12,
+                                      "text" : "if (*in18 = *on); // F18, bottom of file\n             page_num = totalPages;\n             clearSFL();",
                                       "id" : "sources\\afd_plng.sqlrpgle#110:12"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#110:12"
@@ -1682,6 +1807,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 116,
                                             "col" : 16,
+                                            "text" : "*in07 = *on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                             "id" : "sources\\afd_plng.sqlrpgle#116:16"
                                           },
                                           "nameUpper" : "*IN07",
@@ -1695,6 +1821,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 116,
                                             "col" : 24,
+                                            "text" : "*on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                             "id" : "sources\\afd_plng.sqlrpgle#116:24"
                                           },
                                           "nameUpper" : "*ON",
@@ -1705,6 +1832,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 116,
                                           "col" : 16,
+                                          "text" : "*in07 = *on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                           "id" : "sources\\afd_plng.sqlrpgle#116:16"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#116:16"
@@ -1721,6 +1849,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 117,
                                               "col" : 14,
+                                              "text" : "DADATUM = DADATUM - %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                               "id" : "sources\\afd_plng.sqlrpgle#117:14"
                                             },
                                             "nameUpper" : "DADATUM",
@@ -1738,6 +1867,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 117,
                                                 "col" : 24,
+                                                "text" : "DADATUM - %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#117:24"
                                               },
                                               "nameUpper" : "DADATUM",
@@ -1751,6 +1881,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 117,
                                                 "col" : 34,
+                                                "text" : "%days(1);\n             page_num = 1;\n             *in45 = *off;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#117:34"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#117:34"
@@ -1760,6 +1891,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 117,
                                               "col" : 24,
+                                              "text" : "DADATUM - %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                               "id" : "sources\\afd_plng.sqlrpgle#117:24"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#117:24"
@@ -1769,6 +1901,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 117,
                                             "col" : 14,
+                                            "text" : "DADATUM = DADATUM - %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                             "id" : "sources\\afd_plng.sqlrpgle#117:14"
                                           },
                                           "flattened" : false,
@@ -1786,6 +1919,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 118,
                                                 "col" : 14,
+                                                "text" : "page_num = 1;\n             *in45 = *off;\n             *in99 = *on;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#118:14"
                                               },
                                               "nameUpper" : "PAGE_NUM",
@@ -1798,6 +1932,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 118,
                                               "col" : 14,
+                                              "text" : "page_num = 1;\n             *in45 = *off;\n             *in99 = *on;",
                                               "id" : "sources\\afd_plng.sqlrpgle#118:14"
                                             },
                                             "flattened" : true,
@@ -1815,6 +1950,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 119,
                                                   "col" : 15,
+                                                  "text" : "in45 = *off;\n             *in99 = *on;\n           endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#119:15"
                                                 },
                                                 "nameUpper" : "IN45",
@@ -1827,6 +1963,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 119,
                                                 "col" : 15,
+                                                "text" : "in45 = *off;\n             *in99 = *on;\n           endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#119:15"
                                               },
                                               "flattened" : true,
@@ -1842,6 +1979,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 120,
                                                   "col" : 15,
+                                                  "text" : "in99 = *on;\n           endif;\n       ",
                                                   "id" : "sources\\afd_plng.sqlrpgle#120:15"
                                                 },
                                                 "nameUpper" : "IN99",
@@ -1854,6 +1992,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 120,
                                                 "col" : 15,
+                                                "text" : "in99 = *on;\n           endif;\n       ",
                                                 "id" : "sources\\afd_plng.sqlrpgle#120:15"
                                               },
                                               "flattened" : true,
@@ -1864,6 +2003,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 116,
                                               "col" : 12,
+                                              "text" : "if (*in07 = *on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                               "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#116:23"
@@ -1873,6 +2013,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 116,
                                             "col" : 12,
+                                            "text" : "if (*in07 = *on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                             "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#116:24"
@@ -1882,6 +2023,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 116,
                                           "col" : 12,
+                                          "text" : "if (*in07 = *on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                           "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#116:25"
@@ -1891,6 +2033,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 116,
                                         "col" : 12,
+                                        "text" : "if (*in07 = *on); // F7, previous day\n             DADATUM = DADATUM - %days(1);\n             page_num = 1;",
                                         "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#116:12"
@@ -1910,6 +2053,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 123,
                                               "col" : 16,
+                                              "text" : "*in08 = *on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                               "id" : "sources\\afd_plng.sqlrpgle#123:16"
                                             },
                                             "nameUpper" : "*IN08",
@@ -1923,6 +2067,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 123,
                                               "col" : 24,
+                                              "text" : "*on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                               "id" : "sources\\afd_plng.sqlrpgle#123:24"
                                             },
                                             "nameUpper" : "*ON",
@@ -1933,6 +2078,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 123,
                                             "col" : 16,
+                                            "text" : "*in08 = *on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                             "id" : "sources\\afd_plng.sqlrpgle#123:16"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#123:16"
@@ -1949,6 +2095,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 124,
                                                 "col" : 14,
+                                                "text" : "DADATUM = DADATUM + %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#124:14"
                                               },
                                               "nameUpper" : "DADATUM",
@@ -1966,6 +2113,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 124,
                                                   "col" : 24,
+                                                  "text" : "DADATUM + %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#124:24"
                                                 },
                                                 "nameUpper" : "DADATUM",
@@ -1979,6 +2127,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 124,
                                                   "col" : 34,
+                                                  "text" : "%days(1);\n             page_num = 1;\n             *in45 = *off;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#124:34"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#124:34"
@@ -1988,6 +2137,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 124,
                                                 "col" : 24,
+                                                "text" : "DADATUM + %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#124:24"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#124:24"
@@ -1997,6 +2147,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 124,
                                               "col" : 14,
+                                              "text" : "DADATUM = DADATUM + %days(1);\n             page_num = 1;\n             *in45 = *off;",
                                               "id" : "sources\\afd_plng.sqlrpgle#124:14"
                                             },
                                             "flattened" : false,
@@ -2014,6 +2165,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 125,
                                                   "col" : 14,
+                                                  "text" : "page_num = 1;\n             *in45 = *off;\n             *in99 = *on;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#125:14"
                                                 },
                                                 "nameUpper" : "PAGE_NUM",
@@ -2026,6 +2178,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 125,
                                                 "col" : 14,
+                                                "text" : "page_num = 1;\n             *in45 = *off;\n             *in99 = *on;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#125:14"
                                               },
                                               "flattened" : true,
@@ -2043,6 +2196,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 126,
                                                     "col" : 15,
+                                                    "text" : "in45 = *off;\n             *in99 = *on;\n           endif;",
                                                     "id" : "sources\\afd_plng.sqlrpgle#126:15"
                                                   },
                                                   "nameUpper" : "IN45",
@@ -2055,6 +2209,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 126,
                                                   "col" : 15,
+                                                  "text" : "in45 = *off;\n             *in99 = *on;\n           endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#126:15"
                                                 },
                                                 "flattened" : true,
@@ -2070,6 +2225,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 127,
                                                     "col" : 15,
+                                                    "text" : "in99 = *on;\n           endif;\n       ",
                                                     "id" : "sources\\afd_plng.sqlrpgle#127:15"
                                                   },
                                                   "nameUpper" : "IN99",
@@ -2082,6 +2238,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 127,
                                                   "col" : 15,
+                                                  "text" : "in99 = *on;\n           endif;\n       ",
                                                   "id" : "sources\\afd_plng.sqlrpgle#127:15"
                                                 },
                                                 "flattened" : true,
@@ -2092,6 +2249,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 123,
                                                 "col" : 12,
+                                                "text" : "if (*in08 = *on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#123:26"
@@ -2101,6 +2259,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 123,
                                               "col" : 12,
+                                              "text" : "if (*in08 = *on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                               "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#123:27"
@@ -2110,6 +2269,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 123,
                                             "col" : 12,
+                                            "text" : "if (*in08 = *on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                             "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#123:28"
@@ -2119,6 +2279,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 123,
                                           "col" : 12,
+                                          "text" : "if (*in08 = *on); // F8, next day\n             DADATUM = DADATUM + %days(1);\n             page_num = 1;",
                                           "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#123:12"
@@ -2138,6 +2299,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 130,
                                                 "col" : 16,
+                                                "text" : "*in12 = *on);\n             exitProc();\n             return_ds.xaScrnAction = 'filter';",
                                                 "id" : "sources\\afd_plng.sqlrpgle#130:16"
                                               },
                                               "nameUpper" : "*IN12",
@@ -2151,6 +2313,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 130,
                                                 "col" : 24,
+                                                "text" : "*on);\n             exitProc();\n             return_ds.xaScrnAction = 'filter';",
                                                 "id" : "sources\\afd_plng.sqlrpgle#130:24"
                                               },
                                               "nameUpper" : "*ON",
@@ -2161,6 +2324,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 130,
                                               "col" : 16,
+                                              "text" : "*in12 = *on);\n             exitProc();\n             return_ds.xaScrnAction = 'filter';",
                                               "id" : "sources\\afd_plng.sqlrpgle#130:16"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#130:16"
@@ -2178,6 +2342,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 131,
                                                   "col" : 14,
+                                                  "text" : "exitProc();\n             return_ds.xaScrnAction = 'filter';\n             return return_ds;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#131:14"
                                                 },
                                                 "arity" : 0,
@@ -2189,6 +2354,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 131,
                                                 "col" : 14,
+                                                "text" : "exitProc();\n             return_ds.xaScrnAction = 'filter';\n             return return_ds;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#131:14"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#131:14"
@@ -2203,6 +2369,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 132,
                                                   "col" : 14,
+                                                  "text" : "return_ds.xaScrnAction = 'filter';\n             return return_ds;\n           endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#132:14"
                                                 },
                                                 "nameUpper" : "RETURN_DS.XASCRNACTION",
@@ -2215,6 +2382,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 132,
                                                 "col" : 14,
+                                                "text" : "return_ds.xaScrnAction = 'filter';\n             return return_ds;\n           endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#132:14"
                                               },
                                               "flattened" : true,
@@ -2225,6 +2393,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 130,
                                               "col" : 12,
+                                              "text" : "if (*in12 = *on);\n             exitProc();\n             return_ds.xaScrnAction = 'filter';",
                                               "id" : "sources\\afd_plng.sqlrpgle#130:12"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#130:29"
@@ -2234,6 +2403,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 130,
                                             "col" : 12,
+                                            "text" : "if (*in12 = *on);\n             exitProc();\n             return_ds.xaScrnAction = 'filter';",
                                             "id" : "sources\\afd_plng.sqlrpgle#130:12"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#130:12"
@@ -2253,6 +2423,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 136,
                                                   "col" : 16,
+                                                  "text" : "*in05 = *on); // F5, refresh\n             // niks.\n           endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#136:16"
                                                 },
                                                 "nameUpper" : "*IN05",
@@ -2266,6 +2437,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 136,
                                                   "col" : 24,
+                                                  "text" : "*on); // F5, refresh\n             // niks.\n           endif;",
                                                   "id" : "sources\\afd_plng.sqlrpgle#136:24"
                                                 },
                                                 "nameUpper" : "*ON",
@@ -2276,6 +2448,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 136,
                                                 "col" : 16,
+                                                "text" : "*in05 = *on); // F5, refresh\n             // niks.\n           endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#136:16"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#136:16"
@@ -2287,6 +2460,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 136,
                                                 "col" : 12,
+                                                "text" : "if (*in05 = *on); // F5, refresh\n             // niks.\n           endif;",
                                                 "id" : "sources\\afd_plng.sqlrpgle#136:12"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#136:12"
@@ -2296,6 +2470,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 136,
                                               "col" : 12,
+                                              "text" : "if (*in05 = *on); // F5, refresh\n             // niks.\n           endif;",
                                               "id" : "sources\\afd_plng.sqlrpgle#136:12"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#136:12"
@@ -2315,6 +2490,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 140,
                                                     "col" : 16,
+                                                    "text" : "*in99 = *on); // Reload subfile\n             clearSFL();\n             loadSFL();",
                                                     "id" : "sources\\afd_plng.sqlrpgle#140:16"
                                                   },
                                                   "nameUpper" : "*IN99",
@@ -2328,6 +2504,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 140,
                                                     "col" : 24,
+                                                    "text" : "*on); // Reload subfile\n             clearSFL();\n             loadSFL();",
                                                     "id" : "sources\\afd_plng.sqlrpgle#140:24"
                                                   },
                                                   "nameUpper" : "*ON",
@@ -2338,6 +2515,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 140,
                                                   "col" : 16,
+                                                  "text" : "*in99 = *on); // Reload subfile\n             clearSFL();\n             loadSFL();",
                                                   "id" : "sources\\afd_plng.sqlrpgle#140:16"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#140:16"
@@ -2355,6 +2533,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 141,
                                                       "col" : 14,
+                                                      "text" : "clearSFL();\n             loadSFL();\n             *in99 = *off;",
                                                       "id" : "sources\\afd_plng.sqlrpgle#141:14"
                                                     },
                                                     "arity" : 0,
@@ -2366,6 +2545,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 141,
                                                     "col" : 14,
+                                                    "text" : "clearSFL();\n             loadSFL();\n             *in99 = *off;",
                                                     "id" : "sources\\afd_plng.sqlrpgle#141:14"
                                                   },
                                                   "id" : "sources\\afd_plng.sqlrpgle#141:14"
@@ -2383,6 +2563,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 142,
                                                         "col" : 14,
+                                                        "text" : "loadSFL();\n             *in99 = *off;\n           endif;",
                                                         "id" : "sources\\afd_plng.sqlrpgle#142:14"
                                                       },
                                                       "arity" : 0,
@@ -2394,6 +2575,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 142,
                                                       "col" : 14,
+                                                      "text" : "loadSFL();\n             *in99 = *off;\n           endif;",
                                                       "id" : "sources\\afd_plng.sqlrpgle#142:14"
                                                     },
                                                     "id" : "sources\\afd_plng.sqlrpgle#142:14"
@@ -2408,6 +2590,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 143,
                                                         "col" : 15,
+                                                        "text" : "in99 = *off;\n           endif;\n       ",
                                                         "id" : "sources\\afd_plng.sqlrpgle#143:15"
                                                       },
                                                       "nameUpper" : "IN99",
@@ -2420,6 +2603,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 143,
                                                       "col" : 15,
+                                                      "text" : "in99 = *off;\n           endif;\n       ",
                                                       "id" : "sources\\afd_plng.sqlrpgle#143:15"
                                                     },
                                                     "flattened" : true,
@@ -2430,6 +2614,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 140,
                                                     "col" : 12,
+                                                    "text" : "if (*in99 = *on); // Reload subfile\n             clearSFL();\n             loadSFL();",
                                                     "id" : "sources\\afd_plng.sqlrpgle#140:12"
                                                   },
                                                   "id" : "sources\\afd_plng.sqlrpgle#140:30"
@@ -2439,6 +2624,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 140,
                                                   "col" : 12,
+                                                  "text" : "if (*in99 = *on); // Reload subfile\n             clearSFL();\n             loadSFL();",
                                                   "id" : "sources\\afd_plng.sqlrpgle#140:12"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#140:31"
@@ -2448,6 +2634,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 140,
                                                 "col" : 12,
+                                                "text" : "if (*in99 = *on); // Reload subfile\n             clearSFL();\n             loadSFL();",
                                                 "id" : "sources\\afd_plng.sqlrpgle#140:12"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#140:12"
@@ -2467,6 +2654,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 146,
                                                       "col" : 16,
+                                                      "text" : "*in04 = *on); // F4, prompts to subwindows\n             read SCREEN01;\n             if FLD = 'DADATUM';",
                                                       "id" : "sources\\afd_plng.sqlrpgle#146:16"
                                                     },
                                                     "nameUpper" : "*IN04",
@@ -2480,6 +2668,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 146,
                                                       "col" : 24,
+                                                      "text" : "*on); // F4, prompts to subwindows\n             read SCREEN01;\n             if FLD = 'DADATUM';",
                                                       "id" : "sources\\afd_plng.sqlrpgle#146:24"
                                                     },
                                                     "nameUpper" : "*ON",
@@ -2490,6 +2679,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 146,
                                                     "col" : 16,
+                                                    "text" : "*in04 = *on); // F4, prompts to subwindows\n             read SCREEN01;\n             if FLD = 'DADATUM';",
                                                     "id" : "sources\\afd_plng.sqlrpgle#146:16"
                                                   },
                                                   "id" : "sources\\afd_plng.sqlrpgle#146:16"
@@ -2504,6 +2694,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 147,
                                                       "col" : 14,
+                                                      "text" : "read SCREEN01;\n             if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);",
                                                       "id" : "sources\\afd_plng.sqlrpgle#147:14"
                                                     },
                                                     "id" : "sources\\afd_plng.sqlrpgle#147:14"
@@ -2521,6 +2712,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 148,
                                                           "col" : 17,
+                                                          "text" : "FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                           "id" : "sources\\afd_plng.sqlrpgle#148:17"
                                                         },
                                                         "nameUpper" : "FLD",
@@ -2534,6 +2726,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 148,
                                                           "col" : 23,
+                                                          "text" : "'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                           "id" : "sources\\afd_plng.sqlrpgle#148:23"
                                                         },
                                                         "id" : "sources\\afd_plng.sqlrpgle#148:23"
@@ -2543,6 +2736,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 148,
                                                         "col" : 17,
+                                                        "text" : "FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                         "id" : "sources\\afd_plng.sqlrpgle#148:17"
                                                       },
                                                       "id" : "sources\\afd_plng.sqlrpgle#148:17"
@@ -2559,6 +2753,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 149,
                                                             "col" : 16,
+                                                            "text" : "DADATUM = DatWdw(DADATUM);\n               Initialize();\n             elseif FLD = 'DAAFDELING';",
                                                             "id" : "sources\\afd_plng.sqlrpgle#149:16"
                                                           },
                                                           "nameUpper" : "DADATUM",
@@ -2576,6 +2771,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 149,
                                                               "col" : 33,
+                                                              "text" : "DADATUM);\n               Initialize();\n             elseif FLD = 'DAAFDELING';",
                                                               "id" : "sources\\afd_plng.sqlrpgle#149:33"
                                                             },
                                                             "nameUpper" : "DADATUM",
@@ -2586,6 +2782,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 149,
                                                             "col" : 26,
+                                                            "text" : "DatWdw(DADATUM);\n               Initialize();\n             elseif FLD = 'DAAFDELING';",
                                                             "id" : "sources\\afd_plng.sqlrpgle#149:26"
                                                           },
                                                           "arity" : 1,
@@ -2597,6 +2794,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 149,
                                                           "col" : 16,
+                                                          "text" : "DADATUM = DatWdw(DADATUM);\n               Initialize();\n             elseif FLD = 'DAAFDELING';",
                                                           "id" : "sources\\afd_plng.sqlrpgle#149:16"
                                                         },
                                                         "flattened" : false,
@@ -2615,6 +2813,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 150,
                                                               "col" : 16,
+                                                              "text" : "Initialize();\n             elseif FLD = 'DAAFDELING';\n               DAAFDELING = AfdWdw();",
                                                               "id" : "sources\\afd_plng.sqlrpgle#150:16"
                                                             },
                                                             "arity" : 0,
@@ -2626,6 +2825,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 150,
                                                             "col" : 16,
+                                                            "text" : "Initialize();\n             elseif FLD = 'DAAFDELING';\n               DAAFDELING = AfdWdw();",
                                                             "id" : "sources\\afd_plng.sqlrpgle#150:16"
                                                           },
                                                           "id" : "sources\\afd_plng.sqlrpgle#150:16"
@@ -2642,6 +2842,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 152,
                                                                 "col" : 16,
+                                                                "text" : "DAAFDELING = AfdWdw();\n               Initialize();\n             elseif FLD = 'DASCHEMA';",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#152:16"
                                                               },
                                                               "nameUpper" : "DAAFDELING",
@@ -2657,6 +2858,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 152,
                                                                 "col" : 29,
+                                                                "text" : "AfdWdw();\n               Initialize();\n             elseif FLD = 'DASCHEMA';",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#152:29"
                                                               },
                                                               "arity" : 0,
@@ -2668,6 +2870,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 152,
                                                               "col" : 16,
+                                                              "text" : "DAAFDELING = AfdWdw();\n               Initialize();\n             elseif FLD = 'DASCHEMA';",
                                                               "id" : "sources\\afd_plng.sqlrpgle#152:16"
                                                             },
                                                             "flattened" : false,
@@ -2686,6 +2889,7 @@
                                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                                   "line" : 153,
                                                                   "col" : 16,
+                                                                  "text" : "Initialize();\n             elseif FLD = 'DASCHEMA';\n               DASCHEMA = SchemaWdw();",
                                                                   "id" : "sources\\afd_plng.sqlrpgle#153:16"
                                                                 },
                                                                 "arity" : 0,
@@ -2697,6 +2901,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 153,
                                                                 "col" : 16,
+                                                                "text" : "Initialize();\n             elseif FLD = 'DASCHEMA';\n               DASCHEMA = SchemaWdw();",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#153:16"
                                                               },
                                                               "id" : "sources\\afd_plng.sqlrpgle#153:16"
@@ -2713,6 +2918,7 @@
                                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                                     "line" : 155,
                                                                     "col" : 16,
+                                                                    "text" : "DASCHEMA = SchemaWdw();\n               Initialize();\n             endif;",
                                                                     "id" : "sources\\afd_plng.sqlrpgle#155:16"
                                                                   },
                                                                   "nameUpper" : "DASCHEMA",
@@ -2728,6 +2934,7 @@
                                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                                     "line" : 155,
                                                                     "col" : 27,
+                                                                    "text" : "SchemaWdw();\n               Initialize();\n             endif;",
                                                                     "id" : "sources\\afd_plng.sqlrpgle#155:27"
                                                                   },
                                                                   "arity" : 0,
@@ -2739,6 +2946,7 @@
                                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                                   "line" : 155,
                                                                   "col" : 16,
+                                                                  "text" : "DASCHEMA = SchemaWdw();\n               Initialize();\n             endif;",
                                                                   "id" : "sources\\afd_plng.sqlrpgle#155:16"
                                                                 },
                                                                 "flattened" : false,
@@ -2755,6 +2963,7 @@
                                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                                     "line" : 156,
                                                                     "col" : 16,
+                                                                    "text" : "Initialize();\n             endif;\n           endif;",
                                                                     "id" : "sources\\afd_plng.sqlrpgle#156:16"
                                                                   },
                                                                   "arity" : 0,
@@ -2766,6 +2975,7 @@
                                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                                   "line" : 156,
                                                                   "col" : 16,
+                                                                  "text" : "Initialize();\n             endif;\n           endif;",
                                                                   "id" : "sources\\afd_plng.sqlrpgle#156:16"
                                                                 },
                                                                 "id" : "sources\\afd_plng.sqlrpgle#156:16"
@@ -2775,6 +2985,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 148,
                                                                 "col" : 14,
+                                                                "text" : "if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                               },
                                                               "id" : "sources\\afd_plng.sqlrpgle#148:34"
@@ -2784,6 +2995,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 148,
                                                               "col" : 14,
+                                                              "text" : "if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                               "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                             },
                                                             "id" : "sources\\afd_plng.sqlrpgle#148:35"
@@ -2793,6 +3005,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 148,
                                                             "col" : 14,
+                                                            "text" : "if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                             "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                           },
                                                           "id" : "sources\\afd_plng.sqlrpgle#148:36"
@@ -2802,6 +3015,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 148,
                                                           "col" : 14,
+                                                          "text" : "if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                           "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                         },
                                                         "id" : "sources\\afd_plng.sqlrpgle#148:37"
@@ -2811,6 +3025,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 148,
                                                         "col" : 14,
+                                                        "text" : "if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                         "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                       },
                                                       "id" : "sources\\afd_plng.sqlrpgle#148:38"
@@ -2820,6 +3035,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 148,
                                                       "col" : 14,
+                                                      "text" : "if FLD = 'DADATUM';\n               DADATUM = DatWdw(DADATUM);\n               Initialize();",
                                                       "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                     },
                                                     "id" : "sources\\afd_plng.sqlrpgle#148:14"
@@ -2829,6 +3045,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 146,
                                                     "col" : 12,
+                                                    "text" : "if (*in04 = *on); // F4, prompts to subwindows\n             read SCREEN01;\n             if FLD = 'DADATUM';",
                                                     "id" : "sources\\afd_plng.sqlrpgle#146:12"
                                                   },
                                                   "id" : "sources\\afd_plng.sqlrpgle#146:37"
@@ -2838,6 +3055,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 146,
                                                   "col" : 12,
+                                                  "text" : "if (*in04 = *on); // F4, prompts to subwindows\n             read SCREEN01;\n             if FLD = 'DADATUM';",
                                                   "id" : "sources\\afd_plng.sqlrpgle#146:12"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#146:12"
@@ -2852,6 +3070,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 161,
                                                     "col" : 12,
+                                                    "text" : "READC SFL01;\n           DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;",
                                                     "id" : "sources\\afd_plng.sqlrpgle#161:12"
                                                   },
                                                   "id" : "sources\\afd_plng.sqlrpgle#161:12"
@@ -2868,6 +3087,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 162,
                                                         "col" : 21,
+                                                        "text" : "%EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                         "id" : "sources\\afd_plng.sqlrpgle#162:21"
                                                       },
                                                       "id" : "sources\\afd_plng.sqlrpgle#162:21"
@@ -2877,6 +3097,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 162,
                                                       "col" : 17,
+                                                      "text" : "NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                       "id" : "sources\\afd_plng.sqlrpgle#162:17"
                                                     },
                                                     "id" : "sources\\afd_plng.sqlrpgle#162:17"
@@ -2893,6 +3114,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 165,
                                                           "col" : 18,
+                                                          "text" : "return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;\n                 return_ds.PatNum = 000000;",
                                                           "id" : "sources\\afd_plng.sqlrpgle#165:18"
                                                         },
                                                         "nameUpper" : "RETURN_DS.XASCRNACTION",
@@ -2905,6 +3127,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 165,
                                                         "col" : 18,
+                                                        "text" : "return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;\n                 return_ds.PatNum = 000000;",
                                                         "id" : "sources\\afd_plng.sqlrpgle#165:18"
                                                       },
                                                       "flattened" : true,
@@ -2922,6 +3145,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 166,
                                                             "col" : 18,
+                                                            "text" : "return_ds.PRSNUM = SNPRSNUM;\n                 return_ds.PatNum = 000000;\n                 SAOPTION = *blanks;",
                                                             "id" : "sources\\afd_plng.sqlrpgle#166:18"
                                                           },
                                                           "nameUpper" : "RETURN_DS.PRSNUM",
@@ -2934,6 +3158,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 166,
                                                           "col" : 18,
+                                                          "text" : "return_ds.PRSNUM = SNPRSNUM;\n                 return_ds.PatNum = 000000;\n                 SAOPTION = *blanks;",
                                                           "id" : "sources\\afd_plng.sqlrpgle#166:18"
                                                         },
                                                         "flattened" : true,
@@ -2951,6 +3176,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 167,
                                                               "col" : 18,
+                                                              "text" : "return_ds.PatNum = 000000;\n                 SAOPTION = *blanks;\n                 update SFL01;",
                                                               "id" : "sources\\afd_plng.sqlrpgle#167:18"
                                                             },
                                                             "nameUpper" : "RETURN_DS.PATNUM",
@@ -2963,6 +3189,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 167,
                                                             "col" : 18,
+                                                            "text" : "return_ds.PatNum = 000000;\n                 SAOPTION = *blanks;\n                 update SFL01;",
                                                             "id" : "sources\\afd_plng.sqlrpgle#167:18"
                                                           },
                                                           "flattened" : true,
@@ -2980,6 +3207,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 168,
                                                                 "col" : 18,
+                                                                "text" : "SAOPTION = *blanks;\n                 update SFL01;\n                 exitProc();",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#168:18"
                                                               },
                                                               "nameUpper" : "SAOPTION",
@@ -2992,6 +3220,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 168,
                                                               "col" : 18,
+                                                              "text" : "SAOPTION = *blanks;\n                 update SFL01;\n                 exitProc();",
                                                               "id" : "sources\\afd_plng.sqlrpgle#168:18"
                                                             },
                                                             "flattened" : true,
@@ -3007,6 +3236,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 169,
                                                                 "col" : 18,
+                                                                "text" : "update SFL01;\n                 exitProc();\n                 return return_ds;",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#169:18"
                                                               },
                                                               "id" : "sources\\afd_plng.sqlrpgle#169:18"
@@ -3024,6 +3254,7 @@
                                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                                     "line" : 170,
                                                                     "col" : 18,
+                                                                    "text" : "exitProc();\n                 return return_ds;\n               OTHER;",
                                                                     "id" : "sources\\afd_plng.sqlrpgle#170:18"
                                                                   },
                                                                   "arity" : 0,
@@ -3035,6 +3266,7 @@
                                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                                   "line" : 170,
                                                                   "col" : 18,
+                                                                  "text" : "exitProc();\n                 return return_ds;\n               OTHER;",
                                                                   "id" : "sources\\afd_plng.sqlrpgle#170:18"
                                                                 },
                                                                 "id" : "sources\\afd_plng.sqlrpgle#170:18"
@@ -3054,6 +3286,7 @@
                                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                                         "line" : 173,
                                                                         "col" : 25,
+                                                                        "text" : "'Changed record?');\n             ENDSL;\n             READC SFL01;",
                                                                         "id" : "sources\\afd_plng.sqlrpgle#173:25"
                                                                       },
                                                                       "id" : "sources\\afd_plng.sqlrpgle#173:25"
@@ -3063,6 +3296,7 @@
                                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                                       "line" : 173,
                                                                       "col" : 18,
+                                                                      "text" : "dsply ('Changed record?');\n             ENDSL;\n             READC SFL01;",
                                                                       "id" : "sources\\afd_plng.sqlrpgle#173:18"
                                                                     },
                                                                     "arity" : 1,
@@ -3074,6 +3308,7 @@
                                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                                     "line" : 173,
                                                                     "col" : 18,
+                                                                    "text" : "dsply ('Changed record?');\n             ENDSL;\n             READC SFL01;",
                                                                     "id" : "sources\\afd_plng.sqlrpgle#173:18"
                                                                   },
                                                                   "id" : "sources\\afd_plng.sqlrpgle#173:18"
@@ -3095,6 +3330,7 @@
                                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                                             "line" : 164,
                                                                             "col" : 22,
+                                                                            "text" : "%trim(SAOPTION) = '2');\n                 return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;",
                                                                             "id" : "sources\\afd_plng.sqlrpgle#164:22"
                                                                           },
                                                                           "id" : "sources\\afd_plng.sqlrpgle#164:22"
@@ -3107,6 +3343,7 @@
                                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                                             "line" : 164,
                                                                             "col" : 40,
+                                                                            "text" : "'2');\n                 return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;",
                                                                             "id" : "sources\\afd_plng.sqlrpgle#164:40"
                                                                           },
                                                                           "id" : "sources\\afd_plng.sqlrpgle#164:40"
@@ -3116,6 +3353,7 @@
                                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                                           "line" : 164,
                                                                           "col" : 22,
+                                                                          "text" : "%trim(SAOPTION) = '2');\n                 return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;",
                                                                           "id" : "sources\\afd_plng.sqlrpgle#164:22"
                                                                         },
                                                                         "id" : "sources\\afd_plng.sqlrpgle#164:22"
@@ -3127,6 +3365,7 @@
                                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                                           "line" : 164,
                                                                           "col" : 16,
+                                                                          "text" : "WHEN (%trim(SAOPTION) = '2');\n                 return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;",
                                                                           "id" : "sources\\afd_plng.sqlrpgle#164:16"
                                                                         },
                                                                         "id" : "sources\\afd_plng.sqlrpgle#164:16"
@@ -3136,6 +3375,7 @@
                                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                                         "line" : 164,
                                                                         "col" : 16,
+                                                                        "text" : "WHEN (%trim(SAOPTION) = '2');\n                 return_ds.xaScrnAction = 'PrsPlg';\n                 return_ds.PRSNUM = SNPRSNUM;",
                                                                         "id" : "sources\\afd_plng.sqlrpgle#164:16"
                                                                       },
                                                                       "id" : "sources\\afd_plng.sqlrpgle#164:16"
@@ -3147,6 +3387,7 @@
                                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                                         "line" : 163,
                                                                         "col" : 14,
+                                                                        "text" : "SELECT;\n               WHEN (%trim(SAOPTION) = '2');\n                 return_ds.xaScrnAction = 'PrsPlg';",
                                                                         "id" : "sources\\afd_plng.sqlrpgle#163:14"
                                                                       },
                                                                       "id" : "sources\\afd_plng.sqlrpgle#163:14"
@@ -3156,6 +3397,7 @@
                                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                                       "line" : 163,
                                                                       "col" : 14,
+                                                                      "text" : "SELECT;\n               WHEN (%trim(SAOPTION) = '2');\n                 return_ds.xaScrnAction = 'PrsPlg';",
                                                                       "id" : "sources\\afd_plng.sqlrpgle#163:14"
                                                                     },
                                                                     "id" : "sources\\afd_plng.sqlrpgle#163:14"
@@ -3168,6 +3410,7 @@
                                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                                       "line" : 175,
                                                                       "col" : 14,
+                                                                      "text" : "READC SFL01;\n           ENDDO;\n         enddo;",
                                                                       "id" : "sources\\afd_plng.sqlrpgle#175:14"
                                                                     },
                                                                     "id" : "sources\\afd_plng.sqlrpgle#175:14"
@@ -3177,6 +3420,7 @@
                                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                                     "line" : 162,
                                                                     "col" : 12,
+                                                                    "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                                     "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                                   },
                                                                   "id" : "sources\\afd_plng.sqlrpgle#162:38"
@@ -3186,6 +3430,7 @@
                                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                                   "line" : 162,
                                                                   "col" : 12,
+                                                                  "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                                   "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                                 },
                                                                 "id" : "sources\\afd_plng.sqlrpgle#162:39"
@@ -3195,6 +3440,7 @@
                                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                                 "line" : 162,
                                                                 "col" : 12,
+                                                                "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                                 "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                               },
                                                               "id" : "sources\\afd_plng.sqlrpgle#162:40"
@@ -3204,6 +3450,7 @@
                                                               "file" : "sources\\afd_plng.sqlrpgle",
                                                               "line" : 162,
                                                               "col" : 12,
+                                                              "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                               "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                             },
                                                             "id" : "sources\\afd_plng.sqlrpgle#162:41"
@@ -3213,6 +3460,7 @@
                                                             "file" : "sources\\afd_plng.sqlrpgle",
                                                             "line" : 162,
                                                             "col" : 12,
+                                                            "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                             "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                           },
                                                           "id" : "sources\\afd_plng.sqlrpgle#162:42"
@@ -3222,6 +3470,7 @@
                                                           "file" : "sources\\afd_plng.sqlrpgle",
                                                           "line" : 162,
                                                           "col" : 12,
+                                                          "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                           "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                         },
                                                         "id" : "sources\\afd_plng.sqlrpgle#162:43"
@@ -3231,6 +3480,7 @@
                                                         "file" : "sources\\afd_plng.sqlrpgle",
                                                         "line" : 162,
                                                         "col" : 12,
+                                                        "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                         "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                       },
                                                       "id" : "sources\\afd_plng.sqlrpgle#162:44"
@@ -3240,6 +3490,7 @@
                                                       "file" : "sources\\afd_plng.sqlrpgle",
                                                       "line" : 162,
                                                       "col" : 12,
+                                                      "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                       "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                     },
                                                     "id" : "sources\\afd_plng.sqlrpgle#162:45"
@@ -3249,6 +3500,7 @@
                                                     "file" : "sources\\afd_plng.sqlrpgle",
                                                     "line" : 162,
                                                     "col" : 12,
+                                                    "text" : "DOW (NOT %EOF(AFD_PLNG_D));\n             SELECT;\n               WHEN (%trim(SAOPTION) = '2');",
                                                     "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                   },
                                                   "id" : "sources\\afd_plng.sqlrpgle#162:12"
@@ -3258,6 +3510,7 @@
                                                   "file" : "sources\\afd_plng.sqlrpgle",
                                                   "line" : 74,
                                                   "col" : 10,
+                                                  "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                                   "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                                 },
                                                 "id" : "sources\\afd_plng.sqlrpgle#74:44"
@@ -3267,6 +3520,7 @@
                                                 "file" : "sources\\afd_plng.sqlrpgle",
                                                 "line" : 74,
                                                 "col" : 10,
+                                                "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                                 "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                               },
                                               "id" : "sources\\afd_plng.sqlrpgle#74:45"
@@ -3276,6 +3530,7 @@
                                               "file" : "sources\\afd_plng.sqlrpgle",
                                               "line" : 74,
                                               "col" : 10,
+                                              "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                               "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                             },
                                             "id" : "sources\\afd_plng.sqlrpgle#74:46"
@@ -3285,6 +3540,7 @@
                                             "file" : "sources\\afd_plng.sqlrpgle",
                                             "line" : 74,
                                             "col" : 10,
+                                            "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                             "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                           },
                                           "id" : "sources\\afd_plng.sqlrpgle#74:47"
@@ -3294,6 +3550,7 @@
                                           "file" : "sources\\afd_plng.sqlrpgle",
                                           "line" : 74,
                                           "col" : 10,
+                                          "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                           "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                         },
                                         "id" : "sources\\afd_plng.sqlrpgle#74:48"
@@ -3303,6 +3560,7 @@
                                         "file" : "sources\\afd_plng.sqlrpgle",
                                         "line" : 74,
                                         "col" : 10,
+                                        "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                         "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                       },
                                       "id" : "sources\\afd_plng.sqlrpgle#74:49"
@@ -3312,6 +3570,7 @@
                                       "file" : "sources\\afd_plng.sqlrpgle",
                                       "line" : 74,
                                       "col" : 10,
+                                      "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                       "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                     },
                                     "id" : "sources\\afd_plng.sqlrpgle#74:50"
@@ -3321,6 +3580,7 @@
                                     "file" : "sources\\afd_plng.sqlrpgle",
                                     "line" : 74,
                                     "col" : 10,
+                                    "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                     "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                   },
                                   "id" : "sources\\afd_plng.sqlrpgle#74:51"
@@ -3330,6 +3590,7 @@
                                   "file" : "sources\\afd_plng.sqlrpgle",
                                   "line" : 74,
                                   "col" : 10,
+                                  "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                   "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                 },
                                 "id" : "sources\\afd_plng.sqlrpgle#74:52"
@@ -3339,6 +3600,7 @@
                                 "file" : "sources\\afd_plng.sqlrpgle",
                                 "line" : 74,
                                 "col" : 10,
+                                "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                                 "id" : "sources\\afd_plng.sqlrpgle#74:10"
                               },
                               "id" : "sources\\afd_plng.sqlrpgle#74:53"
@@ -3348,6 +3610,7 @@
                               "file" : "sources\\afd_plng.sqlrpgle",
                               "line" : 74,
                               "col" : 10,
+                              "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                               "id" : "sources\\afd_plng.sqlrpgle#74:10"
                             },
                             "id" : "sources\\afd_plng.sqlrpgle#74:54"
@@ -3357,6 +3620,7 @@
                             "file" : "sources\\afd_plng.sqlrpgle",
                             "line" : 74,
                             "col" : 10,
+                            "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                             "id" : "sources\\afd_plng.sqlrpgle#74:10"
                           },
                           "id" : "sources\\afd_plng.sqlrpgle#74:55"
@@ -3366,6 +3630,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 74,
                           "col" : 10,
+                          "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                           "id" : "sources\\afd_plng.sqlrpgle#74:10"
                         },
                         "id" : "sources\\afd_plng.sqlrpgle#74:56"
@@ -3375,6 +3640,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 74,
                         "col" : 10,
+                        "text" : "dow (not *in03);\n           exfmt SFLCTL01;\n       ",
                         "id" : "sources\\afd_plng.sqlrpgle#74:10"
                       },
                       "id" : "sources\\afd_plng.sqlrpgle#74:10"
@@ -3390,6 +3656,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 180,
                           "col" : 10,
+                          "text" : "exitProc();\n         return return_ds;\n       end-proc;",
                           "id" : "sources\\afd_plng.sqlrpgle#180:10"
                         },
                         "arity" : 0,
@@ -3401,6 +3668,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 180,
                         "col" : 10,
+                        "text" : "exitProc();\n         return return_ds;\n       end-proc;",
                         "id" : "sources\\afd_plng.sqlrpgle#180:10"
                       },
                       "id" : "sources\\afd_plng.sqlrpgle#180:10"
@@ -3410,6 +3678,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 182,
                       "col" : 8,
+                      "text" : "end-proc;\n       \n       dcl-proc Initialize;",
                       "id" : "sources\\afd_plng.sqlrpgle#182:8"
                     },
                     "id" : "sources\\afd_plng.sqlrpgle#182:55"
@@ -3419,6 +3688,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 182,
                     "col" : 8,
+                    "text" : "end-proc;\n       \n       dcl-proc Initialize;",
                     "id" : "sources\\afd_plng.sqlrpgle#182:8"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#182:56"
@@ -3428,6 +3698,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 182,
                   "col" : 8,
+                  "text" : "end-proc;\n       \n       dcl-proc Initialize;",
                   "id" : "sources\\afd_plng.sqlrpgle#182:8"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#182:57"
@@ -3437,6 +3708,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 182,
                 "col" : 8,
+                "text" : "end-proc;\n       \n       dcl-proc Initialize;",
                 "id" : "sources\\afd_plng.sqlrpgle#182:8"
               },
               "id" : "sources\\afd_plng.sqlrpgle#182:58"
@@ -3446,6 +3718,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 182,
               "col" : 8,
+              "text" : "end-proc;\n       \n       dcl-proc Initialize;",
               "id" : "sources\\afd_plng.sqlrpgle#182:8"
             },
             "id" : "sources\\afd_plng.sqlrpgle#182:59"
@@ -3455,6 +3728,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 182,
             "col" : 8,
+            "text" : "end-proc;\n       \n       dcl-proc Initialize;",
             "id" : "sources\\afd_plng.sqlrpgle#182:8"
           },
           "id" : "sources\\afd_plng.sqlrpgle#182:60"
@@ -3464,6 +3738,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 182,
           "col" : 8,
+          "text" : "end-proc;\n       \n       dcl-proc Initialize;",
           "id" : "sources\\afd_plng.sqlrpgle#182:8"
         },
         "id" : "sources\\afd_plng.sqlrpgle#182:61"
@@ -3473,6 +3748,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 182,
         "col" : 8,
+        "text" : "end-proc;\n       \n       dcl-proc Initialize;",
         "id" : "sources\\afd_plng.sqlrpgle#182:8"
       },
       "id" : "sources\\afd_plng.sqlrpgle#182:62"
@@ -3482,6 +3758,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 182,
       "col" : 8,
+      "text" : "end-proc;\n       \n       dcl-proc Initialize;",
       "id" : "sources\\afd_plng.sqlrpgle#182:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#182:8"
@@ -3503,6 +3780,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 185,
             "col" : 10,
+            "text" : "clearSFL();\n         loadSFL();\n         write SCREEN01;",
             "id" : "sources\\afd_plng.sqlrpgle#185:10"
           },
           "arity" : 0,
@@ -3514,6 +3792,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 185,
           "col" : 10,
+          "text" : "clearSFL();\n         loadSFL();\n         write SCREEN01;",
           "id" : "sources\\afd_plng.sqlrpgle#185:10"
         },
         "id" : "sources\\afd_plng.sqlrpgle#185:10"
@@ -3531,6 +3810,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 186,
               "col" : 10,
+              "text" : "loadSFL();\n         write SCREEN01;\n       end-proc;",
               "id" : "sources\\afd_plng.sqlrpgle#186:10"
             },
             "arity" : 0,
@@ -3542,6 +3822,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 186,
             "col" : 10,
+            "text" : "loadSFL();\n         write SCREEN01;\n       end-proc;",
             "id" : "sources\\afd_plng.sqlrpgle#186:10"
           },
           "id" : "sources\\afd_plng.sqlrpgle#186:10"
@@ -3554,6 +3835,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 187,
             "col" : 10,
+            "text" : "write SCREEN01;\n       end-proc;\n       ",
             "id" : "sources\\afd_plng.sqlrpgle#187:10"
           },
           "id" : "sources\\afd_plng.sqlrpgle#187:10"
@@ -3563,6 +3845,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 188,
           "col" : 8,
+          "text" : "end-proc;\n       \n       dcl-proc clearSFL;",
           "id" : "sources\\afd_plng.sqlrpgle#188:8"
         },
         "id" : "sources\\afd_plng.sqlrpgle#188:63"
@@ -3572,6 +3855,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 188,
         "col" : 8,
+        "text" : "end-proc;\n       \n       dcl-proc clearSFL;",
         "id" : "sources\\afd_plng.sqlrpgle#188:8"
       },
       "id" : "sources\\afd_plng.sqlrpgle#188:64"
@@ -3581,6 +3865,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 188,
       "col" : 8,
+      "text" : "end-proc;\n       \n       dcl-proc clearSFL;",
       "id" : "sources\\afd_plng.sqlrpgle#188:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#188:8"
@@ -3601,6 +3886,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 194,
             "col" : 11,
+            "text" : "in40 = *on;\n         write SFLCTL01;\n         *in40 = *off;",
             "id" : "sources\\afd_plng.sqlrpgle#194:11"
           },
           "nameUpper" : "IN40",
@@ -3613,6 +3899,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 194,
           "col" : 11,
+          "text" : "in40 = *on;\n         write SFLCTL01;\n         *in40 = *off;",
           "id" : "sources\\afd_plng.sqlrpgle#194:11"
         },
         "flattened" : true,
@@ -3628,6 +3915,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 195,
             "col" : 10,
+            "text" : "write SFLCTL01;\n         *in40 = *off;\n         RRN# = 0;",
             "id" : "sources\\afd_plng.sqlrpgle#195:10"
           },
           "id" : "sources\\afd_plng.sqlrpgle#195:10"
@@ -3644,6 +3932,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 196,
                 "col" : 11,
+                "text" : "in40 = *off;\n         RRN# = 0;\n       ",
                 "id" : "sources\\afd_plng.sqlrpgle#196:11"
               },
               "nameUpper" : "IN40",
@@ -3656,6 +3945,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 196,
               "col" : 11,
+              "text" : "in40 = *off;\n         RRN# = 0;\n       ",
               "id" : "sources\\afd_plng.sqlrpgle#196:11"
             },
             "flattened" : true,
@@ -3671,6 +3961,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 197,
                 "col" : 10,
+                "text" : "RRN# = 0;\n       \n         // return RRN#;",
                 "id" : "sources\\afd_plng.sqlrpgle#197:10"
               },
               "nameUpper" : "RRN#",
@@ -3683,6 +3974,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 197,
               "col" : 10,
+              "text" : "RRN# = 0;\n       \n         // return RRN#;",
               "id" : "sources\\afd_plng.sqlrpgle#197:10"
             },
             "flattened" : true,
@@ -3693,6 +3985,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 200,
             "col" : 8,
+            "text" : "end-proc;\n       \n       dcl-proc exitProc;",
             "id" : "sources\\afd_plng.sqlrpgle#200:8"
           },
           "id" : "sources\\afd_plng.sqlrpgle#200:65"
@@ -3702,6 +3995,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 200,
           "col" : 8,
+          "text" : "end-proc;\n       \n       dcl-proc exitProc;",
           "id" : "sources\\afd_plng.sqlrpgle#200:8"
         },
         "id" : "sources\\afd_plng.sqlrpgle#200:66"
@@ -3711,6 +4005,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 200,
         "col" : 8,
+        "text" : "end-proc;\n       \n       dcl-proc exitProc;",
         "id" : "sources\\afd_plng.sqlrpgle#200:8"
       },
       "id" : "sources\\afd_plng.sqlrpgle#200:67"
@@ -3720,6 +4015,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 200,
       "col" : 8,
+      "text" : "end-proc;\n       \n       dcl-proc exitProc;",
       "id" : "sources\\afd_plng.sqlrpgle#200:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#200:8"
@@ -3740,6 +4036,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 203,
             "col" : 10,
+            "text" : "return_ds.DAAFDELING = DAAFDELING;\n         return_ds.DASCHEMA = DASCHEMA;\n         return_ds.DADATUM = DADATUM;",
             "id" : "sources\\afd_plng.sqlrpgle#203:10"
           },
           "nameUpper" : "RETURN_DS.DAAFDELING",
@@ -3752,6 +4049,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 203,
           "col" : 10,
+          "text" : "return_ds.DAAFDELING = DAAFDELING;\n         return_ds.DASCHEMA = DASCHEMA;\n         return_ds.DADATUM = DADATUM;",
           "id" : "sources\\afd_plng.sqlrpgle#203:10"
         },
         "flattened" : true,
@@ -3769,6 +4067,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 204,
               "col" : 10,
+              "text" : "return_ds.DASCHEMA = DASCHEMA;\n         return_ds.DADATUM = DADATUM;\n         *in03 = *off;",
               "id" : "sources\\afd_plng.sqlrpgle#204:10"
             },
             "nameUpper" : "RETURN_DS.DASCHEMA",
@@ -3781,6 +4080,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 204,
             "col" : 10,
+            "text" : "return_ds.DASCHEMA = DASCHEMA;\n         return_ds.DADATUM = DADATUM;\n         *in03 = *off;",
             "id" : "sources\\afd_plng.sqlrpgle#204:10"
           },
           "flattened" : true,
@@ -3798,6 +4098,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 205,
                 "col" : 10,
+                "text" : "return_ds.DADATUM = DADATUM;\n         *in03 = *off;\n         *inlr = *on;",
                 "id" : "sources\\afd_plng.sqlrpgle#205:10"
               },
               "nameUpper" : "RETURN_DS.DADATUM",
@@ -3810,6 +4111,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 205,
               "col" : 10,
+              "text" : "return_ds.DADATUM = DADATUM;\n         *in03 = *off;\n         *inlr = *on;",
               "id" : "sources\\afd_plng.sqlrpgle#205:10"
             },
             "flattened" : true,
@@ -3827,6 +4129,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 206,
                   "col" : 11,
+                  "text" : "in03 = *off;\n         *inlr = *on;\n       end-proc;",
                   "id" : "sources\\afd_plng.sqlrpgle#206:11"
                 },
                 "nameUpper" : "IN03",
@@ -3839,6 +4142,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 206,
                 "col" : 11,
+                "text" : "in03 = *off;\n         *inlr = *on;\n       end-proc;",
                 "id" : "sources\\afd_plng.sqlrpgle#206:11"
               },
               "flattened" : true,
@@ -3854,6 +4158,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 207,
                   "col" : 11,
+                  "text" : "inlr = *on;\n       end-proc;\n       ",
                   "id" : "sources\\afd_plng.sqlrpgle#207:11"
                 },
                 "nameUpper" : "INLR",
@@ -3866,6 +4171,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 207,
                 "col" : 11,
+                "text" : "inlr = *on;\n       end-proc;\n       ",
                 "id" : "sources\\afd_plng.sqlrpgle#207:11"
               },
               "flattened" : true,
@@ -3876,6 +4182,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 208,
               "col" : 8,
+              "text" : "end-proc;\n       \n       // SQL subroutine",
               "id" : "sources\\afd_plng.sqlrpgle#208:8"
             },
             "id" : "sources\\afd_plng.sqlrpgle#208:68"
@@ -3885,6 +4192,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 208,
             "col" : 8,
+            "text" : "end-proc;\n       \n       // SQL subroutine",
             "id" : "sources\\afd_plng.sqlrpgle#208:8"
           },
           "id" : "sources\\afd_plng.sqlrpgle#208:69"
@@ -3894,6 +4202,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 208,
           "col" : 8,
+          "text" : "end-proc;\n       \n       // SQL subroutine",
           "id" : "sources\\afd_plng.sqlrpgle#208:8"
         },
         "id" : "sources\\afd_plng.sqlrpgle#208:70"
@@ -3903,6 +4212,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 208,
         "col" : 8,
+        "text" : "end-proc;\n       \n       // SQL subroutine",
         "id" : "sources\\afd_plng.sqlrpgle#208:8"
       },
       "id" : "sources\\afd_plng.sqlrpgle#208:71"
@@ -3912,6 +4222,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 208,
       "col" : 8,
+      "text" : "end-proc;\n       \n       // SQL subroutine",
       "id" : "sources\\afd_plng.sqlrpgle#208:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#208:8"
@@ -3932,6 +4243,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 232,
             "col" : 10,
+            "text" : "str_pos = (page_num - 1) * SFLPG - 1;\n       \n         if (page_num = 1);",
             "id" : "sources\\afd_plng.sqlrpgle#232:10"
           },
           "nameUpper" : "STR_POS",
@@ -3944,6 +4256,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 232,
           "col" : 10,
+          "text" : "str_pos = (page_num - 1) * SFLPG - 1;\n       \n         if (page_num = 1);",
           "id" : "sources\\afd_plng.sqlrpgle#232:10"
         },
         "flattened" : true,
@@ -3964,6 +4277,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 234,
                 "col" : 14,
+                "text" : "page_num = 1);\n           EXEC SQL\n             FETCH BEFORE FROM C1;",
                 "id" : "sources\\afd_plng.sqlrpgle#234:14"
               },
               "nameUpper" : "PAGE_NUM",
@@ -3977,6 +4291,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 234,
                 "col" : 25,
+                "text" : "1);\n           EXEC SQL\n             FETCH BEFORE FROM C1;",
                 "id" : "sources\\afd_plng.sqlrpgle#234:25"
               },
               "id" : "sources\\afd_plng.sqlrpgle#234:25"
@@ -3986,6 +4301,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 234,
               "col" : 14,
+              "text" : "page_num = 1);\n           EXEC SQL\n             FETCH BEFORE FROM C1;",
               "id" : "sources\\afd_plng.sqlrpgle#234:14"
             },
             "id" : "sources\\afd_plng.sqlrpgle#234:14"
@@ -3997,6 +4313,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 234,
               "col" : 10,
+              "text" : "if (page_num = 1);\n           EXEC SQL\n             FETCH BEFORE FROM C1;",
               "id" : "sources\\afd_plng.sqlrpgle#234:10"
             },
             "id" : "sources\\afd_plng.sqlrpgle#234:10"
@@ -4006,6 +4323,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 234,
             "col" : 10,
+            "text" : "if (page_num = 1);\n           EXEC SQL\n             FETCH BEFORE FROM C1;",
             "id" : "sources\\afd_plng.sqlrpgle#234:10"
           },
           "id" : "sources\\afd_plng.sqlrpgle#234:10"
@@ -4028,6 +4346,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 243,
                     "col" : 15,
+                    "text" : "SQLSTATE = '00000' and RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                     "id" : "sources\\afd_plng.sqlrpgle#243:15"
                   },
                   "nameUpper" : "SQLSTATE",
@@ -4041,6 +4360,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 243,
                     "col" : 26,
+                    "text" : "'00000' and RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                     "id" : "sources\\afd_plng.sqlrpgle#243:26"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#243:26"
@@ -4050,6 +4370,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 243,
                   "col" : 15,
+                  "text" : "SQLSTATE = '00000' and RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                   "id" : "sources\\afd_plng.sqlrpgle#243:15"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#243:15"
@@ -4065,6 +4386,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 243,
                     "col" : 38,
+                    "text" : "RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                     "id" : "sources\\afd_plng.sqlrpgle#243:38"
                   },
                   "nameUpper" : "RRN#",
@@ -4078,6 +4400,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 243,
                     "col" : 45,
+                    "text" : "SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                     "id" : "sources\\afd_plng.sqlrpgle#243:45"
                   },
                   "nameUpper" : "SFLPG",
@@ -4088,6 +4411,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 243,
                   "col" : 38,
+                  "text" : "RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                   "id" : "sources\\afd_plng.sqlrpgle#243:38"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#243:38"
@@ -4097,6 +4421,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 243,
                 "col" : 15,
+                "text" : "SQLSTATE = '00000' and RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
                 "id" : "sources\\afd_plng.sqlrpgle#243:15"
               },
               "id" : "sources\\afd_plng.sqlrpgle#243:15"
@@ -4114,6 +4439,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 246,
                     "col" : 16,
+                    "text" : "SQLSTATE = '00000');\n             RRN# += 1;\n             write SFL01;",
                     "id" : "sources\\afd_plng.sqlrpgle#246:16"
                   },
                   "nameUpper" : "SQLSTATE",
@@ -4127,6 +4453,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 246,
                     "col" : 27,
+                    "text" : "'00000');\n             RRN# += 1;\n             write SFL01;",
                     "id" : "sources\\afd_plng.sqlrpgle#246:27"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#246:27"
@@ -4136,6 +4463,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 246,
                   "col" : 16,
+                  "text" : "SQLSTATE = '00000');\n             RRN# += 1;\n             write SFL01;",
                   "id" : "sources\\afd_plng.sqlrpgle#246:16"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#246:16"
@@ -4152,6 +4480,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 247,
                       "col" : 14,
+                      "text" : "RRN# += 1;\n             write SFL01;\n           endif;",
                       "id" : "sources\\afd_plng.sqlrpgle#247:14"
                     },
                     "nameUpper" : "RRN#",
@@ -4164,6 +4493,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 247,
                     "col" : 14,
+                    "text" : "RRN# += 1;\n             write SFL01;\n           endif;",
                     "id" : "sources\\afd_plng.sqlrpgle#247:14"
                   },
                   "flattened" : true,
@@ -4177,6 +4507,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 248,
                     "col" : 14,
+                    "text" : "write SFL01;\n           endif;\n         enddo;",
                     "id" : "sources\\afd_plng.sqlrpgle#248:14"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#248:14"
@@ -4186,6 +4517,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 246,
                   "col" : 12,
+                  "text" : "if (SQLSTATE = '00000');\n             RRN# += 1;\n             write SFL01;",
                   "id" : "sources\\afd_plng.sqlrpgle#246:12"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#246:76"
@@ -4195,6 +4527,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 246,
                 "col" : 12,
+                "text" : "if (SQLSTATE = '00000');\n             RRN# += 1;\n             write SFL01;",
                 "id" : "sources\\afd_plng.sqlrpgle#246:12"
               },
               "id" : "sources\\afd_plng.sqlrpgle#246:12"
@@ -4204,6 +4537,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 243,
               "col" : 10,
+              "text" : "dow (SQLSTATE = '00000' and RRN# < SFLPG);\n           EXEC SQL\n           FETCH NEXT FROM C1 INTO :stSTRTIJD, :stEINDTIJD, :saPRSNAAM, :snPRSNUM;",
               "id" : "sources\\afd_plng.sqlrpgle#243:10"
             },
             "id" : "sources\\afd_plng.sqlrpgle#243:10"
@@ -4223,6 +4557,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 252,
                     "col" : 14,
+                    "text" : "SQLSTATE = '02000');\n           *in45 = *on;\n         endif;",
                     "id" : "sources\\afd_plng.sqlrpgle#252:14"
                   },
                   "nameUpper" : "SQLSTATE",
@@ -4236,6 +4571,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 252,
                     "col" : 25,
+                    "text" : "'02000');\n           *in45 = *on;\n         endif;",
                     "id" : "sources\\afd_plng.sqlrpgle#252:25"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#252:25"
@@ -4245,6 +4581,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 252,
                   "col" : 14,
+                  "text" : "SQLSTATE = '02000');\n           *in45 = *on;\n         endif;",
                   "id" : "sources\\afd_plng.sqlrpgle#252:14"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#252:14"
@@ -4259,6 +4596,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 253,
                     "col" : 13,
+                    "text" : "in45 = *on;\n         endif;\n         if (SQLSTATE = '02000' AND RRN# = 0);",
                     "id" : "sources\\afd_plng.sqlrpgle#253:13"
                   },
                   "nameUpper" : "IN45",
@@ -4271,6 +4609,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 253,
                   "col" : 13,
+                  "text" : "in45 = *on;\n         endif;\n         if (SQLSTATE = '02000' AND RRN# = 0);",
                   "id" : "sources\\afd_plng.sqlrpgle#253:13"
                 },
                 "flattened" : true,
@@ -4281,6 +4620,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 252,
                 "col" : 10,
+                "text" : "if (SQLSTATE = '02000');\n           *in45 = *on;\n         endif;",
                 "id" : "sources\\afd_plng.sqlrpgle#252:10"
               },
               "id" : "sources\\afd_plng.sqlrpgle#252:10"
@@ -4301,6 +4641,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 255,
                       "col" : 14,
+                      "text" : "SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                       "id" : "sources\\afd_plng.sqlrpgle#255:14"
                     },
                     "nameUpper" : "SQLSTATE",
@@ -4314,6 +4655,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 255,
                       "col" : 25,
+                      "text" : "'02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                       "id" : "sources\\afd_plng.sqlrpgle#255:25"
                     },
                     "id" : "sources\\afd_plng.sqlrpgle#255:25"
@@ -4323,6 +4665,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 255,
                     "col" : 14,
+                    "text" : "SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                     "id" : "sources\\afd_plng.sqlrpgle#255:14"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#255:14"
@@ -4338,6 +4681,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 255,
                       "col" : 37,
+                      "text" : "RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                       "id" : "sources\\afd_plng.sqlrpgle#255:37"
                     },
                     "nameUpper" : "RRN#",
@@ -4351,6 +4695,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 255,
                       "col" : 44,
+                      "text" : "0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                       "id" : "sources\\afd_plng.sqlrpgle#255:44"
                     },
                     "id" : "sources\\afd_plng.sqlrpgle#255:44"
@@ -4360,6 +4705,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 255,
                     "col" : 37,
+                    "text" : "RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                     "id" : "sources\\afd_plng.sqlrpgle#255:37"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#255:37"
@@ -4369,6 +4715,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 255,
                   "col" : 14,
+                  "text" : "SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                   "id" : "sources\\afd_plng.sqlrpgle#255:14"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#255:14"
@@ -4385,6 +4732,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 256,
                       "col" : 12,
+                      "text" : "RRN# = 1;\n           stSTRTIJD = %time('00.00.00');\n           stEINDTIJD = %time('00.00.00');",
                       "id" : "sources\\afd_plng.sqlrpgle#256:12"
                     },
                     "nameUpper" : "RRN#",
@@ -4397,6 +4745,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 256,
                     "col" : 12,
+                    "text" : "RRN# = 1;\n           stSTRTIJD = %time('00.00.00');\n           stEINDTIJD = %time('00.00.00');",
                     "id" : "sources\\afd_plng.sqlrpgle#256:12"
                   },
                   "flattened" : true,
@@ -4414,6 +4763,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 257,
                         "col" : 12,
+                        "text" : "stSTRTIJD = %time('00.00.00');\n           stEINDTIJD = %time('00.00.00');\n           saPRSNAAM = 'N/A';",
                         "id" : "sources\\afd_plng.sqlrpgle#257:12"
                       },
                       "nameUpper" : "STSTRTIJD",
@@ -4428,6 +4778,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 257,
                         "col" : 24,
+                        "text" : "%time('00.00.00');\n           stEINDTIJD = %time('00.00.00');\n           saPRSNAAM = 'N/A';",
                         "id" : "sources\\afd_plng.sqlrpgle#257:24"
                       },
                       "id" : "sources\\afd_plng.sqlrpgle#257:24"
@@ -4437,6 +4788,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 257,
                       "col" : 12,
+                      "text" : "stSTRTIJD = %time('00.00.00');\n           stEINDTIJD = %time('00.00.00');\n           saPRSNAAM = 'N/A';",
                       "id" : "sources\\afd_plng.sqlrpgle#257:12"
                     },
                     "flattened" : false,
@@ -4454,6 +4806,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 258,
                           "col" : 12,
+                          "text" : "stEINDTIJD = %time('00.00.00');\n           saPRSNAAM = 'N/A';\n           snPRSNUM = 000000;",
                           "id" : "sources\\afd_plng.sqlrpgle#258:12"
                         },
                         "nameUpper" : "STEINDTIJD",
@@ -4468,6 +4821,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 258,
                           "col" : 25,
+                          "text" : "%time('00.00.00');\n           saPRSNAAM = 'N/A';\n           snPRSNUM = 000000;",
                           "id" : "sources\\afd_plng.sqlrpgle#258:25"
                         },
                         "id" : "sources\\afd_plng.sqlrpgle#258:25"
@@ -4477,6 +4831,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 258,
                         "col" : 12,
+                        "text" : "stEINDTIJD = %time('00.00.00');\n           saPRSNAAM = 'N/A';\n           snPRSNUM = 000000;",
                         "id" : "sources\\afd_plng.sqlrpgle#258:12"
                       },
                       "flattened" : false,
@@ -4494,6 +4849,7 @@
                             "file" : "sources\\afd_plng.sqlrpgle",
                             "line" : 259,
                             "col" : 12,
+                            "text" : "saPRSNAAM = 'N/A';\n           snPRSNUM = 000000;\n           write SFL01;",
                             "id" : "sources\\afd_plng.sqlrpgle#259:12"
                           },
                           "nameUpper" : "SAPRSNAAM",
@@ -4506,6 +4862,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 259,
                           "col" : 12,
+                          "text" : "saPRSNAAM = 'N/A';\n           snPRSNUM = 000000;\n           write SFL01;",
                           "id" : "sources\\afd_plng.sqlrpgle#259:12"
                         },
                         "flattened" : true,
@@ -4523,6 +4880,7 @@
                               "file" : "sources\\afd_plng.sqlrpgle",
                               "line" : 260,
                               "col" : 12,
+                              "text" : "snPRSNUM = 000000;\n           write SFL01;\n         endif;",
                               "id" : "sources\\afd_plng.sqlrpgle#260:12"
                             },
                             "nameUpper" : "SNPRSNUM",
@@ -4535,6 +4893,7 @@
                             "file" : "sources\\afd_plng.sqlrpgle",
                             "line" : 260,
                             "col" : 12,
+                            "text" : "snPRSNUM = 000000;\n           write SFL01;\n         endif;",
                             "id" : "sources\\afd_plng.sqlrpgle#260:12"
                           },
                           "flattened" : true,
@@ -4548,6 +4907,7 @@
                             "file" : "sources\\afd_plng.sqlrpgle",
                             "line" : 261,
                             "col" : 12,
+                            "text" : "write SFL01;\n         endif;\n       ",
                             "id" : "sources\\afd_plng.sqlrpgle#261:12"
                           },
                           "id" : "sources\\afd_plng.sqlrpgle#261:12"
@@ -4557,6 +4917,7 @@
                           "file" : "sources\\afd_plng.sqlrpgle",
                           "line" : 255,
                           "col" : 10,
+                          "text" : "if (SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                           "id" : "sources\\afd_plng.sqlrpgle#255:10"
                         },
                         "id" : "sources\\afd_plng.sqlrpgle#255:75"
@@ -4566,6 +4927,7 @@
                         "file" : "sources\\afd_plng.sqlrpgle",
                         "line" : 255,
                         "col" : 10,
+                        "text" : "if (SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                         "id" : "sources\\afd_plng.sqlrpgle#255:10"
                       },
                       "id" : "sources\\afd_plng.sqlrpgle#255:76"
@@ -4575,6 +4937,7 @@
                       "file" : "sources\\afd_plng.sqlrpgle",
                       "line" : 255,
                       "col" : 10,
+                      "text" : "if (SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                       "id" : "sources\\afd_plng.sqlrpgle#255:10"
                     },
                     "id" : "sources\\afd_plng.sqlrpgle#255:77"
@@ -4584,6 +4947,7 @@
                     "file" : "sources\\afd_plng.sqlrpgle",
                     "line" : 255,
                     "col" : 10,
+                    "text" : "if (SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                     "id" : "sources\\afd_plng.sqlrpgle#255:10"
                   },
                   "id" : "sources\\afd_plng.sqlrpgle#255:78"
@@ -4593,6 +4957,7 @@
                   "file" : "sources\\afd_plng.sqlrpgle",
                   "line" : 255,
                   "col" : 10,
+                  "text" : "if (SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                   "id" : "sources\\afd_plng.sqlrpgle#255:10"
                 },
                 "id" : "sources\\afd_plng.sqlrpgle#255:79"
@@ -4602,6 +4967,7 @@
                 "file" : "sources\\afd_plng.sqlrpgle",
                 "line" : 255,
                 "col" : 10,
+                "text" : "if (SQLSTATE = '02000' AND RRN# = 0);\n           RRN# = 1;\n           stSTRTIJD = %time('00.00.00');",
                 "id" : "sources\\afd_plng.sqlrpgle#255:10"
               },
               "id" : "sources\\afd_plng.sqlrpgle#255:10"
@@ -4611,6 +4977,7 @@
               "file" : "sources\\afd_plng.sqlrpgle",
               "line" : 266,
               "col" : 8,
+              "text" : "end-proc;\n       \n       // SQL subroutine to count total records",
               "id" : "sources\\afd_plng.sqlrpgle#266:8"
             },
             "id" : "sources\\afd_plng.sqlrpgle#266:78"
@@ -4620,6 +4987,7 @@
             "file" : "sources\\afd_plng.sqlrpgle",
             "line" : 266,
             "col" : 8,
+            "text" : "end-proc;\n       \n       // SQL subroutine to count total records",
             "id" : "sources\\afd_plng.sqlrpgle#266:8"
           },
           "id" : "sources\\afd_plng.sqlrpgle#266:79"
@@ -4629,6 +4997,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 266,
           "col" : 8,
+          "text" : "end-proc;\n       \n       // SQL subroutine to count total records",
           "id" : "sources\\afd_plng.sqlrpgle#266:8"
         },
         "id" : "sources\\afd_plng.sqlrpgle#266:80"
@@ -4638,6 +5007,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 266,
         "col" : 8,
+        "text" : "end-proc;\n       \n       // SQL subroutine to count total records",
         "id" : "sources\\afd_plng.sqlrpgle#266:8"
       },
       "id" : "sources\\afd_plng.sqlrpgle#266:81"
@@ -4647,6 +5017,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 266,
       "col" : 8,
+      "text" : "end-proc;\n       \n       // SQL subroutine to count total records",
       "id" : "sources\\afd_plng.sqlrpgle#266:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#266:8"
@@ -4665,6 +5036,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 285,
           "col" : 10,
+          "text" : "totalPages = %int((TOTAL_RECORDS + SFLPG - 1) / SFLPG);\n       end-proc;\n       ",
           "id" : "sources\\afd_plng.sqlrpgle#285:10"
         },
         "nameUpper" : "TOTALPAGES",
@@ -4679,6 +5051,7 @@
           "file" : "sources\\afd_plng.sqlrpgle",
           "line" : 285,
           "col" : 23,
+          "text" : "%int((TOTAL_RECORDS + SFLPG - 1) / SFLPG);\n       end-proc;\n       ",
           "id" : "sources\\afd_plng.sqlrpgle#285:23"
         },
         "id" : "sources\\afd_plng.sqlrpgle#285:23"
@@ -4688,6 +5061,7 @@
         "file" : "sources\\afd_plng.sqlrpgle",
         "line" : 285,
         "col" : 10,
+        "text" : "totalPages = %int((TOTAL_RECORDS + SFLPG - 1) / SFLPG);\n       end-proc;\n       ",
         "id" : "sources\\afd_plng.sqlrpgle#285:10"
       },
       "flattened" : false,
@@ -4698,6 +5072,7 @@
       "file" : "sources\\afd_plng.sqlrpgle",
       "line" : 286,
       "col" : 8,
+      "text" : "end-proc;\n       ",
       "id" : "sources\\afd_plng.sqlrpgle#286:8"
     },
     "id" : "sources\\afd_plng.sqlrpgle#286:8"

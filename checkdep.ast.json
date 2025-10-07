@@ -8,6 +8,7 @@
       "file" : "sources\\checkdep.sqlrpgle",
       "line" : 3,
       "col" : 8,
+      "text" : "ctl-opt NoMain;\n       dcl-s N int(10);\n       dcl-s S char(20);",
       "id" : "sources\\checkdep.sqlrpgle#3:8"
     },
     "id" : "sources\\checkdep.sqlrpgle#3:8"
@@ -21,6 +22,7 @@
       "file" : "sources\\checkdep.sqlrpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-s N int(10);\n       dcl-s S char(20);\n       dcl-s Number ind;",
       "id" : "sources\\checkdep.sqlrpgle#4:8"
     },
     "static" : false,
@@ -37,6 +39,7 @@
       "file" : "sources\\checkdep.sqlrpgle",
       "line" : 5,
       "col" : 8,
+      "text" : "dcl-s S char(20);\n       dcl-s Number ind;\n       dcl-s returnval char(20);",
       "id" : "sources\\checkdep.sqlrpgle#5:8"
     },
     "static" : false,
@@ -53,6 +56,7 @@
       "file" : "sources\\checkdep.sqlrpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-s Number ind;\n       dcl-s returnval char(20);\n       ",
       "id" : "sources\\checkdep.sqlrpgle#6:8"
     },
     "static" : false,
@@ -69,6 +73,7 @@
       "file" : "sources\\checkdep.sqlrpgle",
       "line" : 7,
       "col" : 8,
+      "text" : "dcl-s returnval char(20);\n       \n       dcl-proc CheckDep Export;",
       "id" : "sources\\checkdep.sqlrpgle#7:8"
     },
     "static" : false,
@@ -90,6 +95,7 @@
         "file" : "sources\\checkdep.sqlrpgle",
         "line" : 11,
         "col" : 12,
+        "text" : "InputValue char(20);\n         end-pi;\n       ",
         "id" : "sources\\checkdep.sqlrpgle#11:12"
       },
       "id" : "sources\\checkdep.sqlrpgle#11:12"
@@ -107,6 +113,7 @@
             "file" : "sources\\checkdep.sqlrpgle",
             "line" : 15,
             "col" : 12,
+            "text" : "N = %dec(InputValue: 2 : 0);\n           Number = *on;\n         on-error;",
             "id" : "sources\\checkdep.sqlrpgle#15:12"
           },
           "nameUpper" : "N",
@@ -121,6 +128,7 @@
             "file" : "sources\\checkdep.sqlrpgle",
             "line" : 15,
             "col" : 16,
+            "text" : "%dec(InputValue: 2 : 0);\n           Number = *on;\n         on-error;",
             "id" : "sources\\checkdep.sqlrpgle#15:16"
           },
           "id" : "sources\\checkdep.sqlrpgle#15:16"
@@ -130,6 +138,7 @@
           "file" : "sources\\checkdep.sqlrpgle",
           "line" : 15,
           "col" : 12,
+          "text" : "N = %dec(InputValue: 2 : 0);\n           Number = *on;\n         on-error;",
           "id" : "sources\\checkdep.sqlrpgle#15:12"
         },
         "flattened" : false,
@@ -147,6 +156,7 @@
               "file" : "sources\\checkdep.sqlrpgle",
               "line" : 16,
               "col" : 12,
+              "text" : "Number = *on;\n         on-error;\n           S = InputValue;",
               "id" : "sources\\checkdep.sqlrpgle#16:12"
             },
             "nameUpper" : "NUMBER",
@@ -159,6 +169,7 @@
             "file" : "sources\\checkdep.sqlrpgle",
             "line" : 16,
             "col" : 12,
+            "text" : "Number = *on;\n         on-error;\n           S = InputValue;",
             "id" : "sources\\checkdep.sqlrpgle#16:12"
           },
           "flattened" : true,
@@ -176,6 +187,7 @@
                 "file" : "sources\\checkdep.sqlrpgle",
                 "line" : 18,
                 "col" : 12,
+                "text" : "S = InputValue;\n           Number = *off;\n         endmon;",
                 "id" : "sources\\checkdep.sqlrpgle#18:12"
               },
               "nameUpper" : "S",
@@ -188,6 +200,7 @@
               "file" : "sources\\checkdep.sqlrpgle",
               "line" : 18,
               "col" : 12,
+              "text" : "S = InputValue;\n           Number = *off;\n         endmon;",
               "id" : "sources\\checkdep.sqlrpgle#18:12"
             },
             "flattened" : true,
@@ -205,6 +218,7 @@
                   "file" : "sources\\checkdep.sqlrpgle",
                   "line" : 19,
                   "col" : 12,
+                  "text" : "Number = *off;\n         endmon;\n       ",
                   "id" : "sources\\checkdep.sqlrpgle#19:12"
                 },
                 "nameUpper" : "NUMBER",
@@ -217,6 +231,7 @@
                 "file" : "sources\\checkdep.sqlrpgle",
                 "line" : 19,
                 "col" : 12,
+                "text" : "Number = *off;\n         endmon;\n       ",
                 "id" : "sources\\checkdep.sqlrpgle#19:12"
               },
               "flattened" : true,
@@ -234,6 +249,7 @@
                     "file" : "sources\\checkdep.sqlrpgle",
                     "line" : 22,
                     "col" : 13,
+                    "text" : "Number;\n           exsr sqlN;\n         else;",
                     "id" : "sources\\checkdep.sqlrpgle#22:13"
                   },
                   "nameUpper" : "NUMBER",
@@ -247,6 +263,7 @@
                     "file" : "sources\\checkdep.sqlrpgle",
                     "line" : 23,
                     "col" : 12,
+                    "text" : "exsr sqlN;\n         else;\n           exsr sqlS;",
                     "id" : "sources\\checkdep.sqlrpgle#23:12"
                   },
                   "subroutineUpper" : "SQLN",
@@ -260,6 +277,7 @@
                     "file" : "sources\\checkdep.sqlrpgle",
                     "line" : 25,
                     "col" : 12,
+                    "text" : "exsr sqlS;\n         endif;\n       ",
                     "id" : "sources\\checkdep.sqlrpgle#25:12"
                   },
                   "subroutineUpper" : "SQLS",
@@ -270,6 +288,7 @@
                   "file" : "sources\\checkdep.sqlrpgle",
                   "line" : 22,
                   "col" : 10,
+                  "text" : "if Number;\n           exsr sqlN;\n         else;",
                   "id" : "sources\\checkdep.sqlrpgle#22:10"
                 },
                 "id" : "sources\\checkdep.sqlrpgle#22:10"
@@ -284,6 +303,7 @@
                     "file" : "sources\\checkdep.sqlrpgle",
                     "line" : 32,
                     "col" : 10,
+                    "text" : "begsr sqlN;\n           exec sql select naam into :returnval from afdeling where Afdeling.ID=:N;\n           if SQLSTATE<>'00000';",
                     "id" : "sources\\checkdep.sqlrpgle#32:10"
                   },
                   "id" : "sources\\checkdep.sqlrpgle#32:10"
@@ -303,6 +323,7 @@
                           "file" : "sources\\checkdep.sqlrpgle",
                           "line" : 34,
                           "col" : 15,
+                          "text" : "SQLSTATE<>'00000';\n             returnval = '';\n           endif;",
                           "id" : "sources\\checkdep.sqlrpgle#34:15"
                         },
                         "nameUpper" : "SQLSTATE",
@@ -316,6 +337,7 @@
                           "file" : "sources\\checkdep.sqlrpgle",
                           "line" : 34,
                           "col" : 25,
+                          "text" : "'00000';\n             returnval = '';\n           endif;",
                           "id" : "sources\\checkdep.sqlrpgle#34:25"
                         },
                         "id" : "sources\\checkdep.sqlrpgle#34:25"
@@ -325,6 +347,7 @@
                         "file" : "sources\\checkdep.sqlrpgle",
                         "line" : 34,
                         "col" : 15,
+                        "text" : "SQLSTATE<>'00000';\n             returnval = '';\n           endif;",
                         "id" : "sources\\checkdep.sqlrpgle#34:15"
                       },
                       "id" : "sources\\checkdep.sqlrpgle#34:15"
@@ -339,6 +362,7 @@
                           "file" : "sources\\checkdep.sqlrpgle",
                           "line" : 35,
                           "col" : 14,
+                          "text" : "returnval = '';\n           endif;\n         endsr;",
                           "id" : "sources\\checkdep.sqlrpgle#35:14"
                         },
                         "nameUpper" : "RETURNVAL",
@@ -351,6 +375,7 @@
                         "file" : "sources\\checkdep.sqlrpgle",
                         "line" : 35,
                         "col" : 14,
+                        "text" : "returnval = '';\n           endif;\n         endsr;",
                         "id" : "sources\\checkdep.sqlrpgle#35:14"
                       },
                       "flattened" : true,
@@ -361,6 +386,7 @@
                       "file" : "sources\\checkdep.sqlrpgle",
                       "line" : 34,
                       "col" : 12,
+                      "text" : "if SQLSTATE<>'00000';\n             returnval = '';\n           endif;",
                       "id" : "sources\\checkdep.sqlrpgle#34:12"
                     },
                     "id" : "sources\\checkdep.sqlrpgle#34:12"
@@ -374,6 +400,7 @@
                         "file" : "sources\\checkdep.sqlrpgle",
                         "line" : 37,
                         "col" : 10,
+                        "text" : "endsr;\n         begsr sqlS;\n           exec sql select naam into :returnval from afdeling where Afdeling.Naam=:S;",
                         "id" : "sources\\checkdep.sqlrpgle#37:10"
                       },
                       "id" : "sources\\checkdep.sqlrpgle#37:10"
@@ -388,6 +415,7 @@
                           "file" : "sources\\checkdep.sqlrpgle",
                           "line" : 38,
                           "col" : 10,
+                          "text" : "begsr sqlS;\n           exec sql select naam into :returnval from afdeling where Afdeling.Naam=:S;\n           if SQLSTATE<>'00000';",
                           "id" : "sources\\checkdep.sqlrpgle#38:10"
                         },
                         "id" : "sources\\checkdep.sqlrpgle#38:10"
@@ -407,6 +435,7 @@
                                 "file" : "sources\\checkdep.sqlrpgle",
                                 "line" : 40,
                                 "col" : 15,
+                                "text" : "SQLSTATE<>'00000';\n             returnval = '';\n           endif;",
                                 "id" : "sources\\checkdep.sqlrpgle#40:15"
                               },
                               "nameUpper" : "SQLSTATE",
@@ -420,6 +449,7 @@
                                 "file" : "sources\\checkdep.sqlrpgle",
                                 "line" : 40,
                                 "col" : 25,
+                                "text" : "'00000';\n             returnval = '';\n           endif;",
                                 "id" : "sources\\checkdep.sqlrpgle#40:25"
                               },
                               "id" : "sources\\checkdep.sqlrpgle#40:25"
@@ -429,6 +459,7 @@
                               "file" : "sources\\checkdep.sqlrpgle",
                               "line" : 40,
                               "col" : 15,
+                              "text" : "SQLSTATE<>'00000';\n             returnval = '';\n           endif;",
                               "id" : "sources\\checkdep.sqlrpgle#40:15"
                             },
                             "id" : "sources\\checkdep.sqlrpgle#40:15"
@@ -443,6 +474,7 @@
                                 "file" : "sources\\checkdep.sqlrpgle",
                                 "line" : 41,
                                 "col" : 14,
+                                "text" : "returnval = '';\n           endif;\n         endsr;",
                                 "id" : "sources\\checkdep.sqlrpgle#41:14"
                               },
                               "nameUpper" : "RETURNVAL",
@@ -455,6 +487,7 @@
                               "file" : "sources\\checkdep.sqlrpgle",
                               "line" : 41,
                               "col" : 14,
+                              "text" : "returnval = '';\n           endif;\n         endsr;",
                               "id" : "sources\\checkdep.sqlrpgle#41:14"
                             },
                             "flattened" : true,
@@ -465,6 +498,7 @@
                             "file" : "sources\\checkdep.sqlrpgle",
                             "line" : 40,
                             "col" : 12,
+                            "text" : "if SQLSTATE<>'00000';\n             returnval = '';\n           endif;",
                             "id" : "sources\\checkdep.sqlrpgle#40:12"
                           },
                           "id" : "sources\\checkdep.sqlrpgle#40:12"
@@ -476,6 +510,7 @@
                             "file" : "sources\\checkdep.sqlrpgle",
                             "line" : 43,
                             "col" : 10,
+                            "text" : "endsr;\n       end-proc;\n       ",
                             "id" : "sources\\checkdep.sqlrpgle#43:10"
                           },
                           "id" : "sources\\checkdep.sqlrpgle#43:10"
@@ -485,6 +520,7 @@
                           "file" : "sources\\checkdep.sqlrpgle",
                           "line" : 44,
                           "col" : 8,
+                          "text" : "end-proc;\n       ",
                           "id" : "sources\\checkdep.sqlrpgle#44:8"
                         },
                         "id" : "sources\\checkdep.sqlrpgle#44:8"
@@ -494,6 +530,7 @@
                         "file" : "sources\\checkdep.sqlrpgle",
                         "line" : 44,
                         "col" : 8,
+                        "text" : "end-proc;\n       ",
                         "id" : "sources\\checkdep.sqlrpgle#44:8"
                       },
                       "id" : "sources\\checkdep.sqlrpgle#44:9"
@@ -503,6 +540,7 @@
                       "file" : "sources\\checkdep.sqlrpgle",
                       "line" : 44,
                       "col" : 8,
+                      "text" : "end-proc;\n       ",
                       "id" : "sources\\checkdep.sqlrpgle#44:8"
                     },
                     "id" : "sources\\checkdep.sqlrpgle#44:10"
@@ -512,6 +550,7 @@
                     "file" : "sources\\checkdep.sqlrpgle",
                     "line" : 44,
                     "col" : 8,
+                    "text" : "end-proc;\n       ",
                     "id" : "sources\\checkdep.sqlrpgle#44:8"
                   },
                   "id" : "sources\\checkdep.sqlrpgle#44:11"
@@ -521,6 +560,7 @@
                   "file" : "sources\\checkdep.sqlrpgle",
                   "line" : 44,
                   "col" : 8,
+                  "text" : "end-proc;\n       ",
                   "id" : "sources\\checkdep.sqlrpgle#44:8"
                 },
                 "id" : "sources\\checkdep.sqlrpgle#44:12"
@@ -530,6 +570,7 @@
                 "file" : "sources\\checkdep.sqlrpgle",
                 "line" : 44,
                 "col" : 8,
+                "text" : "end-proc;\n       ",
                 "id" : "sources\\checkdep.sqlrpgle#44:8"
               },
               "id" : "sources\\checkdep.sqlrpgle#44:13"
@@ -539,6 +580,7 @@
               "file" : "sources\\checkdep.sqlrpgle",
               "line" : 44,
               "col" : 8,
+              "text" : "end-proc;\n       ",
               "id" : "sources\\checkdep.sqlrpgle#44:8"
             },
             "id" : "sources\\checkdep.sqlrpgle#44:14"
@@ -548,6 +590,7 @@
             "file" : "sources\\checkdep.sqlrpgle",
             "line" : 44,
             "col" : 8,
+            "text" : "end-proc;\n       ",
             "id" : "sources\\checkdep.sqlrpgle#44:8"
           },
           "id" : "sources\\checkdep.sqlrpgle#44:15"
@@ -557,6 +600,7 @@
           "file" : "sources\\checkdep.sqlrpgle",
           "line" : 44,
           "col" : 8,
+          "text" : "end-proc;\n       ",
           "id" : "sources\\checkdep.sqlrpgle#44:8"
         },
         "id" : "sources\\checkdep.sqlrpgle#44:16"
@@ -566,6 +610,7 @@
         "file" : "sources\\checkdep.sqlrpgle",
         "line" : 44,
         "col" : 8,
+        "text" : "end-proc;\n       ",
         "id" : "sources\\checkdep.sqlrpgle#44:8"
       },
       "id" : "sources\\checkdep.sqlrpgle#44:17"
@@ -575,6 +620,7 @@
       "file" : "sources\\checkdep.sqlrpgle",
       "line" : 44,
       "col" : 8,
+      "text" : "end-proc;\n       ",
       "id" : "sources\\checkdep.sqlrpgle#44:8"
     },
     "id" : "sources\\checkdep.sqlrpgle#44:8"

@@ -11,6 +11,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 2,
       "col" : 8,
+      "text" : "ctl-opt dftactgrp(*no) actgrp(*new);\n       \n       dcl-f MNG_PRSNL2 workstn sfile(SFL01:RRN#);  // Display file declareren",
       "id" : "sources\\mnag_prsnl.rpgle#2:8"
     },
     "id" : "sources\\mnag_prsnl.rpgle#2:8"
@@ -25,6 +26,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 4,
       "col" : 8,
+      "text" : "dcl-f MNG_PRSNL2 workstn sfile(SFL01:RRN#);  // Display file declareren\n       \n       dcl-s RRN# packed(4);       // Relative Record Number",
       "id" : "sources\\mnag_prsnl.rpgle#4:8"
     },
     "id" : "sources\\mnag_prsnl.rpgle#4:8"
@@ -38,6 +40,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 6,
       "col" : 8,
+      "text" : "dcl-s RRN# packed(4);       // Relative Record Number\n       dcl-s IND_SFLDSP ind;       // Indicator voor SFLDSP\n       dcl-s IND_SFLDSPCTL ind;    // Indicator voor SFLDSPCTL",
       "id" : "sources\\mnag_prsnl.rpgle#6:8"
     },
     "static" : false,
@@ -54,6 +57,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 7,
       "col" : 8,
+      "text" : "dcl-s IND_SFLDSP ind;       // Indicator voor SFLDSP\n       dcl-s IND_SFLDSPCTL ind;    // Indicator voor SFLDSPCTL\n       dcl-s IND_SFLCLR ind;       // Indicator voor SFLCLR",
       "id" : "sources\\mnag_prsnl.rpgle#7:8"
     },
     "static" : false,
@@ -70,6 +74,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 8,
       "col" : 8,
+      "text" : "dcl-s IND_SFLDSPCTL ind;    // Indicator voor SFLDSPCTL\n       dcl-s IND_SFLCLR ind;       // Indicator voor SFLCLR\n       ",
       "id" : "sources\\mnag_prsnl.rpgle#8:8"
     },
     "static" : false,
@@ -86,6 +91,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 9,
       "col" : 8,
+      "text" : "dcl-s IND_SFLCLR ind;       // Indicator voor SFLCLR\n       \n       dcl-s SelectedID char(10);",
       "id" : "sources\\mnag_prsnl.rpgle#9:8"
     },
     "static" : false,
@@ -102,6 +108,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 11,
       "col" : 8,
+      "text" : "dcl-s SelectedID char(10);\n       dcl-s NEWID int(10);\n       dcl-s invalidInput ind inz(*off);",
       "id" : "sources\\mnag_prsnl.rpgle#11:8"
     },
     "static" : false,
@@ -118,6 +125,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 12,
       "col" : 8,
+      "text" : "dcl-s NEWID int(10);\n       dcl-s invalidInput ind inz(*off);\n       ",
       "id" : "sources\\mnag_prsnl.rpgle#12:8"
     },
     "static" : false,
@@ -134,6 +142,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 13,
       "col" : 8,
+      "text" : "dcl-s invalidInput ind inz(*off);\n       \n       // Subfile leegmaken",
       "id" : "sources\\mnag_prsnl.rpgle#13:8"
     },
     "static" : false,
@@ -154,6 +163,7 @@
           "file" : "sources\\mnag_prsnl.rpgle",
           "line" : 16,
           "col" : 8,
+          "text" : "IND_SFLCLR = *on;\n       write SFLCTL01;\n       IND_SFLCLR = *off;",
           "id" : "sources\\mnag_prsnl.rpgle#16:8"
         },
         "nameUpper" : "IND_SFLCLR",
@@ -166,6 +176,7 @@
         "file" : "sources\\mnag_prsnl.rpgle",
         "line" : 16,
         "col" : 8,
+        "text" : "IND_SFLCLR = *on;\n       write SFLCTL01;\n       IND_SFLCLR = *off;",
         "id" : "sources\\mnag_prsnl.rpgle#16:8"
       },
       "flattened" : true,
@@ -181,6 +192,7 @@
           "file" : "sources\\mnag_prsnl.rpgle",
           "line" : 17,
           "col" : 8,
+          "text" : "write SFLCTL01;\n       IND_SFLCLR = *off;\n       ",
           "id" : "sources\\mnag_prsnl.rpgle#17:8"
         },
         "id" : "sources\\mnag_prsnl.rpgle#17:8"
@@ -197,6 +209,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 18,
               "col" : 8,
+              "text" : "IND_SFLCLR = *off;\n       \n       exsr clearSFL;    // load subfile",
               "id" : "sources\\mnag_prsnl.rpgle#18:8"
             },
             "nameUpper" : "IND_SFLCLR",
@@ -209,6 +222,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 18,
             "col" : 8,
+            "text" : "IND_SFLCLR = *off;\n       \n       exsr clearSFL;    // load subfile",
             "id" : "sources\\mnag_prsnl.rpgle#18:8"
           },
           "flattened" : true,
@@ -224,6 +238,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 20,
               "col" : 8,
+              "text" : "exsr clearSFL;    // load subfile\n       \n       // Indicator voor F11 standaard aanzetten",
               "id" : "sources\\mnag_prsnl.rpgle#20:8"
             },
             "subroutineUpper" : "CLEARSFL",
@@ -241,6 +256,7 @@
                   "file" : "sources\\mnag_prsnl.rpgle",
                   "line" : 23,
                   "col" : 9,
+                  "text" : "in11 = *off;  // Zet F11 actief bij eerste schermweergave\n       \n       /////////////////////////////////",
                   "id" : "sources\\mnag_prsnl.rpgle#23:9"
                 },
                 "nameUpper" : "IN11",
@@ -253,6 +269,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 23,
                 "col" : 9,
+                "text" : "in11 = *off;  // Zet F11 actief bij eerste schermweergave\n       \n       /////////////////////////////////",
                 "id" : "sources\\mnag_prsnl.rpgle#23:9"
               },
               "flattened" : true,
@@ -270,6 +287,7 @@
                     "file" : "sources\\mnag_prsnl.rpgle",
                     "line" : 39,
                     "col" : 8,
+                    "text" : "RRN# = 0;\n       dow *on;\n           exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLOUT,",
                     "id" : "sources\\mnag_prsnl.rpgle#39:8"
                   },
                   "nameUpper" : "RRN#",
@@ -282,6 +300,7 @@
                   "file" : "sources\\mnag_prsnl.rpgle",
                   "line" : 39,
                   "col" : 8,
+                  "text" : "RRN# = 0;\n       dow *on;\n           exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLOUT,",
                   "id" : "sources\\mnag_prsnl.rpgle#39:8"
                 },
                 "flattened" : true,
@@ -299,6 +318,7 @@
                       "file" : "sources\\mnag_prsnl.rpgle",
                       "line" : 40,
                       "col" : 12,
+                      "text" : "*on;\n           exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLOUT,\n           if sqlstate = '02000';   // Geen records meer, exit loop",
                       "id" : "sources\\mnag_prsnl.rpgle#40:12"
                     },
                     "nameUpper" : "*ON",
@@ -316,6 +336,7 @@
                           "file" : "sources\\mnag_prsnl.rpgle",
                           "line" : 45,
                           "col" : 12,
+                          "text" : "RRN# += 1;\n           write SFL01;  // Schrijf naar subfile\n       enddo;",
                           "id" : "sources\\mnag_prsnl.rpgle#45:12"
                         },
                         "nameUpper" : "RRN#",
@@ -328,6 +349,7 @@
                         "file" : "sources\\mnag_prsnl.rpgle",
                         "line" : 45,
                         "col" : 12,
+                        "text" : "RRN# += 1;\n           write SFL01;  // Schrijf naar subfile\n       enddo;",
                         "id" : "sources\\mnag_prsnl.rpgle#45:12"
                       },
                       "flattened" : true,
@@ -341,6 +363,7 @@
                         "file" : "sources\\mnag_prsnl.rpgle",
                         "line" : 46,
                         "col" : 12,
+                        "text" : "write SFL01;  // Schrijf naar subfile\n       enddo;\n       ",
                         "id" : "sources\\mnag_prsnl.rpgle#46:12"
                       },
                       "id" : "sources\\mnag_prsnl.rpgle#46:12"
@@ -350,6 +373,7 @@
                       "file" : "sources\\mnag_prsnl.rpgle",
                       "line" : 40,
                       "col" : 8,
+                      "text" : "dow *on;\n           exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLOUT,\n           if sqlstate = '02000';   // Geen records meer, exit loop",
                       "id" : "sources\\mnag_prsnl.rpgle#40:8"
                     },
                     "id" : "sources\\mnag_prsnl.rpgle#40:8"
@@ -359,6 +383,7 @@
                     "file" : "sources\\mnag_prsnl.rpgle",
                     "line" : 40,
                     "col" : 8,
+                    "text" : "dow *on;\n           exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLOUT,\n           if sqlstate = '02000';   // Geen records meer, exit loop",
                     "id" : "sources\\mnag_prsnl.rpgle#40:8"
                   },
                   "id" : "sources\\mnag_prsnl.rpgle#40:8"
@@ -375,6 +400,7 @@
                         "file" : "sources\\mnag_prsnl.rpgle",
                         "line" : 53,
                         "col" : 8,
+                        "text" : "IND_SFLDSP = *on;\n       IND_SFLDSPCTL = *on;\n       write SFLCTL01;",
                         "id" : "sources\\mnag_prsnl.rpgle#53:8"
                       },
                       "nameUpper" : "IND_SFLDSP",
@@ -387,6 +413,7 @@
                       "file" : "sources\\mnag_prsnl.rpgle",
                       "line" : 53,
                       "col" : 8,
+                      "text" : "IND_SFLDSP = *on;\n       IND_SFLDSPCTL = *on;\n       write SFLCTL01;",
                       "id" : "sources\\mnag_prsnl.rpgle#53:8"
                     },
                     "flattened" : true,
@@ -404,6 +431,7 @@
                           "file" : "sources\\mnag_prsnl.rpgle",
                           "line" : 54,
                           "col" : 8,
+                          "text" : "IND_SFLDSPCTL = *on;\n       write SFLCTL01;\n       ",
                           "id" : "sources\\mnag_prsnl.rpgle#54:8"
                         },
                         "nameUpper" : "IND_SFLDSPCTL",
@@ -416,6 +444,7 @@
                         "file" : "sources\\mnag_prsnl.rpgle",
                         "line" : 54,
                         "col" : 8,
+                        "text" : "IND_SFLDSPCTL = *on;\n       write SFLCTL01;\n       ",
                         "id" : "sources\\mnag_prsnl.rpgle#54:8"
                       },
                       "flattened" : true,
@@ -431,6 +460,7 @@
                           "file" : "sources\\mnag_prsnl.rpgle",
                           "line" : 55,
                           "col" : 8,
+                          "text" : "write SFLCTL01;\n       \n       /////////////////////////////////",
                           "id" : "sources\\mnag_prsnl.rpgle#55:8"
                         },
                         "id" : "sources\\mnag_prsnl.rpgle#55:8"
@@ -447,6 +477,7 @@
                               "file" : "sources\\mnag_prsnl.rpgle",
                               "line" : 59,
                               "col" : 12,
+                              "text" : "*on;\n           exfmt SCREEN01;\n       ",
                               "id" : "sources\\mnag_prsnl.rpgle#59:12"
                             },
                             "nameUpper" : "*ON",
@@ -462,6 +493,7 @@
                                 "file" : "sources\\mnag_prsnl.rpgle",
                                 "line" : 60,
                                 "col" : 12,
+                                "text" : "exfmt SCREEN01;\n       \n           if *in03;",
                                 "id" : "sources\\mnag_prsnl.rpgle#60:12"
                               },
                               "id" : "sources\\mnag_prsnl.rpgle#60:12"
@@ -478,6 +510,7 @@
                                     "file" : "sources\\mnag_prsnl.rpgle",
                                     "line" : 62,
                                     "col" : 15,
+                                    "text" : "*in03;\n               leave;\n           endif;",
                                     "id" : "sources\\mnag_prsnl.rpgle#62:15"
                                   },
                                   "nameUpper" : "*IN03",
@@ -490,6 +523,7 @@
                                     "file" : "sources\\mnag_prsnl.rpgle",
                                     "line" : 62,
                                     "col" : 12,
+                                    "text" : "if *in03;\n               leave;\n           endif;",
                                     "id" : "sources\\mnag_prsnl.rpgle#62:12"
                                   },
                                   "id" : "sources\\mnag_prsnl.rpgle#62:12"
@@ -499,6 +533,7 @@
                                   "file" : "sources\\mnag_prsnl.rpgle",
                                   "line" : 62,
                                   "col" : 12,
+                                  "text" : "if *in03;\n               leave;\n           endif;",
                                   "id" : "sources\\mnag_prsnl.rpgle#62:12"
                                 },
                                 "id" : "sources\\mnag_prsnl.rpgle#62:12"
@@ -515,6 +550,7 @@
                                       "file" : "sources\\mnag_prsnl.rpgle",
                                       "line" : 66,
                                       "col" : 15,
+                                      "text" : "*in06;\n               exfmt ADDSCRN;\n       ",
                                       "id" : "sources\\mnag_prsnl.rpgle#66:15"
                                     },
                                     "nameUpper" : "*IN06",
@@ -530,6 +566,7 @@
                                         "file" : "sources\\mnag_prsnl.rpgle",
                                         "line" : 67,
                                         "col" : 16,
+                                        "text" : "exfmt ADDSCRN;\n       \n               if *in03;",
                                         "id" : "sources\\mnag_prsnl.rpgle#67:16"
                                       },
                                       "id" : "sources\\mnag_prsnl.rpgle#67:16"
@@ -544,6 +581,7 @@
                                           "file" : "sources\\mnag_prsnl.rpgle",
                                           "line" : 69,
                                           "col" : 19,
+                                          "text" : "*in03;\n                   exsr clearSFL;\n                   exsr reloadSubfile;",
                                           "id" : "sources\\mnag_prsnl.rpgle#69:19"
                                         },
                                         "nameUpper" : "*IN03",
@@ -559,6 +597,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 70,
                                             "col" : 20,
+                                            "text" : "exsr clearSFL;\n                   exsr reloadSubfile;\n       ",
                                             "id" : "sources\\mnag_prsnl.rpgle#70:20"
                                           },
                                           "subroutineUpper" : "CLEARSFL",
@@ -572,6 +611,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 71,
                                             "col" : 20,
+                                            "text" : "exsr reloadSubfile;\n       \n               else;",
                                             "id" : "sources\\mnag_prsnl.rpgle#71:20"
                                           },
                                           "subroutineUpper" : "RELOADSUBFILE",
@@ -582,6 +622,7 @@
                                           "file" : "sources\\mnag_prsnl.rpgle",
                                           "line" : 69,
                                           "col" : 16,
+                                          "text" : "if *in03;\n                   exsr clearSFL;\n                   exsr reloadSubfile;",
                                           "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                         },
                                         "id" : "sources\\mnag_prsnl.rpgle#69:18"
@@ -610,6 +651,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 74,
                                                       "col" : 23,
+                                                      "text" : "LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                       "id" : "sources\\mnag_prsnl.rpgle#74:23"
                                                     },
                                                     "nameUpper" : "LNAMEIN",
@@ -623,6 +665,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 74,
                                                       "col" : 34,
+                                                      "text" : "*blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                       "id" : "sources\\mnag_prsnl.rpgle#74:34"
                                                     },
                                                     "nameUpper" : "*BLANKS",
@@ -633,6 +676,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 74,
                                                     "col" : 23,
+                                                    "text" : "LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                     "id" : "sources\\mnag_prsnl.rpgle#74:23"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#74:23"
@@ -648,6 +692,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 74,
                                                       "col" : 46,
+                                                      "text" : "RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                       "id" : "sources\\mnag_prsnl.rpgle#74:46"
                                                     },
                                                     "nameUpper" : "RNAMEIN",
@@ -661,6 +706,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 74,
                                                       "col" : 57,
+                                                      "text" : "*blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                       "id" : "sources\\mnag_prsnl.rpgle#74:57"
                                                     },
                                                     "nameUpper" : "*BLANKS",
@@ -671,6 +717,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 74,
                                                     "col" : 46,
+                                                    "text" : "RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                     "id" : "sources\\mnag_prsnl.rpgle#74:46"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#74:46"
@@ -680,6 +727,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 74,
                                                   "col" : 23,
+                                                  "text" : "LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                   "id" : "sources\\mnag_prsnl.rpgle#74:23"
                                                 },
                                                 "id" : "sources\\mnag_prsnl.rpgle#74:23"
@@ -695,6 +743,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 75,
                                                     "col" : 23,
+                                                    "text" : "GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';\n                       exec sql",
                                                     "id" : "sources\\mnag_prsnl.rpgle#75:23"
                                                   },
                                                   "nameUpper" : "GESLIN",
@@ -708,6 +757,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 75,
                                                     "col" : 33,
+                                                    "text" : "*blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';\n                       exec sql",
                                                     "id" : "sources\\mnag_prsnl.rpgle#75:33"
                                                   },
                                                   "nameUpper" : "*BLANKS",
@@ -718,6 +768,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 75,
                                                   "col" : 23,
+                                                  "text" : "GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';\n                       exec sql",
                                                   "id" : "sources\\mnag_prsnl.rpgle#75:23"
                                                 },
                                                 "id" : "sources\\mnag_prsnl.rpgle#75:23"
@@ -727,6 +778,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 74,
                                                 "col" : 23,
+                                                "text" : "LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                                 "id" : "sources\\mnag_prsnl.rpgle#74:23"
                                               },
                                               "id" : "sources\\mnag_prsnl.rpgle#74:23"
@@ -742,6 +794,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 75,
                                                   "col" : 45,
+                                                  "text" : "SCHEMAIN <> *blanks;\n                       MSGFIELD = '';\n                       exec sql",
                                                   "id" : "sources\\mnag_prsnl.rpgle#75:45"
                                                 },
                                                 "nameUpper" : "SCHEMAIN",
@@ -755,6 +808,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 75,
                                                   "col" : 57,
+                                                  "text" : "*blanks;\n                       MSGFIELD = '';\n                       exec sql",
                                                   "id" : "sources\\mnag_prsnl.rpgle#75:57"
                                                 },
                                                 "nameUpper" : "*BLANKS",
@@ -765,6 +819,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 75,
                                                 "col" : 45,
+                                                "text" : "SCHEMAIN <> *blanks;\n                       MSGFIELD = '';\n                       exec sql",
                                                 "id" : "sources\\mnag_prsnl.rpgle#75:45"
                                               },
                                               "id" : "sources\\mnag_prsnl.rpgle#75:45"
@@ -774,6 +829,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 74,
                                               "col" : 23,
+                                              "text" : "LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                               "id" : "sources\\mnag_prsnl.rpgle#74:23"
                                             },
                                             "id" : "sources\\mnag_prsnl.rpgle#74:23"
@@ -790,6 +846,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 76,
                                                   "col" : 24,
+                                                  "text" : "MSGFIELD = '';\n                       exec sql\n                           select coalesce(max(ID), 0) + 1",
                                                   "id" : "sources\\mnag_prsnl.rpgle#76:24"
                                                 },
                                                 "nameUpper" : "MSGFIELD",
@@ -802,6 +859,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 76,
                                                 "col" : 24,
+                                                "text" : "MSGFIELD = '';\n                       exec sql\n                           select coalesce(max(ID), 0) + 1",
                                                 "id" : "sources\\mnag_prsnl.rpgle#76:24"
                                               },
                                               "flattened" : true,
@@ -820,6 +878,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 88,
                                                     "col" : 27,
+                                                    "text" : "sqlcode = 0;\n                           MSGFIELD = 'Toevoegen gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                     "id" : "sources\\mnag_prsnl.rpgle#88:27"
                                                   },
                                                   "nameUpper" : "SQLCODE",
@@ -833,6 +892,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 88,
                                                     "col" : 37,
+                                                    "text" : "0;\n                           MSGFIELD = 'Toevoegen gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                     "id" : "sources\\mnag_prsnl.rpgle#88:37"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#88:37"
@@ -842,6 +902,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 88,
                                                   "col" : 27,
+                                                  "text" : "sqlcode = 0;\n                           MSGFIELD = 'Toevoegen gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                   "id" : "sources\\mnag_prsnl.rpgle#88:27"
                                                 },
                                                 "id" : "sources\\mnag_prsnl.rpgle#88:27"
@@ -856,6 +917,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 91,
                                                     "col" : 28,
+                                                    "text" : "MSGFIELD = 'mislukt: SQLCODE=' + %char(sqlcode);\n                       endif;\n       ",
                                                     "id" : "sources\\mnag_prsnl.rpgle#91:28"
                                                   },
                                                   "nameUpper" : "MSGFIELD",
@@ -873,6 +935,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 91,
                                                       "col" : 39,
+                                                      "text" : "'mislukt: SQLCODE=' + %char(sqlcode);\n                       endif;\n       ",
                                                       "id" : "sources\\mnag_prsnl.rpgle#91:39"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#91:39"
@@ -885,6 +948,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 91,
                                                       "col" : 61,
+                                                      "text" : "%char(sqlcode);\n                       endif;\n       ",
                                                       "id" : "sources\\mnag_prsnl.rpgle#91:61"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#91:61"
@@ -894,6 +958,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 91,
                                                     "col" : 39,
+                                                    "text" : "'mislukt: SQLCODE=' + %char(sqlcode);\n                       endif;\n       ",
                                                     "id" : "sources\\mnag_prsnl.rpgle#91:39"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#91:39"
@@ -903,6 +968,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 91,
                                                   "col" : 28,
+                                                  "text" : "MSGFIELD = 'mislukt: SQLCODE=' + %char(sqlcode);\n                       endif;\n       ",
                                                   "id" : "sources\\mnag_prsnl.rpgle#91:28"
                                                 },
                                                 "flattened" : false,
@@ -913,6 +979,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 88,
                                                 "col" : 24,
+                                                "text" : "if sqlcode = 0;\n                           MSGFIELD = 'Toevoegen gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                 "id" : "sources\\mnag_prsnl.rpgle#88:24"
                                               },
                                               "id" : "sources\\mnag_prsnl.rpgle#88:24"
@@ -922,6 +989,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 74,
                                               "col" : 20,
+                                              "text" : "if LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                               "id" : "sources\\mnag_prsnl.rpgle#74:20"
                                             },
                                             "id" : "sources\\mnag_prsnl.rpgle#74:21"
@@ -936,6 +1004,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 95,
                                                 "col" : 24,
+                                                "text" : "MSGFIELD = 'Alle velden zijn verplicht.';\n                   endif;\n                   exsr clearSFL;",
                                                 "id" : "sources\\mnag_prsnl.rpgle#95:24"
                                               },
                                               "nameUpper" : "MSGFIELD",
@@ -948,6 +1017,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 95,
                                               "col" : 24,
+                                              "text" : "MSGFIELD = 'Alle velden zijn verplicht.';\n                   endif;\n                   exsr clearSFL;",
                                               "id" : "sources\\mnag_prsnl.rpgle#95:24"
                                             },
                                             "flattened" : true,
@@ -958,6 +1028,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 74,
                                             "col" : 20,
+                                            "text" : "if LNAMEIN <> *blanks and RNAMEIN <> *blanks and\n                      GESLIN <> *blanks and SCHEMAIN <> *blanks;\n                       MSGFIELD = '';",
                                             "id" : "sources\\mnag_prsnl.rpgle#74:20"
                                           },
                                           "id" : "sources\\mnag_prsnl.rpgle#74:20"
@@ -972,6 +1043,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 97,
                                               "col" : 20,
+                                              "text" : "exsr clearSFL;\n                   exsr reloadSubfile;\n               endif;",
                                               "id" : "sources\\mnag_prsnl.rpgle#97:20"
                                             },
                                             "subroutineUpper" : "CLEARSFL",
@@ -985,6 +1057,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 98,
                                               "col" : 20,
+                                              "text" : "exsr reloadSubfile;\n               endif;\n           endif;",
                                               "id" : "sources\\mnag_prsnl.rpgle#98:20"
                                             },
                                             "subroutineUpper" : "RELOADSUBFILE",
@@ -995,6 +1068,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 69,
                                             "col" : 16,
+                                            "text" : "if *in03;\n                   exsr clearSFL;\n                   exsr reloadSubfile;",
                                             "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                           },
                                           "id" : "sources\\mnag_prsnl.rpgle#69:19"
@@ -1004,6 +1078,7 @@
                                           "file" : "sources\\mnag_prsnl.rpgle",
                                           "line" : 69,
                                           "col" : 16,
+                                          "text" : "if *in03;\n                   exsr clearSFL;\n                   exsr reloadSubfile;",
                                           "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                         },
                                         "id" : "sources\\mnag_prsnl.rpgle#69:20"
@@ -1013,6 +1088,7 @@
                                         "file" : "sources\\mnag_prsnl.rpgle",
                                         "line" : 69,
                                         "col" : 16,
+                                        "text" : "if *in03;\n                   exsr clearSFL;\n                   exsr reloadSubfile;",
                                         "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                       },
                                       "id" : "sources\\mnag_prsnl.rpgle#69:16"
@@ -1022,6 +1098,7 @@
                                       "file" : "sources\\mnag_prsnl.rpgle",
                                       "line" : 66,
                                       "col" : 12,
+                                      "text" : "if *in06;\n               exfmt ADDSCRN;\n       ",
                                       "id" : "sources\\mnag_prsnl.rpgle#66:12"
                                     },
                                     "id" : "sources\\mnag_prsnl.rpgle#66:17"
@@ -1031,6 +1108,7 @@
                                     "file" : "sources\\mnag_prsnl.rpgle",
                                     "line" : 66,
                                     "col" : 12,
+                                    "text" : "if *in06;\n               exfmt ADDSCRN;\n       ",
                                     "id" : "sources\\mnag_prsnl.rpgle#66:12"
                                   },
                                   "id" : "sources\\mnag_prsnl.rpgle#66:12"
@@ -1045,6 +1123,7 @@
                                       "file" : "sources\\mnag_prsnl.rpgle",
                                       "line" : 102,
                                       "col" : 12,
+                                      "text" : "readc SFL01;\n           dow not %eof(MNG_PRSNL2);\n       ",
                                       "id" : "sources\\mnag_prsnl.rpgle#102:12"
                                     },
                                     "id" : "sources\\mnag_prsnl.rpgle#102:12"
@@ -1061,6 +1140,7 @@
                                           "file" : "sources\\mnag_prsnl.rpgle",
                                           "line" : 103,
                                           "col" : 20,
+                                          "text" : "%eof(MNG_PRSNL2);\n       \n       //////////////////////////////////////////////////////",
                                           "id" : "sources\\mnag_prsnl.rpgle#103:20"
                                         },
                                         "id" : "sources\\mnag_prsnl.rpgle#103:20"
@@ -1070,6 +1150,7 @@
                                         "file" : "sources\\mnag_prsnl.rpgle",
                                         "line" : 103,
                                         "col" : 16,
+                                        "text" : "not %eof(MNG_PRSNL2);\n       \n       //////////////////////////////////////////////////////",
                                         "id" : "sources\\mnag_prsnl.rpgle#103:16"
                                       },
                                       "id" : "sources\\mnag_prsnl.rpgle#103:16"
@@ -1089,6 +1170,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 107,
                                               "col" : 15,
+                                              "text" : "OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                               "id" : "sources\\mnag_prsnl.rpgle#107:15"
                                             },
                                             "nameUpper" : "OPTIN",
@@ -1102,6 +1184,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 107,
                                               "col" : 23,
+                                              "text" : "'2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                               "id" : "sources\\mnag_prsnl.rpgle#107:23"
                                             },
                                             "id" : "sources\\mnag_prsnl.rpgle#107:23"
@@ -1111,6 +1194,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 107,
                                             "col" : 15,
+                                            "text" : "OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                             "id" : "sources\\mnag_prsnl.rpgle#107:15"
                                           },
                                           "id" : "sources\\mnag_prsnl.rpgle#107:15"
@@ -1127,6 +1211,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 108,
                                                 "col" : 16,
+                                                "text" : "SelectedID = IDOUT;\n               ID = SelectedID;\n               MSGFIELD = '';",
                                                 "id" : "sources\\mnag_prsnl.rpgle#108:16"
                                               },
                                               "nameUpper" : "SELECTEDID",
@@ -1139,6 +1224,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 108,
                                               "col" : 16,
+                                              "text" : "SelectedID = IDOUT;\n               ID = SelectedID;\n               MSGFIELD = '';",
                                               "id" : "sources\\mnag_prsnl.rpgle#108:16"
                                             },
                                             "flattened" : true,
@@ -1156,6 +1242,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 109,
                                                   "col" : 16,
+                                                  "text" : "ID = SelectedID;\n               MSGFIELD = '';\n       ",
                                                   "id" : "sources\\mnag_prsnl.rpgle#109:16"
                                                 },
                                                 "nameUpper" : "ID",
@@ -1168,6 +1255,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 109,
                                                 "col" : 16,
+                                                "text" : "ID = SelectedID;\n               MSGFIELD = '';\n       ",
                                                 "id" : "sources\\mnag_prsnl.rpgle#109:16"
                                               },
                                               "flattened" : true,
@@ -1185,6 +1273,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 110,
                                                     "col" : 16,
+                                                    "text" : "MSGFIELD = '';\n       \n                   exec sql",
                                                     "id" : "sources\\mnag_prsnl.rpgle#110:16"
                                                   },
                                                   "nameUpper" : "MSGFIELD",
@@ -1197,6 +1286,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 110,
                                                   "col" : 16,
+                                                  "text" : "MSGFIELD = '';\n       \n                   exec sql",
                                                   "id" : "sources\\mnag_prsnl.rpgle#110:16"
                                                 },
                                                 "flattened" : true,
@@ -1217,6 +1307,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 118,
                                                         "col" : 23,
+                                                        "text" : "sqlcode <> 0;\n                       dsply ('SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;",
                                                         "id" : "sources\\mnag_prsnl.rpgle#118:23"
                                                       },
                                                       "nameUpper" : "SQLCODE",
@@ -1230,6 +1321,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 118,
                                                         "col" : 34,
+                                                        "text" : "0;\n                       dsply ('SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;",
                                                         "id" : "sources\\mnag_prsnl.rpgle#118:34"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#118:34"
@@ -1239,6 +1331,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 118,
                                                       "col" : 23,
+                                                      "text" : "sqlcode <> 0;\n                       dsply ('SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;",
                                                       "id" : "sources\\mnag_prsnl.rpgle#118:23"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#118:23"
@@ -1259,6 +1352,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 119,
                                                             "col" : 31,
+                                                            "text" : "'SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;\n       ",
                                                             "id" : "sources\\mnag_prsnl.rpgle#119:31"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#119:31"
@@ -1271,6 +1365,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 119,
                                                             "col" : 60,
+                                                            "text" : "%char(sqlcode));\n                   endif;\n       ",
                                                             "id" : "sources\\mnag_prsnl.rpgle#119:60"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#119:60"
@@ -1280,6 +1375,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 119,
                                                           "col" : 31,
+                                                          "text" : "'SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;\n       ",
                                                           "id" : "sources\\mnag_prsnl.rpgle#119:31"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#119:31"
@@ -1289,6 +1385,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 119,
                                                         "col" : 24,
+                                                        "text" : "dsply ('SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;\n       ",
                                                         "id" : "sources\\mnag_prsnl.rpgle#119:24"
                                                       },
                                                       "arity" : 1,
@@ -1300,6 +1397,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 119,
                                                       "col" : 24,
+                                                      "text" : "dsply ('SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;\n       ",
                                                       "id" : "sources\\mnag_prsnl.rpgle#119:24"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#119:24"
@@ -1309,6 +1407,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 118,
                                                     "col" : 20,
+                                                    "text" : "if sqlcode <> 0;\n                       dsply ('SELECT mislukt. SQLCODE=' + %char(sqlcode));\n                   endif;",
                                                     "id" : "sources\\mnag_prsnl.rpgle#118:20"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#118:20"
@@ -1323,6 +1422,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 122,
                                                       "col" : 20,
+                                                      "text" : "*on;\n                   exfmt EDTSCRN;\n       ",
                                                       "id" : "sources\\mnag_prsnl.rpgle#122:20"
                                                     },
                                                     "nameUpper" : "*ON",
@@ -1338,6 +1438,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 123,
                                                         "col" : 20,
+                                                        "text" : "exfmt EDTSCRN;\n       \n                   if *in03;",
                                                         "id" : "sources\\mnag_prsnl.rpgle#123:20"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#123:20"
@@ -1354,6 +1455,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 125,
                                                             "col" : 23,
+                                                            "text" : "*in03;\n                       exsr clearSFL;\n                       exsr reloadSubfile;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#125:23"
                                                           },
                                                           "nameUpper" : "*IN03",
@@ -1369,6 +1471,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 126,
                                                               "col" : 24,
+                                                              "text" : "exsr clearSFL;\n                       exsr reloadSubfile;\n                       leave;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#126:24"
                                                             },
                                                             "subroutineUpper" : "CLEARSFL",
@@ -1382,6 +1485,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 127,
                                                               "col" : 24,
+                                                              "text" : "exsr reloadSubfile;\n                       leave;\n                   endif;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#127:24"
                                                             },
                                                             "subroutineUpper" : "RELOADSUBFILE",
@@ -1392,6 +1496,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 125,
                                                             "col" : 20,
+                                                            "text" : "if *in03;\n                       exsr clearSFL;\n                       exsr reloadSubfile;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#125:20"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#125:26"
@@ -1401,6 +1506,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 125,
                                                           "col" : 20,
+                                                          "text" : "if *in03;\n                       exsr clearSFL;\n                       exsr reloadSubfile;",
                                                           "id" : "sources\\mnag_prsnl.rpgle#125:20"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#125:20"
@@ -1429,6 +1535,7 @@
                                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                                       "line" : 131,
                                                                       "col" : 23,
+                                                                      "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                       "id" : "sources\\mnag_prsnl.rpgle#131:23"
                                                                     },
                                                                     "nameUpper" : "RNAMEB",
@@ -1442,6 +1549,7 @@
                                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                                       "line" : 131,
                                                                       "col" : 32,
+                                                                      "text" : "*blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                       "id" : "sources\\mnag_prsnl.rpgle#131:32"
                                                                     },
                                                                     "nameUpper" : "*BLANKS",
@@ -1452,6 +1560,7 @@
                                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                                     "line" : 131,
                                                                     "col" : 23,
+                                                                    "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                     "id" : "sources\\mnag_prsnl.rpgle#131:23"
                                                                   },
                                                                   "id" : "sources\\mnag_prsnl.rpgle#131:23"
@@ -1467,6 +1576,7 @@
                                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                                       "line" : 131,
                                                                       "col" : 43,
+                                                                      "text" : "LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                       "id" : "sources\\mnag_prsnl.rpgle#131:43"
                                                                     },
                                                                     "nameUpper" : "LNAMEB",
@@ -1480,6 +1590,7 @@
                                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                                       "line" : 131,
                                                                       "col" : 52,
+                                                                      "text" : "*blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                       "id" : "sources\\mnag_prsnl.rpgle#131:52"
                                                                     },
                                                                     "nameUpper" : "*BLANKS",
@@ -1490,6 +1601,7 @@
                                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                                     "line" : 131,
                                                                     "col" : 43,
+                                                                    "text" : "LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                     "id" : "sources\\mnag_prsnl.rpgle#131:43"
                                                                   },
                                                                   "id" : "sources\\mnag_prsnl.rpgle#131:43"
@@ -1499,6 +1611,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 131,
                                                                   "col" : 23,
+                                                                  "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#131:23"
                                                                 },
                                                                 "id" : "sources\\mnag_prsnl.rpgle#131:23"
@@ -1514,6 +1627,7 @@
                                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                                     "line" : 132,
                                                                     "col" : 20,
+                                                                    "text" : "GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;",
                                                                     "id" : "sources\\mnag_prsnl.rpgle#132:20"
                                                                   },
                                                                   "nameUpper" : "GESLACHTB",
@@ -1527,6 +1641,7 @@
                                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                                     "line" : 132,
                                                                     "col" : 32,
+                                                                    "text" : "*blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;",
                                                                     "id" : "sources\\mnag_prsnl.rpgle#132:32"
                                                                   },
                                                                   "nameUpper" : "*BLANKS",
@@ -1537,6 +1652,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 132,
                                                                   "col" : 20,
+                                                                  "text" : "GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#132:20"
                                                                 },
                                                                 "id" : "sources\\mnag_prsnl.rpgle#132:20"
@@ -1546,6 +1662,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 131,
                                                                 "col" : 23,
+                                                                "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#131:23"
                                                               },
                                                               "id" : "sources\\mnag_prsnl.rpgle#131:23"
@@ -1561,6 +1678,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 132,
                                                                   "col" : 43,
+                                                                  "text" : "SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#132:43"
                                                                 },
                                                                 "nameUpper" : "SCHEMAIDB",
@@ -1574,6 +1692,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 132,
                                                                   "col" : 55,
+                                                                  "text" : "*blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#132:55"
                                                                 },
                                                                 "nameUpper" : "*BLANKS",
@@ -1584,6 +1703,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 132,
                                                                 "col" : 43,
+                                                                "text" : "SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#132:43"
                                                               },
                                                               "id" : "sources\\mnag_prsnl.rpgle#132:43"
@@ -1593,6 +1713,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 131,
                                                               "col" : 23,
+                                                              "text" : "RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                               "id" : "sources\\mnag_prsnl.rpgle#131:23"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#131:23"
@@ -1602,6 +1723,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 131,
                                                             "col" : 20,
+                                                            "text" : "if RNAMEB = *blanks or LNAMEB = *blanks or\n                   GESLACHTB = *blanks or SCHEMAIDB = *blanks;\n                       MSGFIELD = 'Velden mogen niet leeg zijn';",
                                                             "id" : "sources\\mnag_prsnl.rpgle#131:20"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#131:20"
@@ -1618,6 +1740,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 133,
                                                                 "col" : 24,
+                                                                "text" : "MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;\n                       exec sql",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#133:24"
                                                               },
                                                               "nameUpper" : "MSGFIELD",
@@ -1630,6 +1753,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 133,
                                                               "col" : 24,
+                                                              "text" : "MSGFIELD = 'Velden mogen niet leeg zijn';\n                   else;\n                       exec sql",
                                                               "id" : "sources\\mnag_prsnl.rpgle#133:24"
                                                             },
                                                             "flattened" : true,
@@ -1644,6 +1768,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 134,
                                                                 "col" : 20,
+                                                                "text" : "else;\n                       exec sql\n                           UPDATE rgblib.PERSONEEL",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#134:20"
                                                               },
                                                               "id" : "sources\\mnag_prsnl.rpgle#134:20"
@@ -1661,6 +1786,7 @@
                                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                                     "line" : 143,
                                                                     "col" : 27,
+                                                                    "text" : "sqlcode = 0;\n                           MSGFIELD = 'Bewerken gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                                     "id" : "sources\\mnag_prsnl.rpgle#143:27"
                                                                   },
                                                                   "nameUpper" : "SQLCODE",
@@ -1674,6 +1800,7 @@
                                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                                     "line" : 143,
                                                                     "col" : 37,
+                                                                    "text" : "0;\n                           MSGFIELD = 'Bewerken gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                                     "id" : "sources\\mnag_prsnl.rpgle#143:37"
                                                                   },
                                                                   "id" : "sources\\mnag_prsnl.rpgle#143:37"
@@ -1683,6 +1810,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 143,
                                                                   "col" : 27,
+                                                                  "text" : "sqlcode = 0;\n                           MSGFIELD = 'Bewerken gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#143:27"
                                                                 },
                                                                 "id" : "sources\\mnag_prsnl.rpgle#143:27"
@@ -1694,6 +1822,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 143,
                                                                   "col" : 24,
+                                                                  "text" : "if sqlcode = 0;\n                           MSGFIELD = 'Bewerken gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#143:24"
                                                                 },
                                                                 "id" : "sources\\mnag_prsnl.rpgle#143:24"
@@ -1703,6 +1832,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 143,
                                                                 "col" : 24,
+                                                                "text" : "if sqlcode = 0;\n                           MSGFIELD = 'Bewerken gelukt. Klik F3 om terug te gaan';\n                       else;",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#143:24"
                                                               },
                                                               "id" : "sources\\mnag_prsnl.rpgle#143:24"
@@ -1712,6 +1842,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 122,
                                                               "col" : 16,
+                                                              "text" : "dow *on;\n                   exfmt EDTSCRN;\n       ",
                                                               "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#122:23"
@@ -1721,6 +1852,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 122,
                                                             "col" : 16,
+                                                            "text" : "dow *on;\n                   exfmt EDTSCRN;\n       ",
                                                             "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#122:24"
@@ -1730,6 +1862,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 122,
                                                           "col" : 16,
+                                                          "text" : "dow *on;\n                   exfmt EDTSCRN;\n       ",
                                                           "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#122:25"
@@ -1739,6 +1872,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 122,
                                                         "col" : 16,
+                                                        "text" : "dow *on;\n                   exfmt EDTSCRN;\n       ",
                                                         "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#122:26"
@@ -1748,6 +1882,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 122,
                                                       "col" : 16,
+                                                      "text" : "dow *on;\n                   exfmt EDTSCRN;\n       ",
                                                       "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#122:27"
@@ -1757,6 +1892,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 122,
                                                     "col" : 16,
+                                                    "text" : "dow *on;\n                   exfmt EDTSCRN;\n       ",
                                                     "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#122:16"
@@ -1766,6 +1902,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 107,
                                                   "col" : 12,
+                                                  "text" : "if OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                                   "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                                 },
                                                 "id" : "sources\\mnag_prsnl.rpgle#107:24"
@@ -1775,6 +1912,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 107,
                                                 "col" : 12,
+                                                "text" : "if OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                                 "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                               },
                                               "id" : "sources\\mnag_prsnl.rpgle#107:25"
@@ -1784,6 +1922,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 107,
                                               "col" : 12,
+                                              "text" : "if OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                               "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                             },
                                             "id" : "sources\\mnag_prsnl.rpgle#107:26"
@@ -1793,6 +1932,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 107,
                                             "col" : 12,
+                                            "text" : "if OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                             "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                           },
                                           "id" : "sources\\mnag_prsnl.rpgle#107:27"
@@ -1802,6 +1942,7 @@
                                           "file" : "sources\\mnag_prsnl.rpgle",
                                           "line" : 107,
                                           "col" : 12,
+                                          "text" : "if OPTIN = '2';\n               SelectedID = IDOUT;\n               ID = SelectedID;",
                                           "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                         },
                                         "id" : "sources\\mnag_prsnl.rpgle#107:12"
@@ -1821,6 +1962,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 154,
                                                 "col" : 11,
+                                                "text" : "OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                 "id" : "sources\\mnag_prsnl.rpgle#154:11"
                                               },
                                               "nameUpper" : "OPTIN",
@@ -1834,6 +1976,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 154,
                                                 "col" : 19,
+                                                "text" : "'4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                 "id" : "sources\\mnag_prsnl.rpgle#154:19"
                                               },
                                               "id" : "sources\\mnag_prsnl.rpgle#154:19"
@@ -1843,6 +1986,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 154,
                                               "col" : 11,
+                                              "text" : "OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                               "id" : "sources\\mnag_prsnl.rpgle#154:11"
                                             },
                                             "id" : "sources\\mnag_prsnl.rpgle#154:11"
@@ -1859,6 +2003,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 156,
                                                   "col" : 12,
+                                                  "text" : "MSGFIELD = '';\n           SelectedID = IDOUT;\n           ID = SelectedID;",
                                                   "id" : "sources\\mnag_prsnl.rpgle#156:12"
                                                 },
                                                 "nameUpper" : "MSGFIELD",
@@ -1871,6 +2016,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 156,
                                                 "col" : 12,
+                                                "text" : "MSGFIELD = '';\n           SelectedID = IDOUT;\n           ID = SelectedID;",
                                                 "id" : "sources\\mnag_prsnl.rpgle#156:12"
                                               },
                                               "flattened" : true,
@@ -1888,6 +2034,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 157,
                                                     "col" : 12,
+                                                    "text" : "SelectedID = IDOUT;\n           ID = SelectedID;\n       ",
                                                     "id" : "sources\\mnag_prsnl.rpgle#157:12"
                                                   },
                                                   "nameUpper" : "SELECTEDID",
@@ -1900,6 +2047,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 157,
                                                   "col" : 12,
+                                                  "text" : "SelectedID = IDOUT;\n           ID = SelectedID;\n       ",
                                                   "id" : "sources\\mnag_prsnl.rpgle#157:12"
                                                 },
                                                 "flattened" : true,
@@ -1917,6 +2065,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 158,
                                                       "col" : 12,
+                                                      "text" : "ID = SelectedID;\n       \n           exec sql",
                                                       "id" : "sources\\mnag_prsnl.rpgle#158:12"
                                                     },
                                                     "nameUpper" : "ID",
@@ -1929,6 +2078,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 158,
                                                     "col" : 12,
+                                                    "text" : "ID = SelectedID;\n       \n           exec sql",
                                                     "id" : "sources\\mnag_prsnl.rpgle#158:12"
                                                   },
                                                   "flattened" : true,
@@ -1949,6 +2099,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 167,
                                                           "col" : 15,
+                                                          "text" : "sqlcode <> 0;\n               MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;",
                                                           "id" : "sources\\mnag_prsnl.rpgle#167:15"
                                                         },
                                                         "nameUpper" : "SQLCODE",
@@ -1962,6 +2113,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 167,
                                                           "col" : 26,
+                                                          "text" : "0;\n               MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;",
                                                           "id" : "sources\\mnag_prsnl.rpgle#167:26"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#167:26"
@@ -1971,6 +2123,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 167,
                                                         "col" : 15,
+                                                        "text" : "sqlcode <> 0;\n               MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;",
                                                         "id" : "sources\\mnag_prsnl.rpgle#167:15"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#167:15"
@@ -1987,6 +2140,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 168,
                                                             "col" : 16,
+                                                            "text" : "MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;\n               return;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#168:16"
                                                           },
                                                           "nameUpper" : "MSGFIELD",
@@ -2004,6 +2158,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 168,
                                                               "col" : 27,
+                                                              "text" : "'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;\n               return;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#168:27"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#168:27"
@@ -2016,6 +2171,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 168,
                                                               "col" : 56,
+                                                              "text" : "%char(sqlcode);\n               exfmt DLTSCRN;\n               return;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#168:56"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#168:56"
@@ -2025,6 +2181,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 168,
                                                             "col" : 27,
+                                                            "text" : "'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;\n               return;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#168:27"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#168:27"
@@ -2034,6 +2191,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 168,
                                                           "col" : 16,
+                                                          "text" : "MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;\n               return;",
                                                           "id" : "sources\\mnag_prsnl.rpgle#168:16"
                                                         },
                                                         "flattened" : false,
@@ -2047,6 +2205,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 169,
                                                           "col" : 16,
+                                                          "text" : "exfmt DLTSCRN;\n               return;\n           endif;",
                                                           "id" : "sources\\mnag_prsnl.rpgle#169:16"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#169:16"
@@ -2056,6 +2215,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 167,
                                                         "col" : 12,
+                                                        "text" : "if sqlcode <> 0;\n               MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;",
                                                         "id" : "sources\\mnag_prsnl.rpgle#167:12"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#167:28"
@@ -2065,6 +2225,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 167,
                                                       "col" : 12,
+                                                      "text" : "if sqlcode <> 0;\n               MSGFIELD = 'Select mislukt: SQLCODE=' + %char(sqlcode);\n               exfmt DLTSCRN;",
                                                       "id" : "sources\\mnag_prsnl.rpgle#167:12"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#167:12"
@@ -2079,6 +2240,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 174,
                                                         "col" : 12,
+                                                        "text" : "exfmt DLTSCRN;\n       \n           if *in03;",
                                                         "id" : "sources\\mnag_prsnl.rpgle#174:12"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#174:12"
@@ -2095,6 +2257,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 176,
                                                             "col" : 15,
+                                                            "text" : "*in03;\n               exsr clearSFL;\n               exsr reloadSubfile;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#176:15"
                                                           },
                                                           "nameUpper" : "*IN03",
@@ -2110,6 +2273,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 177,
                                                               "col" : 16,
+                                                              "text" : "exsr clearSFL;\n               exsr reloadSubfile;\n               leave;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#177:16"
                                                             },
                                                             "subroutineUpper" : "CLEARSFL",
@@ -2123,6 +2287,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 178,
                                                               "col" : 16,
+                                                              "text" : "exsr reloadSubfile;\n               leave;\n           endif;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#178:16"
                                                             },
                                                             "subroutineUpper" : "RELOADSUBFILE",
@@ -2133,6 +2298,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 176,
                                                             "col" : 12,
+                                                            "text" : "if *in03;\n               exsr clearSFL;\n               exsr reloadSubfile;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#176:12"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#176:29"
@@ -2142,6 +2308,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 176,
                                                           "col" : 12,
+                                                          "text" : "if *in03;\n               exsr clearSFL;\n               exsr reloadSubfile;",
                                                           "id" : "sources\\mnag_prsnl.rpgle#176:12"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#176:12"
@@ -2161,6 +2328,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 187,
                                                                 "col" : 15,
+                                                                "text" : "sqlcode = 0;\n               MSGFIELD = 'Verwijderen gelukt. Klik op enter';\n           else;",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#187:15"
                                                               },
                                                               "nameUpper" : "SQLCODE",
@@ -2174,6 +2342,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 187,
                                                                 "col" : 25,
+                                                                "text" : "0;\n               MSGFIELD = 'Verwijderen gelukt. Klik op enter';\n           else;",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#187:25"
                                                               },
                                                               "id" : "sources\\mnag_prsnl.rpgle#187:25"
@@ -2183,6 +2352,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 187,
                                                               "col" : 15,
+                                                              "text" : "sqlcode = 0;\n               MSGFIELD = 'Verwijderen gelukt. Klik op enter';\n           else;",
                                                               "id" : "sources\\mnag_prsnl.rpgle#187:15"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#187:15"
@@ -2197,6 +2367,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 188,
                                                                 "col" : 16,
+                                                                "text" : "MSGFIELD = 'Verwijderen gelukt. Klik op enter';\n           else;\n               MSGFIELD = 'DELETE mislukt: SQLCODE=' + %char(sqlcode);",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#188:16"
                                                               },
                                                               "nameUpper" : "MSGFIELD",
@@ -2209,6 +2380,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 188,
                                                               "col" : 16,
+                                                              "text" : "MSGFIELD = 'Verwijderen gelukt. Klik op enter';\n           else;\n               MSGFIELD = 'DELETE mislukt: SQLCODE=' + %char(sqlcode);",
                                                               "id" : "sources\\mnag_prsnl.rpgle#188:16"
                                                             },
                                                             "flattened" : true,
@@ -2224,6 +2396,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 190,
                                                                 "col" : 16,
+                                                                "text" : "MSGFIELD = 'DELETE mislukt: SQLCODE=' + %char(sqlcode);\n           endif;\n       ",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#190:16"
                                                               },
                                                               "nameUpper" : "MSGFIELD",
@@ -2241,6 +2414,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 190,
                                                                   "col" : 27,
+                                                                  "text" : "'DELETE mislukt: SQLCODE=' + %char(sqlcode);\n           endif;\n       ",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#190:27"
                                                                 },
                                                                 "id" : "sources\\mnag_prsnl.rpgle#190:27"
@@ -2253,6 +2427,7 @@
                                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                                   "line" : 190,
                                                                   "col" : 56,
+                                                                  "text" : "%char(sqlcode);\n           endif;\n       ",
                                                                   "id" : "sources\\mnag_prsnl.rpgle#190:56"
                                                                 },
                                                                 "id" : "sources\\mnag_prsnl.rpgle#190:56"
@@ -2262,6 +2437,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 190,
                                                                 "col" : 27,
+                                                                "text" : "'DELETE mislukt: SQLCODE=' + %char(sqlcode);\n           endif;\n       ",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#190:27"
                                                               },
                                                               "id" : "sources\\mnag_prsnl.rpgle#190:27"
@@ -2271,6 +2447,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 190,
                                                               "col" : 16,
+                                                              "text" : "MSGFIELD = 'DELETE mislukt: SQLCODE=' + %char(sqlcode);\n           endif;\n       ",
                                                               "id" : "sources\\mnag_prsnl.rpgle#190:16"
                                                             },
                                                             "flattened" : false,
@@ -2281,6 +2458,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 187,
                                                             "col" : 12,
+                                                            "text" : "if sqlcode = 0;\n               MSGFIELD = 'Verwijderen gelukt. Klik op enter';\n           else;",
                                                             "id" : "sources\\mnag_prsnl.rpgle#187:12"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#187:12"
@@ -2295,6 +2473,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 194,
                                                               "col" : 12,
+                                                              "text" : "exfmt DLTSCRN;\n       \n           // Daarna eventueel subfile herladen of terug naar hoofdscherm",
                                                               "id" : "sources\\mnag_prsnl.rpgle#194:12"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#194:12"
@@ -2309,6 +2488,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 197,
                                                                 "col" : 12,
+                                                                "text" : "exsr clearSFL;\n           exsr reloadSubfile;\n       endif;",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#197:12"
                                                               },
                                                               "subroutineUpper" : "CLEARSFL",
@@ -2322,6 +2502,7 @@
                                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                                 "line" : 198,
                                                                 "col" : 12,
+                                                                "text" : "exsr reloadSubfile;\n       endif;\n       ",
                                                                 "id" : "sources\\mnag_prsnl.rpgle#198:12"
                                                               },
                                                               "subroutineUpper" : "RELOADSUBFILE",
@@ -2332,6 +2513,7 @@
                                                               "file" : "sources\\mnag_prsnl.rpgle",
                                                               "line" : 154,
                                                               "col" : 8,
+                                                              "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                               "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                             },
                                                             "id" : "sources\\mnag_prsnl.rpgle#154:26"
@@ -2341,6 +2523,7 @@
                                                             "file" : "sources\\mnag_prsnl.rpgle",
                                                             "line" : 154,
                                                             "col" : 8,
+                                                            "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                             "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                           },
                                                           "id" : "sources\\mnag_prsnl.rpgle#154:27"
@@ -2350,6 +2533,7 @@
                                                           "file" : "sources\\mnag_prsnl.rpgle",
                                                           "line" : 154,
                                                           "col" : 8,
+                                                          "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                           "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                         },
                                                         "id" : "sources\\mnag_prsnl.rpgle#154:28"
@@ -2359,6 +2543,7 @@
                                                         "file" : "sources\\mnag_prsnl.rpgle",
                                                         "line" : 154,
                                                         "col" : 8,
+                                                        "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                         "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                       },
                                                       "id" : "sources\\mnag_prsnl.rpgle#154:29"
@@ -2368,6 +2553,7 @@
                                                       "file" : "sources\\mnag_prsnl.rpgle",
                                                       "line" : 154,
                                                       "col" : 8,
+                                                      "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                       "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                     },
                                                     "id" : "sources\\mnag_prsnl.rpgle#154:30"
@@ -2377,6 +2563,7 @@
                                                     "file" : "sources\\mnag_prsnl.rpgle",
                                                     "line" : 154,
                                                     "col" : 8,
+                                                    "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                     "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                   },
                                                   "id" : "sources\\mnag_prsnl.rpgle#154:31"
@@ -2386,6 +2573,7 @@
                                                   "file" : "sources\\mnag_prsnl.rpgle",
                                                   "line" : 154,
                                                   "col" : 8,
+                                                  "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                   "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                 },
                                                 "id" : "sources\\mnag_prsnl.rpgle#154:32"
@@ -2395,6 +2583,7 @@
                                                 "file" : "sources\\mnag_prsnl.rpgle",
                                                 "line" : 154,
                                                 "col" : 8,
+                                                "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                                 "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                               },
                                               "id" : "sources\\mnag_prsnl.rpgle#154:33"
@@ -2404,6 +2593,7 @@
                                               "file" : "sources\\mnag_prsnl.rpgle",
                                               "line" : 154,
                                               "col" : 8,
+                                              "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                               "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                             },
                                             "id" : "sources\\mnag_prsnl.rpgle#154:34"
@@ -2413,6 +2603,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 154,
                                             "col" : 8,
+                                            "text" : "if OPTIN = '4';\n           // Haal ID en bijbehorende gegevens op\n           MSGFIELD = '';",
                                             "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                           },
                                           "id" : "sources\\mnag_prsnl.rpgle#154:8"
@@ -2425,6 +2616,7 @@
                                             "file" : "sources\\mnag_prsnl.rpgle",
                                             "line" : 204,
                                             "col" : 16,
+                                            "text" : "readc SFL01;\n           enddo;\n       enddo;",
                                             "id" : "sources\\mnag_prsnl.rpgle#204:16"
                                           },
                                           "id" : "sources\\mnag_prsnl.rpgle#204:16"
@@ -2434,6 +2626,7 @@
                                           "file" : "sources\\mnag_prsnl.rpgle",
                                           "line" : 103,
                                           "col" : 12,
+                                          "text" : "dow not %eof(MNG_PRSNL2);\n       \n       //////////////////////////////////////////////////////",
                                           "id" : "sources\\mnag_prsnl.rpgle#103:12"
                                         },
                                         "id" : "sources\\mnag_prsnl.rpgle#103:39"
@@ -2443,6 +2636,7 @@
                                         "file" : "sources\\mnag_prsnl.rpgle",
                                         "line" : 103,
                                         "col" : 12,
+                                        "text" : "dow not %eof(MNG_PRSNL2);\n       \n       //////////////////////////////////////////////////////",
                                         "id" : "sources\\mnag_prsnl.rpgle#103:12"
                                       },
                                       "id" : "sources\\mnag_prsnl.rpgle#103:40"
@@ -2452,6 +2646,7 @@
                                       "file" : "sources\\mnag_prsnl.rpgle",
                                       "line" : 103,
                                       "col" : 12,
+                                      "text" : "dow not %eof(MNG_PRSNL2);\n       \n       //////////////////////////////////////////////////////",
                                       "id" : "sources\\mnag_prsnl.rpgle#103:12"
                                     },
                                     "id" : "sources\\mnag_prsnl.rpgle#103:12"
@@ -2461,6 +2656,7 @@
                                     "file" : "sources\\mnag_prsnl.rpgle",
                                     "line" : 59,
                                     "col" : 8,
+                                    "text" : "dow *on;\n           exfmt SCREEN01;\n       ",
                                     "id" : "sources\\mnag_prsnl.rpgle#59:8"
                                   },
                                   "id" : "sources\\mnag_prsnl.rpgle#59:37"
@@ -2470,6 +2666,7 @@
                                   "file" : "sources\\mnag_prsnl.rpgle",
                                   "line" : 59,
                                   "col" : 8,
+                                  "text" : "dow *on;\n           exfmt SCREEN01;\n       ",
                                   "id" : "sources\\mnag_prsnl.rpgle#59:8"
                                 },
                                 "id" : "sources\\mnag_prsnl.rpgle#59:38"
@@ -2479,6 +2676,7 @@
                                 "file" : "sources\\mnag_prsnl.rpgle",
                                 "line" : 59,
                                 "col" : 8,
+                                "text" : "dow *on;\n           exfmt SCREEN01;\n       ",
                                 "id" : "sources\\mnag_prsnl.rpgle#59:8"
                               },
                               "id" : "sources\\mnag_prsnl.rpgle#59:39"
@@ -2488,6 +2686,7 @@
                               "file" : "sources\\mnag_prsnl.rpgle",
                               "line" : 59,
                               "col" : 8,
+                              "text" : "dow *on;\n           exfmt SCREEN01;\n       ",
                               "id" : "sources\\mnag_prsnl.rpgle#59:8"
                             },
                             "id" : "sources\\mnag_prsnl.rpgle#59:40"
@@ -2497,6 +2696,7 @@
                             "file" : "sources\\mnag_prsnl.rpgle",
                             "line" : 59,
                             "col" : 8,
+                            "text" : "dow *on;\n           exfmt SCREEN01;\n       ",
                             "id" : "sources\\mnag_prsnl.rpgle#59:8"
                           },
                           "id" : "sources\\mnag_prsnl.rpgle#59:8"
@@ -2511,6 +2711,7 @@
                               "file" : "sources\\mnag_prsnl.rpgle",
                               "line" : 208,
                               "col" : 9,
+                              "text" : "inlr = *on;\n       return;\n       ",
                               "id" : "sources\\mnag_prsnl.rpgle#208:9"
                             },
                             "nameUpper" : "INLR",
@@ -2523,6 +2724,7 @@
                             "file" : "sources\\mnag_prsnl.rpgle",
                             "line" : 208,
                             "col" : 9,
+                            "text" : "inlr = *on;\n       return;\n       ",
                             "id" : "sources\\mnag_prsnl.rpgle#208:9"
                           },
                           "flattened" : true,
@@ -2642,6 +2844,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 214,
             "col" : 13,
+            "text" : "in40 = *off;\n           *in41 = *off;\n           *in42 = *on;",
             "id" : "sources\\mnag_prsnl.rpgle#214:13"
           },
           "nameUpper" : "IN40",
@@ -2654,6 +2857,7 @@
           "file" : "sources\\mnag_prsnl.rpgle",
           "line" : 214,
           "col" : 13,
+          "text" : "in40 = *off;\n           *in41 = *off;\n           *in42 = *on;",
           "id" : "sources\\mnag_prsnl.rpgle#214:13"
         },
         "flattened" : true,
@@ -2671,6 +2875,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 215,
               "col" : 13,
+              "text" : "in41 = *off;\n           *in42 = *on;\n           write SFLCTL01;",
               "id" : "sources\\mnag_prsnl.rpgle#215:13"
             },
             "nameUpper" : "IN41",
@@ -2683,6 +2888,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 215,
             "col" : 13,
+            "text" : "in41 = *off;\n           *in42 = *on;\n           write SFLCTL01;",
             "id" : "sources\\mnag_prsnl.rpgle#215:13"
           },
           "flattened" : true,
@@ -2700,6 +2906,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 216,
                 "col" : 13,
+                "text" : "in42 = *on;\n           write SFLCTL01;\n           *in40 = *on;",
                 "id" : "sources\\mnag_prsnl.rpgle#216:13"
               },
               "nameUpper" : "IN42",
@@ -2712,6 +2919,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 216,
               "col" : 13,
+              "text" : "in42 = *on;\n           write SFLCTL01;\n           *in40 = *on;",
               "id" : "sources\\mnag_prsnl.rpgle#216:13"
             },
             "flattened" : true,
@@ -2727,6 +2935,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 217,
                 "col" : 12,
+                "text" : "write SFLCTL01;\n           *in40 = *on;\n           *in41 = *on;",
                 "id" : "sources\\mnag_prsnl.rpgle#217:12"
               },
               "id" : "sources\\mnag_prsnl.rpgle#217:12"
@@ -2743,6 +2952,7 @@
                     "file" : "sources\\mnag_prsnl.rpgle",
                     "line" : 218,
                     "col" : 13,
+                    "text" : "in40 = *on;\n           *in41 = *on;\n           *in42 = *off;",
                     "id" : "sources\\mnag_prsnl.rpgle#218:13"
                   },
                   "nameUpper" : "IN40",
@@ -2755,6 +2965,7 @@
                   "file" : "sources\\mnag_prsnl.rpgle",
                   "line" : 218,
                   "col" : 13,
+                  "text" : "in40 = *on;\n           *in41 = *on;\n           *in42 = *off;",
                   "id" : "sources\\mnag_prsnl.rpgle#218:13"
                 },
                 "flattened" : true,
@@ -2772,6 +2983,7 @@
                       "file" : "sources\\mnag_prsnl.rpgle",
                       "line" : 219,
                       "col" : 13,
+                      "text" : "in41 = *on;\n           *in42 = *off;\n           RRN# = 0;",
                       "id" : "sources\\mnag_prsnl.rpgle#219:13"
                     },
                     "nameUpper" : "IN41",
@@ -2784,6 +2996,7 @@
                     "file" : "sources\\mnag_prsnl.rpgle",
                     "line" : 219,
                     "col" : 13,
+                    "text" : "in41 = *on;\n           *in42 = *off;\n           RRN# = 0;",
                     "id" : "sources\\mnag_prsnl.rpgle#219:13"
                   },
                   "flattened" : true,
@@ -2801,6 +3014,7 @@
                         "file" : "sources\\mnag_prsnl.rpgle",
                         "line" : 220,
                         "col" : 13,
+                        "text" : "in42 = *off;\n           RRN# = 0;\n       endsr;",
                         "id" : "sources\\mnag_prsnl.rpgle#220:13"
                       },
                       "nameUpper" : "IN42",
@@ -2813,6 +3027,7 @@
                       "file" : "sources\\mnag_prsnl.rpgle",
                       "line" : 220,
                       "col" : 13,
+                      "text" : "in42 = *off;\n           RRN# = 0;\n       endsr;",
                       "id" : "sources\\mnag_prsnl.rpgle#220:13"
                     },
                     "flattened" : true,
@@ -2828,6 +3043,7 @@
                         "file" : "sources\\mnag_prsnl.rpgle",
                         "line" : 221,
                         "col" : 12,
+                        "text" : "RRN# = 0;\n       endsr;\n       ",
                         "id" : "sources\\mnag_prsnl.rpgle#221:12"
                       },
                       "nameUpper" : "RRN#",
@@ -2840,6 +3056,7 @@
                       "file" : "sources\\mnag_prsnl.rpgle",
                       "line" : 221,
                       "col" : 12,
+                      "text" : "RRN# = 0;\n       endsr;\n       ",
                       "id" : "sources\\mnag_prsnl.rpgle#221:12"
                     },
                     "flattened" : true,
@@ -2850,6 +3067,7 @@
                     "file" : "sources\\mnag_prsnl.rpgle",
                     "line" : 213,
                     "col" : 8,
+                    "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
                     "id" : "sources\\mnag_prsnl.rpgle#213:8"
                   },
                   "id" : "sources\\mnag_prsnl.rpgle#213:42"
@@ -2859,6 +3077,7 @@
                   "file" : "sources\\mnag_prsnl.rpgle",
                   "line" : 213,
                   "col" : 8,
+                  "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
                   "id" : "sources\\mnag_prsnl.rpgle#213:8"
                 },
                 "id" : "sources\\mnag_prsnl.rpgle#213:43"
@@ -2868,6 +3087,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 213,
                 "col" : 8,
+                "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
                 "id" : "sources\\mnag_prsnl.rpgle#213:8"
               },
               "id" : "sources\\mnag_prsnl.rpgle#213:44"
@@ -2877,6 +3097,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 213,
               "col" : 8,
+              "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
               "id" : "sources\\mnag_prsnl.rpgle#213:8"
             },
             "id" : "sources\\mnag_prsnl.rpgle#213:45"
@@ -2886,6 +3107,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 213,
             "col" : 8,
+            "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
             "id" : "sources\\mnag_prsnl.rpgle#213:8"
           },
           "id" : "sources\\mnag_prsnl.rpgle#213:46"
@@ -2895,6 +3117,7 @@
           "file" : "sources\\mnag_prsnl.rpgle",
           "line" : 213,
           "col" : 8,
+          "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
           "id" : "sources\\mnag_prsnl.rpgle#213:8"
         },
         "id" : "sources\\mnag_prsnl.rpgle#213:47"
@@ -2904,6 +3127,7 @@
         "file" : "sources\\mnag_prsnl.rpgle",
         "line" : 213,
         "col" : 8,
+        "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
         "id" : "sources\\mnag_prsnl.rpgle#213:8"
       },
       "id" : "sources\\mnag_prsnl.rpgle#213:48"
@@ -2913,6 +3137,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 213,
       "col" : 8,
+      "text" : "begsr clearSFL;\n           *in40 = *off;\n           *in41 = *off;",
       "id" : "sources\\mnag_prsnl.rpgle#213:8"
     },
     "nameUpper" : "CLEARSFL",
@@ -2932,6 +3157,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 229,
             "col" : 12,
+            "text" : "RRN# = 0;\n       \n           dow *on;",
             "id" : "sources\\mnag_prsnl.rpgle#229:12"
           },
           "nameUpper" : "RRN#",
@@ -2944,6 +3170,7 @@
           "file" : "sources\\mnag_prsnl.rpgle",
           "line" : 229,
           "col" : 12,
+          "text" : "RRN# = 0;\n       \n           dow *on;",
           "id" : "sources\\mnag_prsnl.rpgle#229:12"
         },
         "flattened" : true,
@@ -2961,6 +3188,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 231,
               "col" : 16,
+              "text" : "*on;\n               exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLO\n               if sqlstate = '02000';",
               "id" : "sources\\mnag_prsnl.rpgle#231:16"
             },
             "nameUpper" : "*ON",
@@ -2978,6 +3206,7 @@
                   "file" : "sources\\mnag_prsnl.rpgle",
                   "line" : 236,
                   "col" : 16,
+                  "text" : "RRN# += 1;\n               write SFL01;\n           enddo;",
                   "id" : "sources\\mnag_prsnl.rpgle#236:16"
                 },
                 "nameUpper" : "RRN#",
@@ -2990,6 +3219,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 236,
                 "col" : 16,
+                "text" : "RRN# += 1;\n               write SFL01;\n           enddo;",
                 "id" : "sources\\mnag_prsnl.rpgle#236:16"
               },
               "flattened" : true,
@@ -3003,6 +3233,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 237,
                 "col" : 16,
+                "text" : "write SFL01;\n           enddo;\n       ",
                 "id" : "sources\\mnag_prsnl.rpgle#237:16"
               },
               "id" : "sources\\mnag_prsnl.rpgle#237:16"
@@ -3012,6 +3243,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 231,
               "col" : 12,
+              "text" : "dow *on;\n               exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLO\n               if sqlstate = '02000';",
               "id" : "sources\\mnag_prsnl.rpgle#231:12"
             },
             "id" : "sources\\mnag_prsnl.rpgle#231:45"
@@ -3021,6 +3253,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 231,
             "col" : 12,
+            "text" : "dow *on;\n               exec sql fetch personeelCursor into :IDOUT, :LNAMEOUT, :RNAMEOUT, :GESLO\n               if sqlstate = '02000';",
             "id" : "sources\\mnag_prsnl.rpgle#231:12"
           },
           "id" : "sources\\mnag_prsnl.rpgle#231:12"
@@ -3037,6 +3270,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 242,
                 "col" : 12,
+                "text" : "IND_SFLDSP = *on;\n           IND_SFLDSPCTL = *on;\n           write SFLCTL01;",
                 "id" : "sources\\mnag_prsnl.rpgle#242:12"
               },
               "nameUpper" : "IND_SFLDSP",
@@ -3049,6 +3283,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 242,
               "col" : 12,
+              "text" : "IND_SFLDSP = *on;\n           IND_SFLDSPCTL = *on;\n           write SFLCTL01;",
               "id" : "sources\\mnag_prsnl.rpgle#242:12"
             },
             "flattened" : true,
@@ -3066,6 +3301,7 @@
                   "file" : "sources\\mnag_prsnl.rpgle",
                   "line" : 243,
                   "col" : 12,
+                  "text" : "IND_SFLDSPCTL = *on;\n           write SFLCTL01;\n       endsr;",
                   "id" : "sources\\mnag_prsnl.rpgle#243:12"
                 },
                 "nameUpper" : "IND_SFLDSPCTL",
@@ -3078,6 +3314,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 243,
                 "col" : 12,
+                "text" : "IND_SFLDSPCTL = *on;\n           write SFLCTL01;\n       endsr;",
                 "id" : "sources\\mnag_prsnl.rpgle#243:12"
               },
               "flattened" : true,
@@ -3091,6 +3328,7 @@
                 "file" : "sources\\mnag_prsnl.rpgle",
                 "line" : 244,
                 "col" : 12,
+                "text" : "write SFLCTL01;\n       endsr;",
                 "id" : "sources\\mnag_prsnl.rpgle#244:12"
               },
               "id" : "sources\\mnag_prsnl.rpgle#244:12"
@@ -3100,6 +3338,7 @@
               "file" : "sources\\mnag_prsnl.rpgle",
               "line" : 226,
               "col" : 8,
+              "text" : "begsr reloadSubfile;\n           exec sql open personeelCursor;\n       ",
               "id" : "sources\\mnag_prsnl.rpgle#226:8"
             },
             "id" : "sources\\mnag_prsnl.rpgle#226:49"
@@ -3109,6 +3348,7 @@
             "file" : "sources\\mnag_prsnl.rpgle",
             "line" : 226,
             "col" : 8,
+            "text" : "begsr reloadSubfile;\n           exec sql open personeelCursor;\n       ",
             "id" : "sources\\mnag_prsnl.rpgle#226:8"
           },
           "id" : "sources\\mnag_prsnl.rpgle#226:50"
@@ -3118,6 +3358,7 @@
           "file" : "sources\\mnag_prsnl.rpgle",
           "line" : 226,
           "col" : 8,
+          "text" : "begsr reloadSubfile;\n           exec sql open personeelCursor;\n       ",
           "id" : "sources\\mnag_prsnl.rpgle#226:8"
         },
         "id" : "sources\\mnag_prsnl.rpgle#226:51"
@@ -3127,6 +3368,7 @@
         "file" : "sources\\mnag_prsnl.rpgle",
         "line" : 226,
         "col" : 8,
+        "text" : "begsr reloadSubfile;\n           exec sql open personeelCursor;\n       ",
         "id" : "sources\\mnag_prsnl.rpgle#226:8"
       },
       "id" : "sources\\mnag_prsnl.rpgle#226:52"
@@ -3136,6 +3378,7 @@
       "file" : "sources\\mnag_prsnl.rpgle",
       "line" : 226,
       "col" : 8,
+      "text" : "begsr reloadSubfile;\n           exec sql open personeelCursor;\n       ",
       "id" : "sources\\mnag_prsnl.rpgle#226:8"
     },
     "nameUpper" : "RELOADSUBFILE",
