@@ -190,8 +190,8 @@
     },
     "static" : false,
     "initValue" : "*user",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\hsptl_main.sqlrpgle#13:8"
   }, {
     "kind" : "DStandaloneField",
@@ -206,8 +206,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#14:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\hsptl_main.sqlrpgle#14:8"
   }, {
     "kind" : "DProto",
@@ -249,8 +249,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#20:8"
     },
     "arity" : 2,
-    "nameUpper" : "FLTRPLNNG",
     "extName" : "FLTRPLNNG",
+    "nameUpper" : "FLTRPLNNG",
     "id" : "sources\\hsptl_main.sqlrpgle#20:8"
   }, {
     "kind" : "DProto",
@@ -292,8 +292,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#23:8"
     },
     "arity" : 2,
-    "nameUpper" : "DSPAFDPLNG",
     "extName" : "DSP_AFD",
+    "nameUpper" : "DSPAFDPLNG",
     "id" : "sources\\hsptl_main.sqlrpgle#23:8"
   }, {
     "kind" : "DProto",
@@ -335,8 +335,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#26:8"
     },
     "arity" : 2,
-    "nameUpper" : "DSPPRSPLNG",
     "extName" : "DSPPRSPLNG",
+    "nameUpper" : "DSPPRSPLNG",
     "id" : "sources\\hsptl_main.sqlrpgle#26:8"
   }, {
     "kind" : "DProto",
@@ -378,8 +378,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#29:8"
     },
     "arity" : 2,
-    "nameUpper" : "DSPMEDPLNG",
     "extName" : "MEDPLNNG",
+    "nameUpper" : "DSPMEDPLNG",
     "id" : "sources\\hsptl_main.sqlrpgle#29:8"
   } ],
   "main" : {

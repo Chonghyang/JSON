@@ -131,19 +131,7 @@
           "id" : "sources\\rpg165ffe.rpgle#40:8"
         },
         "op" : "=",
-        "right" : {
-          "kind" : "EVar",
-          "name" : "prog_naam",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "sources\\rpg165ffe.rpgle",
-            "line" : 40,
-            "col" : 17,
-            "id" : "sources\\rpg165ffe.rpgle#40:17"
-          },
-          "nameUpper" : "PROG_NAAM",
-          "id" : "sources\\rpg165ffe.rpgle#40:17"
-        },
+        "rightFlat" : "prog_naam",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "sources\\rpg165ffe.rpgle",
@@ -151,6 +139,7 @@
           "col" : 8,
           "id" : "sources\\rpg165ffe.rpgle#40:8"
         },
+        "flattened" : true,
         "id" : "sources\\rpg165ffe.rpgle#40:8"
       },
       "right" : {
@@ -218,6 +207,7 @@
                 "col" : 9,
                 "id" : "sources\\rpg165ffe.rpgle#44:9"
               },
+              "flattened" : false,
               "id" : "sources\\rpg165ffe.rpgle#44:9"
             },
             "right" : {
@@ -309,19 +299,7 @@
                           "id" : "sources\\rpg165ffe.rpgle#49:12"
                         },
                         "op" : "=",
-                        "right" : {
-                          "kind" : "EVar",
-                          "name" : "*off",
-                          "pos" : {
-                            "kind" : "SrcPos",
-                            "file" : "sources\\rpg165ffe.rpgle",
-                            "line" : 49,
-                            "col" : 23,
-                            "id" : "sources\\rpg165ffe.rpgle#49:23"
-                          },
-                          "nameUpper" : "*OFF",
-                          "id" : "sources\\rpg165ffe.rpgle#49:23"
-                        },
+                        "rightFlat" : "*off",
                         "pos" : {
                           "kind" : "SrcPos",
                           "file" : "sources\\rpg165ffe.rpgle",
@@ -329,6 +307,7 @@
                           "col" : 12,
                           "id" : "sources\\rpg165ffe.rpgle#49:12"
                         },
+                        "flattened" : true,
                         "id" : "sources\\rpg165ffe.rpgle#49:12"
                       },
                       "pos" : {
@@ -412,19 +391,7 @@
                               "id" : "sources\\rpg165ffe.rpgle#56:10"
                             },
                             "op" : "=",
-                            "right" : {
-                              "kind" : "EVar",
-                              "name" : "astdat",
-                              "pos" : {
-                                "kind" : "SrcPos",
-                                "file" : "sources\\rpg165ffe.rpgle",
-                                "line" : 56,
-                                "col" : 20,
-                                "id" : "sources\\rpg165ffe.rpgle#56:20"
-                              },
-                              "nameUpper" : "ASTDAT",
-                              "id" : "sources\\rpg165ffe.rpgle#56:20"
-                            },
+                            "rightFlat" : "astdat",
                             "pos" : {
                               "kind" : "SrcPos",
                               "file" : "sources\\rpg165ffe.rpgle",
@@ -432,6 +399,7 @@
                               "col" : 10,
                               "id" : "sources\\rpg165ffe.rpgle#56:10"
                             },
+                            "flattened" : true,
                             "id" : "sources\\rpg165ffe.rpgle#56:10"
                           },
                           "right" : {
@@ -452,19 +420,7 @@
                                 "id" : "sources\\rpg165ffe.rpgle#57:10"
                               },
                               "op" : "=",
-                              "right" : {
-                                "kind" : "EVar",
-                                "name" : "i_dag",
-                                "pos" : {
-                                  "kind" : "SrcPos",
-                                  "file" : "sources\\rpg165ffe.rpgle",
-                                  "line" : 57,
-                                  "col" : 18,
-                                  "id" : "sources\\rpg165ffe.rpgle#57:18"
-                                },
-                                "nameUpper" : "I_DAG",
-                                "id" : "sources\\rpg165ffe.rpgle#57:18"
-                              },
+                              "rightFlat" : "i_dag",
                               "pos" : {
                                 "kind" : "SrcPos",
                                 "file" : "sources\\rpg165ffe.rpgle",
@@ -472,6 +428,7 @@
                                 "col" : 10,
                                 "id" : "sources\\rpg165ffe.rpgle#57:10"
                               },
+                              "flattened" : true,
                               "id" : "sources\\rpg165ffe.rpgle#57:10"
                             },
                             "right" : {
@@ -492,19 +449,7 @@
                                   "id" : "sources\\rpg165ffe.rpgle#58:10"
                                 },
                                 "op" : "=",
-                                "right" : {
-                                  "kind" : "EVar",
-                                  "name" : "i_maand",
-                                  "pos" : {
-                                    "kind" : "SrcPos",
-                                    "file" : "sources\\rpg165ffe.rpgle",
-                                    "line" : 58,
-                                    "col" : 20,
-                                    "id" : "sources\\rpg165ffe.rpgle#58:20"
-                                  },
-                                  "nameUpper" : "I_MAAND",
-                                  "id" : "sources\\rpg165ffe.rpgle#58:20"
-                                },
+                                "rightFlat" : "i_maand",
                                 "pos" : {
                                   "kind" : "SrcPos",
                                   "file" : "sources\\rpg165ffe.rpgle",
@@ -512,6 +457,7 @@
                                   "col" : 10,
                                   "id" : "sources\\rpg165ffe.rpgle#58:10"
                                 },
+                                "flattened" : true,
                                 "id" : "sources\\rpg165ffe.rpgle#58:10"
                               },
                               "right" : {
@@ -532,19 +478,7 @@
                                     "id" : "sources\\rpg165ffe.rpgle#59:10"
                                   },
                                   "op" : "=",
-                                  "right" : {
-                                    "kind" : "EVar",
-                                    "name" : "i_eeja",
-                                    "pos" : {
-                                      "kind" : "SrcPos",
-                                      "file" : "sources\\rpg165ffe.rpgle",
-                                      "line" : 59,
-                                      "col" : 19,
-                                      "id" : "sources\\rpg165ffe.rpgle#59:19"
-                                    },
-                                    "nameUpper" : "I_EEJA",
-                                    "id" : "sources\\rpg165ffe.rpgle#59:19"
-                                  },
+                                  "rightFlat" : "i_eeja",
                                   "pos" : {
                                     "kind" : "SrcPos",
                                     "file" : "sources\\rpg165ffe.rpgle",
@@ -552,6 +486,7 @@
                                     "col" : 10,
                                     "id" : "sources\\rpg165ffe.rpgle#59:10"
                                   },
+                                  "flattened" : true,
                                   "id" : "sources\\rpg165ffe.rpgle#59:10"
                                 },
                                 "right" : {
@@ -572,19 +507,7 @@
                                       "id" : "sources\\rpg165ffe.rpgle#60:10"
                                     },
                                     "op" : "=",
-                                    "right" : {
-                                      "kind" : "EVar",
-                                      "name" : "u_hldat",
-                                      "pos" : {
-                                        "kind" : "SrcPos",
-                                        "file" : "sources\\rpg165ffe.rpgle",
-                                        "line" : 60,
-                                        "col" : 19,
-                                        "id" : "sources\\rpg165ffe.rpgle#60:19"
-                                      },
-                                      "nameUpper" : "U_HLDAT",
-                                      "id" : "sources\\rpg165ffe.rpgle#60:19"
-                                    },
+                                    "rightFlat" : "u_hldat",
                                     "pos" : {
                                       "kind" : "SrcPos",
                                       "file" : "sources\\rpg165ffe.rpgle",
@@ -592,6 +515,7 @@
                                       "col" : 10,
                                       "id" : "sources\\rpg165ffe.rpgle#60:10"
                                     },
+                                    "flattened" : true,
                                     "id" : "sources\\rpg165ffe.rpgle#60:10"
                                   },
                                   "right" : {
@@ -657,6 +581,7 @@
                                           "col" : 11,
                                           "id" : "sources\\rpg165ffe.rpgle#63:11"
                                         },
+                                        "flattened" : false,
                                         "id" : "sources\\rpg165ffe.rpgle#63:11"
                                       },
                                       "pos" : {
@@ -783,19 +708,7 @@
                   "id" : "sources\\rpg165ffe.rpgle#66:9"
                 },
                 "op" : "=",
-                "right" : {
-                  "kind" : "EVar",
-                  "name" : "*on",
-                  "pos" : {
-                    "kind" : "SrcPos",
-                    "file" : "sources\\rpg165ffe.rpgle",
-                    "line" : 66,
-                    "col" : 14,
-                    "id" : "sources\\rpg165ffe.rpgle#66:14"
-                  },
-                  "nameUpper" : "*ON",
-                  "id" : "sources\\rpg165ffe.rpgle#66:14"
-                },
+                "rightFlat" : "*on",
                 "pos" : {
                   "kind" : "SrcPos",
                   "file" : "sources\\rpg165ffe.rpgle",
@@ -803,6 +716,7 @@
                   "col" : 9,
                   "id" : "sources\\rpg165ffe.rpgle#66:9"
                 },
+                "flattened" : true,
                 "id" : "sources\\rpg165ffe.rpgle#66:9"
               },
               "pos" : {
@@ -917,19 +831,7 @@
           "id" : "sources\\rpg165ffe.rpgle#70:12"
         },
         "op" : "=",
-        "right" : {
-          "kind" : "EVar",
-          "name" : "Man",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "sources\\rpg165ffe.rpgle",
-            "line" : 70,
-            "col" : 21,
-            "id" : "sources\\rpg165ffe.rpgle#70:21"
-          },
-          "nameUpper" : "MAN",
-          "id" : "sources\\rpg165ffe.rpgle#70:21"
-        },
+        "rightFlat" : "Man",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "sources\\rpg165ffe.rpgle",
@@ -937,6 +839,7 @@
           "col" : 12,
           "id" : "sources\\rpg165ffe.rpgle#70:12"
         },
+        "flattened" : true,
         "id" : "sources\\rpg165ffe.rpgle#70:12"
       },
       "elseBranch" : {
@@ -955,19 +858,7 @@
           "id" : "sources\\rpg165ffe.rpgle#72:12"
         },
         "op" : "=",
-        "right" : {
-          "kind" : "EVar",
-          "name" : "Vrouw",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "sources\\rpg165ffe.rpgle",
-            "line" : 72,
-            "col" : 21,
-            "id" : "sources\\rpg165ffe.rpgle#72:21"
-          },
-          "nameUpper" : "VROUW",
-          "id" : "sources\\rpg165ffe.rpgle#72:21"
-        },
+        "rightFlat" : "Vrouw",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "sources\\rpg165ffe.rpgle",
@@ -975,6 +866,7 @@
           "col" : 12,
           "id" : "sources\\rpg165ffe.rpgle#72:12"
         },
+        "flattened" : true,
         "id" : "sources\\rpg165ffe.rpgle#72:12"
       },
       "pos" : {
@@ -1068,19 +960,7 @@
               "id" : "sources\\rpg165ffe.rpgle#79:12"
             },
             "op" : "=",
-            "right" : {
-              "kind" : "EVar",
-              "name" : "*blanks",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "sources\\rpg165ffe.rpgle",
-                "line" : 79,
-                "col" : 21,
-                "id" : "sources\\rpg165ffe.rpgle#79:21"
-              },
-              "nameUpper" : "*BLANKS",
-              "id" : "sources\\rpg165ffe.rpgle#79:21"
-            },
+            "rightFlat" : "*blanks",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "sources\\rpg165ffe.rpgle",
@@ -1088,6 +968,7 @@
               "col" : 12,
               "id" : "sources\\rpg165ffe.rpgle#79:12"
             },
+            "flattened" : true,
             "id" : "sources\\rpg165ffe.rpgle#79:12"
           },
           "right" : {
@@ -1106,18 +987,7 @@
               "id" : "sources\\rpg165ffe.rpgle#80:12"
             },
             "op" : "=",
-            "right" : {
-              "kind" : "EConst",
-              "value" : "'Onbekend'",
-              "pos" : {
-                "kind" : "SrcPos",
-                "file" : "sources\\rpg165ffe.rpgle",
-                "line" : 80,
-                "col" : 21,
-                "id" : "sources\\rpg165ffe.rpgle#80:21"
-              },
-              "id" : "sources\\rpg165ffe.rpgle#80:21"
-            },
+            "rightFlat" : "'Onbekend'",
             "pos" : {
               "kind" : "SrcPos",
               "file" : "sources\\rpg165ffe.rpgle",
@@ -1125,6 +995,7 @@
               "col" : 12,
               "id" : "sources\\rpg165ffe.rpgle#80:12"
             },
+            "flattened" : true,
             "id" : "sources\\rpg165ffe.rpgle#80:12"
           },
           "pos" : {
@@ -1184,19 +1055,7 @@
           "id" : "sources\\rpg165ffe.rpgle#85:10"
         },
         "op" : "=",
-        "right" : {
-          "kind" : "EVar",
-          "name" : "*blanks",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "sources\\rpg165ffe.rpgle",
-            "line" : 85,
-            "col" : 19,
-            "id" : "sources\\rpg165ffe.rpgle#85:19"
-          },
-          "nameUpper" : "*BLANKS",
-          "id" : "sources\\rpg165ffe.rpgle#85:19"
-        },
+        "rightFlat" : "*blanks",
         "pos" : {
           "kind" : "SrcPos",
           "file" : "sources\\rpg165ffe.rpgle",
@@ -1204,6 +1063,7 @@
           "col" : 10,
           "id" : "sources\\rpg165ffe.rpgle#85:10"
         },
+        "flattened" : true,
         "id" : "sources\\rpg165ffe.rpgle#85:10"
       },
       "right" : {
@@ -1256,6 +1116,7 @@
           "col" : 10,
           "id" : "sources\\rpg165ffe.rpgle#86:10"
         },
+        "flattened" : false,
         "id" : "sources\\rpg165ffe.rpgle#86:10"
       },
       "pos" : {

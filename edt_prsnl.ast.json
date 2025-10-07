@@ -27,8 +27,8 @@
       "id" : "sources\\edt_prsnl.sqlrpgle#4:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\edt_prsnl.sqlrpgle#4:8"
   }, {
     "kind" : "DStandaloneField",
@@ -43,8 +43,8 @@
       "id" : "sources\\edt_prsnl.sqlrpgle#5:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\edt_prsnl.sqlrpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
@@ -59,8 +59,8 @@
       "id" : "sources\\edt_prsnl.sqlrpgle#6:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\edt_prsnl.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -75,8 +75,8 @@
       "id" : "sources\\edt_prsnl.sqlrpgle#7:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\edt_prsnl.sqlrpgle#7:8"
   } ],
   "main" : {

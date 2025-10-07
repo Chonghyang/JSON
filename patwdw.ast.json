@@ -39,8 +39,8 @@
     },
     "static" : false,
     "initValue" : "0",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\patwdw.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -55,8 +55,8 @@
       "id" : "sources\\patwdw.sqlrpgle#7:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\patwdw.sqlrpgle#7:8"
   }, {
     "kind" : "DStandaloneField",
@@ -71,8 +71,8 @@
       "id" : "sources\\patwdw.sqlrpgle#8:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\patwdw.sqlrpgle#8:8"
   }, {
     "kind" : "DProc",

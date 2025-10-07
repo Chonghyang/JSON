@@ -78,8 +78,8 @@
     },
     "static" : false,
     "initValue" : "1",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\afdwdw.sqlrpgle#10:8"
   }, {
     "kind" : "DStandaloneField",
@@ -94,8 +94,8 @@
       "id" : "sources\\afdwdw.sqlrpgle#11:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\afdwdw.sqlrpgle#11:8"
   }, {
     "kind" : "DDataStructure",
@@ -851,8 +851,8 @@
       "id" : "sources\\afdwdw.sqlrpgle#64:12"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\afdwdw.sqlrpgle#64:12"
   }, {
     "kind" : "DProc",

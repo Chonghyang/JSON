@@ -56,8 +56,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#9:8"
     },
     "arity" : 1,
-    "nameUpper" : "DATWDW",
     "extName" : "DATEWDW",
+    "nameUpper" : "DATWDW",
     "id" : "sources\\prs_plng.sqlrpgle#9:8"
   }, {
     "kind" : "DProto",
@@ -74,8 +74,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#12:8"
     },
     "arity" : 0,
-    "nameUpper" : "AFDWDW",
     "extName" : "AFDELINGWDW",
+    "nameUpper" : "AFDWDW",
     "id" : "sources\\prs_plng.sqlrpgle#12:8"
   }, {
     "kind" : "DProto",
@@ -92,8 +92,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#14:8"
     },
     "arity" : 0,
-    "nameUpper" : "SCHEMAWDW",
     "extName" : "SCHMAWDW",
+    "nameUpper" : "SCHEMAWDW",
     "id" : "sources\\prs_plng.sqlrpgle#14:8"
   }, {
     "kind" : "DProto",
@@ -124,8 +124,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#16:8"
     },
     "arity" : 1,
-    "nameUpper" : "PRSWDW",
     "extName" : "PRSWDW",
+    "nameUpper" : "PRSWDW",
     "id" : "sources\\prs_plng.sqlrpgle#16:8"
   }, {
     "kind" : "DDataStructure",
@@ -413,8 +413,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#39:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#39:8"
   }, {
     "kind" : "DStandaloneField",
@@ -429,8 +429,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#40:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#40:8"
   }, {
     "kind" : "DStandaloneField",
@@ -446,8 +446,8 @@
     },
     "static" : false,
     "initValue" : "*off",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#41:8"
   }, {
     "kind" : "DStandaloneField",
@@ -462,8 +462,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#42:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#42:8"
   }, {
     "kind" : "DStandaloneField",
@@ -478,8 +478,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#43:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#43:8"
   }, {
     "kind" : "DStandaloneField",
@@ -494,8 +494,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#44:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#44:8"
   }, {
     "kind" : "DStandaloneField",
@@ -510,8 +510,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#45:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#45:8"
   }, {
     "kind" : "DStandaloneField",
@@ -526,8 +526,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#46:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#46:8"
   }, {
     "kind" : "DStandaloneField",
@@ -543,8 +543,8 @@
     },
     "static" : false,
     "initValue" : "1",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#47:8"
   }, {
     "kind" : "DStandaloneField",
@@ -560,8 +560,8 @@
     },
     "static" : false,
     "initValue" : "12",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#48:8"
   }, {
     "kind" : "DStandaloneField",
@@ -576,8 +576,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#49:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#49:8"
   }, {
     "kind" : "DProc",

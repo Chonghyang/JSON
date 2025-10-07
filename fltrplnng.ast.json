@@ -56,8 +56,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#9:8"
     },
     "arity" : 1,
-    "nameUpper" : "CHECKDEP",
     "extName" : "CHECKDEP",
+    "nameUpper" : "CHECKDEP",
     "id" : "sources\\fltrplnng.sqlrpgle#9:8"
   }, {
     "kind" : "DProto",
@@ -88,8 +88,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#12:8"
     },
     "arity" : 1,
-    "nameUpper" : "CHECKSCHME",
     "extName" : "CHECKSCHME",
+    "nameUpper" : "CHECKSCHME",
     "id" : "sources\\fltrplnng.sqlrpgle#12:8"
   }, {
     "kind" : "DProto",
@@ -120,8 +120,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#15:8"
     },
     "arity" : 1,
-    "nameUpper" : "DATWDW",
     "extName" : "DATEWDW",
+    "nameUpper" : "DATWDW",
     "id" : "sources\\fltrplnng.sqlrpgle#15:8"
   }, {
     "kind" : "DDataStructure",
@@ -298,8 +298,8 @@
     },
     "static" : false,
     "initValue" : "0",
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#28:8"
   }, {
     "kind" : "DStandaloneField",
@@ -314,8 +314,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#29:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#29:8"
   }, {
     "kind" : "DStandaloneField",
@@ -330,8 +330,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#30:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#30:8"
   }, {
     "kind" : "DStandaloneField",
@@ -346,8 +346,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#31:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#31:8"
   }, {
     "kind" : "DStandaloneField",
@@ -362,8 +362,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#32:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#32:8"
   }, {
     "kind" : "DDataStructure",
