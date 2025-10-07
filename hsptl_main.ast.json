@@ -189,9 +189,9 @@
       "id" : "sources\\hsptl_main.sqlrpgle#13:8"
     },
     "static" : false,
-    "initValue" : "*user",
     "template" : false,
     "const" : false,
+    "initValue" : "*user",
     "id" : "sources\\hsptl_main.sqlrpgle#13:8"
   }, {
     "kind" : "DStandaloneField",
@@ -249,8 +249,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#20:8"
     },
     "arity" : 2,
-    "extName" : "FLTRPLNNG",
     "nameUpper" : "FLTRPLNNG",
+    "extName" : "FLTRPLNNG",
     "id" : "sources\\hsptl_main.sqlrpgle#20:8"
   }, {
     "kind" : "DProto",
@@ -292,8 +292,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#23:8"
     },
     "arity" : 2,
-    "extName" : "DSP_AFD",
     "nameUpper" : "DSPAFDPLNG",
+    "extName" : "DSP_AFD",
     "id" : "sources\\hsptl_main.sqlrpgle#23:8"
   }, {
     "kind" : "DProto",
@@ -335,8 +335,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#26:8"
     },
     "arity" : 2,
-    "extName" : "DSPPRSPLNG",
     "nameUpper" : "DSPPRSPLNG",
+    "extName" : "DSPPRSPLNG",
     "id" : "sources\\hsptl_main.sqlrpgle#26:8"
   }, {
     "kind" : "DProto",
@@ -378,8 +378,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#29:8"
     },
     "arity" : 2,
-    "extName" : "MEDPLNNG",
     "nameUpper" : "DSPMEDPLNG",
+    "extName" : "MEDPLNNG",
     "id" : "sources\\hsptl_main.sqlrpgle#29:8"
   } ],
   "main" : {
@@ -987,7 +987,7 @@
                         "col" : 8,
                         "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                       },
-                      "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+                      "id" : "sources\\hsptl_main.sqlrpgle#36:9"
                     },
                     "pos" : {
                       "kind" : "SrcPos",
@@ -996,7 +996,7 @@
                       "col" : 8,
                       "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                     },
-                    "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+                    "id" : "sources\\hsptl_main.sqlrpgle#36:10"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
@@ -1005,7 +1005,7 @@
                     "col" : 8,
                     "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                   },
-                  "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+                  "id" : "sources\\hsptl_main.sqlrpgle#36:11"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -1014,7 +1014,7 @@
                   "col" : 8,
                   "id" : "sources\\hsptl_main.sqlrpgle#36:8"
                 },
-                "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+                "id" : "sources\\hsptl_main.sqlrpgle#36:12"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -1023,7 +1023,7 @@
                 "col" : 8,
                 "id" : "sources\\hsptl_main.sqlrpgle#36:8"
               },
-              "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+              "id" : "sources\\hsptl_main.sqlrpgle#36:13"
             },
             "pos" : {
               "kind" : "SrcPos",
@@ -1032,7 +1032,7 @@
               "col" : 8,
               "id" : "sources\\hsptl_main.sqlrpgle#36:8"
             },
-            "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+            "id" : "sources\\hsptl_main.sqlrpgle#36:14"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -1041,7 +1041,7 @@
             "col" : 8,
             "id" : "sources\\hsptl_main.sqlrpgle#36:8"
           },
-          "id" : "sources\\hsptl_main.sqlrpgle#36:8"
+          "id" : "sources\\hsptl_main.sqlrpgle#36:15"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -1101,7 +1101,7 @@
           "col" : 1,
           "id" : "sources\\hsptl_main.sqlrpgle#1:1"
         },
-        "id" : "sources\\hsptl_main.sqlrpgle#1:1"
+        "id" : "sources\\hsptl_main.sqlrpgle#1:10"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -1110,7 +1110,7 @@
         "col" : 1,
         "id" : "sources\\hsptl_main.sqlrpgle#1:1"
       },
-      "id" : "sources\\hsptl_main.sqlrpgle#1:1"
+      "id" : "sources\\hsptl_main.sqlrpgle#1:11"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -1119,7 +1119,7 @@
       "col" : 1,
       "id" : "sources\\hsptl_main.sqlrpgle#1:1"
     },
-    "id" : "sources\\hsptl_main.sqlrpgle#1:1"
+    "id" : "sources\\hsptl_main.sqlrpgle#1:12"
   },
   "subroutines" : [ {
     "kind" : "SSubroutine",
@@ -1226,7 +1226,7 @@
           "col" : 10,
           "id" : "sources\\hsptl_main.sqlrpgle#75:10"
         },
-        "id" : "sources\\hsptl_main.sqlrpgle#75:10"
+        "id" : "sources\\hsptl_main.sqlrpgle#75:18"
       },
       "elseBranch" : {
         "kind" : "SDsply",

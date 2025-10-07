@@ -43,8 +43,8 @@
       "id" : "sources\\afd_plng.sqlrpgle#13:8"
     },
     "arity" : 1,
-    "extName" : "DATEWDW",
     "nameUpper" : "DATWDW",
+    "extName" : "DATEWDW",
     "id" : "sources\\afd_plng.sqlrpgle#13:8"
   }, {
     "kind" : "DProto",
@@ -61,8 +61,8 @@
       "id" : "sources\\afd_plng.sqlrpgle#16:8"
     },
     "arity" : 0,
-    "extName" : "AFDELINGWDW",
     "nameUpper" : "AFDWDW",
+    "extName" : "AFDELINGWDW",
     "id" : "sources\\afd_plng.sqlrpgle#16:8"
   }, {
     "kind" : "DProto",
@@ -79,8 +79,8 @@
       "id" : "sources\\afd_plng.sqlrpgle#18:8"
     },
     "arity" : 0,
-    "extName" : "SCHMAWDW",
     "nameUpper" : "SCHEMAWDW",
+    "extName" : "SCHMAWDW",
     "id" : "sources\\afd_plng.sqlrpgle#18:8"
   }, {
     "kind" : "DDataStructure",
@@ -375,9 +375,9 @@
       "id" : "sources\\afd_plng.sqlrpgle#41:8"
     },
     "static" : false,
-    "initValue" : "*off",
     "template" : false,
     "const" : false,
+    "initValue" : "*off",
     "id" : "sources\\afd_plng.sqlrpgle#41:8"
   }, {
     "kind" : "DStandaloneField",
@@ -472,9 +472,9 @@
       "id" : "sources\\afd_plng.sqlrpgle#47:8"
     },
     "static" : false,
-    "initValue" : "1",
     "template" : false,
     "const" : false,
+    "initValue" : "1",
     "id" : "sources\\afd_plng.sqlrpgle#47:8"
   }, {
     "kind" : "DStandaloneField",
@@ -489,9 +489,9 @@
       "id" : "sources\\afd_plng.sqlrpgle#48:8"
     },
     "static" : false,
-    "initValue" : "12",
     "template" : false,
     "const" : false,
+    "initValue" : "12",
     "id" : "sources\\afd_plng.sqlrpgle#48:8"
   }, {
     "kind" : "DStandaloneField",
@@ -1307,7 +1307,7 @@
                                               "col" : 12,
                                               "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                             },
-                                            "id" : "sources\\afd_plng.sqlrpgle#84:12"
+                                            "id" : "sources\\afd_plng.sqlrpgle#84:13"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -1316,7 +1316,7 @@
                                             "col" : 12,
                                             "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                           },
-                                          "id" : "sources\\afd_plng.sqlrpgle#84:12"
+                                          "id" : "sources\\afd_plng.sqlrpgle#84:14"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -1325,7 +1325,7 @@
                                           "col" : 12,
                                           "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                         },
-                                        "id" : "sources\\afd_plng.sqlrpgle#84:12"
+                                        "id" : "sources\\afd_plng.sqlrpgle#84:15"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -1334,7 +1334,7 @@
                                         "col" : 12,
                                         "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                       },
-                                      "id" : "sources\\afd_plng.sqlrpgle#84:12"
+                                      "id" : "sources\\afd_plng.sqlrpgle#84:16"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -1343,7 +1343,7 @@
                                       "col" : 12,
                                       "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                     },
-                                    "id" : "sources\\afd_plng.sqlrpgle#84:12"
+                                    "id" : "sources\\afd_plng.sqlrpgle#84:17"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -1352,7 +1352,7 @@
                                     "col" : 12,
                                     "id" : "sources\\afd_plng.sqlrpgle#84:12"
                                   },
-                                  "id" : "sources\\afd_plng.sqlrpgle#84:12"
+                                  "id" : "sources\\afd_plng.sqlrpgle#84:18"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -1495,7 +1495,7 @@
                                         "col" : 12,
                                         "id" : "sources\\afd_plng.sqlrpgle#104:12"
                                       },
-                                      "id" : "sources\\afd_plng.sqlrpgle#104:12"
+                                      "id" : "sources\\afd_plng.sqlrpgle#104:19"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -1504,7 +1504,7 @@
                                       "col" : 12,
                                       "id" : "sources\\afd_plng.sqlrpgle#104:12"
                                     },
-                                    "id" : "sources\\afd_plng.sqlrpgle#104:12"
+                                    "id" : "sources\\afd_plng.sqlrpgle#104:20"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -1647,7 +1647,7 @@
                                           "col" : 12,
                                           "id" : "sources\\afd_plng.sqlrpgle#110:12"
                                         },
-                                        "id" : "sources\\afd_plng.sqlrpgle#110:12"
+                                        "id" : "sources\\afd_plng.sqlrpgle#110:21"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -1656,7 +1656,7 @@
                                         "col" : 12,
                                         "id" : "sources\\afd_plng.sqlrpgle#110:12"
                                       },
-                                      "id" : "sources\\afd_plng.sqlrpgle#110:12"
+                                      "id" : "sources\\afd_plng.sqlrpgle#110:22"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -1866,7 +1866,7 @@
                                               "col" : 12,
                                               "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                             },
-                                            "id" : "sources\\afd_plng.sqlrpgle#116:12"
+                                            "id" : "sources\\afd_plng.sqlrpgle#116:23"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -1875,7 +1875,7 @@
                                             "col" : 12,
                                             "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                           },
-                                          "id" : "sources\\afd_plng.sqlrpgle#116:12"
+                                          "id" : "sources\\afd_plng.sqlrpgle#116:24"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -1884,7 +1884,7 @@
                                           "col" : 12,
                                           "id" : "sources\\afd_plng.sqlrpgle#116:12"
                                         },
-                                        "id" : "sources\\afd_plng.sqlrpgle#116:12"
+                                        "id" : "sources\\afd_plng.sqlrpgle#116:25"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -2094,7 +2094,7 @@
                                                 "col" : 12,
                                                 "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                               },
-                                              "id" : "sources\\afd_plng.sqlrpgle#123:12"
+                                              "id" : "sources\\afd_plng.sqlrpgle#123:26"
                                             },
                                             "pos" : {
                                               "kind" : "SrcPos",
@@ -2103,7 +2103,7 @@
                                               "col" : 12,
                                               "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                             },
-                                            "id" : "sources\\afd_plng.sqlrpgle#123:12"
+                                            "id" : "sources\\afd_plng.sqlrpgle#123:27"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -2112,7 +2112,7 @@
                                             "col" : 12,
                                             "id" : "sources\\afd_plng.sqlrpgle#123:12"
                                           },
-                                          "id" : "sources\\afd_plng.sqlrpgle#123:12"
+                                          "id" : "sources\\afd_plng.sqlrpgle#123:28"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -2227,7 +2227,7 @@
                                               "col" : 12,
                                               "id" : "sources\\afd_plng.sqlrpgle#130:12"
                                             },
-                                            "id" : "sources\\afd_plng.sqlrpgle#130:12"
+                                            "id" : "sources\\afd_plng.sqlrpgle#130:29"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -2432,7 +2432,7 @@
                                                     "col" : 12,
                                                     "id" : "sources\\afd_plng.sqlrpgle#140:12"
                                                   },
-                                                  "id" : "sources\\afd_plng.sqlrpgle#140:12"
+                                                  "id" : "sources\\afd_plng.sqlrpgle#140:30"
                                                 },
                                                 "pos" : {
                                                   "kind" : "SrcPos",
@@ -2441,7 +2441,7 @@
                                                   "col" : 12,
                                                   "id" : "sources\\afd_plng.sqlrpgle#140:12"
                                                 },
-                                                "id" : "sources\\afd_plng.sqlrpgle#140:12"
+                                                "id" : "sources\\afd_plng.sqlrpgle#140:31"
                                               },
                                               "pos" : {
                                                 "kind" : "SrcPos",
@@ -2777,7 +2777,7 @@
                                                                 "col" : 14,
                                                                 "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                               },
-                                                              "id" : "sources\\afd_plng.sqlrpgle#148:14"
+                                                              "id" : "sources\\afd_plng.sqlrpgle#148:34"
                                                             },
                                                             "pos" : {
                                                               "kind" : "SrcPos",
@@ -2786,7 +2786,7 @@
                                                               "col" : 14,
                                                               "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                             },
-                                                            "id" : "sources\\afd_plng.sqlrpgle#148:14"
+                                                            "id" : "sources\\afd_plng.sqlrpgle#148:35"
                                                           },
                                                           "pos" : {
                                                             "kind" : "SrcPos",
@@ -2795,7 +2795,7 @@
                                                             "col" : 14,
                                                             "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                           },
-                                                          "id" : "sources\\afd_plng.sqlrpgle#148:14"
+                                                          "id" : "sources\\afd_plng.sqlrpgle#148:36"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -2804,7 +2804,7 @@
                                                           "col" : 14,
                                                           "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                         },
-                                                        "id" : "sources\\afd_plng.sqlrpgle#148:14"
+                                                        "id" : "sources\\afd_plng.sqlrpgle#148:37"
                                                       },
                                                       "pos" : {
                                                         "kind" : "SrcPos",
@@ -2813,7 +2813,7 @@
                                                         "col" : 14,
                                                         "id" : "sources\\afd_plng.sqlrpgle#148:14"
                                                       },
-                                                      "id" : "sources\\afd_plng.sqlrpgle#148:14"
+                                                      "id" : "sources\\afd_plng.sqlrpgle#148:38"
                                                     },
                                                     "pos" : {
                                                       "kind" : "SrcPos",
@@ -2831,7 +2831,7 @@
                                                     "col" : 12,
                                                     "id" : "sources\\afd_plng.sqlrpgle#146:12"
                                                   },
-                                                  "id" : "sources\\afd_plng.sqlrpgle#146:12"
+                                                  "id" : "sources\\afd_plng.sqlrpgle#146:37"
                                                 },
                                                 "pos" : {
                                                   "kind" : "SrcPos",
@@ -3179,7 +3179,7 @@
                                                                     "col" : 12,
                                                                     "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                                   },
-                                                                  "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                                  "id" : "sources\\afd_plng.sqlrpgle#162:38"
                                                                 },
                                                                 "pos" : {
                                                                   "kind" : "SrcPos",
@@ -3188,7 +3188,7 @@
                                                                   "col" : 12,
                                                                   "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                                 },
-                                                                "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                                "id" : "sources\\afd_plng.sqlrpgle#162:39"
                                                               },
                                                               "pos" : {
                                                                 "kind" : "SrcPos",
@@ -3197,7 +3197,7 @@
                                                                 "col" : 12,
                                                                 "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                               },
-                                                              "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                              "id" : "sources\\afd_plng.sqlrpgle#162:40"
                                                             },
                                                             "pos" : {
                                                               "kind" : "SrcPos",
@@ -3206,7 +3206,7 @@
                                                               "col" : 12,
                                                               "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                             },
-                                                            "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                            "id" : "sources\\afd_plng.sqlrpgle#162:41"
                                                           },
                                                           "pos" : {
                                                             "kind" : "SrcPos",
@@ -3215,7 +3215,7 @@
                                                             "col" : 12,
                                                             "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                           },
-                                                          "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                          "id" : "sources\\afd_plng.sqlrpgle#162:42"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -3224,7 +3224,7 @@
                                                           "col" : 12,
                                                           "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                         },
-                                                        "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                        "id" : "sources\\afd_plng.sqlrpgle#162:43"
                                                       },
                                                       "pos" : {
                                                         "kind" : "SrcPos",
@@ -3233,7 +3233,7 @@
                                                         "col" : 12,
                                                         "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                       },
-                                                      "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                      "id" : "sources\\afd_plng.sqlrpgle#162:44"
                                                     },
                                                     "pos" : {
                                                       "kind" : "SrcPos",
@@ -3242,7 +3242,7 @@
                                                       "col" : 12,
                                                       "id" : "sources\\afd_plng.sqlrpgle#162:12"
                                                     },
-                                                    "id" : "sources\\afd_plng.sqlrpgle#162:12"
+                                                    "id" : "sources\\afd_plng.sqlrpgle#162:45"
                                                   },
                                                   "pos" : {
                                                     "kind" : "SrcPos",
@@ -3260,7 +3260,7 @@
                                                   "col" : 10,
                                                   "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                                 },
-                                                "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                                "id" : "sources\\afd_plng.sqlrpgle#74:44"
                                               },
                                               "pos" : {
                                                 "kind" : "SrcPos",
@@ -3269,7 +3269,7 @@
                                                 "col" : 10,
                                                 "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                               },
-                                              "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                              "id" : "sources\\afd_plng.sqlrpgle#74:45"
                                             },
                                             "pos" : {
                                               "kind" : "SrcPos",
@@ -3278,7 +3278,7 @@
                                               "col" : 10,
                                               "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                             },
-                                            "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                            "id" : "sources\\afd_plng.sqlrpgle#74:46"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -3287,7 +3287,7 @@
                                             "col" : 10,
                                             "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                           },
-                                          "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                          "id" : "sources\\afd_plng.sqlrpgle#74:47"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -3296,7 +3296,7 @@
                                           "col" : 10,
                                           "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                         },
-                                        "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                        "id" : "sources\\afd_plng.sqlrpgle#74:48"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -3305,7 +3305,7 @@
                                         "col" : 10,
                                         "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                       },
-                                      "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                      "id" : "sources\\afd_plng.sqlrpgle#74:49"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -3314,7 +3314,7 @@
                                       "col" : 10,
                                       "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                     },
-                                    "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                    "id" : "sources\\afd_plng.sqlrpgle#74:50"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -3323,7 +3323,7 @@
                                     "col" : 10,
                                     "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                   },
-                                  "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                  "id" : "sources\\afd_plng.sqlrpgle#74:51"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -3332,7 +3332,7 @@
                                   "col" : 10,
                                   "id" : "sources\\afd_plng.sqlrpgle#74:10"
                                 },
-                                "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                                "id" : "sources\\afd_plng.sqlrpgle#74:52"
                               },
                               "pos" : {
                                 "kind" : "SrcPos",
@@ -3341,7 +3341,7 @@
                                 "col" : 10,
                                 "id" : "sources\\afd_plng.sqlrpgle#74:10"
                               },
-                              "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                              "id" : "sources\\afd_plng.sqlrpgle#74:53"
                             },
                             "pos" : {
                               "kind" : "SrcPos",
@@ -3350,7 +3350,7 @@
                               "col" : 10,
                               "id" : "sources\\afd_plng.sqlrpgle#74:10"
                             },
-                            "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                            "id" : "sources\\afd_plng.sqlrpgle#74:54"
                           },
                           "pos" : {
                             "kind" : "SrcPos",
@@ -3359,7 +3359,7 @@
                             "col" : 10,
                             "id" : "sources\\afd_plng.sqlrpgle#74:10"
                           },
-                          "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                          "id" : "sources\\afd_plng.sqlrpgle#74:55"
                         },
                         "pos" : {
                           "kind" : "SrcPos",
@@ -3368,7 +3368,7 @@
                           "col" : 10,
                           "id" : "sources\\afd_plng.sqlrpgle#74:10"
                         },
-                        "id" : "sources\\afd_plng.sqlrpgle#74:10"
+                        "id" : "sources\\afd_plng.sqlrpgle#74:56"
                       },
                       "pos" : {
                         "kind" : "SrcPos",
@@ -3412,7 +3412,7 @@
                       "col" : 8,
                       "id" : "sources\\afd_plng.sqlrpgle#182:8"
                     },
-                    "id" : "sources\\afd_plng.sqlrpgle#182:8"
+                    "id" : "sources\\afd_plng.sqlrpgle#182:55"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
@@ -3421,7 +3421,7 @@
                     "col" : 8,
                     "id" : "sources\\afd_plng.sqlrpgle#182:8"
                   },
-                  "id" : "sources\\afd_plng.sqlrpgle#182:8"
+                  "id" : "sources\\afd_plng.sqlrpgle#182:56"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -3430,7 +3430,7 @@
                   "col" : 8,
                   "id" : "sources\\afd_plng.sqlrpgle#182:8"
                 },
-                "id" : "sources\\afd_plng.sqlrpgle#182:8"
+                "id" : "sources\\afd_plng.sqlrpgle#182:57"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -3439,7 +3439,7 @@
                 "col" : 8,
                 "id" : "sources\\afd_plng.sqlrpgle#182:8"
               },
-              "id" : "sources\\afd_plng.sqlrpgle#182:8"
+              "id" : "sources\\afd_plng.sqlrpgle#182:58"
             },
             "pos" : {
               "kind" : "SrcPos",
@@ -3448,7 +3448,7 @@
               "col" : 8,
               "id" : "sources\\afd_plng.sqlrpgle#182:8"
             },
-            "id" : "sources\\afd_plng.sqlrpgle#182:8"
+            "id" : "sources\\afd_plng.sqlrpgle#182:59"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -3457,7 +3457,7 @@
             "col" : 8,
             "id" : "sources\\afd_plng.sqlrpgle#182:8"
           },
-          "id" : "sources\\afd_plng.sqlrpgle#182:8"
+          "id" : "sources\\afd_plng.sqlrpgle#182:60"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -3466,7 +3466,7 @@
           "col" : 8,
           "id" : "sources\\afd_plng.sqlrpgle#182:8"
         },
-        "id" : "sources\\afd_plng.sqlrpgle#182:8"
+        "id" : "sources\\afd_plng.sqlrpgle#182:61"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -3475,7 +3475,7 @@
         "col" : 8,
         "id" : "sources\\afd_plng.sqlrpgle#182:8"
       },
-      "id" : "sources\\afd_plng.sqlrpgle#182:8"
+      "id" : "sources\\afd_plng.sqlrpgle#182:62"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -3565,7 +3565,7 @@
           "col" : 8,
           "id" : "sources\\afd_plng.sqlrpgle#188:8"
         },
-        "id" : "sources\\afd_plng.sqlrpgle#188:8"
+        "id" : "sources\\afd_plng.sqlrpgle#188:63"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -3574,7 +3574,7 @@
         "col" : 8,
         "id" : "sources\\afd_plng.sqlrpgle#188:8"
       },
-      "id" : "sources\\afd_plng.sqlrpgle#188:8"
+      "id" : "sources\\afd_plng.sqlrpgle#188:64"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -3695,7 +3695,7 @@
             "col" : 8,
             "id" : "sources\\afd_plng.sqlrpgle#200:8"
           },
-          "id" : "sources\\afd_plng.sqlrpgle#200:8"
+          "id" : "sources\\afd_plng.sqlrpgle#200:65"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -3704,7 +3704,7 @@
           "col" : 8,
           "id" : "sources\\afd_plng.sqlrpgle#200:8"
         },
-        "id" : "sources\\afd_plng.sqlrpgle#200:8"
+        "id" : "sources\\afd_plng.sqlrpgle#200:66"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -3713,7 +3713,7 @@
         "col" : 8,
         "id" : "sources\\afd_plng.sqlrpgle#200:8"
       },
-      "id" : "sources\\afd_plng.sqlrpgle#200:8"
+      "id" : "sources\\afd_plng.sqlrpgle#200:67"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -3878,7 +3878,7 @@
               "col" : 8,
               "id" : "sources\\afd_plng.sqlrpgle#208:8"
             },
-            "id" : "sources\\afd_plng.sqlrpgle#208:8"
+            "id" : "sources\\afd_plng.sqlrpgle#208:68"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -3887,7 +3887,7 @@
             "col" : 8,
             "id" : "sources\\afd_plng.sqlrpgle#208:8"
           },
-          "id" : "sources\\afd_plng.sqlrpgle#208:8"
+          "id" : "sources\\afd_plng.sqlrpgle#208:69"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -3896,7 +3896,7 @@
           "col" : 8,
           "id" : "sources\\afd_plng.sqlrpgle#208:8"
         },
-        "id" : "sources\\afd_plng.sqlrpgle#208:8"
+        "id" : "sources\\afd_plng.sqlrpgle#208:70"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -3905,7 +3905,7 @@
         "col" : 8,
         "id" : "sources\\afd_plng.sqlrpgle#208:8"
       },
-      "id" : "sources\\afd_plng.sqlrpgle#208:8"
+      "id" : "sources\\afd_plng.sqlrpgle#208:71"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -4188,7 +4188,7 @@
                   "col" : 12,
                   "id" : "sources\\afd_plng.sqlrpgle#246:12"
                 },
-                "id" : "sources\\afd_plng.sqlrpgle#246:12"
+                "id" : "sources\\afd_plng.sqlrpgle#246:76"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -4559,7 +4559,7 @@
                           "col" : 10,
                           "id" : "sources\\afd_plng.sqlrpgle#255:10"
                         },
-                        "id" : "sources\\afd_plng.sqlrpgle#255:10"
+                        "id" : "sources\\afd_plng.sqlrpgle#255:75"
                       },
                       "pos" : {
                         "kind" : "SrcPos",
@@ -4568,7 +4568,7 @@
                         "col" : 10,
                         "id" : "sources\\afd_plng.sqlrpgle#255:10"
                       },
-                      "id" : "sources\\afd_plng.sqlrpgle#255:10"
+                      "id" : "sources\\afd_plng.sqlrpgle#255:76"
                     },
                     "pos" : {
                       "kind" : "SrcPos",
@@ -4577,7 +4577,7 @@
                       "col" : 10,
                       "id" : "sources\\afd_plng.sqlrpgle#255:10"
                     },
-                    "id" : "sources\\afd_plng.sqlrpgle#255:10"
+                    "id" : "sources\\afd_plng.sqlrpgle#255:77"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
@@ -4586,7 +4586,7 @@
                     "col" : 10,
                     "id" : "sources\\afd_plng.sqlrpgle#255:10"
                   },
-                  "id" : "sources\\afd_plng.sqlrpgle#255:10"
+                  "id" : "sources\\afd_plng.sqlrpgle#255:78"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -4595,7 +4595,7 @@
                   "col" : 10,
                   "id" : "sources\\afd_plng.sqlrpgle#255:10"
                 },
-                "id" : "sources\\afd_plng.sqlrpgle#255:10"
+                "id" : "sources\\afd_plng.sqlrpgle#255:79"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -4613,7 +4613,7 @@
               "col" : 8,
               "id" : "sources\\afd_plng.sqlrpgle#266:8"
             },
-            "id" : "sources\\afd_plng.sqlrpgle#266:8"
+            "id" : "sources\\afd_plng.sqlrpgle#266:78"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -4622,7 +4622,7 @@
             "col" : 8,
             "id" : "sources\\afd_plng.sqlrpgle#266:8"
           },
-          "id" : "sources\\afd_plng.sqlrpgle#266:8"
+          "id" : "sources\\afd_plng.sqlrpgle#266:79"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -4631,7 +4631,7 @@
           "col" : 8,
           "id" : "sources\\afd_plng.sqlrpgle#266:8"
         },
-        "id" : "sources\\afd_plng.sqlrpgle#266:8"
+        "id" : "sources\\afd_plng.sqlrpgle#266:80"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -4640,7 +4640,7 @@
         "col" : 8,
         "id" : "sources\\afd_plng.sqlrpgle#266:8"
       },
-      "id" : "sources\\afd_plng.sqlrpgle#266:8"
+      "id" : "sources\\afd_plng.sqlrpgle#266:81"
     },
     "pos" : {
       "kind" : "SrcPos",

@@ -77,9 +77,9 @@
       "id" : "sources\\afdwdw.sqlrpgle#10:8"
     },
     "static" : false,
-    "initValue" : "1",
     "template" : false,
     "const" : false,
+    "initValue" : "1",
     "id" : "sources\\afdwdw.sqlrpgle#10:8"
   }, {
     "kind" : "DStandaloneField",
@@ -644,7 +644,7 @@
                                         "col" : 8,
                                         "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                       },
-                                      "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                                      "id" : "sources\\afdwdw.sqlrpgle#56:9"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -653,7 +653,7 @@
                                       "col" : 8,
                                       "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                     },
-                                    "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                                    "id" : "sources\\afdwdw.sqlrpgle#56:10"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -662,7 +662,7 @@
                                     "col" : 8,
                                     "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                   },
-                                  "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                                  "id" : "sources\\afdwdw.sqlrpgle#56:11"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -671,7 +671,7 @@
                                   "col" : 8,
                                   "id" : "sources\\afdwdw.sqlrpgle#56:8"
                                 },
-                                "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                                "id" : "sources\\afdwdw.sqlrpgle#56:12"
                               },
                               "pos" : {
                                 "kind" : "SrcPos",
@@ -680,7 +680,7 @@
                                 "col" : 8,
                                 "id" : "sources\\afdwdw.sqlrpgle#56:8"
                               },
-                              "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                              "id" : "sources\\afdwdw.sqlrpgle#56:13"
                             },
                             "pos" : {
                               "kind" : "SrcPos",
@@ -689,7 +689,7 @@
                               "col" : 8,
                               "id" : "sources\\afdwdw.sqlrpgle#56:8"
                             },
-                            "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                            "id" : "sources\\afdwdw.sqlrpgle#56:14"
                           },
                           "pos" : {
                             "kind" : "SrcPos",
@@ -698,7 +698,7 @@
                             "col" : 8,
                             "id" : "sources\\afdwdw.sqlrpgle#56:8"
                           },
-                          "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                          "id" : "sources\\afdwdw.sqlrpgle#56:15"
                         },
                         "pos" : {
                           "kind" : "SrcPos",
@@ -707,7 +707,7 @@
                           "col" : 8,
                           "id" : "sources\\afdwdw.sqlrpgle#56:8"
                         },
-                        "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                        "id" : "sources\\afdwdw.sqlrpgle#56:16"
                       },
                       "pos" : {
                         "kind" : "SrcPos",
@@ -716,7 +716,7 @@
                         "col" : 8,
                         "id" : "sources\\afdwdw.sqlrpgle#56:8"
                       },
-                      "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                      "id" : "sources\\afdwdw.sqlrpgle#56:17"
                     },
                     "pos" : {
                       "kind" : "SrcPos",
@@ -725,7 +725,7 @@
                       "col" : 8,
                       "id" : "sources\\afdwdw.sqlrpgle#56:8"
                     },
-                    "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                    "id" : "sources\\afdwdw.sqlrpgle#56:18"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
@@ -734,7 +734,7 @@
                     "col" : 8,
                     "id" : "sources\\afdwdw.sqlrpgle#56:8"
                   },
-                  "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                  "id" : "sources\\afdwdw.sqlrpgle#56:19"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -743,7 +743,7 @@
                   "col" : 8,
                   "id" : "sources\\afdwdw.sqlrpgle#56:8"
                 },
-                "id" : "sources\\afdwdw.sqlrpgle#56:8"
+                "id" : "sources\\afdwdw.sqlrpgle#56:20"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -752,7 +752,7 @@
                 "col" : 8,
                 "id" : "sources\\afdwdw.sqlrpgle#56:8"
               },
-              "id" : "sources\\afdwdw.sqlrpgle#56:8"
+              "id" : "sources\\afdwdw.sqlrpgle#56:21"
             },
             "pos" : {
               "kind" : "SrcPos",
@@ -761,7 +761,7 @@
               "col" : 8,
               "id" : "sources\\afdwdw.sqlrpgle#56:8"
             },
-            "id" : "sources\\afdwdw.sqlrpgle#56:8"
+            "id" : "sources\\afdwdw.sqlrpgle#56:22"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -770,7 +770,7 @@
             "col" : 8,
             "id" : "sources\\afdwdw.sqlrpgle#56:8"
           },
-          "id" : "sources\\afdwdw.sqlrpgle#56:8"
+          "id" : "sources\\afdwdw.sqlrpgle#56:23"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -779,7 +779,7 @@
           "col" : 8,
           "id" : "sources\\afdwdw.sqlrpgle#56:8"
         },
-        "id" : "sources\\afdwdw.sqlrpgle#56:8"
+        "id" : "sources\\afdwdw.sqlrpgle#56:24"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -788,7 +788,7 @@
         "col" : 8,
         "id" : "sources\\afdwdw.sqlrpgle#56:8"
       },
-      "id" : "sources\\afdwdw.sqlrpgle#56:8"
+      "id" : "sources\\afdwdw.sqlrpgle#56:25"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -995,7 +995,7 @@
             "col" : 12,
             "id" : "sources\\afdwdw.sqlrpgle#71:12"
           },
-          "id" : "sources\\afdwdw.sqlrpgle#71:12"
+          "id" : "sources\\afdwdw.sqlrpgle#71:30"
         },
         "elseBranch" : {
           "kind" : "SAssign",
@@ -1067,7 +1067,7 @@
         "col" : 8,
         "id" : "sources\\afdwdw.sqlrpgle#87:8"
       },
-      "id" : "sources\\afdwdw.sqlrpgle#87:8"
+      "id" : "sources\\afdwdw.sqlrpgle#87:27"
     },
     "pos" : {
       "kind" : "SrcPos",

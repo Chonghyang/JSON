@@ -137,9 +137,9 @@
       "id" : "sources\\mnag_prsnl.rpgle#13:8"
     },
     "static" : false,
-    "initValue" : "*off",
     "template" : false,
     "const" : false,
+    "initValue" : "*off",
     "id" : "sources\\mnag_prsnl.rpgle#13:8"
   } ],
   "main" : {
@@ -584,7 +584,7 @@
                                           "col" : 16,
                                           "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                         },
-                                        "id" : "sources\\mnag_prsnl.rpgle#69:16"
+                                        "id" : "sources\\mnag_prsnl.rpgle#69:18"
                                       },
                                       "elseBranch" : {
                                         "kind" : "SSeq",
@@ -924,7 +924,7 @@
                                               "col" : 20,
                                               "id" : "sources\\mnag_prsnl.rpgle#74:20"
                                             },
-                                            "id" : "sources\\mnag_prsnl.rpgle#74:20"
+                                            "id" : "sources\\mnag_prsnl.rpgle#74:21"
                                           },
                                           "elseBranch" : {
                                             "kind" : "SAssign",
@@ -997,7 +997,7 @@
                                             "col" : 16,
                                             "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                           },
-                                          "id" : "sources\\mnag_prsnl.rpgle#69:16"
+                                          "id" : "sources\\mnag_prsnl.rpgle#69:19"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -1006,7 +1006,7 @@
                                           "col" : 16,
                                           "id" : "sources\\mnag_prsnl.rpgle#69:16"
                                         },
-                                        "id" : "sources\\mnag_prsnl.rpgle#69:16"
+                                        "id" : "sources\\mnag_prsnl.rpgle#69:20"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -1024,7 +1024,7 @@
                                       "col" : 12,
                                       "id" : "sources\\mnag_prsnl.rpgle#66:12"
                                     },
-                                    "id" : "sources\\mnag_prsnl.rpgle#66:12"
+                                    "id" : "sources\\mnag_prsnl.rpgle#66:17"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -1394,7 +1394,7 @@
                                                             "col" : 20,
                                                             "id" : "sources\\mnag_prsnl.rpgle#125:20"
                                                           },
-                                                          "id" : "sources\\mnag_prsnl.rpgle#125:20"
+                                                          "id" : "sources\\mnag_prsnl.rpgle#125:26"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -1714,7 +1714,7 @@
                                                               "col" : 16,
                                                               "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                             },
-                                                            "id" : "sources\\mnag_prsnl.rpgle#122:16"
+                                                            "id" : "sources\\mnag_prsnl.rpgle#122:23"
                                                           },
                                                           "pos" : {
                                                             "kind" : "SrcPos",
@@ -1723,7 +1723,7 @@
                                                             "col" : 16,
                                                             "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                           },
-                                                          "id" : "sources\\mnag_prsnl.rpgle#122:16"
+                                                          "id" : "sources\\mnag_prsnl.rpgle#122:24"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -1732,7 +1732,7 @@
                                                           "col" : 16,
                                                           "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                         },
-                                                        "id" : "sources\\mnag_prsnl.rpgle#122:16"
+                                                        "id" : "sources\\mnag_prsnl.rpgle#122:25"
                                                       },
                                                       "pos" : {
                                                         "kind" : "SrcPos",
@@ -1741,7 +1741,7 @@
                                                         "col" : 16,
                                                         "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                       },
-                                                      "id" : "sources\\mnag_prsnl.rpgle#122:16"
+                                                      "id" : "sources\\mnag_prsnl.rpgle#122:26"
                                                     },
                                                     "pos" : {
                                                       "kind" : "SrcPos",
@@ -1750,7 +1750,7 @@
                                                       "col" : 16,
                                                       "id" : "sources\\mnag_prsnl.rpgle#122:16"
                                                     },
-                                                    "id" : "sources\\mnag_prsnl.rpgle#122:16"
+                                                    "id" : "sources\\mnag_prsnl.rpgle#122:27"
                                                   },
                                                   "pos" : {
                                                     "kind" : "SrcPos",
@@ -1768,7 +1768,7 @@
                                                   "col" : 12,
                                                   "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                                 },
-                                                "id" : "sources\\mnag_prsnl.rpgle#107:12"
+                                                "id" : "sources\\mnag_prsnl.rpgle#107:24"
                                               },
                                               "pos" : {
                                                 "kind" : "SrcPos",
@@ -1777,7 +1777,7 @@
                                                 "col" : 12,
                                                 "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                               },
-                                              "id" : "sources\\mnag_prsnl.rpgle#107:12"
+                                              "id" : "sources\\mnag_prsnl.rpgle#107:25"
                                             },
                                             "pos" : {
                                               "kind" : "SrcPos",
@@ -1786,7 +1786,7 @@
                                               "col" : 12,
                                               "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                             },
-                                            "id" : "sources\\mnag_prsnl.rpgle#107:12"
+                                            "id" : "sources\\mnag_prsnl.rpgle#107:26"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -1795,7 +1795,7 @@
                                             "col" : 12,
                                             "id" : "sources\\mnag_prsnl.rpgle#107:12"
                                           },
-                                          "id" : "sources\\mnag_prsnl.rpgle#107:12"
+                                          "id" : "sources\\mnag_prsnl.rpgle#107:27"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -2058,7 +2058,7 @@
                                                         "col" : 12,
                                                         "id" : "sources\\mnag_prsnl.rpgle#167:12"
                                                       },
-                                                      "id" : "sources\\mnag_prsnl.rpgle#167:12"
+                                                      "id" : "sources\\mnag_prsnl.rpgle#167:28"
                                                     },
                                                     "pos" : {
                                                       "kind" : "SrcPos",
@@ -2135,7 +2135,7 @@
                                                             "col" : 12,
                                                             "id" : "sources\\mnag_prsnl.rpgle#176:12"
                                                           },
-                                                          "id" : "sources\\mnag_prsnl.rpgle#176:12"
+                                                          "id" : "sources\\mnag_prsnl.rpgle#176:29"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -2334,7 +2334,7 @@
                                                               "col" : 8,
                                                               "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                             },
-                                                            "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                            "id" : "sources\\mnag_prsnl.rpgle#154:26"
                                                           },
                                                           "pos" : {
                                                             "kind" : "SrcPos",
@@ -2343,7 +2343,7 @@
                                                             "col" : 8,
                                                             "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                           },
-                                                          "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                          "id" : "sources\\mnag_prsnl.rpgle#154:27"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -2352,7 +2352,7 @@
                                                           "col" : 8,
                                                           "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                         },
-                                                        "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                        "id" : "sources\\mnag_prsnl.rpgle#154:28"
                                                       },
                                                       "pos" : {
                                                         "kind" : "SrcPos",
@@ -2361,7 +2361,7 @@
                                                         "col" : 8,
                                                         "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                       },
-                                                      "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                      "id" : "sources\\mnag_prsnl.rpgle#154:29"
                                                     },
                                                     "pos" : {
                                                       "kind" : "SrcPos",
@@ -2370,7 +2370,7 @@
                                                       "col" : 8,
                                                       "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                     },
-                                                    "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                    "id" : "sources\\mnag_prsnl.rpgle#154:30"
                                                   },
                                                   "pos" : {
                                                     "kind" : "SrcPos",
@@ -2379,7 +2379,7 @@
                                                     "col" : 8,
                                                     "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                   },
-                                                  "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                  "id" : "sources\\mnag_prsnl.rpgle#154:31"
                                                 },
                                                 "pos" : {
                                                   "kind" : "SrcPos",
@@ -2388,7 +2388,7 @@
                                                   "col" : 8,
                                                   "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                                 },
-                                                "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                                "id" : "sources\\mnag_prsnl.rpgle#154:32"
                                               },
                                               "pos" : {
                                                 "kind" : "SrcPos",
@@ -2397,7 +2397,7 @@
                                                 "col" : 8,
                                                 "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                               },
-                                              "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                              "id" : "sources\\mnag_prsnl.rpgle#154:33"
                                             },
                                             "pos" : {
                                               "kind" : "SrcPos",
@@ -2406,7 +2406,7 @@
                                               "col" : 8,
                                               "id" : "sources\\mnag_prsnl.rpgle#154:8"
                                             },
-                                            "id" : "sources\\mnag_prsnl.rpgle#154:8"
+                                            "id" : "sources\\mnag_prsnl.rpgle#154:34"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -2436,7 +2436,7 @@
                                           "col" : 12,
                                           "id" : "sources\\mnag_prsnl.rpgle#103:12"
                                         },
-                                        "id" : "sources\\mnag_prsnl.rpgle#103:12"
+                                        "id" : "sources\\mnag_prsnl.rpgle#103:39"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -2445,7 +2445,7 @@
                                         "col" : 12,
                                         "id" : "sources\\mnag_prsnl.rpgle#103:12"
                                       },
-                                      "id" : "sources\\mnag_prsnl.rpgle#103:12"
+                                      "id" : "sources\\mnag_prsnl.rpgle#103:40"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -2463,7 +2463,7 @@
                                     "col" : 8,
                                     "id" : "sources\\mnag_prsnl.rpgle#59:8"
                                   },
-                                  "id" : "sources\\mnag_prsnl.rpgle#59:8"
+                                  "id" : "sources\\mnag_prsnl.rpgle#59:37"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -2472,7 +2472,7 @@
                                   "col" : 8,
                                   "id" : "sources\\mnag_prsnl.rpgle#59:8"
                                 },
-                                "id" : "sources\\mnag_prsnl.rpgle#59:8"
+                                "id" : "sources\\mnag_prsnl.rpgle#59:38"
                               },
                               "pos" : {
                                 "kind" : "SrcPos",
@@ -2481,7 +2481,7 @@
                                 "col" : 8,
                                 "id" : "sources\\mnag_prsnl.rpgle#59:8"
                               },
-                              "id" : "sources\\mnag_prsnl.rpgle#59:8"
+                              "id" : "sources\\mnag_prsnl.rpgle#59:39"
                             },
                             "pos" : {
                               "kind" : "SrcPos",
@@ -2490,7 +2490,7 @@
                               "col" : 8,
                               "id" : "sources\\mnag_prsnl.rpgle#59:8"
                             },
-                            "id" : "sources\\mnag_prsnl.rpgle#59:8"
+                            "id" : "sources\\mnag_prsnl.rpgle#59:40"
                           },
                           "pos" : {
                             "kind" : "SrcPos",
@@ -2535,7 +2535,7 @@
                           "col" : 1,
                           "id" : "sources\\mnag_prsnl.rpgle#1:1"
                         },
-                        "id" : "sources\\mnag_prsnl.rpgle#1:1"
+                        "id" : "sources\\mnag_prsnl.rpgle#1:46"
                       },
                       "pos" : {
                         "kind" : "SrcPos",
@@ -2544,7 +2544,7 @@
                         "col" : 1,
                         "id" : "sources\\mnag_prsnl.rpgle#1:1"
                       },
-                      "id" : "sources\\mnag_prsnl.rpgle#1:1"
+                      "id" : "sources\\mnag_prsnl.rpgle#1:47"
                     },
                     "pos" : {
                       "kind" : "SrcPos",
@@ -2553,7 +2553,7 @@
                       "col" : 1,
                       "id" : "sources\\mnag_prsnl.rpgle#1:1"
                     },
-                    "id" : "sources\\mnag_prsnl.rpgle#1:1"
+                    "id" : "sources\\mnag_prsnl.rpgle#1:48"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
@@ -2562,7 +2562,7 @@
                     "col" : 1,
                     "id" : "sources\\mnag_prsnl.rpgle#1:1"
                   },
-                  "id" : "sources\\mnag_prsnl.rpgle#1:1"
+                  "id" : "sources\\mnag_prsnl.rpgle#1:49"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -2571,7 +2571,7 @@
                   "col" : 1,
                   "id" : "sources\\mnag_prsnl.rpgle#1:1"
                 },
-                "id" : "sources\\mnag_prsnl.rpgle#1:1"
+                "id" : "sources\\mnag_prsnl.rpgle#1:50"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -2580,7 +2580,7 @@
                 "col" : 1,
                 "id" : "sources\\mnag_prsnl.rpgle#1:1"
               },
-              "id" : "sources\\mnag_prsnl.rpgle#1:1"
+              "id" : "sources\\mnag_prsnl.rpgle#1:51"
             },
             "pos" : {
               "kind" : "SrcPos",
@@ -2589,7 +2589,7 @@
               "col" : 1,
               "id" : "sources\\mnag_prsnl.rpgle#1:1"
             },
-            "id" : "sources\\mnag_prsnl.rpgle#1:1"
+            "id" : "sources\\mnag_prsnl.rpgle#1:52"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -2598,7 +2598,7 @@
             "col" : 1,
             "id" : "sources\\mnag_prsnl.rpgle#1:1"
           },
-          "id" : "sources\\mnag_prsnl.rpgle#1:1"
+          "id" : "sources\\mnag_prsnl.rpgle#1:53"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -2607,7 +2607,7 @@
           "col" : 1,
           "id" : "sources\\mnag_prsnl.rpgle#1:1"
         },
-        "id" : "sources\\mnag_prsnl.rpgle#1:1"
+        "id" : "sources\\mnag_prsnl.rpgle#1:54"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -2616,7 +2616,7 @@
         "col" : 1,
         "id" : "sources\\mnag_prsnl.rpgle#1:1"
       },
-      "id" : "sources\\mnag_prsnl.rpgle#1:1"
+      "id" : "sources\\mnag_prsnl.rpgle#1:55"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -2625,7 +2625,7 @@
       "col" : 1,
       "id" : "sources\\mnag_prsnl.rpgle#1:1"
     },
-    "id" : "sources\\mnag_prsnl.rpgle#1:1"
+    "id" : "sources\\mnag_prsnl.rpgle#1:56"
   },
   "subroutines" : [ {
     "kind" : "SSubroutine",
@@ -2852,7 +2852,7 @@
                     "col" : 8,
                     "id" : "sources\\mnag_prsnl.rpgle#213:8"
                   },
-                  "id" : "sources\\mnag_prsnl.rpgle#213:8"
+                  "id" : "sources\\mnag_prsnl.rpgle#213:42"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -2861,7 +2861,7 @@
                   "col" : 8,
                   "id" : "sources\\mnag_prsnl.rpgle#213:8"
                 },
-                "id" : "sources\\mnag_prsnl.rpgle#213:8"
+                "id" : "sources\\mnag_prsnl.rpgle#213:43"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -2870,7 +2870,7 @@
                 "col" : 8,
                 "id" : "sources\\mnag_prsnl.rpgle#213:8"
               },
-              "id" : "sources\\mnag_prsnl.rpgle#213:8"
+              "id" : "sources\\mnag_prsnl.rpgle#213:44"
             },
             "pos" : {
               "kind" : "SrcPos",
@@ -2879,7 +2879,7 @@
               "col" : 8,
               "id" : "sources\\mnag_prsnl.rpgle#213:8"
             },
-            "id" : "sources\\mnag_prsnl.rpgle#213:8"
+            "id" : "sources\\mnag_prsnl.rpgle#213:45"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -2888,7 +2888,7 @@
             "col" : 8,
             "id" : "sources\\mnag_prsnl.rpgle#213:8"
           },
-          "id" : "sources\\mnag_prsnl.rpgle#213:8"
+          "id" : "sources\\mnag_prsnl.rpgle#213:46"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -2897,7 +2897,7 @@
           "col" : 8,
           "id" : "sources\\mnag_prsnl.rpgle#213:8"
         },
-        "id" : "sources\\mnag_prsnl.rpgle#213:8"
+        "id" : "sources\\mnag_prsnl.rpgle#213:47"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -2906,7 +2906,7 @@
         "col" : 8,
         "id" : "sources\\mnag_prsnl.rpgle#213:8"
       },
-      "id" : "sources\\mnag_prsnl.rpgle#213:8"
+      "id" : "sources\\mnag_prsnl.rpgle#213:48"
     },
     "pos" : {
       "kind" : "SrcPos",
@@ -3014,7 +3014,7 @@
               "col" : 12,
               "id" : "sources\\mnag_prsnl.rpgle#231:12"
             },
-            "id" : "sources\\mnag_prsnl.rpgle#231:12"
+            "id" : "sources\\mnag_prsnl.rpgle#231:45"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -3102,7 +3102,7 @@
               "col" : 8,
               "id" : "sources\\mnag_prsnl.rpgle#226:8"
             },
-            "id" : "sources\\mnag_prsnl.rpgle#226:8"
+            "id" : "sources\\mnag_prsnl.rpgle#226:49"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -3111,7 +3111,7 @@
             "col" : 8,
             "id" : "sources\\mnag_prsnl.rpgle#226:8"
           },
-          "id" : "sources\\mnag_prsnl.rpgle#226:8"
+          "id" : "sources\\mnag_prsnl.rpgle#226:50"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -3120,7 +3120,7 @@
           "col" : 8,
           "id" : "sources\\mnag_prsnl.rpgle#226:8"
         },
-        "id" : "sources\\mnag_prsnl.rpgle#226:8"
+        "id" : "sources\\mnag_prsnl.rpgle#226:51"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -3129,7 +3129,7 @@
         "col" : 8,
         "id" : "sources\\mnag_prsnl.rpgle#226:8"
       },
-      "id" : "sources\\mnag_prsnl.rpgle#226:8"
+      "id" : "sources\\mnag_prsnl.rpgle#226:52"
     },
     "pos" : {
       "kind" : "SrcPos",

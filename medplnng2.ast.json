@@ -56,8 +56,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#9:8"
     },
     "arity" : 1,
-    "extName" : "DATEWDW",
     "nameUpper" : "DATWDW",
+    "extName" : "DATEWDW",
     "id" : "sources\\medplnng2.sqlrpgle#9:8"
   }, {
     "kind" : "DProto",
@@ -88,8 +88,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#12:8"
     },
     "arity" : 1,
-    "extName" : "PATNUMWDW",
     "nameUpper" : "PATWDW",
+    "extName" : "PATNUMWDW",
     "id" : "sources\\medplnng2.sqlrpgle#12:8"
   }, {
     "kind" : "DStandaloneField",
@@ -986,7 +986,7 @@
                                     "col" : 12,
                                     "id" : "sources\\medplnng2.sqlrpgle#60:12"
                                   },
-                                  "id" : "sources\\medplnng2.sqlrpgle#60:12"
+                                  "id" : "sources\\medplnng2.sqlrpgle#60:13"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -995,7 +995,7 @@
                                   "col" : 12,
                                   "id" : "sources\\medplnng2.sqlrpgle#60:12"
                                 },
-                                "id" : "sources\\medplnng2.sqlrpgle#60:12"
+                                "id" : "sources\\medplnng2.sqlrpgle#60:14"
                               },
                               "pos" : {
                                 "kind" : "SrcPos",
@@ -1176,7 +1176,7 @@
                                       "col" : 12,
                                       "id" : "sources\\medplnng2.sqlrpgle#70:12"
                                     },
-                                    "id" : "sources\\medplnng2.sqlrpgle#70:12"
+                                    "id" : "sources\\medplnng2.sqlrpgle#70:15"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -1185,7 +1185,7 @@
                                     "col" : 12,
                                     "id" : "sources\\medplnng2.sqlrpgle#70:12"
                                   },
-                                  "id" : "sources\\medplnng2.sqlrpgle#70:12"
+                                  "id" : "sources\\medplnng2.sqlrpgle#70:16"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -1366,7 +1366,7 @@
                                         "col" : 12,
                                         "id" : "sources\\medplnng2.sqlrpgle#76:12"
                                       },
-                                      "id" : "sources\\medplnng2.sqlrpgle#76:12"
+                                      "id" : "sources\\medplnng2.sqlrpgle#76:17"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -1375,7 +1375,7 @@
                                       "col" : 12,
                                       "id" : "sources\\medplnng2.sqlrpgle#76:12"
                                     },
-                                    "id" : "sources\\medplnng2.sqlrpgle#76:12"
+                                    "id" : "sources\\medplnng2.sqlrpgle#76:18"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -1597,7 +1597,7 @@
                                               "col" : 12,
                                               "id" : "sources\\medplnng2.sqlrpgle#87:12"
                                             },
-                                            "id" : "sources\\medplnng2.sqlrpgle#87:12"
+                                            "id" : "sources\\medplnng2.sqlrpgle#87:19"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -1606,7 +1606,7 @@
                                             "col" : 12,
                                             "id" : "sources\\medplnng2.sqlrpgle#87:12"
                                           },
-                                          "id" : "sources\\medplnng2.sqlrpgle#87:12"
+                                          "id" : "sources\\medplnng2.sqlrpgle#87:20"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -1615,7 +1615,7 @@
                                           "col" : 12,
                                           "id" : "sources\\medplnng2.sqlrpgle#87:12"
                                         },
-                                        "id" : "sources\\medplnng2.sqlrpgle#87:12"
+                                        "id" : "sources\\medplnng2.sqlrpgle#87:21"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -1624,7 +1624,7 @@
                                         "col" : 12,
                                         "id" : "sources\\medplnng2.sqlrpgle#87:12"
                                       },
-                                      "id" : "sources\\medplnng2.sqlrpgle#87:12"
+                                      "id" : "sources\\medplnng2.sqlrpgle#87:22"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -1642,7 +1642,7 @@
                                     "col" : 10,
                                     "id" : "sources\\medplnng2.sqlrpgle#51:10"
                                   },
-                                  "id" : "sources\\medplnng2.sqlrpgle#51:10"
+                                  "id" : "sources\\medplnng2.sqlrpgle#51:21"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -1651,7 +1651,7 @@
                                   "col" : 10,
                                   "id" : "sources\\medplnng2.sqlrpgle#51:10"
                                 },
-                                "id" : "sources\\medplnng2.sqlrpgle#51:10"
+                                "id" : "sources\\medplnng2.sqlrpgle#51:22"
                               },
                               "pos" : {
                                 "kind" : "SrcPos",
@@ -1660,7 +1660,7 @@
                                 "col" : 10,
                                 "id" : "sources\\medplnng2.sqlrpgle#51:10"
                               },
-                              "id" : "sources\\medplnng2.sqlrpgle#51:10"
+                              "id" : "sources\\medplnng2.sqlrpgle#51:23"
                             },
                             "pos" : {
                               "kind" : "SrcPos",
@@ -1669,7 +1669,7 @@
                               "col" : 10,
                               "id" : "sources\\medplnng2.sqlrpgle#51:10"
                             },
-                            "id" : "sources\\medplnng2.sqlrpgle#51:10"
+                            "id" : "sources\\medplnng2.sqlrpgle#51:24"
                           },
                           "pos" : {
                             "kind" : "SrcPos",
@@ -1678,7 +1678,7 @@
                             "col" : 10,
                             "id" : "sources\\medplnng2.sqlrpgle#51:10"
                           },
-                          "id" : "sources\\medplnng2.sqlrpgle#51:10"
+                          "id" : "sources\\medplnng2.sqlrpgle#51:25"
                         },
                         "pos" : {
                           "kind" : "SrcPos",
@@ -1687,7 +1687,7 @@
                           "col" : 10,
                           "id" : "sources\\medplnng2.sqlrpgle#51:10"
                         },
-                        "id" : "sources\\medplnng2.sqlrpgle#51:10"
+                        "id" : "sources\\medplnng2.sqlrpgle#51:26"
                       },
                       "pos" : {
                         "kind" : "SrcPos",
@@ -2417,7 +2417,7 @@
                                                                             "col" : 20,
                                                                             "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                                           },
-                                                                          "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                                          "id" : "sources\\medplnng2.sqlrpgle#150:37"
                                                                         },
                                                                         "pos" : {
                                                                           "kind" : "SrcPos",
@@ -2426,7 +2426,7 @@
                                                                           "col" : 20,
                                                                           "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                                         },
-                                                                        "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                                        "id" : "sources\\medplnng2.sqlrpgle#150:38"
                                                                       },
                                                                       "pos" : {
                                                                         "kind" : "SrcPos",
@@ -2435,7 +2435,7 @@
                                                                         "col" : 20,
                                                                         "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                                       },
-                                                                      "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                                      "id" : "sources\\medplnng2.sqlrpgle#150:39"
                                                                     },
                                                                     "pos" : {
                                                                       "kind" : "SrcPos",
@@ -2444,7 +2444,7 @@
                                                                       "col" : 20,
                                                                       "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                                     },
-                                                                    "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                                    "id" : "sources\\medplnng2.sqlrpgle#150:40"
                                                                   },
                                                                   "pos" : {
                                                                     "kind" : "SrcPos",
@@ -2453,7 +2453,7 @@
                                                                     "col" : 20,
                                                                     "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                                   },
-                                                                  "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                                  "id" : "sources\\medplnng2.sqlrpgle#150:41"
                                                                 },
                                                                 "pos" : {
                                                                   "kind" : "SrcPos",
@@ -2462,7 +2462,7 @@
                                                                   "col" : 20,
                                                                   "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                                 },
-                                                                "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                                "id" : "sources\\medplnng2.sqlrpgle#150:42"
                                                               },
                                                               "pos" : {
                                                                 "kind" : "SrcPos",
@@ -2471,7 +2471,7 @@
                                                                 "col" : 20,
                                                                 "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                               },
-                                                              "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                              "id" : "sources\\medplnng2.sqlrpgle#150:43"
                                                             },
                                                             "pos" : {
                                                               "kind" : "SrcPos",
@@ -2480,7 +2480,7 @@
                                                               "col" : 20,
                                                               "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                             },
-                                                            "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                            "id" : "sources\\medplnng2.sqlrpgle#150:44"
                                                           },
                                                           "pos" : {
                                                             "kind" : "SrcPos",
@@ -2489,7 +2489,7 @@
                                                             "col" : 20,
                                                             "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                           },
-                                                          "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                          "id" : "sources\\medplnng2.sqlrpgle#150:45"
                                                         },
                                                         "pos" : {
                                                           "kind" : "SrcPos",
@@ -2498,7 +2498,7 @@
                                                           "col" : 20,
                                                           "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                         },
-                                                        "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                        "id" : "sources\\medplnng2.sqlrpgle#150:46"
                                                       },
                                                       "pos" : {
                                                         "kind" : "SrcPos",
@@ -2507,7 +2507,7 @@
                                                         "col" : 20,
                                                         "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                       },
-                                                      "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                      "id" : "sources\\medplnng2.sqlrpgle#150:47"
                                                     },
                                                     "pos" : {
                                                       "kind" : "SrcPos",
@@ -2516,7 +2516,7 @@
                                                       "col" : 20,
                                                       "id" : "sources\\medplnng2.sqlrpgle#150:20"
                                                     },
-                                                    "id" : "sources\\medplnng2.sqlrpgle#150:20"
+                                                    "id" : "sources\\medplnng2.sqlrpgle#150:48"
                                                   },
                                                   "pos" : {
                                                     "kind" : "SrcPos",
@@ -2581,7 +2581,7 @@
                                                     "col" : 8,
                                                     "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                                   },
-                                                  "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                                  "id" : "sources\\medplnng2.sqlrpgle#179:37"
                                                 },
                                                 "pos" : {
                                                   "kind" : "SrcPos",
@@ -2590,7 +2590,7 @@
                                                   "col" : 8,
                                                   "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                                 },
-                                                "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                                "id" : "sources\\medplnng2.sqlrpgle#179:38"
                                               },
                                               "pos" : {
                                                 "kind" : "SrcPos",
@@ -2599,7 +2599,7 @@
                                                 "col" : 8,
                                                 "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                               },
-                                              "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                              "id" : "sources\\medplnng2.sqlrpgle#179:39"
                                             },
                                             "pos" : {
                                               "kind" : "SrcPos",
@@ -2608,7 +2608,7 @@
                                               "col" : 8,
                                               "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                             },
-                                            "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                            "id" : "sources\\medplnng2.sqlrpgle#179:40"
                                           },
                                           "pos" : {
                                             "kind" : "SrcPos",
@@ -2617,7 +2617,7 @@
                                             "col" : 8,
                                             "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                           },
-                                          "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                          "id" : "sources\\medplnng2.sqlrpgle#179:41"
                                         },
                                         "pos" : {
                                           "kind" : "SrcPos",
@@ -2626,7 +2626,7 @@
                                           "col" : 8,
                                           "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                         },
-                                        "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                        "id" : "sources\\medplnng2.sqlrpgle#179:42"
                                       },
                                       "pos" : {
                                         "kind" : "SrcPos",
@@ -2635,7 +2635,7 @@
                                         "col" : 8,
                                         "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                       },
-                                      "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                      "id" : "sources\\medplnng2.sqlrpgle#179:43"
                                     },
                                     "pos" : {
                                       "kind" : "SrcPos",
@@ -2644,7 +2644,7 @@
                                       "col" : 8,
                                       "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                     },
-                                    "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                    "id" : "sources\\medplnng2.sqlrpgle#179:44"
                                   },
                                   "pos" : {
                                     "kind" : "SrcPos",
@@ -2653,7 +2653,7 @@
                                     "col" : 8,
                                     "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                   },
-                                  "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                  "id" : "sources\\medplnng2.sqlrpgle#179:45"
                                 },
                                 "pos" : {
                                   "kind" : "SrcPos",
@@ -2662,7 +2662,7 @@
                                   "col" : 8,
                                   "id" : "sources\\medplnng2.sqlrpgle#179:8"
                                 },
-                                "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                                "id" : "sources\\medplnng2.sqlrpgle#179:46"
                               },
                               "pos" : {
                                 "kind" : "SrcPos",
@@ -2671,7 +2671,7 @@
                                 "col" : 8,
                                 "id" : "sources\\medplnng2.sqlrpgle#179:8"
                               },
-                              "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                              "id" : "sources\\medplnng2.sqlrpgle#179:47"
                             },
                             "pos" : {
                               "kind" : "SrcPos",
@@ -2680,7 +2680,7 @@
                               "col" : 8,
                               "id" : "sources\\medplnng2.sqlrpgle#179:8"
                             },
-                            "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                            "id" : "sources\\medplnng2.sqlrpgle#179:48"
                           },
                           "pos" : {
                             "kind" : "SrcPos",
@@ -2689,7 +2689,7 @@
                             "col" : 8,
                             "id" : "sources\\medplnng2.sqlrpgle#179:8"
                           },
-                          "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                          "id" : "sources\\medplnng2.sqlrpgle#179:49"
                         },
                         "pos" : {
                           "kind" : "SrcPos",
@@ -2698,7 +2698,7 @@
                           "col" : 8,
                           "id" : "sources\\medplnng2.sqlrpgle#179:8"
                         },
-                        "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                        "id" : "sources\\medplnng2.sqlrpgle#179:50"
                       },
                       "pos" : {
                         "kind" : "SrcPos",
@@ -2707,7 +2707,7 @@
                         "col" : 8,
                         "id" : "sources\\medplnng2.sqlrpgle#179:8"
                       },
-                      "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                      "id" : "sources\\medplnng2.sqlrpgle#179:51"
                     },
                     "pos" : {
                       "kind" : "SrcPos",
@@ -2716,7 +2716,7 @@
                       "col" : 8,
                       "id" : "sources\\medplnng2.sqlrpgle#179:8"
                     },
-                    "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                    "id" : "sources\\medplnng2.sqlrpgle#179:52"
                   },
                   "pos" : {
                     "kind" : "SrcPos",
@@ -2725,7 +2725,7 @@
                     "col" : 8,
                     "id" : "sources\\medplnng2.sqlrpgle#179:8"
                   },
-                  "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                  "id" : "sources\\medplnng2.sqlrpgle#179:53"
                 },
                 "pos" : {
                   "kind" : "SrcPos",
@@ -2734,7 +2734,7 @@
                   "col" : 8,
                   "id" : "sources\\medplnng2.sqlrpgle#179:8"
                 },
-                "id" : "sources\\medplnng2.sqlrpgle#179:8"
+                "id" : "sources\\medplnng2.sqlrpgle#179:54"
               },
               "pos" : {
                 "kind" : "SrcPos",
@@ -2743,7 +2743,7 @@
                 "col" : 8,
                 "id" : "sources\\medplnng2.sqlrpgle#179:8"
               },
-              "id" : "sources\\medplnng2.sqlrpgle#179:8"
+              "id" : "sources\\medplnng2.sqlrpgle#179:55"
             },
             "pos" : {
               "kind" : "SrcPos",
@@ -2752,7 +2752,7 @@
               "col" : 8,
               "id" : "sources\\medplnng2.sqlrpgle#179:8"
             },
-            "id" : "sources\\medplnng2.sqlrpgle#179:8"
+            "id" : "sources\\medplnng2.sqlrpgle#179:56"
           },
           "pos" : {
             "kind" : "SrcPos",
@@ -2761,7 +2761,7 @@
             "col" : 8,
             "id" : "sources\\medplnng2.sqlrpgle#179:8"
           },
-          "id" : "sources\\medplnng2.sqlrpgle#179:8"
+          "id" : "sources\\medplnng2.sqlrpgle#179:57"
         },
         "pos" : {
           "kind" : "SrcPos",
@@ -2770,7 +2770,7 @@
           "col" : 8,
           "id" : "sources\\medplnng2.sqlrpgle#179:8"
         },
-        "id" : "sources\\medplnng2.sqlrpgle#179:8"
+        "id" : "sources\\medplnng2.sqlrpgle#179:58"
       },
       "pos" : {
         "kind" : "SrcPos",
@@ -2779,7 +2779,7 @@
         "col" : 8,
         "id" : "sources\\medplnng2.sqlrpgle#179:8"
       },
-      "id" : "sources\\medplnng2.sqlrpgle#179:8"
+      "id" : "sources\\medplnng2.sqlrpgle#179:59"
     },
     "pos" : {
       "kind" : "SrcPos",
