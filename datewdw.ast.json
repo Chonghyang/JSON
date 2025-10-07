@@ -41,8 +41,8 @@
       "id" : "sources\\datewdw.rpgle#12:10"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\datewdw.rpgle#12:10"
   }, {
     "kind" : "DProc",
@@ -284,5 +284,6 @@
     "col" : 1,
     "id" : "sources\\datewdw.rpgle#1:1"
   },
+  "name" : "datewdw.rpgle",
   "id" : "sources\\datewdw.rpgle#1:1"
 }

@@ -204,8 +204,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#13:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "*user",
     "id" : "sources\\hsptl_main.sqlrpgle#13:8"
   }, {
@@ -222,8 +222,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#14:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\hsptl_main.sqlrpgle#14:8"
   }, {
     "kind" : "DProto",
@@ -1402,5 +1402,6 @@
     "col" : 1,
     "id" : "sources\\hsptl_main.sqlrpgle#1:1"
   },
+  "name" : "hsptl_main.sqlrpgle",
   "id" : "sources\\hsptl_main.sqlrpgle#1:1"
 }

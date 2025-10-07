@@ -41,8 +41,8 @@
       "id" : "sources\\prswdw.sqlrpgle#6:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "0",
     "id" : "sources\\prswdw.sqlrpgle#6:8"
   }, {
@@ -59,8 +59,8 @@
       "id" : "sources\\prswdw.sqlrpgle#7:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "0",
     "id" : "sources\\prswdw.sqlrpgle#7:8"
   }, {
@@ -77,8 +77,8 @@
       "id" : "sources\\prswdw.sqlrpgle#8:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prswdw.sqlrpgle#8:8"
   }, {
     "kind" : "DProc",
@@ -2184,5 +2184,6 @@
     "col" : 1,
     "id" : "sources\\prswdw.sqlrpgle#1:1"
   },
+  "name" : "prswdw.sqlrpgle",
   "id" : "sources\\prswdw.sqlrpgle#1:1"
 }

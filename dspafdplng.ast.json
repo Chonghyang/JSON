@@ -341,8 +341,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#40:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\dspafdplng.sqlrpgle#40:8"
   }, {
     "kind" : "DStandaloneField",
@@ -358,8 +358,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#41:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\dspafdplng.sqlrpgle#41:8"
   }, {
     "kind" : "DStandaloneField",
@@ -375,8 +375,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#42:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "*off",
     "id" : "sources\\dspafdplng.sqlrpgle#42:8"
   }, {
@@ -393,8 +393,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#43:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "1",
     "id" : "sources\\dspafdplng.sqlrpgle#43:8"
   }, {
@@ -411,8 +411,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#44:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\dspafdplng.sqlrpgle#44:8"
   }, {
     "kind" : "DStandaloneField",
@@ -428,8 +428,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#45:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\dspafdplng.sqlrpgle#45:8"
   }, {
     "kind" : "DStandaloneField",
@@ -445,8 +445,8 @@
       "id" : "sources\\dspafdplng.sqlrpgle#46:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\dspafdplng.sqlrpgle#46:8"
   }, {
     "kind" : "DProc",
@@ -4116,5 +4116,6 @@
     "col" : 1,
     "id" : "sources\\dspafdplng.sqlrpgle#1:1"
   },
+  "name" : "dspafdplng.sqlrpgle",
   "id" : "sources\\dspafdplng.sqlrpgle#1:1"
 }

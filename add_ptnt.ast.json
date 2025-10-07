@@ -29,8 +29,8 @@
       "id" : "sources\\add_ptnt.sqlrpgle#4:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\add_ptnt.sqlrpgle#4:8"
   }, {
     "kind" : "DStandaloneField",
@@ -46,8 +46,8 @@
       "id" : "sources\\add_ptnt.sqlrpgle#5:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\add_ptnt.sqlrpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
@@ -63,8 +63,8 @@
       "id" : "sources\\add_ptnt.sqlrpgle#6:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\add_ptnt.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -80,8 +80,8 @@
       "id" : "sources\\add_ptnt.sqlrpgle#7:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\add_ptnt.sqlrpgle#7:8"
   } ],
   "main" : {
@@ -1315,5 +1315,6 @@
     "col" : 1,
     "id" : "sources\\add_ptnt.sqlrpgle#1:1"
   },
+  "name" : "add_ptnt.sqlrpgle",
   "id" : "sources\\add_ptnt.sqlrpgle#1:1"
 }

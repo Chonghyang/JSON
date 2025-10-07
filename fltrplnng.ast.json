@@ -319,8 +319,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#28:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "0",
     "id" : "sources\\fltrplnng.sqlrpgle#28:8"
   }, {
@@ -337,8 +337,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#29:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#29:8"
   }, {
     "kind" : "DStandaloneField",
@@ -354,8 +354,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#30:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#30:8"
   }, {
     "kind" : "DStandaloneField",
@@ -371,8 +371,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#31:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#31:8"
   }, {
     "kind" : "DStandaloneField",
@@ -388,8 +388,8 @@
       "id" : "sources\\fltrplnng.sqlrpgle#32:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\fltrplnng.sqlrpgle#32:8"
   }, {
     "kind" : "DDataStructure",
@@ -2848,5 +2848,6 @@
     "col" : 1,
     "id" : "sources\\fltrplnng.sqlrpgle#1:1"
   },
+  "name" : "fltrplnng.sqlrpgle",
   "id" : "sources\\fltrplnng.sqlrpgle#1:1"
 }

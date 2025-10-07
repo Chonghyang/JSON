@@ -26,8 +26,8 @@
       "id" : "sources\\checkdep.sqlrpgle#4:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\checkdep.sqlrpgle#4:8"
   }, {
     "kind" : "DStandaloneField",
@@ -43,8 +43,8 @@
       "id" : "sources\\checkdep.sqlrpgle#5:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\checkdep.sqlrpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
@@ -60,8 +60,8 @@
       "id" : "sources\\checkdep.sqlrpgle#6:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\checkdep.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -77,8 +77,8 @@
       "id" : "sources\\checkdep.sqlrpgle#7:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\checkdep.sqlrpgle#7:8"
   }, {
     "kind" : "DProc",
@@ -648,5 +648,6 @@
     "col" : 1,
     "id" : "sources\\checkdep.sqlrpgle#1:1"
   },
+  "name" : "checkdep.sqlrpgle",
   "id" : "sources\\checkdep.sqlrpgle#1:1"
 }

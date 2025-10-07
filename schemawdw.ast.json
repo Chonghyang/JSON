@@ -41,8 +41,8 @@
       "id" : "sources\\schemawdw.sqlrpgle#6:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "0",
     "id" : "sources\\schemawdw.sqlrpgle#6:8"
   }, {
@@ -59,8 +59,8 @@
       "id" : "sources\\schemawdw.sqlrpgle#7:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\schemawdw.sqlrpgle#7:8"
   }, {
     "kind" : "DProc",
@@ -1126,5 +1126,6 @@
     "col" : 1,
     "id" : "sources\\schemawdw.sqlrpgle#1:1"
   },
+  "name" : "schemawdw.sqlrpgle",
   "id" : "sources\\schemawdw.sqlrpgle#1:1"
 }

@@ -444,8 +444,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#39:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#39:8"
   }, {
     "kind" : "DStandaloneField",
@@ -461,8 +461,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#40:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#40:8"
   }, {
     "kind" : "DStandaloneField",
@@ -478,8 +478,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#41:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "*off",
     "id" : "sources\\prs_plng.sqlrpgle#41:8"
   }, {
@@ -496,8 +496,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#42:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#42:8"
   }, {
     "kind" : "DStandaloneField",
@@ -513,8 +513,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#43:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#43:8"
   }, {
     "kind" : "DStandaloneField",
@@ -530,8 +530,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#44:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#44:8"
   }, {
     "kind" : "DStandaloneField",
@@ -547,8 +547,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#45:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#45:8"
   }, {
     "kind" : "DStandaloneField",
@@ -564,8 +564,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#46:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#46:8"
   }, {
     "kind" : "DStandaloneField",
@@ -581,8 +581,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#47:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "1",
     "id" : "sources\\prs_plng.sqlrpgle#47:8"
   }, {
@@ -599,8 +599,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#48:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "12",
     "id" : "sources\\prs_plng.sqlrpgle#48:8"
   }, {
@@ -617,8 +617,8 @@
       "id" : "sources\\prs_plng.sqlrpgle#49:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\prs_plng.sqlrpgle#49:8"
   }, {
     "kind" : "DProc",
@@ -5323,5 +5323,6 @@
     "col" : 1,
     "id" : "sources\\prs_plng.sqlrpgle#1:1"
   },
+  "name" : "prs_plng.sqlrpgle",
   "id" : "sources\\prs_plng.sqlrpgle#1:1"
 }

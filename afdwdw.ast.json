@@ -83,8 +83,8 @@
       "id" : "sources\\afdwdw.sqlrpgle#10:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "initValue" : "1",
     "id" : "sources\\afdwdw.sqlrpgle#10:8"
   }, {
@@ -101,8 +101,8 @@
       "id" : "sources\\afdwdw.sqlrpgle#11:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\afdwdw.sqlrpgle#11:8"
   }, {
     "kind" : "DDataStructure",
@@ -920,8 +920,8 @@
       "id" : "sources\\afdwdw.sqlrpgle#64:12"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\afdwdw.sqlrpgle#64:12"
   }, {
     "kind" : "DProc",
@@ -1189,5 +1189,6 @@
     "col" : 1,
     "id" : "sources\\afdwdw.sqlrpgle#1:1"
   },
+  "name" : "afdwdw.sqlrpgle",
   "id" : "sources\\afdwdw.sqlrpgle#1:1"
 }

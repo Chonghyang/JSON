@@ -111,8 +111,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#16:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#16:8"
   }, {
     "kind" : "DStandaloneField",
@@ -128,8 +128,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#19:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#19:8"
   }, {
     "kind" : "DStandaloneField",
@@ -145,8 +145,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#20:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#20:8"
   }, {
     "kind" : "DStandaloneField",
@@ -162,8 +162,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#21:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#21:8"
   }, {
     "kind" : "DStandaloneField",
@@ -179,8 +179,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#22:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#22:8"
   }, {
     "kind" : "DStandaloneField",
@@ -196,8 +196,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#23:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#23:8"
   }, {
     "kind" : "DStandaloneField",
@@ -213,8 +213,8 @@
       "id" : "sources\\medplnng2.sqlrpgle#24:8"
     },
     "static" : false,
-    "template" : false,
     "const" : false,
+    "template" : false,
     "id" : "sources\\medplnng2.sqlrpgle#24:8"
   }, {
     "kind" : "DDataStructure",
@@ -3036,5 +3036,6 @@
     "col" : 1,
     "id" : "sources\\medplnng2.sqlrpgle#1:1"
   },
+  "name" : "medplnng2.sqlrpgle",
   "id" : "sources\\medplnng2.sqlrpgle#1:1"
 }
