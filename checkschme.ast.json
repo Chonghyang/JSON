@@ -5,11 +5,12 @@
     "options" : { },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 3,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\checkschme.sqlrpgle#3:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#3:8"
+    "id" : "sources\\checkschme.sqlrpgle#3:8"
   }, {
     "kind" : "DStandaloneField",
     "name" : "N",
@@ -17,14 +18,15 @@
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 5,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\checkschme.sqlrpgle#5:8"
     },
     "static" : false,
     "template" : false,
     "const" : false,
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#5:8"
+    "id" : "sources\\checkschme.sqlrpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
     "name" : "S",
@@ -32,14 +34,15 @@
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 6,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\checkschme.sqlrpgle#6:8"
     },
     "static" : false,
     "template" : false,
     "const" : false,
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#6:8"
+    "id" : "sources\\checkschme.sqlrpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
     "name" : "Number",
@@ -47,14 +50,15 @@
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 7,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\checkschme.sqlrpgle#7:8"
     },
     "static" : false,
     "template" : false,
     "const" : false,
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#7:8"
+    "id" : "sources\\checkschme.sqlrpgle#7:8"
   }, {
     "kind" : "DStandaloneField",
     "name" : "returnval",
@@ -62,413 +66,529 @@
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 8,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\checkschme.sqlrpgle#8:8"
     },
     "static" : false,
     "template" : false,
     "const" : false,
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#8:8"
+    "id" : "sources\\checkschme.sqlrpgle#8:8"
   }, {
     "kind" : "DProc",
     "name" : "CheckSchme",
     "exported" : true,
     "params" : [ {
+      "kind" : "Param",
       "name" : "InputValue",
       "typeText" : "char(20)",
       "byRef" : true,
       "varying" : false,
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+        "file" : "sources\\checkschme.sqlrpgle",
         "line" : 12,
-        "col" : 12
-      }
+        "col" : 12,
+        "id" : "sources\\checkschme.sqlrpgle#12:12"
+      },
+      "id" : "sources\\checkschme.sqlrpgle#12:12"
     } ],
     "returns" : "char(20)",
     "body" : {
-      "kind" : "SBlock",
-      "stmts" : [ {
+      "kind" : "SSeq",
+      "left" : {
         "kind" : "SAssign",
-        "lhs" : {
+        "left" : {
           "kind" : "EVar",
           "name" : "N",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+            "file" : "sources\\checkschme.sqlrpgle",
             "line" : 16,
-            "col" : 12
+            "col" : 12,
+            "id" : "sources\\checkschme.sqlrpgle#16:12"
           },
-          "nameUpper" : "N"
+          "nameUpper" : "N",
+          "id" : "sources\\checkschme.sqlrpgle#16:12"
         },
         "op" : "=",
-        "rhs" : {
+        "right" : {
           "kind" : "ERaw",
           "text" : "%dec(InputValue:1:0)",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+            "file" : "sources\\checkschme.sqlrpgle",
             "line" : 16,
-            "col" : 16
-          }
+            "col" : 16,
+            "id" : "sources\\checkschme.sqlrpgle#16:16"
+          },
+          "id" : "sources\\checkschme.sqlrpgle#16:16"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+          "file" : "sources\\checkschme.sqlrpgle",
           "line" : 16,
-          "col" : 12
+          "col" : 12,
+          "id" : "sources\\checkschme.sqlrpgle#16:12"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#16:12"
-      }, {
-        "kind" : "SAssign",
-        "lhs" : {
-          "kind" : "EVar",
-          "name" : "Number",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 17,
-            "col" : 12
-          },
-          "nameUpper" : "NUMBER"
-        },
-        "op" : "=",
-        "rhs" : {
-          "kind" : "EVar",
-          "name" : "*on",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 17,
-            "col" : 21
-          },
-          "nameUpper" : "*ON"
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 17,
-          "col" : 12
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#17:12"
-      }, {
-        "kind" : "SAssign",
-        "lhs" : {
-          "kind" : "EVar",
-          "name" : "S",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 19,
-            "col" : 12
-          },
-          "nameUpper" : "S"
-        },
-        "op" : "=",
-        "rhs" : {
-          "kind" : "EVar",
-          "name" : "InputValue",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 19,
-            "col" : 16
-          },
-          "nameUpper" : "INPUTVALUE"
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 19,
-          "col" : 12
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#19:12"
-      }, {
-        "kind" : "SAssign",
-        "lhs" : {
-          "kind" : "EVar",
-          "name" : "Number",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 20,
-            "col" : 12
-          },
-          "nameUpper" : "NUMBER"
-        },
-        "op" : "=",
-        "rhs" : {
-          "kind" : "EVar",
-          "name" : "*off",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 20,
-            "col" : 21
-          },
-          "nameUpper" : "*OFF"
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 20,
-          "col" : 12
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#20:12"
-      }, {
-        "kind" : "SIf",
-        "cond" : {
-          "kind" : "EVar",
-          "name" : "Number",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 23,
-            "col" : 13
-          },
-          "nameUpper" : "NUMBER"
-        },
-        "thenBranch" : {
-          "kind" : "SExsr",
-          "subroutineName" : "sqlN",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 24,
-            "col" : 12
-          },
-          "subroutineUpper" : "SQLN",
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#24:12"
-        },
-        "elseBranch" : {
-          "kind" : "SExsr",
-          "subroutineName" : "sqlS",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 26,
-            "col" : 12
-          },
-          "subroutineUpper" : "SQLS",
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#26:12"
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 23,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10"
-      }, {
-        "kind" : "SBegsrMarker",
-        "subroutineName" : "sqlN",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 33,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#33:10"
-      }, {
-        "kind" : "SIf",
-        "cond" : {
-          "kind" : "EBin",
-          "op" : "<>",
+        "flattened" : false,
+        "id" : "sources\\checkschme.sqlrpgle#16:12"
+      },
+      "right" : {
+        "kind" : "SSeq",
+        "left" : {
+          "kind" : "SAssign",
           "left" : {
             "kind" : "EVar",
-            "name" : "SQLSTATE",
+            "name" : "Number",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 35,
-              "col" : 15
+              "file" : "sources\\checkschme.sqlrpgle",
+              "line" : 17,
+              "col" : 12,
+              "id" : "sources\\checkschme.sqlrpgle#17:12"
             },
-            "nameUpper" : "SQLSTATE"
-          },
-          "right" : {
-            "kind" : "EConst",
-            "value" : "'00000'",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 35,
-              "col" : 25
-            }
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 35,
-            "col" : 15
-          }
-        },
-        "thenBranch" : {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "returnval",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 36,
-              "col" : 14
-            },
-            "nameUpper" : "RETURNVAL"
+            "nameUpper" : "NUMBER",
+            "id" : "sources\\checkschme.sqlrpgle#17:12"
           },
           "op" : "=",
-          "rhs" : {
-            "kind" : "EConst",
-            "value" : "''",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 36,
-              "col" : 26
-            }
-          },
+          "rightFlat" : "*on",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 36,
-            "col" : 14
+            "file" : "sources\\checkschme.sqlrpgle",
+            "line" : 17,
+            "col" : 12,
+            "id" : "sources\\checkschme.sqlrpgle#17:12"
           },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#36:14"
+          "flattened" : true,
+          "id" : "sources\\checkschme.sqlrpgle#17:12"
         },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 35,
-          "col" : 12
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#35:12"
-      }, {
-        "kind" : "SEndsrMarker",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 38,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#38:10"
-      }, {
-        "kind" : "SBegsrMarker",
-        "subroutineName" : "sqlS",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 39,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#39:10"
-      }, {
-        "kind" : "SIf",
-        "cond" : {
-          "kind" : "EBin",
-          "op" : "<>",
+        "right" : {
+          "kind" : "SSeq",
           "left" : {
-            "kind" : "EVar",
-            "name" : "SQLSTATE",
+            "kind" : "SAssign",
+            "left" : {
+              "kind" : "EVar",
+              "name" : "S",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "sources\\checkschme.sqlrpgle",
+                "line" : 19,
+                "col" : 12,
+                "id" : "sources\\checkschme.sqlrpgle#19:12"
+              },
+              "nameUpper" : "S",
+              "id" : "sources\\checkschme.sqlrpgle#19:12"
+            },
+            "op" : "=",
+            "rightFlat" : "InputValue",
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 41,
-              "col" : 15
+              "file" : "sources\\checkschme.sqlrpgle",
+              "line" : 19,
+              "col" : 12,
+              "id" : "sources\\checkschme.sqlrpgle#19:12"
             },
-            "nameUpper" : "SQLSTATE"
+            "flattened" : true,
+            "id" : "sources\\checkschme.sqlrpgle#19:12"
           },
           "right" : {
-            "kind" : "EConst",
-            "value" : "'00000'",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 41,
-              "col" : 25
-            }
-          },
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 41,
-            "col" : 15
-          }
-        },
-        "thenBranch" : {
-          "kind" : "SAssign",
-          "lhs" : {
-            "kind" : "EVar",
-            "name" : "returnval",
-            "pos" : {
-              "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 42,
-              "col" : 14
+            "kind" : "SSeq",
+            "left" : {
+              "kind" : "SAssign",
+              "left" : {
+                "kind" : "EVar",
+                "name" : "Number",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\checkschme.sqlrpgle",
+                  "line" : 20,
+                  "col" : 12,
+                  "id" : "sources\\checkschme.sqlrpgle#20:12"
+                },
+                "nameUpper" : "NUMBER",
+                "id" : "sources\\checkschme.sqlrpgle#20:12"
+              },
+              "op" : "=",
+              "rightFlat" : "*off",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "sources\\checkschme.sqlrpgle",
+                "line" : 20,
+                "col" : 12,
+                "id" : "sources\\checkschme.sqlrpgle#20:12"
+              },
+              "flattened" : true,
+              "id" : "sources\\checkschme.sqlrpgle#20:12"
             },
-            "nameUpper" : "RETURNVAL"
-          },
-          "op" : "=",
-          "rhs" : {
-            "kind" : "EConst",
-            "value" : "''",
+            "right" : {
+              "kind" : "SSeq",
+              "left" : {
+                "kind" : "SIf",
+                "cond" : {
+                  "kind" : "EVar",
+                  "name" : "Number",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\checkschme.sqlrpgle",
+                    "line" : 23,
+                    "col" : 13,
+                    "id" : "sources\\checkschme.sqlrpgle#23:13"
+                  },
+                  "nameUpper" : "NUMBER",
+                  "id" : "sources\\checkschme.sqlrpgle#23:13"
+                },
+                "thenBranch" : {
+                  "kind" : "SExsr",
+                  "subroutineName" : "sqlN",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\checkschme.sqlrpgle",
+                    "line" : 24,
+                    "col" : 12,
+                    "id" : "sources\\checkschme.sqlrpgle#24:12"
+                  },
+                  "subroutineUpper" : "SQLN",
+                  "id" : "sources\\checkschme.sqlrpgle#24:12"
+                },
+                "elseBranch" : {
+                  "kind" : "SExsr",
+                  "subroutineName" : "sqlS",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\checkschme.sqlrpgle",
+                    "line" : 26,
+                    "col" : 12,
+                    "id" : "sources\\checkschme.sqlrpgle#26:12"
+                  },
+                  "subroutineUpper" : "SQLS",
+                  "id" : "sources\\checkschme.sqlrpgle#26:12"
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\checkschme.sqlrpgle",
+                  "line" : 23,
+                  "col" : 10,
+                  "id" : "sources\\checkschme.sqlrpgle#23:10"
+                },
+                "id" : "sources\\checkschme.sqlrpgle#23:10"
+              },
+              "right" : {
+                "kind" : "SSeq",
+                "left" : {
+                  "kind" : "SBegsrMarker",
+                  "subroutineName" : "sqlN",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\checkschme.sqlrpgle",
+                    "line" : 33,
+                    "col" : 10,
+                    "id" : "sources\\checkschme.sqlrpgle#33:10"
+                  },
+                  "id" : "sources\\checkschme.sqlrpgle#33:10"
+                },
+                "right" : {
+                  "kind" : "SSeq",
+                  "left" : {
+                    "kind" : "SIf",
+                    "cond" : {
+                      "kind" : "EBin",
+                      "op" : "<>",
+                      "left" : {
+                        "kind" : "EVar",
+                        "name" : "SQLSTATE",
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\checkschme.sqlrpgle",
+                          "line" : 35,
+                          "col" : 15,
+                          "id" : "sources\\checkschme.sqlrpgle#35:15"
+                        },
+                        "nameUpper" : "SQLSTATE",
+                        "id" : "sources\\checkschme.sqlrpgle#35:15"
+                      },
+                      "right" : {
+                        "kind" : "EConst",
+                        "value" : "'00000'",
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\checkschme.sqlrpgle",
+                          "line" : 35,
+                          "col" : 25,
+                          "id" : "sources\\checkschme.sqlrpgle#35:25"
+                        },
+                        "id" : "sources\\checkschme.sqlrpgle#35:25"
+                      },
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\checkschme.sqlrpgle",
+                        "line" : 35,
+                        "col" : 15,
+                        "id" : "sources\\checkschme.sqlrpgle#35:15"
+                      },
+                      "id" : "sources\\checkschme.sqlrpgle#35:15"
+                    },
+                    "thenBranch" : {
+                      "kind" : "SAssign",
+                      "left" : {
+                        "kind" : "EVar",
+                        "name" : "returnval",
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\checkschme.sqlrpgle",
+                          "line" : 36,
+                          "col" : 14,
+                          "id" : "sources\\checkschme.sqlrpgle#36:14"
+                        },
+                        "nameUpper" : "RETURNVAL",
+                        "id" : "sources\\checkschme.sqlrpgle#36:14"
+                      },
+                      "op" : "=",
+                      "rightFlat" : "''",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\checkschme.sqlrpgle",
+                        "line" : 36,
+                        "col" : 14,
+                        "id" : "sources\\checkschme.sqlrpgle#36:14"
+                      },
+                      "flattened" : true,
+                      "id" : "sources\\checkschme.sqlrpgle#36:14"
+                    },
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "sources\\checkschme.sqlrpgle",
+                      "line" : 35,
+                      "col" : 12,
+                      "id" : "sources\\checkschme.sqlrpgle#35:12"
+                    },
+                    "id" : "sources\\checkschme.sqlrpgle#35:12"
+                  },
+                  "right" : {
+                    "kind" : "SSeq",
+                    "left" : {
+                      "kind" : "SEndsrMarker",
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\checkschme.sqlrpgle",
+                        "line" : 38,
+                        "col" : 10,
+                        "id" : "sources\\checkschme.sqlrpgle#38:10"
+                      },
+                      "id" : "sources\\checkschme.sqlrpgle#38:10"
+                    },
+                    "right" : {
+                      "kind" : "SSeq",
+                      "left" : {
+                        "kind" : "SBegsrMarker",
+                        "subroutineName" : "sqlS",
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\checkschme.sqlrpgle",
+                          "line" : 39,
+                          "col" : 10,
+                          "id" : "sources\\checkschme.sqlrpgle#39:10"
+                        },
+                        "id" : "sources\\checkschme.sqlrpgle#39:10"
+                      },
+                      "right" : {
+                        "kind" : "SSeq",
+                        "left" : {
+                          "kind" : "SIf",
+                          "cond" : {
+                            "kind" : "EBin",
+                            "op" : "<>",
+                            "left" : {
+                              "kind" : "EVar",
+                              "name" : "SQLSTATE",
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\checkschme.sqlrpgle",
+                                "line" : 41,
+                                "col" : 15,
+                                "id" : "sources\\checkschme.sqlrpgle#41:15"
+                              },
+                              "nameUpper" : "SQLSTATE",
+                              "id" : "sources\\checkschme.sqlrpgle#41:15"
+                            },
+                            "right" : {
+                              "kind" : "EConst",
+                              "value" : "'00000'",
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\checkschme.sqlrpgle",
+                                "line" : 41,
+                                "col" : 25,
+                                "id" : "sources\\checkschme.sqlrpgle#41:25"
+                              },
+                              "id" : "sources\\checkschme.sqlrpgle#41:25"
+                            },
+                            "pos" : {
+                              "kind" : "SrcPos",
+                              "file" : "sources\\checkschme.sqlrpgle",
+                              "line" : 41,
+                              "col" : 15,
+                              "id" : "sources\\checkschme.sqlrpgle#41:15"
+                            },
+                            "id" : "sources\\checkschme.sqlrpgle#41:15"
+                          },
+                          "thenBranch" : {
+                            "kind" : "SAssign",
+                            "left" : {
+                              "kind" : "EVar",
+                              "name" : "returnval",
+                              "pos" : {
+                                "kind" : "SrcPos",
+                                "file" : "sources\\checkschme.sqlrpgle",
+                                "line" : 42,
+                                "col" : 14,
+                                "id" : "sources\\checkschme.sqlrpgle#42:14"
+                              },
+                              "nameUpper" : "RETURNVAL",
+                              "id" : "sources\\checkschme.sqlrpgle#42:14"
+                            },
+                            "op" : "=",
+                            "rightFlat" : "''",
+                            "pos" : {
+                              "kind" : "SrcPos",
+                              "file" : "sources\\checkschme.sqlrpgle",
+                              "line" : 42,
+                              "col" : 14,
+                              "id" : "sources\\checkschme.sqlrpgle#42:14"
+                            },
+                            "flattened" : true,
+                            "id" : "sources\\checkschme.sqlrpgle#42:14"
+                          },
+                          "pos" : {
+                            "kind" : "SrcPos",
+                            "file" : "sources\\checkschme.sqlrpgle",
+                            "line" : 41,
+                            "col" : 12,
+                            "id" : "sources\\checkschme.sqlrpgle#41:12"
+                          },
+                          "id" : "sources\\checkschme.sqlrpgle#41:12"
+                        },
+                        "right" : {
+                          "kind" : "SEndsrMarker",
+                          "pos" : {
+                            "kind" : "SrcPos",
+                            "file" : "sources\\checkschme.sqlrpgle",
+                            "line" : 44,
+                            "col" : 10,
+                            "id" : "sources\\checkschme.sqlrpgle#44:10"
+                          },
+                          "id" : "sources\\checkschme.sqlrpgle#44:10"
+                        },
+                        "pos" : {
+                          "kind" : "SrcPos",
+                          "file" : "sources\\checkschme.sqlrpgle",
+                          "line" : 46,
+                          "col" : 8,
+                          "id" : "sources\\checkschme.sqlrpgle#46:8"
+                        },
+                        "id" : "sources\\checkschme.sqlrpgle#46:8"
+                      },
+                      "pos" : {
+                        "kind" : "SrcPos",
+                        "file" : "sources\\checkschme.sqlrpgle",
+                        "line" : 46,
+                        "col" : 8,
+                        "id" : "sources\\checkschme.sqlrpgle#46:8"
+                      },
+                      "id" : "sources\\checkschme.sqlrpgle#46:8"
+                    },
+                    "pos" : {
+                      "kind" : "SrcPos",
+                      "file" : "sources\\checkschme.sqlrpgle",
+                      "line" : 46,
+                      "col" : 8,
+                      "id" : "sources\\checkschme.sqlrpgle#46:8"
+                    },
+                    "id" : "sources\\checkschme.sqlrpgle#46:8"
+                  },
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\checkschme.sqlrpgle",
+                    "line" : 46,
+                    "col" : 8,
+                    "id" : "sources\\checkschme.sqlrpgle#46:8"
+                  },
+                  "id" : "sources\\checkschme.sqlrpgle#46:8"
+                },
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\checkschme.sqlrpgle",
+                  "line" : 46,
+                  "col" : 8,
+                  "id" : "sources\\checkschme.sqlrpgle#46:8"
+                },
+                "id" : "sources\\checkschme.sqlrpgle#46:8"
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "sources\\checkschme.sqlrpgle",
+                "line" : 46,
+                "col" : 8,
+                "id" : "sources\\checkschme.sqlrpgle#46:8"
+              },
+              "id" : "sources\\checkschme.sqlrpgle#46:8"
+            },
             "pos" : {
               "kind" : "SrcPos",
-              "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-              "line" : 42,
-              "col" : 26
-            }
+              "file" : "sources\\checkschme.sqlrpgle",
+              "line" : 46,
+              "col" : 8,
+              "id" : "sources\\checkschme.sqlrpgle#46:8"
+            },
+            "id" : "sources\\checkschme.sqlrpgle#46:8"
           },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-            "line" : 42,
-            "col" : 14
+            "file" : "sources\\checkschme.sqlrpgle",
+            "line" : 46,
+            "col" : 8,
+            "id" : "sources\\checkschme.sqlrpgle#46:8"
           },
-          "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#42:14"
+          "id" : "sources\\checkschme.sqlrpgle#46:8"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 41,
-          "col" : 12
+          "file" : "sources\\checkschme.sqlrpgle",
+          "line" : 46,
+          "col" : 8,
+          "id" : "sources\\checkschme.sqlrpgle#46:8"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#41:12"
-      }, {
-        "kind" : "SEndsrMarker",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
-          "line" : 44,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#44:10"
-      } ],
+        "id" : "sources\\checkschme.sqlrpgle#46:8"
+      },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+        "file" : "sources\\checkschme.sqlrpgle",
         "line" : 46,
-        "col" : 8
+        "col" : 8,
+        "id" : "sources\\checkschme.sqlrpgle#46:8"
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#16:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#17:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#19:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#20:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#23:10", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#33:10", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#35:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#38:10", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#39:10", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#41:12", "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#44:10" ],
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#46:8"
+      "id" : "sources\\checkschme.sqlrpgle#46:8"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 46,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\checkschme.sqlrpgle#46:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#46:8"
+    "id" : "sources\\checkschme.sqlrpgle#46:8"
   } ],
   "main" : {
     "kind" : "SSkip",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+      "file" : "sources\\checkschme.sqlrpgle",
       "line" : 1,
-      "col" : 1
+      "col" : 1,
+      "id" : "sources\\checkschme.sqlrpgle#1:1"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle#1:1"
+    "id" : "sources\\checkschme.sqlrpgle#1:1"
   },
   "subroutines" : [ ],
   "callGraph" : {
@@ -477,8 +597,10 @@
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\checkschme.sqlrpgle",
+    "file" : "sources\\checkschme.sqlrpgle",
     "line" : 1,
-    "col" : 1
-  }
+    "col" : 1,
+    "id" : "sources\\checkschme.sqlrpgle#1:1"
+  },
+  "id" : "sources\\checkschme.sqlrpgle#1:1"
 }

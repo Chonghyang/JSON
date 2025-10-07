@@ -5,11 +5,12 @@
     "options" : { },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+      "file" : "sources\\datewdw.rpgle",
       "line" : 3,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\datewdw.rpgle#3:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#3:8"
+    "id" : "sources\\datewdw.rpgle#3:8"
   }, {
     "kind" : "DFile",
     "name" : "datwdw",
@@ -18,11 +19,12 @@
     "keyed" : false,
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+      "file" : "sources\\datewdw.rpgle",
       "line" : 5,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\datewdw.rpgle#5:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#5:8"
+    "id" : "sources\\datewdw.rpgle#5:8"
   }, {
     "kind" : "DStandaloneField",
     "name" : "returnvalue",
@@ -30,186 +32,226 @@
     "keywords" : [ ],
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+      "file" : "sources\\datewdw.rpgle",
       "line" : 12,
-      "col" : 10
+      "col" : 10,
+      "id" : "sources\\datewdw.rpgle#12:10"
     },
     "static" : false,
     "template" : false,
     "const" : false,
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#12:10"
+    "id" : "sources\\datewdw.rpgle#12:10"
   }, {
     "kind" : "DProc",
     "name" : "DateWdw",
     "exported" : true,
     "params" : [ {
+      "kind" : "Param",
       "name" : "InputValue",
       "typeText" : "DATE(*iso)",
       "byRef" : true,
       "varying" : false,
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+        "file" : "sources\\datewdw.rpgle",
         "line" : 9,
-        "col" : 12
-      }
+        "col" : 12,
+        "id" : "sources\\datewdw.rpgle#9:12"
+      },
+      "id" : "sources\\datewdw.rpgle#9:12"
     } ],
     "returns" : "date(*iso)",
     "body" : {
-      "kind" : "SBlock",
-      "stmts" : [ {
+      "kind" : "SSeq",
+      "left" : {
         "kind" : "SAssign",
-        "lhs" : {
+        "left" : {
           "kind" : "EVar",
           "name" : "DADATUM",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+            "file" : "sources\\datewdw.rpgle",
             "line" : 14,
-            "col" : 10
+            "col" : 10,
+            "id" : "sources\\datewdw.rpgle#14:10"
           },
-          "nameUpper" : "DADATUM"
+          "nameUpper" : "DADATUM",
+          "id" : "sources\\datewdw.rpgle#14:10"
         },
         "op" : "=",
-        "rhs" : {
-          "kind" : "EVar",
-          "name" : "InputValue",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-            "line" : 14,
-            "col" : 20
-          },
-          "nameUpper" : "INPUTVALUE"
-        },
+        "rightFlat" : "InputValue",
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+          "file" : "sources\\datewdw.rpgle",
           "line" : 14,
-          "col" : 10
+          "col" : 10,
+          "id" : "sources\\datewdw.rpgle#14:10"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#14:10"
-      }, {
-        "kind" : "SWrite",
-        "fileName" : "BASEFMT",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-          "line" : 15,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#15:10"
-      }, {
-        "kind" : "SWrite",
-        "fileName" : "FOOTER",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-          "line" : 16,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#16:10"
-      }, {
-        "kind" : "SExfmt",
-        "recordFormat" : "DATEWINDOW",
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-          "line" : 17,
-          "col" : 10
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#17:10"
-      }, {
-        "kind" : "SAssign",
-        "lhs" : {
-          "kind" : "EVar",
-          "name" : "returnvalue",
+        "flattened" : true,
+        "id" : "sources\\datewdw.rpgle#14:10"
+      },
+      "right" : {
+        "kind" : "SSeq",
+        "left" : {
+          "kind" : "SWrite",
+          "fileName" : "BASEFMT",
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-            "line" : 18,
-            "col" : 10
+            "file" : "sources\\datewdw.rpgle",
+            "line" : 15,
+            "col" : 10,
+            "id" : "sources\\datewdw.rpgle#15:10"
           },
-          "nameUpper" : "RETURNVALUE"
+          "id" : "sources\\datewdw.rpgle#15:10"
         },
-        "op" : "=",
-        "rhs" : {
-          "kind" : "EVar",
-          "name" : "DADATUM",
+        "right" : {
+          "kind" : "SSeq",
+          "left" : {
+            "kind" : "SWrite",
+            "fileName" : "FOOTER",
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "sources\\datewdw.rpgle",
+              "line" : 16,
+              "col" : 10,
+              "id" : "sources\\datewdw.rpgle#16:10"
+            },
+            "id" : "sources\\datewdw.rpgle#16:10"
+          },
+          "right" : {
+            "kind" : "SSeq",
+            "left" : {
+              "kind" : "SExfmt",
+              "recordFormat" : "DATEWINDOW",
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "sources\\datewdw.rpgle",
+                "line" : 17,
+                "col" : 10,
+                "id" : "sources\\datewdw.rpgle#17:10"
+              },
+              "id" : "sources\\datewdw.rpgle#17:10"
+            },
+            "right" : {
+              "kind" : "SSeq",
+              "left" : {
+                "kind" : "SAssign",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "returnvalue",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\datewdw.rpgle",
+                    "line" : 18,
+                    "col" : 10,
+                    "id" : "sources\\datewdw.rpgle#18:10"
+                  },
+                  "nameUpper" : "RETURNVALUE",
+                  "id" : "sources\\datewdw.rpgle#18:10"
+                },
+                "op" : "=",
+                "rightFlat" : "DADATUM",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\datewdw.rpgle",
+                  "line" : 18,
+                  "col" : 10,
+                  "id" : "sources\\datewdw.rpgle#18:10"
+                },
+                "flattened" : true,
+                "id" : "sources\\datewdw.rpgle#18:10"
+              },
+              "right" : {
+                "kind" : "SAssign",
+                "left" : {
+                  "kind" : "EVar",
+                  "name" : "inlr",
+                  "pos" : {
+                    "kind" : "SrcPos",
+                    "file" : "sources\\datewdw.rpgle",
+                    "line" : 20,
+                    "col" : 11,
+                    "id" : "sources\\datewdw.rpgle#20:11"
+                  },
+                  "nameUpper" : "INLR",
+                  "id" : "sources\\datewdw.rpgle#20:11"
+                },
+                "op" : "=",
+                "rightFlat" : "*on",
+                "pos" : {
+                  "kind" : "SrcPos",
+                  "file" : "sources\\datewdw.rpgle",
+                  "line" : 20,
+                  "col" : 11,
+                  "id" : "sources\\datewdw.rpgle#20:11"
+                },
+                "flattened" : true,
+                "id" : "sources\\datewdw.rpgle#20:11"
+              },
+              "pos" : {
+                "kind" : "SrcPos",
+                "file" : "sources\\datewdw.rpgle",
+                "line" : 22,
+                "col" : 8,
+                "id" : "sources\\datewdw.rpgle#22:8"
+              },
+              "id" : "sources\\datewdw.rpgle#22:8"
+            },
+            "pos" : {
+              "kind" : "SrcPos",
+              "file" : "sources\\datewdw.rpgle",
+              "line" : 22,
+              "col" : 8,
+              "id" : "sources\\datewdw.rpgle#22:8"
+            },
+            "id" : "sources\\datewdw.rpgle#22:8"
+          },
           "pos" : {
             "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-            "line" : 18,
-            "col" : 24
+            "file" : "sources\\datewdw.rpgle",
+            "line" : 22,
+            "col" : 8,
+            "id" : "sources\\datewdw.rpgle#22:8"
           },
-          "nameUpper" : "DADATUM"
+          "id" : "sources\\datewdw.rpgle#22:8"
         },
         "pos" : {
           "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-          "line" : 18,
-          "col" : 10
+          "file" : "sources\\datewdw.rpgle",
+          "line" : 22,
+          "col" : 8,
+          "id" : "sources\\datewdw.rpgle#22:8"
         },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#18:10"
-      }, {
-        "kind" : "SAssign",
-        "lhs" : {
-          "kind" : "EVar",
-          "name" : "inlr",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-            "line" : 20,
-            "col" : 11
-          },
-          "nameUpper" : "INLR"
-        },
-        "op" : "=",
-        "rhs" : {
-          "kind" : "EVar",
-          "name" : "*on",
-          "pos" : {
-            "kind" : "SrcPos",
-            "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-            "line" : 20,
-            "col" : 16
-          },
-          "nameUpper" : "*ON"
-        },
-        "pos" : {
-          "kind" : "SrcPos",
-          "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
-          "line" : 20,
-          "col" : 11
-        },
-        "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#20:11"
-      } ],
+        "id" : "sources\\datewdw.rpgle#22:8"
+      },
       "pos" : {
         "kind" : "SrcPos",
-        "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+        "file" : "sources\\datewdw.rpgle",
         "line" : 22,
-        "col" : 8
+        "col" : 8,
+        "id" : "sources\\datewdw.rpgle#22:8"
       },
-      "seq" : [ "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#14:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#15:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#16:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#17:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#18:10", "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#20:11" ],
-      "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#22:8"
+      "id" : "sources\\datewdw.rpgle#22:8"
     },
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+      "file" : "sources\\datewdw.rpgle",
       "line" : 22,
-      "col" : 8
+      "col" : 8,
+      "id" : "sources\\datewdw.rpgle#22:8"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#22:8"
+    "id" : "sources\\datewdw.rpgle#22:8"
   } ],
   "main" : {
     "kind" : "SSkip",
     "pos" : {
       "kind" : "SrcPos",
-      "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+      "file" : "sources\\datewdw.rpgle",
       "line" : 1,
-      "col" : 1
+      "col" : 1,
+      "id" : "sources\\datewdw.rpgle#1:1"
     },
-    "id" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle#1:1"
+    "id" : "sources\\datewdw.rpgle#1:1"
   },
   "subroutines" : [ ],
   "callGraph" : {
@@ -218,8 +260,10 @@
   },
   "pos" : {
     "kind" : "SrcPos",
-    "file" : "C:\\ANTLR4\\rpg4parser\\sources\\datewdw.rpgle",
+    "file" : "sources\\datewdw.rpgle",
     "line" : 1,
-    "col" : 1
-  }
+    "col" : 1,
+    "id" : "sources\\datewdw.rpgle#1:1"
+  },
+  "id" : "sources\\datewdw.rpgle#1:1"
 }
