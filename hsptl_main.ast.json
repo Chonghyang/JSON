@@ -190,8 +190,8 @@
     },
     "static" : false,
     "initValue" : "*user",
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\hsptl_main.sqlrpgle#13:8"
   }, {
     "kind" : "DStandaloneField",
@@ -206,8 +206,8 @@
       "id" : "sources\\hsptl_main.sqlrpgle#14:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\hsptl_main.sqlrpgle#14:8"
   }, {
     "kind" : "DProto",

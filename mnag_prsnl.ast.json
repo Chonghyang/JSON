@@ -41,8 +41,8 @@
       "id" : "sources\\mnag_prsnl.rpgle#6:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#6:8"
   }, {
     "kind" : "DStandaloneField",
@@ -57,8 +57,8 @@
       "id" : "sources\\mnag_prsnl.rpgle#7:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#7:8"
   }, {
     "kind" : "DStandaloneField",
@@ -73,8 +73,8 @@
       "id" : "sources\\mnag_prsnl.rpgle#8:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#8:8"
   }, {
     "kind" : "DStandaloneField",
@@ -89,8 +89,8 @@
       "id" : "sources\\mnag_prsnl.rpgle#9:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#9:8"
   }, {
     "kind" : "DStandaloneField",
@@ -105,8 +105,8 @@
       "id" : "sources\\mnag_prsnl.rpgle#11:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#11:8"
   }, {
     "kind" : "DStandaloneField",
@@ -121,8 +121,8 @@
       "id" : "sources\\mnag_prsnl.rpgle#12:8"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#12:8"
   }, {
     "kind" : "DStandaloneField",
@@ -138,8 +138,8 @@
     },
     "static" : false,
     "initValue" : "*off",
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\mnag_prsnl.rpgle#13:8"
   } ],
   "main" : {

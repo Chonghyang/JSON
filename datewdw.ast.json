@@ -38,8 +38,8 @@
       "id" : "sources\\datewdw.rpgle#12:10"
     },
     "static" : false,
-    "const" : false,
     "template" : false,
+    "const" : false,
     "id" : "sources\\datewdw.rpgle#12:10"
   }, {
     "kind" : "DProc",
